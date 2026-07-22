@@ -1,4 +1,5 @@
 import json
+from validador_json import validar_json
 
 # AVISO -> Perdón, fáltame inspiración e dáseme fatal poñer nomes as variables, pero creo que se entende a idea
 
@@ -210,3 +211,5 @@ for f in ficheiros:
 # Gardamos os contidos en formato JSON
 with open("filtrado/RI.json", 'w', encoding = 'utf8') as f:
     json.dump(contidos, f, indent = 2, ensure_ascii = False)
+
+validar_json("filtrado/esquema_RI.json","filtrado/RI.json")

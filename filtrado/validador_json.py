@@ -1,17 +1,15 @@
 import json
-from jsonschema import validate
+import jsonschema
 
-# :FACER: nomes dos ficheiros como argumentos
+def validar_json(ruta_esquema: str, ruta_json: str):
 
-with open("filtrado/RI.json") as f:
-    representacion_intermedia = json.loads(f.read())
-    print(f"Hai {len(representacion_intermedia)} termos")
+    with open(ruta_esquema) as f:
+        esquema = json.loads(f.read())
 
-with open("filtrado/esquema_RI.json") as f:
-    esquema = json.loads(f.read())
+    with open(ruta_json) as f:
+        datos_json = json.loads(f.read())
 
-validate(instance=representacion_intermedia, schema=esquema)
+    jsonschema.validate(instance=datos_json, schema=esquema)
 
-for termo in representacion_intermedia:
-    assert len(termo.keys()) == 1, f"O termo {termo} ten varias chaves"
-    termo.keys()
+if __name__ == "__main__":
+    print("Programiña para validar un esquema de JSON!")
