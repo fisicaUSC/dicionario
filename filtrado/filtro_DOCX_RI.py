@@ -108,9 +108,11 @@ ficheiros = [
 ]
 
 termos = [] # Lista con todos os termos atopados
+definicions = [] # Lista con todas as definicions
 vistos = [] # Lista de termos 'xa vistos'
 duplicados = [] # Lista de termos que está duplicados
 contidos = [] # Aquí gardaranse dicionarios co formato necesario para a RI
+mal = [] # cousas que están mal
 
 # iteramos polos distintos FICHEIROS
 for f in ficheiros:
@@ -140,6 +142,7 @@ for f in ficheiros:
         #     ...                           ...
         # ]                             ]
         definicion = ''.join(list(map(lambda e: e.texto, par.executables[1:-1]))).strip()
+        definicions.append(definicion)
 
         # lista con todos os executables con estilo bold, por se os precisase
         bolds = list(map(
@@ -157,7 +160,7 @@ for f in ficheiros:
             filter( lambda e: e.estilo.i, par.executables[1:-1] ) # executables en Italica
         ))
 
-        # algo de depuración por STDOUT
+        # Algo de depuración
         if (
             ((definicion == '') ^ (termo == '')) # non nos importan se non teñen nada
             and
@@ -165,8 +168,9 @@ for f in ficheiros:
             # capítulo. Se so ten un executable, é unha confirmación.
             not (len(termo) == 1 and len(par.executables) == 1)
         ):
-            print(f"OLLO: ficheiro {f.nome}, par {i+1}")
-            print(f"    T: {termo}\n    D: {definicion}")
+            mal.append(
+                f"Ficheiro {f.nome}, par {i+1}\n    Termo: {termo}\n    Definición: {definicion}"
+            )
 
         # Dicionario que segue o esquema de JSON da Representación Intermedia
         info = {
@@ -209,7 +213,19 @@ for f in ficheiros:
             contidos.append(info)
 
 # Gardamos os contidos en formato JSON
-with open("filtrado/RI.json", 'w', encoding = 'utf8') as f:
+with open("filtrado/xerados/RI.json", 'w', encoding = 'utf8') as f:
     json.dump(contidos, f, indent = 2, ensure_ascii = False)
+
+# Gardamos os termos aparte, por si acaso
+with open("filtrado/xerados/termos.txt", "w", encoding = 'utf8') as f:
+    f.write("\n".join(termos))
+
+# Gardamos os termos que están mal (termo/definición baleira)
+with open("filtrado/xerados/mal.txt", "w", encoding = "utf8") as f:
+    f.write("\n".join(mal))
+
+# Gardamos termos e definicións de forma contigua, por si acaso
+with open("filtrado/xerados/termos_definicions.txt", "w", encoding = "utf8") as f:
+    f.write("\n\n".join([termo + "\n" + definicion for termo, definicion in zip(termos, definicions)]))
 
 validar_json("filtrado/esquema_RI.json","filtrado/RI.json")
