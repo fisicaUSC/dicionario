@@ -1,4 +1,6 @@
 import json
+import pathlib
+
 from validador_json import validar_json
 
 # AVISO -> Perdón, fáltame inspiración e dáseme fatal poñer nomes as variables, pero creo que se entende a idea
@@ -212,6 +214,9 @@ for f in ficheiros:
             # mostran cousas baleiras
             contidos.append(info)
 
+# Asegurámonos de que exista a ruta pa gardar os ficheiros xerados
+pathlib.Path("filtrado/xerados").mkdir(exist_ok=True)
+
 # Gardamos os contidos en formato JSON
 with open("filtrado/xerados/RI.json", 'w', encoding = 'utf8') as f:
     json.dump(contidos, f, indent = 2, ensure_ascii = False)
@@ -228,4 +233,4 @@ with open("filtrado/xerados/mal.txt", "w", encoding = "utf8") as f:
 with open("filtrado/xerados/termos_definicions.txt", "w", encoding = "utf8") as f:
     f.write("\n\n".join([termo + "\n" + definicion for termo, definicion in zip(termos, definicions)]))
 
-validar_json("filtrado/esquema_RI.json","filtrado/RI.json")
+validar_json("filtrado/esquema_RI.json","filtrado/xerados/RI.json")
