@@ -125,11 +125,11 @@ for f in ficheiros:
     # de cada parágrafo, que poden conter texto en itálica, ecuacións, etc.
     for par, i  in zip(paragrafos, range(len(paragrafos))):
 
-        termo   = par.executables[0].texto.strip() # A primeira palabra do parágrafo
+        # A primeira palabra do parágrafo. Quítolle espazos finais, *, e cousas raras
+        termo   = par.executables[0].texto.strip().strip("*").strip().removesuffix("1.").strip()
+
         bolds   = []
         italics = []
-
-        termos.append(termo)
 
         # Estamos nun parágrafo, o cal ten un atributo que é unha lista de
         # executables. Deles, collemos todos excepto o primeiro, collemos seu
@@ -144,6 +144,7 @@ for f in ficheiros:
         #     ...                           ...
         # ]                             ]
         definicion = ''.join(list(map(lambda e: e.texto, par.executables[1:-1]))).strip()
+        definicion = definicion.replace("*", "")
         definicions.append(definicion)
 
         # lista con todos os executables con estilo bold, por se os precisase
@@ -161,18 +162,6 @@ for f in ficheiros:
             lambda e: e.texto, # collemos o texto dos executables
             filter( lambda e: e.estilo.i, par.executables[1:-1] ) # executables en Italica
         ))
-
-        # Algo de depuración
-        if (
-            ((definicion == '') ^ (termo == '')) # non nos importan se non teñen nada
-            and
-            # Se o termo ten unha letra (A, B, etc.) pode que sexa un título dun
-            # capítulo. Se so ten un executable, é unha confirmación.
-            not (len(termo) == 1 and len(par.executables) == 1)
-        ):
-            mal.append(
-                f"Ficheiro {f.nome}, par {i+1}\n    Termo: {termo}\n    Definición: {definicion}"
-            )
 
         # Dicionario que segue o esquema de JSON da Representación Intermedia
         info = {
@@ -198,21 +187,26 @@ for f in ficheiros:
             ]
         }
 
-        if  (
-            # hai varios termos que están baleiros, non sei por que
-            termo != ''
+        # Se o termo ten unha letra (A, B, etc.) pode que sexa un título dun
+        # capítulo. Se so ten un executable, é unha confirmación.
+        if (
+            ((definicion == '') ^ (termo == ''))
             and
-            # hai varios termos sen definición, non sei por que
-            definicion != ''
+            not (len(termo) == 1 and len(par.executables) == 1)
+        ):
+            mal.append(f"Ficheiro {f.nome}, par {i+1}\n    Termo: {termo}\n    Definición: {definicion}")
+
+        elif (
+            (termo != '') and (definicion != '')
             and
             not (len(termo) == 1 and len(par.executables) == 1)
             and
             # se non o engadimos xa, hai varios que (por algún motivo) están duplicados
             (info not in contidos)
         ) :
-            # Se falta algunha palabra, véxase STDOUT máis arriba, onde se
-            # mostran cousas baleiras
+            termos.append(termo)
             contidos.append(info)
+
 
 # Asegurámonos de que exista a ruta pa gardar os ficheiros xerados
 pathlib.Path("filtrado/xerados").mkdir(exist_ok=True)
