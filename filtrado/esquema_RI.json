@@ -1,6 +1,24 @@
 {
   "title": "Entradas do dicionario",
   "description": "Representación intermedia dos contidos do dicionario Baía",
+  "$defs": {
+    "info": {
+      "type": "object",
+      "required": [ "abreviación", "clase", "fontes", "forma", "número", "sinónimos", "símbolo", "termo", "xénero" ],
+      "properties": {
+        "termo"       : { "type": "string" },
+        "definición"  : { "type": "string", "pattern": "^.+$" },
+        "clase"       : { "enum": [ "substantivo", "adxectivo", "verbo", "frase sustantiva", "" ] },
+        "xénero"      : { "enum": [ "masculino", "feminino", "" ] },
+        "número"      : { "enum": [ "singular", "plural", "" ] },
+        "forma"       : { "enum": [ "principal", "variante", "rexeitada", "" ] },
+        "abreviación" : { "type": "string" },
+        "símbolo"     : { "type": "string" },
+        "sinónimos"   : { "type": "array", "items": { "type": "string", "pattern": "^.+$" } },
+        "fontes"      : { "type": "array", "items": { "type": "string", "pattern": "^.+$" } }
+      }
+    }
+  },
   "type": "array",
   "uniqueItems": true,
   "items": {
@@ -14,94 +32,43 @@
         "items": {
           "type": "object",
           "additionalProperties": false,
-          "required": [
-            "definición",
-            "lingua",
-            "clase",
-            "xénero",
-            "números",
-            "abreviación",
-            "sinónimos",
-            "palabras relacionadas",
-            "áreas",
-            "referencias",
-            "figuras",
-            "modificado"
-          ],
+          "required": [ "lingua", "palabras relacionadas", "áreas", "figuras", "ecuacións", "modificado" ],
           "properties": {
-            "definición": {
-              "type": "string",
-              "pattern": "^.+$"
-            },
             "lingua": {
               "type": "object",
-              "required": [
-                "gl",
-                "en",
-                "es"
-              ],
+              "required": [ "gl", "en", "es" ],
               "additionalProperties": false,
               "properties": {
-                "gl": {
-                  "type": "string",
-                  "pattern": "^.+$"
-                },
-                "en": {
-                  "type": "string"
-                },
-                "es": {
-                  "type": "string"
+                "gl": { "type": "object", "$ref": "#/$defs/info" },
+                "en": { "type": "object", "$ref": "#/$defs/info" },
+                "es": { "type": "object", "$ref": "#/$defs/info" }
+              }
+            },
+            "palabras relacionadas": { "type": "array", "items": { "type": "string" } },
+            "áreas": { "type": "array", "items": { "type": "string" } },
+            "figuras": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [ "ruta", "pe" ],
+                "additionalProperties": false,
+                "properties": {
+                  "ruta": { "type": "string" },
+                  "pe": { "type": "string" }
                 }
               }
             },
-            "clase": {
-              "type": "string",
-              "pattern": "^substantivo$|^adxectivo$|^verbo$|^$"
-            },
-            "xénero": {
-              "type": "string",
-              "pattern": "^masculino$|^feminino$|^$"
-            },
-            "números": {
-              "type": "string",
-              "pattern": "^singular$|^plural$|^$"
-            },
-            "abreviación": {
-              "type": "string",
-              "pattern": "^forma completa$|^siglas$|^$"
-            },
-            "sinónimos": {
+            "ecuacións": {
               "type": "array",
               "items": {
-                "type": "string",
-                "pattern": "^.+$"
-              }
-            },
-            "palabras relacionadas" : {
-                "type" : "array",
-                "items" : {
-                    "type" : "string"
+                "type": "object",
+                "required": [ "ruta", "pe" ],
+                "additionalProperties": false,
+                "properties": {
+                  "ruta": { "type": "string" },
+                  "pe": { "type": "string" }
                 }
-            },
-            "áreas": {
-              "type": "array",
-              "items": {
-                "type": "string",
-                "pattern": "^.+$"
               }
-            },
-            "referencias": {
-              "type": "array",
-              "items": {
-                "type": "string",
-                "pattern": "^.+$"
-              }
-            },
-            "figuras" : {
-                "type" : "array",
-                "items" : {
-                    "type" : "string"
-                }
             },
             "modificado": {
               "type": "string",

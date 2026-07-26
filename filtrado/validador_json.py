@@ -12,4 +12,4 @@ def validar_json(ruta_esquema: str, ruta_json: str):
     jsonschema.validate(instance=datos_json, schema=esquema)
 
 if __name__ == "__main__":
-    print("Programiña para validar un esquema de JSON!")
+    validar_json("filtrado/esquema_RI.json", "filtrado/exemplo_RI.json")

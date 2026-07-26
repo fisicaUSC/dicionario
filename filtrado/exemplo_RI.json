@@ -1,28 +1,54 @@
 [
   {
     "TERMO UN": [
-      { "definición": "unha descripción", "lingua": { "gl": "un termo en galego", "en": "termo en inglés", "es": "termo en español" }, "clase": "substantivo", "xénero": "feminino", "números": "singular", "abreviación": "forma completa", "sinónimos": [ "aa", "bb" ], "palabras relacionadas" : [], "áreas": [ "area 1", "area 2" ], "referencias": [], "figuras" : [], "modificado": "2018-04-02 12:13:46" },
-      { "definición": "outra definición", "lingua": { "gl": "un termo en galego", "en": "termo en inglés", "es": "termo en español" }, "clase": "adxectivo", "xénero": "masculino", "números": "plural", "abreviación": "forma completa", "sinónimos": [ "cc" ], "palabras relacionadas" : [], "áreas": [ "area 3" ], "referencias": [], "figuras" : [], "modificado": "2018-04-02 12:13:46" }
-    ]
-  },
-  {
-    "TERMO DOUS": [
       {
-        "definición": "outra descripción distinta",
         "lingua": {
-          "gl": "outro termo en galego",
-          "en": "outro termo en inglés",
-          "es": "outro termo en español"
+          "gl": {
+            "termo": "TERMO UN",
+            "definicion" : "Definición 1 para o TERMO 1",
+            "clase": "substantivo",
+            "xénero": "feminino",
+            "número": "singular",
+            "forma" : "principal",
+            "abreviación": "",
+            "símbolo" : "",
+            "sinónimos": [ "aa", "bb" ],
+            "fontes" : []
+          },
+          "en": {
+            "termo": "TERM ONE",
+            "definicion" : "Definition for the 1st term",
+            "clase": "frase sustantiva",
+            "xénero": "feminino",
+            "número": "singular",
+            "forma" : "principal",
+            "abreviación": "",
+            "símbolo" : "",
+            "sinónimos": [],
+            "fontes" : ["merriam webster"]
+          },
+          "es": {
+            "termo": "TERMO UNO",
+            "definicion" : "Definición 1 para el término 1",
+            "clase": "substantivo",
+            "xénero": "feminino",
+            "número": "singular",
+            "forma" : "rexeitada",
+            "abreviación": "",
+            "símbolo" : "",
+            "sinónimos": [ "un sinónimo" ],
+            "fontes" : ["rae"]
+          }
         },
-        "clase": "verbo",
-        "xénero": "feminino",
-        "números": "singular",
-        "abreviación": "siglas",
-        "sinónimos": [],
-        "palabras relacionadas" : [],
-        "áreas": [],
-        "referencias": [],
-        "figuras" : [],
+        "palabras relacionadas": [],
+        "áreas": [ "area 1", "area 2" ],
+        "figuras": [
+          { "ruta": "ruta/a/figura_1.png", "pe": "Vese un láser de díodo"},
+          { "ruta": "ruta/a/figura_2.png", "pe": "Outro láser de díodo"}
+        ],
+        "ecuacións" : [
+          { "ruta": "ruta/a/ecuacion_1.typ", "pe": "Fórmula para o láser"}
+        ],
         "modificado": "2018-04-02 12:13:46"
       }
     ]

@@ -171,21 +171,30 @@ for f in ficheiros:
         info = {
             f"{termo}": [
                 {
-                    "definición": f"{definicion}",
-                    "lingua": {
-                        "gl": f"{termo}",
-                        "en": "",
-                        "es": ""
+                    "lingua" : {
+                      "gl": {
+                        "termo"       : f"{termo}",
+                        "definicion"  : f"{definicion}",
+                        "clase"       : "",
+                        "xénero"      : "",
+                        "número"      : "",
+                        "forma"       : "",
+                        "abreviación" : "",
+                        "símbolo"     : "",
+                        "sinónimos"   : [],
+                        "fontes"      : []
+                      },
+                      "en": {
+                        "termo": "", "definicion" : "", "clase": "", "xénero": "", "número": "", "forma" : "", "abreviación": "", "símbolo" : "", "sinónimos": [], "fontes" : []
+                      },
+                      "es": {
+                        "termo": "", "definicion" : "", "clase": "", "xénero": "", "número": "", "forma" : "", "abreviación": "", "símbolo" : "", "sinónimos": [], "fontes" : []
+                      }
                     },
-                    "clase"       : "",
-                    "xénero"      : "",
-                    "números"     : "",
-                    "abreviación" : "",
-                    "sinónimos": [],
                     "palabras relacionadas" : [],
                     "áreas": [],
-                    "referencias": [],
-                    "figuras" : [],
+                    "figuras": [],
+                    "ecuacións" : [],
                     "modificado": f"{datetime.today().strftime('%Y-%m-%d %H:%M:%S')}"
                 }
             ]
