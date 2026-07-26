@@ -190,9 +190,7 @@ for f in ficheiros:
                             "símbolo": "",
                             "sinónimos": [],
                             "fontes": [],
-                        },
-                        "en": { "termo": "", "definición": "", "clase": "", "xénero": "", "número": "", "forma": "", "abreviación": "", "símbolo": "", "sinónimos": [], "fontes": [], },
-                        "es": { "termo": "", "definición": "", "clase": "", "xénero": "", "número": "", "forma": "", "abreviación": "", "símbolo": "", "sinónimos": [], "fontes": [], },
+                        }
                     },
                     "palabras relacionadas": [],
                     "áreas": [],

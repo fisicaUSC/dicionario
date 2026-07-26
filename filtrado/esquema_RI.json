@@ -37,7 +37,7 @@
           "properties": {
             "lingua": {
               "type": "object",
-              "required": [ "gl", "en", "es" ],
+              "required": [ "gl" ],
               "additionalProperties": false,
               "properties": {
                 "gl": { "type": "object", "$ref": "#/$defs/info" },
