@@ -35,6 +35,8 @@ from validador_json import validar_json
 #     executable -->  <w:r> partes dun parágrafo. Separa estilos, imaxes, ecuacións, etc.
 #         estilo -->  <w:b> (negriña), <w:i> (itálica), <w:sz> (tamaño da fonte)
 #         texto  -->  O propio texto
+#
+# a tremenda calidade deste código demostra que NON é IA :)
 
 
 class Documento:
@@ -117,6 +119,7 @@ contidos = [] # Aquí gardaranse dicionarios co formato necesario para a RI
 mal = [] # cousas que están mal
 
 # iteramos polos distintos FICHEIROS
+print("Filtrando...")
 for f in ficheiros:
     paragrafos = f.paragrafos
 
@@ -126,7 +129,8 @@ for f in ficheiros:
     for par, i  in zip(paragrafos, range(len(paragrafos))):
 
         # A primeira palabra do parágrafo. Quítolle espazos finais, *, e cousas raras
-        termo   = par.executables[0].texto.strip().strip("*").strip().removesuffix("1.").strip()
+        termo = par.executables[0].texto
+        termo = termo.strip().strip("*").strip().removesuffix("1.").strip()
 
         bolds   = []
         italics = []
@@ -143,9 +147,8 @@ for f in ficheiros:
         #     executable_3                  executable_1.texto
         #     ...                           ...
         # ]                             ]
-        definicion = ''.join(list(map(lambda e: e.texto, par.executables[1:-1]))).strip()
-        definicion = definicion.replace("*", "")
-        definicions.append(definicion)
+        definicion = ''.join(list(map(lambda e: e.texto, par.executables[1:-1])))
+        definicion = definicion.replace("*", "").strip().removeprefix("1.").strip()
 
         # lista con todos os executables con estilo bold, por se os precisase
         bolds = list(map(
@@ -187,26 +190,21 @@ for f in ficheiros:
             ]
         }
 
-        # Se o termo ten unha letra (A, B, etc.) pode que sexa un título dun
-        # capítulo. Se so ten un executable, é unha confirmación.
         if (
-            ((definicion == '') ^ (termo == ''))
-            and
-            not (len(termo) == 1 and len(par.executables) == 1)
-        ):
-            mal.append(f"Ficheiro {f.nome}, par {i+1}\n    Termo: {termo}\n    Definición: {definicion}")
-
-        elif (
-            (termo != '') and (definicion != '')
-            and
-            not (len(termo) == 1 and len(par.executables) == 1)
-            and
-            # se non o engadimos xa, hai varios que (por algún motivo) están duplicados
-            (info not in contidos)
+            # non quero nin termos nin definicións baleiras
+            ((termo != '') and (definicion != ''))
+            # nin tampouco unha soa letra
+            and not (len(termo) == 1 and len(par.executables) == 1)
+            and (info not in contidos)
         ) :
             termos.append(termo)
             contidos.append(info)
+            definicions.append(definicion)
+        else:
+            mal.append(f"Ficheiro {f.nome}, par {i+1}\n    Termo: {termo}\n    Definición: {definicion}")
 
+print("Todo filtrado")
+print(f"Termos: {len(termos)}\nDefinicións: {len(definicions)}\nCousas mal: {len(mal)} Véxase `filtrado/xerados/mal.txt`")
 
 # Asegurámonos de que exista a ruta pa gardar os ficheiros xerados
 pathlib.Path("filtrado/xerados").mkdir(exist_ok=True)
@@ -227,4 +225,9 @@ with open("filtrado/xerados/mal.txt", "w", encoding = "utf8") as f:
 with open("filtrado/xerados/termos_definicions.txt", "w", encoding = "utf8") as f:
     f.write("\n\n".join([termo + "\n" + definicion for termo, definicion in zip(termos, definicions)]))
 
-validar_json("filtrado/esquema_RI.json","filtrado/xerados/RI.json")
+print("Validando...")
+try:
+    validar_json("filtrado/esquema_RI.json","filtrado/xerados/RI.json")
+    print("Os contidos filtrados foron validados!")
+except:
+    print("Os contidos non seguen o esquema da RI!")
