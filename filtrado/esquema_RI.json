@@ -4,10 +4,11 @@
   "$defs": {
     "info": {
       "type": "object",
-      "required": [ "abreviación", "clase", "fontes", "forma", "número", "sinónimos", "símbolo", "termo", "xénero" ],
+      "required": [ "definición", "abreviación", "clase", "fontes", "forma", "número", "sinónimos", "símbolo", "termo", "xénero" ],
+      "additionalProperties": false,
       "properties": {
         "termo"       : { "type": "string" },
-        "definición"  : { "type": "string", "pattern": "^.+$" },
+        "definición"  : { "type": "string", "pattern": "^.*$" },
         "clase"       : { "enum": [ "substantivo", "adxectivo", "verbo", "frase sustantiva", "" ] },
         "xénero"      : { "enum": [ "masculino", "feminino", "" ] },
         "número"      : { "enum": [ "singular", "plural", "" ] },

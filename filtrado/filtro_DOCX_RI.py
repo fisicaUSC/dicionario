@@ -181,7 +181,7 @@ for f in ficheiros:
                     "lingua": {
                         "gl": {
                             "termo": f"{termo}",
-                            "definicion": f"{acepcion}",
+                            "definición": f"{acepcion}",
                             "clase": "",
                             "xénero": "",
                             "número": "",
@@ -191,8 +191,8 @@ for f in ficheiros:
                             "sinónimos": [],
                             "fontes": [],
                         },
-                        "en": { "termo": "", "definicion": "", "clase": "", "xénero": "", "número": "", "forma": "", "abreviación": "", "símbolo": "", "sinónimos": [], "fontes": [], },
-                        "es": { "termo": "", "definicion": "", "clase": "", "xénero": "", "número": "", "forma": "", "abreviación": "", "símbolo": "", "sinónimos": [], "fontes": [], },
+                        "en": { "termo": "", "definición": "", "clase": "", "xénero": "", "número": "", "forma": "", "abreviación": "", "símbolo": "", "sinónimos": [], "fontes": [], },
+                        "es": { "termo": "", "definición": "", "clase": "", "xénero": "", "número": "", "forma": "", "abreviación": "", "símbolo": "", "sinónimos": [], "fontes": [], },
                     },
                     "palabras relacionadas": [],
                     "áreas": [],
@@ -200,7 +200,7 @@ for f in ficheiros:
                     "ecuacións": [],
                     "modificado": f"{datetime.today().strftime('%Y-%m-%d %H:%M:%S')}",
                 }
-                for acepcion in acepcions
+                for acepcion in acepcions if acepcion != ''
             ]
         }
 
@@ -243,5 +243,6 @@ print("Validando...")
 try:
     validar_json("filtrado/esquema_RI.json","filtrado/xerados/RI.json")
     print("Os contidos filtrados foron validados!")
-except:
+except Exception as e:
+    print(e)
     print("Os contidos non seguen o esquema da RI!")

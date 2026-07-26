@@ -5,7 +5,7 @@
         "lingua": {
           "gl": {
             "termo": "TERMO UN",
-            "definicion" : "Definición 1 para o TERMO 1",
+            "definición" : "Definición 1 para o TERMO 1",
             "clase": "substantivo",
             "xénero": "feminino",
             "número": "singular",
@@ -17,7 +17,7 @@
           },
           "en": {
             "termo": "TERM ONE",
-            "definicion" : "Definition for the 1st term",
+            "definición" : "Definition for the 1st term",
             "clase": "frase sustantiva",
             "xénero": "feminino",
             "número": "singular",
@@ -29,7 +29,7 @@
           },
           "es": {
             "termo": "TERMO UNO",
-            "definicion" : "Definición 1 para el término 1",
+            "definición" : "Definición 1 para el término 1",
             "clase": "substantivo",
             "xénero": "feminino",
             "número": "singular",
