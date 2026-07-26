@@ -1,5 +1,6 @@
 import json
 import pathlib
+from datetime import datetime
 
 from validador_json import validar_json
 
@@ -185,7 +186,7 @@ for f in ficheiros:
                     "áreas": [],
                     "referencias": [],
                     "figuras" : [],
-                    "modificado": "2018-04-02 12:13:46"
+                    "modificado": f"{datetime.today().strftime('%Y-%m-%d %H:%M:%S')}"
                 }
             ]
         }
