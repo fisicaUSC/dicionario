@@ -1,7 +1,6 @@
 import json
 import pathlib
 import re
-from datetime import datetime
 
 from validador_json import validar_json
 
@@ -195,8 +194,7 @@ for f in ficheiros:
                     "palabras relacionadas": [],
                     "áreas": [],
                     "figuras": [],
-                    "ecuacións": [],
-                    "modificado": f"{datetime.today().strftime('%Y-%m-%d %H:%M:%S')}",
+                    "ecuacións": []
                 }
                 for acepcion in acepcions if acepcion != ''
             ]
