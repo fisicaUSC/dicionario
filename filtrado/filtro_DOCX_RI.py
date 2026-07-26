@@ -151,26 +151,28 @@ for f in ficheiros:
         #
         # Ollo, 'definición' é unha cadea crúa, que seguramente conteña varias acepcións
         definicion = ''.join(list(map(lambda e: e.texto, par.executables[1:-1])))
-        definicion = definicion.replace("*", "").strip().removeprefix("1.").strip()
 
         # As acepcións individuais
         acepcions = re.split(r" [234567]\. ", definicion)
-        acepcions = list(map(lambda a: a.strip(), acepcions))
-
-        # lista con todos os executables con estilo bold, por se os precisase
-        bolds = list(map(
-            lambda e: e.texto, # collemos o texto dos executables
-            filter( lambda e: e.estilo.b, par.executables[1:-1] ) # executables en Bold
-        ))
+        acepcions = list(map( lambda a: a.strip().replace("*", "").strip().removeprefix("1.").strip(), acepcions))
 
         # lista con todos os executables con estilo italic. En principio, parte
         # destes son as palabras relacionadas (p.e. *mecánica estatística)
-        # :FACER: En itálica so están os termos relacionados que teñen varias
-        #     palabras (p.e. *mecánica estatística). Se a palabra relacionada é
-        #     simple, aqui non está
-        italicas = list(map(
+        relacionadas = list(map(
             lambda e: e.texto, # collemos o texto dos executables
             filter( lambda e: e.estilo.i, par.executables[1:-1] ) # executables en Italica
+        ))
+
+        # Collo tamén as que levan un asterisco diante
+        relacionadas = list(set(
+            relacionadas
+            + re.findall(r"\*(\w+)", definicion)
+        ))
+
+        # Pa limpar algo isto, elimino as que teñen so 1 ou 2 letras
+        relacionadas = list(filter(
+            lambda r: len(r) > 2,
+            relacionadas
         ))
 
         # Dicionario que segue o esquema de JSON da Representación Intermedia
@@ -191,7 +193,7 @@ for f in ficheiros:
                             "fontes": [],
                         }
                     },
-                    "palabras relacionadas": [],
+                    "palabras relacionadas": relacionadas,
                     "áreas": [],
                     "figuras": [],
                     "ecuacións": []
