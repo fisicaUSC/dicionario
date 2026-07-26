@@ -1,5 +1,6 @@
 import json
 import pathlib
+import re
 from datetime import datetime
 
 from validador_json import validar_json
@@ -148,8 +149,14 @@ for f in ficheiros:
         #     executable_3                  executable_1.texto
         #     ...                           ...
         # ]                             ]
+        #
+        # Ollo, 'definición' é unha cadea crúa, que seguramente conteña varias acepcións
         definicion = ''.join(list(map(lambda e: e.texto, par.executables[1:-1])))
         definicion = definicion.replace("*", "").strip().removeprefix("1.").strip()
+
+        # As acepcións individuais
+        acepcions = re.split(r" [234567]\. ", definicion)
+        acepcions = list(map(lambda a: a.strip(), acepcions))
 
         # lista con todos os executables con estilo bold, por se os precisase
         bolds = list(map(
@@ -171,32 +178,29 @@ for f in ficheiros:
         info = {
             f"{termo}": [
                 {
-                    "lingua" : {
-                      "gl": {
-                        "termo"       : f"{termo}",
-                        "definicion"  : f"{definicion}",
-                        "clase"       : "",
-                        "xénero"      : "",
-                        "número"      : "",
-                        "forma"       : "",
-                        "abreviación" : "",
-                        "símbolo"     : "",
-                        "sinónimos"   : [],
-                        "fontes"      : []
-                      },
-                      "en": {
-                        "termo": "", "definicion" : "", "clase": "", "xénero": "", "número": "", "forma" : "", "abreviación": "", "símbolo" : "", "sinónimos": [], "fontes" : []
-                      },
-                      "es": {
-                        "termo": "", "definicion" : "", "clase": "", "xénero": "", "número": "", "forma" : "", "abreviación": "", "símbolo" : "", "sinónimos": [], "fontes" : []
-                      }
+                    "lingua": {
+                        "gl": {
+                            "termo": f"{termo}",
+                            "definicion": f"{acepcion}",
+                            "clase": "",
+                            "xénero": "",
+                            "número": "",
+                            "forma": "",
+                            "abreviación": "",
+                            "símbolo": "",
+                            "sinónimos": [],
+                            "fontes": [],
+                        },
+                        "en": { "termo": "", "definicion": "", "clase": "", "xénero": "", "número": "", "forma": "", "abreviación": "", "símbolo": "", "sinónimos": [], "fontes": [], },
+                        "es": { "termo": "", "definicion": "", "clase": "", "xénero": "", "número": "", "forma": "", "abreviación": "", "símbolo": "", "sinónimos": [], "fontes": [], },
                     },
-                    "palabras relacionadas" : [],
+                    "palabras relacionadas": [],
                     "áreas": [],
                     "figuras": [],
-                    "ecuacións" : [],
-                    "modificado": f"{datetime.today().strftime('%Y-%m-%d %H:%M:%S')}"
+                    "ecuacións": [],
+                    "modificado": f"{datetime.today().strftime('%Y-%m-%d %H:%M:%S')}",
                 }
+                for acepcion in acepcions
             ]
         }
 
