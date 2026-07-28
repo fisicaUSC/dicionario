@@ -4,7 +4,7 @@
   "$defs": {
     "info": {
       "type": "object",
-      "required": [ "definición", "abreviación", "clase", "fontes", "forma", "número", "sinónimos", "símbolo", "termo", "xénero" ],
+      "required": [ "definición", "termo" ],
       "additionalProperties": false,
       "properties": {
         "termo"       : { "type": "string" },
@@ -33,7 +33,7 @@
         "items": {
           "type": "object",
           "additionalProperties": false,
-          "required": [ "lingua", "palabras relacionadas", "áreas", "figuras", "ecuacións" ],
+          "required": [ "lingua", "palabras relacionadas"],
           "properties": {
             "lingua": {
               "type": "object",

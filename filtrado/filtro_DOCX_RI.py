@@ -183,20 +183,9 @@ for f in ficheiros:
                         "gl": {
                             "termo": f"{termo}",
                             "definición": f"{acepcion}",
-                            "clase": "",
-                            "xénero": "",
-                            "número": "",
-                            "forma": "",
-                            "abreviación": "",
-                            "símbolo": "",
-                            "sinónimos": [],
-                            "fontes": [],
                         }
                     },
                     "palabras relacionadas": relacionadas,
-                    "áreas": [],
-                    "figuras": [],
-                    "ecuacións": []
                 }
                 for acepcion in acepcions if acepcion != ''
             ]
