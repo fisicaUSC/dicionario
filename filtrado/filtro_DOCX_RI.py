@@ -105,11 +105,11 @@ def contido(elemento,texto):
 
 # Nomes dos ficheiros XML ca información, para iterar por todos eles despois.
 ficheiros = [
-    Documento("XMLs/document_AB.xml"),
-    Documento("XMLs/document_CDE.xml"),
-    Documento("XMLs/document_FGHIJKLMNO.xml"),
-    Documento("XMLs/document_PQRST.xml"),
-    Documento("XMLs/document_UVXWYZ.xml")
+    Documento("filtrado/XMLs/document_AB.xml"),
+    Documento("filtrado/XMLs/document_CDE.xml"),
+    Documento("filtrado/XMLs/document_FGHIJKLMNO.xml"),
+    Documento("filtrado/XMLs/document_PQRST.xml"),
+    Documento("filtrado/XMLs/document_UVXWYZ.xml")
 ]
 
 termos = [] # Lista con todos os termos atopados
