@@ -1,6 +1,7 @@
 [
   {
-    "TERMO UN": [
+    "termo" : "TERMO UN",
+    "acepcións": [
       {
         "lingua": {
           "gl": {
@@ -41,14 +42,7 @@
           }
         },
         "palabras relacionadas": [],
-        "áreas": [ "area 1", "area 2" ],
-        "figuras": [
-          { "ruta": "ruta/a/figura_1.png", "pe": "Vese un láser de díodo"},
-          { "ruta": "ruta/a/figura_2.png", "pe": "Outro láser de díodo"}
-        ],
-        "ecuacións" : [
-          { "ruta": "ruta/a/ecuacion_1.typ", "pe": "Fórmula para o láser"}
-        ]
+        "áreas": [ "area 1", "area 2" ]
       }
     ]
   }

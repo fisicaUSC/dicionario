@@ -177,15 +177,25 @@ for f in ficheiros:
 
         # Dicionario que segue o esquema de JSON da Representación Intermedia
         info = {
-            f"{termo}": [
+            "termo": f"{termo}",
+            "acepcións" : [
                 {
                     "lingua": {
                         "gl": {
-                            "termo": f"{termo}",
-                            "definición": f"{acepcion}",
+                            "termo"       : f"{termo}",
+                            "definición"  : f"{acepcion}",
+                            "clase"       : "substantivo",
+                            "xénero"      : "feminino",
+                            "número"      : "singular",
+                            "forma"       : "principal",
+                            "abreviación" : "",
+                            "símbolo"     : "",
+                            "sinónimos"   : [],
+                            "fontes"      : []
                         }
                     },
                     "palabras relacionadas": relacionadas,
+                    "áreas": []
                 }
                 for acepcion in acepcions if acepcion != ''
             ]

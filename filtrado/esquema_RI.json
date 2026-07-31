@@ -4,7 +4,18 @@
   "$defs": {
     "info": {
       "type": "object",
-      "required": [ "definición", "termo" ],
+      "required": [
+          "definición",
+          "termo",
+          "clase",
+          "xénero",
+          "número",
+          "forma",
+          "abreviación",
+          "símbolo",
+          "sinónimos",
+          "fontes"
+      ],
       "additionalProperties": false,
       "properties": {
         "termo"       : { "type": "string" },
@@ -24,16 +35,18 @@
   "uniqueItems": true,
   "items": {
     "type": "object",
-    "maxProperties": 1,
-    "minProperties": 1,
     "additionalProperties": false,
     "patternProperties": {
-      "^.+$": {
+      "termo" : {
+        "type" : "string",
+        "pattern" : "^.+$"
+      },
+      "acepcións": {
         "type": "array",
         "items": {
           "type": "object",
           "additionalProperties": false,
-          "required": [ "lingua", "palabras relacionadas"],
+          "required": [ "lingua", "palabras relacionadas", "áreas" ],
           "properties": {
             "lingua": {
               "type": "object",
@@ -46,31 +59,7 @@
               }
             },
             "palabras relacionadas": { "type": "array", "items": { "type": "string" } },
-            "áreas": { "type": "array", "items": { "type": "string" } },
-            "figuras": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "required": [ "ruta", "pe" ],
-                "additionalProperties": false,
-                "properties": {
-                  "ruta": { "type": "string" },
-                  "pe": { "type": "string" }
-                }
-              }
-            },
-            "ecuacións": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "required": [ "ruta", "pe" ],
-                "additionalProperties": false,
-                "properties": {
-                  "ruta": { "type": "string" },
-                  "pe": { "type": "string" }
-                }
-              }
-            }
+            "áreas": { "type": "array", "items": { "type": "string" } }
           }
         }
       }
