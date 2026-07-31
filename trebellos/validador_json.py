@@ -1,5 +1,9 @@
 import json
 import jsonschema
+import sys
+
+ruta_json = sys.argv[1]
+print(f"Validando {ruta_json}...")
 
 def validar_json(ruta_esquema: str, ruta_json: str):
 
@@ -11,5 +15,7 @@ def validar_json(ruta_esquema: str, ruta_json: str):
 
     jsonschema.validate(instance=datos_json, schema=esquema)
 
+validar_json("trebellos/esquema_RI.json", ruta_json)
+
 if __name__ == "__main__":
-    validar_json("filtrado/esquema_RI.json", "filtrado/exemplo_RI.json")
+    validar_json("trebellos/esquema_RI.json", "trebellos/exemplo_RI.json")

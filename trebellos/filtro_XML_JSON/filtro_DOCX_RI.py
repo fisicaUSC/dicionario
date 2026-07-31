@@ -2,8 +2,6 @@ import json
 import pathlib
 import re
 
-from validador_json import validar_json
-
 # AVISO -> Perdón, fáltame inspiración e dáseme fatal poñer nomes as variables, pero creo que se entende a idea
 
 # Iste é un pequeno filtro caseiro que colle un XML do estilo dos ficheiros
@@ -105,11 +103,11 @@ def contido(elemento,texto):
 
 # Nomes dos ficheiros XML ca información, para iterar por todos eles despois.
 ficheiros = [
-    Documento("filtrado/XMLs/document_AB.xml"),
-    Documento("filtrado/XMLs/document_CDE.xml"),
-    Documento("filtrado/XMLs/document_FGHIJKLMNO.xml"),
-    Documento("filtrado/XMLs/document_PQRST.xml"),
-    Documento("filtrado/XMLs/document_UVXWYZ.xml")
+    Documento("trebellos/filtro_XML_JSON/XMLs/document_AB.xml"),
+    Documento("trebellos/filtro_XML_JSON/XMLs/document_CDE.xml"),
+    Documento("trebellos/filtro_XML_JSON/XMLs/document_FGHIJKLMNO.xml"),
+    Documento("trebellos/filtro_XML_JSON/XMLs/document_PQRST.xml"),
+    Documento("trebellos/filtro_XML_JSON/XMLs/document_UVXWYZ.xml")
 ]
 
 termos = [] # Lista con todos os termos atopados
@@ -215,31 +213,23 @@ for f in ficheiros:
             mal.append(f"Ficheiro {f.nome}, par {i+1}\n    Termo: {termo}\n    Definición: {definicion}")
 
 print("Todo filtrado")
-print(f"Termos: {len(termos)}\nDefinicións: {len(definicions)}\nCousas mal: {len(mal)} Véxase `filtrado/xerados/mal.txt`")
+print(f"Termos: {len(termos)}\nDefinicións: {len(definicions)}\nCousas mal: {len(mal)} Véxase `trebellos/filtro_XML_JSON/xerados/mal.txt`")
 
 # Asegurámonos de que exista a ruta pa gardar os ficheiros xerados
-pathlib.Path("filtrado/xerados").mkdir(exist_ok=True)
+pathlib.Path("trebellos/filtro_XML_JSON/xerados").mkdir(exist_ok=True)
 
 # Gardamos os contidos en formato JSON
-with open("filtrado/xerados/RI.json", 'w', encoding = 'utf8') as f:
+with open("trebellos/filtro_XML_JSON/xerados/RI.json", 'w', encoding = 'utf8') as f:
     json.dump(contidos, f, indent = 2, ensure_ascii = False)
 
 # Gardamos os termos aparte, por si acaso
-with open("filtrado/xerados/termos.txt", "w", encoding = 'utf8') as f:
+with open("trebellos/filtro_XML_JSON/xerados/termos.txt", "w", encoding = 'utf8') as f:
     f.write("\n".join(termos))
 
 # Gardamos os termos que están mal (termo/definición baleira)
-with open("filtrado/xerados/mal.txt", "w", encoding = "utf8") as f:
+with open("trebellos/filtro_XML_JSON/xerados/mal.txt", "w", encoding = "utf8") as f:
     f.write("\n".join(mal))
 
 # Gardamos termos e definicións de forma contigua, por si acaso
-with open("filtrado/xerados/termos_definicions.txt", "w", encoding = "utf8") as f:
+with open("trebellos/filtro_XML_JSON/xerados/termos_definicions.txt", "w", encoding = "utf8") as f:
     f.write("\n\n".join([termo + "\n" + definicion for termo, definicion in zip(termos, definicions)]))
-
-print("Validando...")
-try:
-    validar_json("filtrado/esquema_RI.json","filtrado/xerados/RI.json")
-    print("Os contidos filtrados foron validados!")
-except Exception as e:
-    print(e)
-    print("Os contidos non seguen o esquema da RI!")
