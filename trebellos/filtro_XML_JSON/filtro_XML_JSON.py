@@ -182,14 +182,14 @@ for f in ficheiros:
                         "gl": {
                             "termo"       : f"{termo}",
                             "definición"  : f"{acepcion}",
-                            "clase"       : "substantivo",
-                            "xénero"      : "feminino",
-                            "número"      : "singular",
-                            "forma"       : "principal",
+                            "clase"       : "",
+                            "xénero"      : "",
+                            "número"      : "",
+                            "forma"       : "",
                             "abreviación" : "",
                             "símbolo"     : "",
                             "sinónimos"   : [],
-                            "fontes"      : []
+                            "fontes"      : ["Dicionario de Física, Editorial Baía"]
                         }
                     },
                     "palabras relacionadas": relacionadas,
@@ -219,7 +219,7 @@ print(f"Termos: {len(termos)}\nDefinicións: {len(definicions)}\nCousas mal: {le
 pathlib.Path("trebellos/filtro_XML_JSON/xerados").mkdir(exist_ok=True)
 
 # Gardamos os contidos en formato JSON
-with open("trebellos/filtro_XML_JSON/xerados/RI.json", 'w', encoding = 'utf8') as f:
+with open("trebellos/filtro_XML_JSON/xerados/CONTIDOS.json", 'w', encoding = 'utf8') as f:
     json.dump(contidos, f, indent = 2, ensure_ascii = False)
 
 # Gardamos os termos aparte, por si acaso
