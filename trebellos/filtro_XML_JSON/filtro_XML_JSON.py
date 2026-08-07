@@ -148,7 +148,7 @@ for f in ficheiros:
         # ]                             ]
         #
         # Ollo, 'definición' é unha cadea crúa, que seguramente conteña varias acepcións
-        definicion = ''.join(list(map(lambda e: e.texto, par.executables[1:-1])))
+        definicion = ''.join(list(map(lambda e: e.texto, par.executables[1:])))
 
         # As acepcións individuais
         acepcions = re.split(r" [234567]\. ", definicion)
@@ -176,27 +176,27 @@ for f in ficheiros:
         # Dicionario que segue o esquema de JSON da Representación Intermedia
         info = {
             "termo": f"{termo}",
-            "acepcións" : [
+            "acepcions" : [
                 {
                     "lingua": {
                         "gl": {
                             "termo"       : f"{termo}",
-                            "definición"  : f"{acepcion}",
+                            "definicion"  : f"{acepcion}",
                             "clase"       : "",
-                            "xénero"      : "",
-                            "número"      : "",
+                            "xenero"      : "",
+                            "numero"      : "",
                             "forma"       : "",
-                            "abreviación" : "",
-                            "símbolo"     : "",
-                            "sinónimos"   : [],
+                            "abreviacion" : "",
+                            "simbolo"     : "",
+                            "sinonimos"   : [],
                             "fontes"      : ["Dicionario de Física, Editorial Baía"]
                         }
                     },
-                    "palabras relacionadas": relacionadas,
-                    "áreas": []
+                    "areas": []
                 }
                 for acepcion in acepcions if acepcion != ''
-            ]
+            ],
+            "relacionadas": relacionadas
         }
 
         if (

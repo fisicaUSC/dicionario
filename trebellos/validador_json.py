@@ -16,6 +16,3 @@ def validar_json(ruta_esquema: str, ruta_json: str):
     jsonschema.validate(instance=datos_json, schema=esquema)
 
 validar_json("trebellos/esquema_RI.json", ruta_json)
-
-if __name__ == "__main__":
-    validar_json("trebellos/esquema_RI.json", "trebellos/exemplo_RI.json")

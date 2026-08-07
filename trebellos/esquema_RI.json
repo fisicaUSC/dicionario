@@ -1,32 +1,32 @@
 {
   "title": "Entradas do dicionario",
-  "description": "Representación intermedia dos contidos do dicionario Baía",
+  "description": "Contidos do dicionario",
   "$defs": {
     "info": {
       "type": "object",
       "required": [
-          "definición",
+          "definicion",
           "termo",
           "clase",
-          "xénero",
-          "número",
+          "xenero",
+          "numero",
           "forma",
-          "abreviación",
-          "símbolo",
-          "sinónimos",
+          "abreviacion",
+          "simbolo",
+          "sinonimos",
           "fontes"
       ],
       "additionalProperties": false,
       "properties": {
         "termo"       : { "type": "string" },
-        "definición"  : { "type": "string", "pattern": "^.*$" },
+        "definicion"  : { "type": "string", "pattern": "^.*$" },
         "clase"       : { "enum": [ "substantivo", "adxectivo", "verbo", "frase sustantiva", "" ] },
-        "xénero"      : { "enum": [ "masculino", "feminino", "" ] },
-        "número"      : { "enum": [ "singular", "plural", "" ] },
+        "xenero"      : { "enum": [ "masculino", "feminino", "" ] },
+        "numero"      : { "enum": [ "singular", "plural", "" ] },
         "forma"       : { "enum": [ "principal", "variante", "rexeitada", "" ] },
-        "abreviación" : { "type": "string" },
-        "símbolo"     : { "type": "string" },
-        "sinónimos"   : { "type": "array", "items": { "type": "string", "pattern": "^.+$" } },
+        "abreviacion" : { "type": "string" },
+        "simbolo"     : { "type": "string" },
+        "sinonimos"   : { "type": "array", "items": { "type": "string", "pattern": "^.+$" } },
         "fontes"      : { "type": "array", "items": { "type": "string", "pattern": "^.+$" } }
       }
     }
@@ -36,17 +36,18 @@
   "items": {
     "type": "object",
     "additionalProperties": false,
-    "patternProperties": {
+    "required" : ["termo", "acepcions", "relacionadas"],
+    "properties": {
       "termo" : {
         "type" : "string",
         "pattern" : "^.+$"
       },
-      "acepcións": {
+      "acepcions": {
         "type": "array",
         "items": {
           "type": "object",
           "additionalProperties": false,
-          "required": [ "lingua", "palabras relacionadas", "áreas" ],
+          "required": [ "lingua" ],
           "properties": {
             "lingua": {
               "type": "object",
@@ -58,11 +59,11 @@
                 "es": { "type": "object", "$ref": "#/$defs/info" }
               }
             },
-            "palabras relacionadas": { "type": "array", "items": { "type": "string" } },
-            "áreas": { "type": "array", "items": { "type": "string" } }
+            "areas": { "type": "array", "items": { "type": "string" } }
           }
         }
-      }
+      },
+      "relacionadas": { "type": "array", "items": { "type": "string" } }
     }
   }
 }
