@@ -5,7 +5,7 @@ def conta_termos(_):
 
 def conta_acepcions(_):
     # :NOTA: unha reducción sería máis eficiente ca crear arrays
-    "Acepcións: \([.[]."acepcións".[]] | length)"
+    "Acepcións: \([.[].acepcions.[]] | length)"
 ;
 
 def contar(datos):
