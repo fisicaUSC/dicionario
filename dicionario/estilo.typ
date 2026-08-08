@@ -1,5 +1,4 @@
 #let estilo_corpo(doc) = {
-    set page(columns: 2)
     doc
 }
 
@@ -8,11 +7,11 @@
     denominacion: none,
     acepcions: none
 ) = {
-    text(size: 1.1em, weight: "bold", denominacion)
+    text(size: 1.1em, strong(denominacion))
     block(
         breakable: true,
         inset: (left: 1em),
-        for acepcion in acepcions {
+        for (i, acepcion) in acepcions.enumerate(start: 1) {
             let d = acepcion.definicion
             let c = acepcion.clase
             let x = acepcion.xenero
@@ -20,13 +19,14 @@
             let f = acepcion.forma
             let a = acepcion.abreviacion
             let s = acepcion.simbolo
+            let l = acepcions.len()
             [
-                #v(1pt)
+                #if l > 1 { strong[#i.] }
                 (#c, #x, #n)\
                 Forma: #f\
                 Abrv: #a\
                 Simb: #s\
-                DEF: #d
+                DEF: #d\
             ]
         }
     )
