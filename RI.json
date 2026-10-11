@@ -6,7 +6,7 @@
         "lingua": {
           "gl": {
             "termo": "ab-",
-            "definicion": "Prefixo, abreviación de absoluto, engadido a certas unidades eléctricas para dar nome ás correspondentes unidades do sistema electromagnético ou absoluto como, p.e., o abcoulomb, abvolt ou abfarad. V. stat-; c.g.s.",
+            "definicion": "Prefixo, abreviación de absoluto, engadido a certas unidades eléctricas para dar nome ás correspondentes unidades do sistema electromagnético ou absoluto como, p.e., o abcoulomb, abvolt ou abfarad.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -16,7 +16,8 @@
     "relacionadas": [
       "sistema electromagnético",
       "absoluto",
-      "sistema"
+      "stat-",
+      "c.g.s."
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -28,28 +29,7 @@
         "lingua": {
           "gl": {
             "termo": "Abbe, invariante de",
-            "definicion": "En óptica, e para o caso dunha superficie esférica de radio r, que separa dous medios transparentes de distinto índice de refracción (n e n'), cada un dos dous membros da igualdadeonde s e s' son as respectivas distancias do obxecto, e da súa imaxe, á superficie de separación. A ecuación cúmprese, é dicir, o termo é invariante sempre que os feixes de luz que interveñen na formación da imaxe sexan próximos ao eixe óptico. V. dioptrio; lente; zona paraxial; Gauss, fórmula de.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "índice de refracción",
-      "índice"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "Abbe, invariante de",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "Abbe, invariante de",
-            "definicion": "En óptica, e para o caso dunha superficie esférica de radio r, que separa dous medios transparentes de distinto índice de refracción (n e n'), cada un dos dous membros da igualdadeonde s e s' son as respectivas distancias do obxecto e da súa imaxe, á superficie de separación. A ecuación cúmprese na aproximación paraxial. Para un espello esférico redúcese á ecuación máis sinxela:.V. dioptrio; lente; zona paraxial; Gauss, fórmula de. [SUBSTITÚE OUTRO].",
+            "definicion": "En óptica, e para o caso dunha superficie esférica de radio $r$, que separa dous medios transparentes de distinto índice de refracción ($n$ e $n'$), cada un dos dous membros da igualdade $ n (1/r - 1/s) = n' (1/r - 1/(s')) $ onde $s$ e $s'$ son as respectivas distancias do obxecto e da súa imaxe, á superficie de separación. A ecuación cúmprese na aproximación paraxial. Para un espello esférico redúcese á ecuación máis sinxela $ 1/s + 1/(s') = 2/r. $",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -59,11 +39,13 @@
     "relacionadas": [
       "índice de refracción",
       "espello esférico",
-      "aproximación",
-      "espello",
-      "índice"
+      "aproximación paraxial",
+      "dioptrio",
+      "lente",
+      "zona paraxial",
+      "Gauss, fórmula de"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -73,7 +55,7 @@
         "lingua": {
           "gl": {
             "termo": "Abbe, número de",
-            "definicion": "Sb.. Número que caracteriza o comportamento dispersivo dun material en función dos índices de refracción do mesmo para as lonxitudes de onda correspondentes ás liñas espectrais d (587,6 nm); F (486,1 nm, e C (656,3 nm). Vén dado pola ecuación:.",
+            "definicion": "Número que caracteriza o comportamento dispersivo dun material en función dos índices de refracción do mesmo para as lonxitudes de onda correspondentes ás liñas espectrais *d* (587,6 nm); *F* (486,1 nm, e *C* (656,3 nm). Vén dado pola ecuación $ nu_d = (n_d - 1)/(n_F - n_C). $",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -81,14 +63,11 @@
       }
     ],
     "relacionadas": [
-      "lonxitudes",
       "lonxitudes de onda",
       "índices de refracción ",
-      "índices",
-      "liñas espectrais",
-      "liñas"
+      "liñas espectrais"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -98,16 +77,14 @@
         "lingua": {
           "gl": {
             "termo": "abeliano",
-            "definicion": "Conmutativo.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["conmutativo"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Conmutativo"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -118,7 +95,7 @@
         "lingua": {
           "gl": {
             "termo": "aberración",
-            "definicion": "En astronomía, fenómeno, debido aos diferentes movementos da Terra e á finitude da velocidade da luz, polo que a luz, procedente dun astro, parece vir dun punto lixeiramente desprazado do que sería a verdadeira posición do astro.0figura0.",
+            "definicion": "En astronomía, fenómeno, debido aos diferentes movementos da Terra e á finitude da velocidade da luz, polo que a luz, procedente dun astro, parece vir dun punto lixeiramente desprazado do que sería a verdadeira posición do astro. #html.frame(image(\"//dicionario/figuras/aberracion_luz.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -135,9 +112,9 @@
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["aberración cromática", "aberracións xeométricas", "sistemas ópticos"],
     "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_figuras": true
   },
   {
     "termo": "aberración ánua",
@@ -154,8 +131,7 @@
       }
     ],
     "relacionadas": [
-      "Aberración",
-      "coordenadas",
+      "aberración",
       "coordenadas ecuatoriais",
       "aberración anual"
     ],
@@ -178,9 +154,8 @@
     ],
     "relacionadas": [
       "índice de refracción",
-      "índice",
-      "lentes",
-      "lentes acromáticas"
+      "lentes acromáticas",
+      "aberración"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -192,7 +167,7 @@
         "lingua": {
           "gl": {
             "termo": "aberracións xeométricas",
-            "definicion": "Posibles defectos da imaxe formada por un espello ou unha lente aínda cando se emprega luz monocromática. Na aberración esférica, presente en lentes e espellos esféricos, os raios procedentes do obxecto enfócanse en diferentes posicións debido á curvatura deses sistemas ópticos podendo verse nalgúns casos a imaxe rodeada dun círculo luminoso (aberración esférica transversal en espellos). Nas lentes danse, ademais, outros tipos de aberración xeométrica: o astigmatismo e coma, refírense, ao igual que a aberración esférica, á calidade do punto imaxe, mentres que a curvatura da imaxe e a distorsión, se refiren á posición do punto imaxe. V. sistemas ópticos; estigmatismo.",
+            "definicion": "Posibles defectos da imaxe formada por un espello ou unha lente aínda cando se emprega luz monocromática. Na aberración esférica, presente en lentes e espellos esféricos, os raios procedentes do obxecto enfócanse en diferentes posicións debido á curvatura deses sistemas ópticos podendo verse nalgúns casos a imaxe rodeada dun círculo luminoso (aberración esférica transversal en espellos). Nas lentes danse, ademais, outros tipos de aberración xeométrica: o astigmatismo e coma, refírense, ao igual que a aberración esférica, á calidade do punto imaxe, mentres que a curvatura da imaxe e a distorsión, se refiren á posición do punto imaxe.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -200,16 +175,17 @@
       }
     ],
     "relacionadas": [
-      "sistemas",
       "aberración esférica transversal en espellos",
       "curvatura",
       "astigmatismo",
       "espello",
       "coma",
-      "punto",
+      "punto imaxe",
       "aberración esférica",
       "distorsión",
-      "lente"
+      "lente",
+      "sistemas ópticos",
+      "estigmatismo"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -230,7 +206,6 @@
     ],
     "relacionadas": [
       "poder separador",
-      "poder",
       "telescopio"
     ],
     "ten_ecuacions": false,
@@ -261,8 +236,8 @@
         "lingua": {
           "gl": {
             "termo": "absorbancia",
-            "definicion": "Sb. A. Parámetro que caracteriza a absorción de enerxía dunha determinada radiación ao atravesar un medio material transparente. Exprésase como o logaritmo decimal do inverso da transmitancia do devandito medio. Para o caso dunha disolución, a absorbancia depende directamente da molaridade da mesma, M, e da distancia percorrida ao seu través, x, tal como indica a lei de Beer:A constante de proporcionalidade nesta expresión, , é o chamado coeficiente de extinción molar. Determinada a absorbancia da disolución por fotocolorimetría, e coñecido o espesor x, así como o valor do coeficiente de extinción molar nesas condicións, pódese determinar a concentración desa disolución, resultando de gran utilidade na análise química. A absorbancia tamén recibe o nome de extinción. V. absortancia.",
-            "sinonimos": [],
+            "definicion": "Parámetro que caracteriza a absorción de enerxía dunha determinada radiación ao atravesar un medio material transparente. Exprésase como o logaritmo decimal do inverso da transmitancia do devandito medio. Para o caso dunha disolución, a absorbancia depende directamente da molaridade da mesma, $M$, e da distancia percorrida ao seu través, $Delta x$, tal como indica a lei de Beer $ A = log phi_(e 0)/phi_e = epsilon dot M dot Delta x $ A constante de proporcionalidade nesta expresión, $epsilon$ , é o chamado coeficiente de extinción molar. Determinada a absorbancia da disolución por fotocolorimetría, e coñecido o espesor $Delta x$, así como o valor do coeficiente de extinción molar nesas condicións, pódese determinar a concentración desa disolución, resultando de gran utilidade na análise química. A absorbancia tamén recibe o nome de extinción.",
+            "sinonimos": ["extinción"],
             "simbolo": ""
           }
         }
@@ -272,13 +247,13 @@
       "extinción",
       "fotocolorimetría",
       "molaridade",
-      "coeficiente",
-      "Beer",
+      "Beer, lei de",
       "coeficiente de extinción molar",
       "transmitancia",
-      "absorción"
+      "absorción",
+      "absortancia"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -298,7 +273,7 @@
         "lingua": {
           "gl": {
             "termo": "absorción",
-            "definicion": "Termo que recolle diversos procesos físico-químicos nos que unha substancia retén a outra, como a retención dun gas por un líquido ou a dun fluído por un sólido. Afecta a todo o volume do corpo, a diferencia da adsorción que é superficial. absorción atómica Técnica instrumental empregada para a análise química cuantitativa dos elementos dunha mostra, baseada na análise espectral. Nun aparello vaporízase a mostra e os vapores obtidos interpóñense no camiño dun feixe de luz, recolléndose a luz emerxente nun detector. Para cada elemento químico existen diferentes lonxitudes de onda características de especial absorción, para as que a diminución da súa intensidade luminosa se relaciona matematicamente coa concentración dese elemento na mostra problema. V. Beer, lei de; absorbancia.",
+            "definicion": "Termo que recolle diversos procesos físico-químicos nos que unha substancia retén a outra, como a retención dun gas por un líquido ou a dun fluído por un sólido. Afecta a todo o volume do corpo, a diferencia da adsorción que é superficial. absorción atómica ",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -307,14 +282,38 @@
     ],
     "relacionadas": [
       "análise",
-      "lonxitudes",
-      "Lambert",
+      "Lambert, lei de",
       "amortecemento",
-      "*lonxitudes de onda",
+      "lonxitudes de onda",
       "intensidade",
       "análise espectral",
       "adsorción",
-      "absorción"
+      "absorción",
+      "amortecemento"
+    ],
+    "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
+    "termo": "absorción atómica",
+    "acepcions" : [
+      {
+        "lingua" : {
+            "gl" : {
+              "termo" : "absorción atómica",
+              "definicion": "Técnica instrumental empregada para a análise química cuantitativa dos elementos dunha mostra, baseada na análise espectral. Nun aparello vaporízase a mostra e os vapores obtidos interpóñense no camiño dun feixe de luz, recolléndose a luz emerxente nun detector. Para cada elemento químico existen diferentes lonxitudes de onda características de especial absorción, para as que a diminución da súa intensidade luminosa se relaciona matematicamente coa concentración dese elemento na mostra problema.",
+              "sinonimos": [],
+              "simbolo": ""
+            }
+        }
+      }
+    ],
+    "relacionadas" : [
+        "Beer, lei de",
+        "absorbancia",
+        "absorción",
+        "análise espectral",
+        "lonxitudes de onda"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -326,7 +325,7 @@
         "lingua": {
           "gl": {
             "termo": "absortancia",
-            "definicion": "Sb.. Fracción da radiación total incidente sobre un corpo que é absorbida polo mesmo. Por definición, a absortancia dun corpo negro é a unidade. V. factor de absorción; absorbancia; transmitancia; Lambert, lei de.",
+            "definicion": "Fracción da radiación total incidente sobre un corpo que é absorbida polo mesmo. Por definición, a absortancia dun corpo negro é a unidade.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -334,10 +333,13 @@
       }
     ],
     "relacionadas": [
-      "corpo",
-      "corpo negro"
+      "corpo negro",
+      "factor de absorción",
+      "absorbancia",
+      "transmitancia",
+      "Lambert, lei de"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -347,17 +349,14 @@
         "lingua": {
           "gl": {
             "termo": "absortividade",
-            "definicion": "Coeficiente de extinción.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["Coeficiente de extinción"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Coeficiente de extinción",
-      "Coeficiente"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -398,7 +397,7 @@
         "lingua": {
           "gl": {
             "termo": "acción",
-            "definicion": "Magnitude física empregada na mecánica introducida por P.L. Maupertius (1698-1759) que expresa, en termos actuais, o producto do momento lineal dun móbil polo seu desprazamento, S = mvd. Tal expresión resulta equivalente ao producto dunha enerxía por un tempo, empregándose na mecánica analítica, para expresar a acción dun sistema, con enerxía cinética T e nun campo conservativo de enerxía potencial U, a ecuaciónNo SI exprésase en J·s.A constante de Planck, h, de emprego xeneralizado na mecánica cuántica, é un exemplo de acción. V. principio de mínima acción; Maupertius, principio de; Hamilton, principio de.",
+            "definicion": "Magnitude física empregada na mecánica introducida por P.L. Maupertius (1698-1759) que expresa, en termos actuais, o producto do momento lineal dun móbil polo seu desprazamento, $S = m v d$. Tal expresión resulta equivalente ao producto dunha enerxía por un tempo, empregándose na mecánica analítica, para expresar a acción dun sistema, con enerxía cinética T e nun campo conservativo de enerxía potencial U, a ecuación $ S = integral_(t_1)^(t_2) (T - U) d t $ No SI exprésase en J·s.A constante de Planck, h, de emprego xeneralizado na mecánica cuántica, é un exemplo de acción.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -408,7 +407,7 @@
         "lingua": {
           "gl": {
             "termo": "acción",
-            "definicion": "Conxunto de forzas que un corpo exerce sobre outro, provocando unha deformación ou variación no seu estado de movemento, e motivando unha reacción. V. Newton, leis de.",
+            "definicion": "Conxunto de forzas que un corpo exerce sobre outro, provocando unha deformación ou variación no seu estado de movemento, e motivando unha reacción.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -416,21 +415,58 @@
       }
     ],
     "relacionadas": [
-      "campo",
-      "S = mvd",
-      "enerxía",
-      "momento",
+      "magnitude",
       "mecánica",
-      "Planck",
+      "Planck, constante de",
       "momento lineal",
       "campo conservativo",
       "mecánica cuántica",
       "enerxía potencial",
       "mecánica analítica",
       "enerxía cinética",
-      "reacción"
+      "reacción",
+      "SI",
+      "Newton, leis de",
+      "Maupertius, principio de",
+      "Hamilton, principio de",
+      "principio de mínima acción"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
+    "ten_figuras": false
+  },
+  {
+    "termo": "aceleración",
+    "acepcions" : [
+      {
+        "lingua" : {
+          "gl" : {
+            "termo": "aceleración",
+            "definicion": "Magnitude cinemática que expresa a variación temporal instantánea da velocidade lineal. Ten carácter vectorial e no SI mídese en m·s⁻². Matematicamente exprésase como o límite da aceleración media, cando os incrementos de tempo tenden a cero, é dicir, a derivada do vector velocidade con respecto ao tempo. Tamén é usual expresala como a derivada segunda do vector de posición respecto do tempo. $ arrow(a) = lim_(Delta t arrow.r 0) (Delta arrow(v))/(Delta t) = (d arrow(v))/(d t) = (d^2 arrow(r))/(d t^2) $ Gráficamente o seu valor vén dado pola pendente da recta tanxente á curva velocidade-tempo nun instante determinado. O seu valor pódese medir experimentalmente empregando un acelerómetro. Tamén se poden rexistrar os cambios que experimenta mediante un acelerógrafo. En xeral, se o sistema de referencia segundo o cal se estuda o movemento está, a súa vez, en movemento non uniforme con referencia a outro sistema, considerado fixo, a aceleración referida ao primeiro chámase aceleración relativa e non coincide coa medida no segundo sistema. Neste caso, de sistemas de referencia non inerciais, cúmprese que a aceleración conforme o sistema considerado fixo é igual á relativa máis a aceleración de arrastre, que dá conta do movemento relativo entre tales sistemas de referencia. No caso de que o sistema de referencia teña tamén un movemento de rotación hai que engadir a denominada aceleración de Coriolis, co cal podemos concluír que, no caso máis xeral, $ arrow(a)_#[absoluta] = arrow(a)_#[relativa] + arrow(a)_#[arrastre] + arrow(a)_#[coriolis]. $ É moi habitual analizar o movemento dende un sistema de coordenadas ligadas ao corpo, no cal a aceleración se define como a suma vectorial dos seus compoñentes intrínsecos: a aceleración normal e a aceleración tanxencial. No caso de que o móbil describa un movemento circular a aceleración angular calcúlase dividindo a lineal polo radio da circunferencia descrita. Neste caso é de uso común o termo aceleración areolar que se determina derivando dúas veces a área varrida polo radiovector de posición do móbil con referencia ao tempo.",
+            "sinonimos" : [],
+            "simbolo" : ""
+          }
+        }
+      }
+    ],
+    "relacionadas" : [
+      "velocidade",
+      "SI",
+      "aceleración media",
+      "MRUA",
+      "acelerómetro",
+      "acelerógrafo",
+      "sistema de referencia",
+      "sistemas de referencia non inerciais",
+      "aceleración de arrastre",
+      "Galileo, relatividade de",
+      "Coriolis, aceleración de",
+      "compoñentes intrínsecos",
+      "aceleración normal",
+      "aceleración tanxencial",
+      "aceleración angular",
+      "movemento circular"
+    ],
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -440,7 +476,7 @@
         "lingua": {
           "gl": {
             "termo": "aceleración angular media",
-            "definicion": "Sb. . Magnitude que mide o cambio que experimenta a velocidade angular dun móbil nun intervalo de tempo. Matematicamente exprésase como o cociente.",
+            "definicion": "Magnitude que mide o cambio que experimenta a velocidade angular, $omega$, dun móbil nun intervalo de tempo, $t$. Matematicamente exprésase como o cociente $Delta arrow(omega)\\/ Delta t$.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -448,7 +484,7 @@
       }
     ],
     "relacionadas": [],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -458,7 +494,7 @@
         "lingua": {
           "gl": {
             "termo": "aceleración angular",
-            "definicion": "Sb. . Magnitude cinemática que expresa a variación temporal instantánea da velocidade angular. Ten carácter vectorial e no SI mídese en rad/s2. Matematicamente exprésase como o límite da aceleración angular media cando os incrementos de tempo tenden a cero, que vén sendo a a derivada temporal da velocidade angularÉ análoga á aceleración lineal, , e nos movementos circulares de radio r relaciónase con ela a través da expresión A súa dirección e sentido determínanse mediante a regra do parafuso.",
+            "definicion": "Magnitude cinemática que expresa a variación temporal instantánea da velocidade angular. Ten carácter vectorial e no SI mídese en rad·s⁻². Matematicamente exprésase como o límite da aceleración angular media cando os incrementos de tempo tenden a cero, que vén sendo a a derivada temporal da velocidade angular $ arrow(alpha) = lim_(Delta t arrow.r 0) (Delta arrow(omega))/(Delta t) = (d omega)/(d t). $É análoga á aceleración lineal, $arrow(a)$, e nos movementos circulares de radio $R$ relaciónase con ela a través da expresión $arrow(a) = arrow(alpha) times arrow(R)$. A súa dirección e sentido determínanse mediante a regra do parafuso.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -467,13 +503,11 @@
     ],
     "relacionadas": [
       "aceleración",
-      "regra",
       "aceleración angular",
       "velocidade angular",
-      "regra do parafuso",
-      "velocidade"
+      "regra do parafuso"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -483,14 +517,16 @@
         "lingua": {
           "gl": {
             "termo": "aceleración areolar",
-            "definicion": "V. Aceleración.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": [
+        "aceleración"
+    ],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -501,7 +537,7 @@
         "lingua": {
           "gl": {
             "termo": "aceleración centrípeta",
-            "definicion": "Aceleración normal.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -509,8 +545,7 @@
       }
     ],
     "relacionadas": [
-      "Aceleración",
-      "celeración normal"
+      "aceleración normal"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
