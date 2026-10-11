@@ -16,6 +16,9 @@ contar:
 borrador:
 	typst watch --no-pdf-tags --pretty --root . --features html --format html dicionario/dicionario.typ dicionario/dicionario.html
 
+validar:
+	uv run trebellos/validador_json.py CONTIDOS.json
+
 # Xera os contidos do dicionario en formato Typst
 contidos: CONTIDOS.json
 	jq -r -f trebellos/dicionario.jq $^ > dicionario/contidos.typ

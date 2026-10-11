@@ -1,49 +1,73 @@
 [
   {
     "termo" : "TERMO UN",
-    "acepcións": [
+    "acepcions": [
       {
         "lingua": {
           "gl": {
             "termo": "TERMO UN",
-            "definición" : "Definición 1 para o TERMO 1",
+            "definicion" : "Definicion 1 para o TERMO 1",
             "clase": "substantivo",
-            "xénero": "feminino",
-            "número": "singular",
+            "xenero": "feminino",
+            "numero": "singular",
             "forma" : "principal",
-            "abreviación": "",
-            "símbolo" : "",
-            "sinónimos": [ "aa", "bb" ],
+            "abreviacion": "",
+            "simbolo" : "",
+            "sinonimos": [ "aa", "bb" ],
             "fontes" : []
           },
           "en": {
             "termo": "TERM ONE",
-            "definición" : "Definition for the 1st term",
+            "definicion" : "Definition for the 1st term",
             "clase": "frase sustantiva",
-            "xénero": "feminino",
-            "número": "singular",
+            "xenero": "feminino",
+            "numero": "singular",
             "forma" : "principal",
-            "abreviación": "",
-            "símbolo" : "",
-            "sinónimos": [],
+            "abreviacion": "",
+            "simbolo" : "",
+            "sinonimos": [],
             "fontes" : ["merriam webster"]
           },
           "es": {
             "termo": "TERMO UNO",
-            "definición" : "Definición 1 para el término 1",
+            "definicion" : "Definicion 1 para el termino 1",
             "clase": "substantivo",
-            "xénero": "feminino",
-            "número": "singular",
+            "xenero": "feminino",
+            "numero": "singular",
             "forma" : "rexeitada",
-            "abreviación": "",
-            "símbolo" : "",
-            "sinónimos": [ "un sinónimo" ],
+            "abreviacion": "",
+            "simbolo" : "",
+            "sinonimos": [ "un sinonimo" ],
             "fontes" : ["rae"]
           }
         },
-        "palabras relacionadas": [],
-        "áreas": [ "area 1", "area 2" ]
+        "areas": [ "area 1", "area 2" ]
       }
-    ]
+    ],
+    "relacionadas" : [],
+    "ten_ecuacions" : false,
+    "ten_figuras" : false
+  },
+  {
+    "termo" : "TERMO DOUS",
+    "acepcions" : [
+      {
+        "lingua" : {
+            "gl" : {"termo": "TERMO DOUS" , "definicion" : "Definicion 1 o termo 2"         , "clase": "substantivo" , "xenero": "feminino" , "numero": "singular" , "forma" : "rexeitada" , "abreviacion": "" , "simbolo" : "" , "sinonimos": [ "un sinonimo" ] , "fontes" : ["rae"]},
+            "en" : {"termo": "TERM TWO"   , "definicion" : "definition 1 for term 2"        , "clase": "substantivo" , "xenero": "feminino" , "numero": "singular" , "forma" : "rexeitada" , "abreviacion": "" , "simbolo" : "" , "sinonimos": [ "un sinonimo" ] , "fontes" : ["rae"]},
+            "es" : {"termo": "TERMO DOS"  , "definicion" : "Definicion 1 para el termino 1" , "clase": "substantivo" , "xenero": "feminino" , "numero": "singular" , "forma" : "rexeitada" , "abreviacion": "" , "simbolo" : "" , "sinonimos": [ "un sinonimo" ] , "fontes" : ["rae"]}
+        }
+      },
+      {
+        "lingua" : {
+            "gl" : {"termo": "TERMO DOUS" , "definicion" : "Definicion 2 o termo 2"         , "clase": "substantivo" , "xenero": "feminino" , "numero": "singular" , "forma" : "rexeitada" , "abreviacion": "" , "simbolo" : "" , "sinonimos": [ "un sinonimo" ] , "fontes" : ["rae"]},
+            "en" : {"termo": "TERM TWO"   , "definicion" : "definition 2 for term 2"        , "clase": "substantivo" , "xenero": "feminino" , "numero": "singular" , "forma" : "rexeitada" , "abreviacion": "" , "simbolo" : "" , "sinonimos": [ "un sinonimo" ] , "fontes" : ["rae"]},
+            "es" : {"termo": "TERMO DOS"  , "definicion" : "Definicion 2 para el termino 1" , "clase": "substantivo" , "xenero": "feminino" , "numero": "singular" , "forma" : "rexeitada" , "abreviacion": "" , "simbolo" : "" , "sinonimos": [ "un sinonimo" ] , "fontes" : ["rae"]}
+        }
+      }
+    ],
+    "relacionadas" : [],
+    "ten_ecuacions" : false,
+    "ten_figuras" : false
   }
 ]

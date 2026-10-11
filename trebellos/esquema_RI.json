@@ -36,7 +36,7 @@
   "items": {
     "type": "object",
     "additionalProperties": false,
-    "required" : ["termo", "acepcions", "relacionadas"],
+    "required" : ["termo", "acepcions", "relacionadas", "ten_ecuacions", "ten_figuras"],
     "properties": {
       "termo" : {
         "type" : "string",
@@ -63,7 +63,9 @@
           }
         }
       },
-      "relacionadas": { "type": "array", "items": { "type": "string" } }
+      "relacionadas": { "type": "array", "items": { "type": "string" } },
+      "ten_ecuacions" : { "type": "boolean" },
+      "ten_figuras" : { "type": "boolean" }
     }
   }
 }

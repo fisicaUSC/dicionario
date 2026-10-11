@@ -196,7 +196,9 @@ for f in ficheiros:
                 }
                 for acepcion in acepcions if acepcion != ''
             ],
-            "relacionadas": relacionadas
+            "relacionadas": relacionadas,
+            "ten_ecuacions": False,
+            "ten_figuras": False
         }
 
         if (
