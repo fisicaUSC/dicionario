@@ -1,4 +1,4 @@
-# jq -r 'map(select( any( ."acepcións".[]; .lingua.gl."forma" == "principal" ) ))' CONTIDOS.json
+# jq -r 'map(select( any( ."acepcións".[]; .lingua.gl."forma" == "principal" ) ))' RI.json
 def conta_termos(_):
     "Termos: \(. | length)"
 ;
