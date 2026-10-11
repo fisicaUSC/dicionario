@@ -6,7 +6,7 @@
         "lingua": {
           "gl": {
             "termo": "ab-",
-            "definicion": "Prefixo, abreviación de absoluto, engadido a certas unidades eléctricas para dar nome ás correspondentes unidades do sistema electromagnético ou absoluto como, p.e., o abcoulomb, abvolt ou abfarad. V. stat-; c.g.s.",
+            "definicion": "Prefixo, abreviación de absoluto, engadido a certas unidades eléctricas para dar nome ás correspondentes unidades do sistema electromagnético ou absoluto como, p.e., o abcoulomb, abvolt ou abfarad.",
             "sinonimos": []
           }
         }
@@ -15,7 +15,8 @@
     "relacionadas": [
       "sistema electromagnético",
       "absoluto",
-      "sistema"
+      "stat-",
+      "c.g.s."
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -27,7 +28,7 @@
         "lingua": {
           "gl": {
             "termo": "Abbe, invariante de",
-            "definicion": "En óptica, e para o caso dunha superficie esférica de radio r, que separa dous medios transparentes de distinto índice de refracción (n e n'), cada un dos dous membros da igualdadeonde s e s' son as respectivas distancias do obxecto, e da súa imaxe, á superficie de separación. A ecuación cúmprese, é dicir, o termo é invariante sempre que os feixes de luz que interveñen na formación da imaxe sexan próximos ao eixe óptico. V. dioptrio; lente; zona paraxial; Gauss, fórmula de.",
+            "definicion": "En óptica, e para o caso dunha superficie esférica de radio $r$, que separa dous medios transparentes de distinto índice de refracción ($n$ e $n'$), cada un dos dous membros da igualdade $ n(1/r - 1/s) = n'(1/r - 1/(s')) $ onde $s$ e $s'$ son as respectivas distancias do obxecto, e da súa imaxe, á superficie de separación. A ecuación cúmprese, é dicir, o termo é invariante sempre que os feixes de luz que interveñen na formación da imaxe sexan próximos ao eixe óptico.",
             "sinonimos": []
           }
         }
@@ -35,9 +36,12 @@
     ],
     "relacionadas": [
       "índice de refracción",
-      "índice"
+      "dioptrio",
+      "lente",
+      "zona paraxial",
+      "Gauss, fórmula de"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -70,21 +74,18 @@
         "lingua": {
           "gl": {
             "termo": "Abbe, número de",
-            "definicion": "Sb.. Número que caracteriza o comportamento dispersivo dun material en función dos índices de refracción do mesmo para as lonxitudes de onda correspondentes ás liñas espectrais d (587,6 nm); F (486,1 nm, e C (656,3 nm). Vén dado pola ecuación:.",
+            "definicion": "Número que caracteriza o comportamento dispersivo dun material en función dos índices de refracción do mesmo para as lonxitudes de onda correspondentes ás liñas espectrais *d* (587,6 nm); *F* (486,1 nm, e *C* (656,3 nm). Vén dado pola ecuación: $ nu_d = (n_d - 1)/(n_F - n_C) $",
             "sinonimos": []
           }
         }
       }
     ],
     "relacionadas": [
-      "lonxitudes",
       "lonxitudes de onda",
       "índices de refracción ",
-      "índices",
-      "liñas espectrais",
-      "liñas"
+      "liñas espectrais"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -94,15 +95,13 @@
         "lingua": {
           "gl": {
             "termo": "abeliano",
-            "definicion": "Conmutativo.",
-            "sinonimos": []
+            "definicion": "",
+            "sinonimos": ["conmutativo"]
           }
         }
       }
     ],
-    "relacionadas": [
-      "Conmutativo"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -113,7 +112,7 @@
         "lingua": {
           "gl": {
             "termo": "aberración",
-            "definicion": "En astronomía, fenómeno, debido aos diferentes movementos da Terra e á finitude da velocidade da luz, polo que a luz, procedente dun astro, parece vir dun punto lixeiramente desprazado do que sería a verdadeira posición do astro.0figura0.",
+            "definicion": "En astronomía, fenómeno, debido aos diferentes movementos da Terra e á finitude da velocidade da luz, polo que a luz, procedente dun astro, parece vir dun punto lixeiramente desprazado do que sería a verdadeira posición do astro. #html.frame(image(\"//dicionario/figuras/aberracion_luz.svg\"))",
             "sinonimos": []
           }
         }
@@ -128,9 +127,9 @@
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["aberración cromática", "aberracións xeométricas", "sistemas ópticos"],
     "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_figuras": true
   },
   {
     "termo": "aberración ánua",
