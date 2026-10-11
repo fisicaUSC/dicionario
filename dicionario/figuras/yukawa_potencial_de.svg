@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="191.06667"
+   height="175.78667"
+   viewBox="0 0 191.06667 175.78667"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <g
+     id="g8"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,175.78667)">
+    <g
+       id="g10"
+       transform="scale(0.1)">
+      <path
+         d="M 89.457,1318.4 V 0"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path12" />
+      <path
+         d="M 1396.06,1153.3 H 89.457"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path14" />
+      <path
+         d="m 346.531,1221.7 v -70.75"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path16" />
+      <path
+         d="m 931.832,1132.56 c 0,0 -23.027,-4.77 -51.172,-10.61 -28.144,-5.84 -75.879,-18.47 -106.086,-28.08 -30.203,-9.62 -72.051,-25.9 -92.98,-36.2 -20.942,-10.29 -53.797,-29.67 -73.016,-43.06 -19.219,-13.38 -49.551,-39.501 -67.394,-58.036 -17.848,-18.531 -44.528,-51.949 -59.286,-74.258 -14.757,-22.308 -36.664,-62.464 -48.679,-89.238 -12.012,-26.773 -28.02,-68.613 -35.567,-92.988 -7.554,-24.367 -19.066,-69.297 -25.586,-99.844 -6.523,-30.547 -16.074,-85.586 -21.222,-122.305 -5.145,-36.73 -11.606,-87.843 -14.356,-113.586 -2.742,-25.742 -4.988,-46.804 -4.988,-46.804"
+         style="fill:none;stroke:#231f20;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path18" />
+      <g
+         id="g20"
+         transform="scale(10)">
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,35.8324,111.086)"
+           style="font-variant:normal;font-weight:300;font-size:6px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text30"><tspan
+             x="0"
+             y="0"
+             id="tspan22">a</tspan><tspan
+             x="-32.311298"
+             y="-2.1222701"
+             id="tspan24">0</tspan><tspan
+             x="105.4237"
+             y="-3.065629"
+             id="tspan26">r</tspan><tspan
+             x="10.8491 15.1811 16.8491 18.888943"
+             y="36.321072"
+             id="tspan28">V(r)</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0,1,1,0,5.17188,53.5383)"
+           style="font-variant:normal;font-weight:300;font-size:6px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text34"><tspan
+             x="0 3.6659999 7.158 9.7199211 11.759765 14.879683 16.439842"
+             y="0"
+             id="tspan32">Enerxía</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

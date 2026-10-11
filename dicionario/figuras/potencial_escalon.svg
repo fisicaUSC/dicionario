@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="202.56"
+   height="166.69333"
+   viewBox="0 0 202.56 166.69333"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <g
+     id="g8"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,166.69333)">
+    <g
+       id="g10"
+       transform="scale(0.1)">
+      <path
+         d="M 165.598,487.996 H 1519.19"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+         id="path12" />
+      <path
+         d="M 767.945,0 V 1227.06"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+         id="path14" />
+      <g
+         id="g16"
+         transform="scale(10)">
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,70.3578,118.983)"
+           style="font-variant:normal;font-weight:300;font-size:7px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text22"><tspan
+             x="0"
+             y="0"
+             id="tspan18">V</tspan><tspan
+             x="0"
+             y="78.302299"
+             id="tspan20">0</tspan></text>
+      </g>
+      <path
+         d="M 0,489.902 H 766.508 V 890.848 H 1162.74"
+         style="fill:none;stroke:#231f20;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+         id="path24" />
+      <g
+         id="g26"
+         transform="scale(10)">
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,83.8297,93.041)"
+           style="font-variant:normal;font-weight:300;font-size:7px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text30"><tspan
+             x="0"
+             y="0"
+             id="tspan28">V</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,88.30978,90.31913)"
+           style="font-variant:normal;font-weight:300;font-size:4.89999px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text34"><tspan
+             x="0"
+             y="0"
+             id="tspan32">0</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
