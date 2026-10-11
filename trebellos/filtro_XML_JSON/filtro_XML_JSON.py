@@ -182,17 +182,9 @@ for f in ficheiros:
                         "gl": {
                             "termo"       : f"{termo}",
                             "definicion"  : f"{acepcion}",
-                            "clase"       : "",
-                            "xenero"      : "",
-                            "numero"      : "",
-                            "forma"       : "",
-                            "abreviacion" : "",
-                            "simbolo"     : "",
-                            "sinonimos"   : [],
-                            "fontes"      : ["Dicionario de Física, Editorial Baía"]
+                            "sinonimos"   : []
                         }
-                    },
-                    "areas": []
+                    }
                 }
                 for acepcion in acepcions if acepcion != ''
             ],

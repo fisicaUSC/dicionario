@@ -7,14 +7,7 @@
       "required": [
           "definicion",
           "termo",
-          "clase",
-          "xenero",
-          "numero",
-          "forma",
-          "abreviacion",
-          "simbolo",
-          "sinonimos",
-          "fontes"
+          "sinonimos"
       ],
       "additionalProperties": false,
       "properties": {
