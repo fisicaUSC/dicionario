@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="182.94667"
+   height="150.58667"
+   viewBox="0 0 182.94667 150.58667"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <g
+     id="g8"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,150.58667)">
+    <g
+       id="g10"
+       transform="scale(0.1)">
+      <path
+         d="m 549.41,507.305 -6.633,53.55 -40.195,-26.734 46.828,-26.816"
+         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path12" />
+      <path
+         d="m 966.273,727.895 -46.816,-26.836 40.195,-26.727 6.621,53.563"
+         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path14" />
+      <path
+         d="M 24.6172,293.184 H 1362.47"
+         style="fill:none;stroke:#231f20;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+         id="path16" />
+      <path
+         d="M 268.398,931.91 684.617,299.16"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+         id="path18" />
+      <path
+         d="M 685.258,303.281 1101.48,936.039"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+         id="path20" />
+      <path
+         d="M 294.883,890.133 524.082,545.395"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+         id="path22" />
+      <path
+         d="M 711.742,345.059 940.941,689.801"
+         style="fill:none;stroke:#231f20;stroke-width:7.82362;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+         id="path24" />
+      <path
+         d="M 684.625,0 V 1069.63"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:39.1181, 39.1181;stroke-dashoffset:0;stroke-opacity:1"
+         id="path26" />
+      <path
+         d="m 685.137,465.5 c 31.226,0 59.156,-14.102 77.769,-36.289"
+         style="fill:none;stroke:#231f20;stroke-width:4.98898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+         id="path28" />
+      <path
+         d="m 685.863,453.098 c -31.222,0 -59.152,-14.106 -77.765,-36.289"
+         style="fill:none;stroke:#231f20;stroke-width:4.98898;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+         id="path30" />
+      <g
+         id="g32"
+         transform="scale(10)">
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,62.732,46.8566)"
+           style="font-variant:normal;font-weight:300;font-size:7px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text48"><tspan
+             x="0"
+             y="0"
+             id="tspan34">i</tspan><tspan
+             x="10.0801"
+             y="-1.1375"
+             id="tspan36">r</tspan><tspan
+             x="-62.3195 -56.1385 -52.7855 -49.159344 -47.33942 -43.517422 -41.767422"
+             y="26.0977"
+             id="tspan38">medio 2</tspan><tspan
+             x="-62.3195 -56.1385 -52.7855 -49.159344 -47.33942 -43.517422 -41.599579"
+             y="13.0051"
+             id="tspan40">medio 1</tspan><tspan
+             x="-7.4268999 -3.5065863 0.4129481 2.8906801 8.6305237 12.130524"
+             y="-60.048"
+             id="tspan42">normal</tspan><tspan
+             x="33.020401 35.400475 38.760242 40.580162 44.402164 46.320011 48.72118 52.22118 54.321178 56.141102 59.641102 62.749104 64.821175 66.641098 70.918098"
+             y="-48.904598"
+             id="tspan44">raio reflectido</tspan><tspan
+             x="-62.731899 -60.351822 -56.992058 -55.172134 -51.350136 -49.4319 -47.611977 -43.692055 -40.472134 -38.652214 -34.375214 -31.232288 -27.312366 -25.352211"
+             y="-48.078426"
+             id="tspan46">raio incidente</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

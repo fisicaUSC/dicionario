@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="181.85333"
+   height="142.98666"
+   viewBox="0 0 181.85333 142.98666"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <g
+     id="g8"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,142.98667)">
+    <g
+       id="g10"
+       transform="scale(0.1)">
+      <path
+         d="M 252.383,173.77 1058.98,975.66"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path12" />
+      <path
+         d="m 988.23,909.625 c 0,0 -13.796,-4.246 -30.664,-9.437 -16.851,-5.184 -49.753,-19.516 -73.101,-31.836 -23.352,-12.325 -78.703,-49.075 -123.012,-81.661 L 717.371,754.258 C 673.066,721.668 606.039,666.344 568.418,631.32 530.801,596.293 470.309,535.801 433.984,496.887 397.668,457.969 350.438,399.074 329.031,365.988 307.633,332.91 281.633,276.133 271.25,239.816 260.875,203.488 252.383,173.77 252.383,173.77"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:17.008, 17.008;stroke-dashoffset:0;stroke-opacity:1"
+         id="path14" />
+      <path
+         d="m 991.277,910.129 c 0,0 -4.257,-13.789 -9.429,-30.664 -5.2,-16.856 -19.535,-49.746 -31.836,-73.106 C 937.688,783.02 900.93,727.668 868.352,683.352 L 835.906,639.27 C 803.313,594.973 747.996,527.941 712.98,490.324 677.938,452.707 617.445,392.199 578.539,355.891 539.613,319.563 480.727,272.336 447.641,250.93 414.555,229.523 357.777,203.527 321.469,193.156 285.141,182.766 255.414,174.289 255.414,174.289"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:8.504, 8.504;stroke-dashoffset:0;stroke-opacity:1"
+         id="path16" />
+      <path
+         d="M 995.305,909.625 H 242.945"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:8.504, 8.504;stroke-dashoffset:0;stroke-opacity:1"
+         id="path18" />
+      <g
+         id="g20"
+         transform="scale(10)">
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,31.2188,93.0852)"
+           style="font-variant:normal;font-weight:300;font-size:6px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text40"><tspan
+             x="0 3.336 5.0819998 8.0402336 9.5999994 13.266 16.542 18.042 21.647999 24.191999 27.066 30.684 34.349998 37.625999 41.231998 41.879688 44.759766 47.303764 49.259766 51.005764 53.669765"
+             y="0"
+             id="tspan22">Fluído pseudoplástico</tspan><tspan
+             x="73.736298 77.072304 78.818298 81.776146 83.336304 87.002304"
+             y="0.70742202"
+             id="tspan24">Fluído</tspan><tspan
+             x="73.736298 77.936302 80.936302 85.616371 87.572372 90.656219 94.016373 95.576141 98.576141 101.81638"
+             y="7.7074218"
+             id="tspan26">Newtoniano</tspan><tspan
+             x="37.180401 40.516399 42.262402 45.220634 46.780403 50.446404"
+             y="52.594921"
+             id="tspan28">Fluído</tspan><tspan
+             x="37.180401 40.846401 42.5924 43.660477 46.540558 48.220634 51.100323 54.766323 57.820248"
+             y="59.594921"
+             id="tspan30">dilatador</tspan><tspan
+             x="-30.379 -27.018843 -24.618843 -22.818844 -19.459078 -17.419233 -14.659078"
+             y="24.292221"
+             id="tspan32">Esforzo</tspan><tspan
+             x="-31.218843 -28.554844 -25.098921 -23.059078 -21.379 -18.379 -15.139154 -13.183155"
+             y="31.292221"
+             id="tspan34">cortante</tspan><tspan
+             x="-22.579004"
+             y="38.292221"
+             id="tspan36">T</tspan><tspan
+             x="17.181196 21.621042 23.661276 26.540964 30.206964 31.952963 34.460888 37.821045 39.777046 42.651043 44.151043 47.817043 50.691044 51.980808 54.980808 57.854809 59.600807 62.876808 65.54081 67.286812 70.5812 73.461281 77.127281"
+             y="84.66922"
+             id="tspan38">Gradiente de velocidade</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,72.361696,1.415978)"
+           style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text44"><tspan
+             x="0"
+             y="0"
+             id="tspan42">∆</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,76.032786,1.415978)"
+           style="font-style:italic;font-variant:normal;font-weight:300;font-size:6px;font-family:Garamond;-inkscape-font-specification:Garamond-LightItalic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text48"><tspan
+             x="0 3"
+             y="0"
+             id="tspan46">v/</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,80.568726,1.415978)"
+           style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text52"><tspan
+             x="0"
+             y="0"
+             id="tspan50">∆</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,84.239426,1.415978)"
+           style="font-style:italic;font-variant:normal;font-weight:300;font-size:6px;font-family:Garamond;-inkscape-font-specification:Garamond-LightItalic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text56"><tspan
+             x="0"
+             y="0"
+             id="tspan54">y</tspan></text>
+      </g>
+      <path
+         d="M 1304.27,173.77 H 252.383 v 898.59"
+         style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path58" />
+      <g
+         id="g60"
+         transform="scale(10)">
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,32.7852,71.8586)"
+           style="font-variant:normal;font-weight:300;font-size:6px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text66"><tspan
+             x="0 3.336 5.0819998 8.6999998 10.446 14.112 17.388 18.888 22.554001"
+             y="0"
+             id="tspan62">Fluido de</tspan><tspan
+             x="0 3.840234 5.4000006 8.7597675 12.095768 15.239846 18.119925"
+             y="7"
+             id="tspan64">Bingham</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

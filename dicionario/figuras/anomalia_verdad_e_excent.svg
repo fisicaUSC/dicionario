@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="180.36"
+   height="149.22667"
+   viewBox="0 0 180.36 149.22667"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18">
+      <path
+         d="M 0,1119 H 1350 V 0 H 0 Z"
+         id="path16" />
+    </clipPath>
+  </defs>
+  <g
+     id="g8"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,149.22667)">
+    <g
+       id="g10"
+       transform="scale(0.1)">
+      <g
+         id="g12">
+        <g
+           id="g14"
+           clip-path="url(#clipPath18)">
+          <path
+             d="m 561.988,901.758 c 306.578,0 555.102,-153.192 555.102,-342.149 0,-188.972 -248.524,-342.168 -555.102,-342.168 -306.574,0 -555.10909,153.196 -555.10909,342.168 0,188.957 248.53509,342.149 555.10909,342.149 z"
+             style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+             id="path20" />
+          <path
+             d="M 559.605,1116.7 C 867.277,1116.7 1116.7,867.277 1116.7,559.59 1116.7,251.926 867.277,2.5 559.605,2.5 251.926,2.5 2.5,251.926 2.5,559.59 c 0,307.687 249.426,557.11 557.105,557.11 z"
+             style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+             id="path22" />
+          <path
+             d="m 870.441,856.262 c 7.266,0 13.145,-5.891 13.145,-13.157 0,-7.265 -5.879,-13.156 -13.145,-13.156 -7.265,0 -13.164,5.891 -13.164,13.156 0,7.266 5.899,13.157 13.164,13.157"
+             style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path24" />
+          <path
+             d="m 870.441,856.262 c 7.266,0 13.145,-5.891 13.145,-13.157 0,-7.265 -5.879,-13.156 -13.145,-13.156 -7.265,0 -13.164,5.891 -13.164,13.156 0,7.266 5.899,13.157 13.164,13.157 z"
+             style="fill:none;stroke:#231f20;stroke-width:2.16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+             id="path26" />
+          <path
+             d="m 785.734,585.336 c 10.762,0 19.473,-8.719 19.473,-19.481 0,-10.761 -8.711,-19.484 -19.473,-19.484 -10.761,0 -19.492,8.723 -19.492,19.484 0,10.762 8.731,19.481 19.492,19.481"
+             style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path28" />
+          <path
+             d="m 785.734,585.336 c 10.762,0 19.473,-8.719 19.473,-19.481 0,-10.761 -8.711,-19.484 -19.473,-19.484 -10.761,0 -19.492,8.723 -19.492,19.484 0,10.762 8.731,19.481 19.492,19.481 z"
+             style="fill:none;stroke:#231f20;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+             id="path30" />
+          <path
+             d="M 2.50391,559.594 H 1096.93"
+             style="fill:none;stroke:#231f20;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+             id="path32" />
+          <path
+             d="m 1086.39,545.707 5.9,13.887 -5.9,13.894 32.92,-13.894 -32.92,-13.887"
+             style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path34" />
+          <g
+             id="g36"
+             transform="scale(10)">
+            <text
+               xml:space="preserve"
+               transform="matrix(1,0,0,-1,75.1926,49.891)"
+               style="font-variant:normal;font-weight:300;font-size:6px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text42"><tspan
+                 x="0 2.8800001 6.2399998"
+                 y="0"
+                 id="tspan38">Sol</tspan><tspan
+                 x="37.2785 40.6385 43.6385 45.678501 47.238499 50.598499 53.598499 55.158501 56.718498"
+                 y="-4.2793002"
+                 id="tspan40">Perihelio</tspan></text>
+          </g>
+          <path
+             d="m 541.777,557.816 303.489,434.34"
+             style="fill:none;stroke:#231f20;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+             id="path44" />
+          <path
+             d="m 850.598,975.566 -7.989,12.793 -14.765,3.133 30.254,19.008 -7.5,-34.934"
+             style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path46" />
+          <path
+             d="m 785.91,562.766 70.86,244.992"
+             style="fill:none;stroke:#231f20;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+             id="path48" />
+          <path
+             d="m 867.141,793.762 -11.672,9.543 -14.989,-1.766 22.547,27.707 4.114,-35.484"
+             style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path50" />
+          <g
+             id="g52"
+             transform="scale(10)">
+            <text
+               xml:space="preserve"
+               transform="matrix(1,0,0,-1,81.3281,56.6695)"
+               style="font-variant:normal;font-weight:300;font-size:6px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text56"><tspan
+                 x="0 -23.434019"
+                 y="0"
+                 id="tspan54">VE</tspan></text>
+          </g>
+          <path
+             d="M 870.254,559.563 V 1022.5"
+             style="fill:none;stroke:#231f20;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:2.154, 6.463;stroke-dashoffset:0;stroke-opacity:1"
+             id="path58" />
+          <g
+             id="g60"
+             transform="scale(10)">
+            <text
+               xml:space="preserve"
+               transform="matrix(0.871395,-0.490583,-0.490583,-0.871395,87.6277,86.182)"
+               style="font-variant:normal;font-weight:300;font-size:6.00003px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text64"><tspan
+                 x="0 3.3600183 4.9200268 7.8000426 11.160061 14.160077 15.840087"
+                 y="0"
+                 id="tspan62">Planeta</tspan></text>
+            <text
+               xml:space="preserve"
+               transform="matrix(1,0,0,-1,88.6902,101.814)"
+               style="font-variant:normal;font-weight:300;font-size:7px;font-family:Garamond;-inkscape-font-specification:Garamond-Light;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text68"><tspan
+                 x="0 3.9200001"
+                 y="0"
+                 id="tspan66">P”</tspan></text>
+          </g>
+          <path
+             d="m 660.148,560.297 c 0,38.879 -19.562,73.191 -49.375,93.629"
+             style="fill:none;stroke:#231f20;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+             id="path70" />
+          <path
+             d="m 864.824,560.297 c 0,38.879 -19.558,73.191 -49.375,93.629"
+             style="fill:none;stroke:#231f20;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+             id="path72" />
+          <path
+             d="m 868.262,1038.01 c 7.265,0 13.164,-5.88 13.164,-13.15 0,-7.27 -5.899,-13.16 -13.164,-13.16 -7.266,0 -13.153,5.89 -13.153,13.16 0,7.27 5.887,13.15 13.153,13.15"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path74" />
+          <path
+             d="m 868.262,1038.01 c 7.265,0 13.164,-5.88 13.164,-13.15 0,-7.27 -5.899,-13.16 -13.164,-13.16 -7.266,0 -13.153,5.89 -13.153,13.16 0,7.27 5.887,13.15 13.153,13.15 z"
+             style="fill:none;stroke:#231f20;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4142;stroke-dasharray:none;stroke-opacity:1"
+             id="path76" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
