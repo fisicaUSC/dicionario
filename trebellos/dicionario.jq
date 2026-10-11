@@ -6,12 +6,6 @@ def cadea:
         .acepcions.[] |
         "        (
             definicion  : [\(.lingua.gl.definicion)],
-            clase       : \"\(.lingua.gl.clase)\",
-            xenero      : \"\(.lingua.gl.xenero)\",
-            numero      : \"\(.lingua.gl.numero)\",
-            forma       : \"\(.lingua.gl.forma)\",
-            abreviacion : \"\(.lingua.gl.abreviacion)\",
-            simbolo     : \"\(.lingua.gl.simbolo)\"
         ),"
     )",
 "    ),
