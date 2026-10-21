@@ -1,24 +1,30 @@
 SHELL := bash
 
-.PHONY: filtrar contar contidos borrador
-.PRECIOUS: dicionario/dicionario.html
+.PHONY: filtrar contar contidos borrador validar
+.PRECIOUS: dicionario/xerados/html/dicionario.html
 
-# Filtrar os ficheiros XML orixinais e xerar un JSON
-filtrar:
-	uv run trebellos/filtro_XML_JSON/filtro_XML_JSON.py
-	uv run trebellos/validador_json.py trebellos/filtro_XML_JSON/xerados/RI.json
+
+# Xera os contidos do dicionario en formato Typst, a partir do JSON
+contidos: dicionario/xerados/contidos.typ
+dicionario/xerados/contidos.typ: RI.json
+	$(shell mkdir -p dicionario/xerados/typst)
+	jq -r -f trebellos/json_a_typst.jq $^ > dicionario/xerados/typst/contidos.typ
+
+# Xera continuamente un borrador dos contidos en formato HTML, en 127.0.0.1:3000/dicionario.html
+# Compila dicionario.typ e xera directorio dicionario/xerados/html
+borrador:
+	typst watch --pdf-tagged=false --pretty --root=dicionario/ --features=html,bundle --format=bundle dicionario/dicionario.typ dicionario/xerados/html
+
 
 # Devolve información variada dos termos
 contar:
 	jq -r -f trebellos/contar.jq RI.json
 
-# Xera continuamente un borrador dos contidos en formato HTML, en 127.0.0.1:3000
-borrador:
-	typst watch --no-pdf-tags --pretty --root . --features html --format html dicionario/dicionario.typ dicionario/dicionario.html
-
+# Valida o JSON usando o esquema
 validar:
 	uv run trebellos/validador_json.py RI.json
 
-# Xera os contidos do dicionario en formato Typst
-contidos: RI.json
-	jq -r -f trebellos/dicionario.jq $^ > dicionario/contidos.typ
+# Filtrar os ficheiros XML orixinais e xerar un JSON (agora mesmo non se usa para nada)
+filtrar:
+	uv run trebellos/filtro_XML_JSON/filtro_XML_JSON.py
+	uv run trebellos/validador_json.py trebellos/filtro_XML_JSON/xerados/RI.json

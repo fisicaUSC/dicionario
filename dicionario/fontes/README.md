@@ -1,0 +1,8 @@
+- Common Serif
+  - VERSION: `1.048`
+  - DESCARGAS: https://github.com/StefanPeev/Common-Serif
+  - LICENCIA: [SIL OFL](https://ctan.org/license/ofl)
+- Libertinus
+  - VERSIÓN: `7.051`
+  - DESCARGAS: https://github.com/alerque/libertinus
+  - LICENCIA: [SIL OFL](https://ctan.org/license/ofl)

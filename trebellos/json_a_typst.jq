@@ -14,7 +14,7 @@ def cadea:
 ;
 
 def contidos(datos):
-    "#import(\"/dicionario/estilo.typ\"): *\n",
+    "#import(\"/estilo.typ\"): *\n",
     (
         datos # datos orixinais
         | .[] # iteramos polos termos

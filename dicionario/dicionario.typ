@@ -1,5 +1,12 @@
-#import("/dicionario/estilo.typ"): *
+#document(
+    "/dicionario.html",
+    {
+        import("/estilo.typ"): *
+        show: estilo_corpo
+        include("/xerados/typst/contidos.typ")
+    }
+)
 
-#show: estilo_corpo
-
-#include("/dicionario/contidos.typ")
+#asset("/fontes/CommonSerif-VF.ttf", read("/fontes/CommonSerif/CommonSerif-VF.ttf", encoding: none))
+#asset("/fontes/CommonSerif-Italic-VF.ttf", read("/fontes/CommonSerif/CommonSerif-Italic-VF.ttf", encoding: none))
+#asset("/fontes/LibertinusMath-Regular.otf", read("/fontes/Libertinus/LibertinusMath-Regular.otf", encoding: none))

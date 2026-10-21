@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Common Serif";
+    src: url("./fontes/CommonSerif-VF.ttf");
+}
+@font-face {
+    font-family: "Libertinus Math";
+    src: url("./fontes/LibertinusMath-Regular.otf");
+}
+body {
+    background-color: white;
+    font-family: "Common Serif";
+}
+math {
+    font-family: "Libertinus Math";
+}

@@ -1,24 +1,41 @@
 #let estilo_corpo(doc) = {
-    doc
+    html.html(
+        {
+            html.head(
+                {
+                    html.meta(charset: "utf-8")
+                    html.title[Dicionario]
+                    html.style(read("/estilo.css"))
+                }
+            )
+            html.body(html.main(doc))
+        }
+    )
 }
 
 
 #let termo(
     denominacion: none,
     acepcions: none
-) = {
-    text(size: 1.1em, strong(denominacion))
-    block(
-        breakable: true,
-        inset: (left: 1em),
+) = html.div(
+    class: "acepcions",
+    {
+        linebreak()
+        html.div(
+            class: "termo",
+            html.strong(denominacion)
+        )
         for (i, acepcion) in acepcions.enumerate(start: 1) {
             let d = acepcion.definicion
             let s = acepcion.simbolo
-            [
-                #if acepcions.len() > 1 { strong[#i.] }
-                #if s != none {[Símbolo: #s.]}
-                #d\
-            ]
+            html.div(
+                class: "acepcion",
+                {
+                    if acepcions.len() > 1 { strong[#i.] }
+                    if s != none {[Símbolo: #s.]}
+                    d
+                }
+            )
         }
-    )
-}
+    }
+)
