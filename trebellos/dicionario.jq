@@ -5,7 +5,8 @@ def cadea:
     "\(
         .acepcions.[] |
         "        (
-            definicion  : [\(.lingua.gl.definicion)],
+            definicion : [\(.lingua.gl.definicion)],
+            simbolo    : \(if .lingua.gl.simbolo != "" then "[\(.lingua.gl.simbolo)]" else "none" end),
         ),"
     )",
 "    ),

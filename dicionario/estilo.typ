@@ -13,10 +13,11 @@
         inset: (left: 1em),
         for (i, acepcion) in acepcions.enumerate(start: 1) {
             let d = acepcion.definicion
-            let l = acepcions.len()
+            let s = acepcion.simbolo
             [
-                #if l > 1 { strong[#i.] }
-                DEF: #d\
+                #if acepcions.len() > 1 { strong[#i.] }
+                #if s != none {[Símbolo: #s.]}
+                #d\
             ]
         }
     )
