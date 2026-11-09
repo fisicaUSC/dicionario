@@ -397,7 +397,7 @@
         "lingua": {
           "gl": {
             "termo": "acción",
-            "definicion": "Magnitude física empregada na mecánica introducida por P.L. Maupertius (1698-1759) que expresa, en termos actuais, o producto do momento lineal dun móbil polo seu desprazamento, $S = m v d$. Tal expresión resulta equivalente ao producto dunha enerxía por un tempo, empregándose na mecánica analítica, para expresar a acción dun sistema, con enerxía cinética T e nun campo conservativo de enerxía potencial U, a ecuación $ S = integral_(t_1)^(t_2) (T - U) d t $ No SI exprésase en J·s.A constante de Planck, h, de emprego xeneralizado na mecánica cuántica, é un exemplo de acción.",
+            "definicion": "Magnitude física empregada na mecánica introducida por P.L. Maupertius (1698-1759) que expresa, en termos actuais, o producto do momento lineal dun móbil polo seu desprazamento, $S = m v d$. Tal expresión resulta equivalente ao producto dunha enerxía por un tempo, empregándose na mecánica analítica, para expresar a acción dun sistema, con enerxía cinética $T$ e nun campo conservativo de enerxía potencial $U$, a ecuación $ S = integral_(t_1)^(t_2) (T - U) d t $ No SI exprésase en J·s. A constante de Planck, $planck$, de emprego xeneralizado na mecánica cuántica, é un exemplo de acción.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2797,7 +2797,7 @@
         "lingua": {
           "gl": {
             "termo": "aneis planetarios",
-            "definicion": "Conxunto de multitude de partículas sólidas, de diferente composición e tamaño, que se atopan xirando arredor dalgúns planetas seguindo as leis de Kepler. No Sistema Solar presentan aneis Saturno e Urano. No caso de Saturno, o conxunto de aneis exténdese entre os 13 000 e 76 000 km de distancia da superficie ecuatorial. Algúns aneis, como os chamados A, B, C e D, son visibles dende a Terra; foron descubertos cos primeiros telescopios do s. XVII e correctamente descritos por C. Huygens no 1655. Presentan miles de divisións, sendo as máis importantes a de Cassini, que separa os aneis A e B, e a de Encke, dentro do anel A. Están formados por pó finísimo e partículas maiores de xeo, especialmente de amoníaco e de metano. Visto dende a Terra, o maior brillo dos aneis acádase pouco antes ou pouco despois da oposición de Saturno. Urano presenta unha decena de aneis, descubertos despois do 1977. Moitas agrupacións de partículas manteñen a súa estructura estable gracias aos chamados satélites pastores, que controlan gravitatoriamente o movemento das mesmas.",
+            "definicion": "Conxunto de multitude de partículas sólidas, de diferente composición e tamaño, que se atopan xirando arredor dalgúns planetas seguindo as leis de Kepler. No Sistema Solar presentan aneis Saturno e Urano. No caso de Saturno, o conxunto de aneis exténdese entre os 13000 e 76000 km de distancia da superficie ecuatorial. Algúns aneis, como os chamados A, B, C e D, son visibles dende a Terra; foron descubertos cos primeiros telescopios do s. XVII e correctamente descritos por C. Huygens no 1655. Presentan miles de divisións, sendo as máis importantes a de Cassini, que separa os aneis A e B, e a de Encke, dentro do anel A. Están formados por pó finísimo e partículas maiores de xeo, especialmente de amoníaco e de metano. Visto dende a Terra, o maior brillo dos aneis acádase pouco antes ou pouco despois da oposición de Saturno. Urano presenta unha decena de aneis, descubertos despois do 1977. Moitas agrupacións de partículas manteñen a súa estructura estable gracias aos chamados satélites pastores, que controlan gravitatoriamente o movemento das mesmas.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2843,15 +2843,15 @@
         "lingua": {
           "gl": {
             "termo": "angstrom",
-            "definicion": "Sb.. Unidade de lonxitude equivalente a 10-10 m (= 0,1 nm), empregada fundamentalmente en física atómica e molecular.",
+            "definicion": "Unidade de lonxitude equivalente a 10⁻¹⁰ m (= 0,1 nm), empregada fundamentalmente en física atómica e molecular.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$angstrom$"
           }
         }
       }
     ],
     "relacionadas": [],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2879,7 +2879,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de avance",
-            "definicion": "Aquel que forma a liña de avance dun parafuso respecto ao plano perpendicular ao eixe de xiro. Lembrando que o parafuso é o resultado de arrolar un plano inclinado ao redor dun cilindro, a tanxente do ángulo de avance é igual ao paso de rosca dividido pola lonxitude da circunferencia descrita no xiro. V. parafuso.",
+            "definicion": "Aquel que forma a liña de avance dun parafuso respecto ao plano perpendicular ao eixe de xiro. Lembrando que o parafuso é o resultado de arrolar un plano inclinado ao redor dun cilindro, a tanxente do ángulo de avance é igual ao paso de rosca dividido pola lonxitude da circunferencia descrita no xiro.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2887,7 +2887,7 @@
       }
     ],
     "relacionadas": [
-      "paso",
+      "parafuso",
       "paso de rosca"
     ],
     "ten_ecuacions": false,
@@ -2900,9 +2900,9 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de contacto",
-            "definicion": "Sb. c. Na superficie libre dun líquido, ángulo formado pola tanxente ao menisco coa parede do recipiente. É característico de cada parella sólido-líquido e o seu valor dá unha idea da relación que existe nese medio entre as forzas de cohesión, C, que se establecen entre as moléculas do líquido e as forzas de adhesión, A, entre estas e as moléculas do recipiente. Se A&gt;&gt;C c é case cero; se A=C c vale 90º. En ambos casos o menisco formado é cóncavo e dise que o líquido “molla” as paredes. Un exemplo constitúeo a interface auga-vidro. Sen embargo se C&gt;A c&gt;90º, o menisco é convexo e dise que o líquido “non molla” as paredes, como ocorre na interface mercurio-vidro. A combinación destes dous tipos de forzas coa tensión superficial é a responsable dos fenómenos de capilaridade. 0figura0.",
+            "definicion": "Sb. c. Na superficie libre dun líquido, ángulo formado pola tanxente ao menisco coa parede do recipiente. É característico de cada parella sólido-líquido e o seu valor dá unha idea da relación que existe nese medio entre as forzas de cohesión, $C$, que se establecen entre as moléculas do líquido e as forzas de adhesión, $A$, entre estas e as moléculas do recipiente. Se $A > > C$, $theta_c$ é case cero; se $A=C$, $theta_c$ vale 90º. En ambos casos o menisco formado é cóncavo e dise que o líquido \"molla\" as paredes. Un exemplo constitúeo a interface auga-vidro. Sen embargo se $C > A$, $theta_c > 90º$, o menisco é convexo e dise que o líquido \"non molla\" as paredes, como ocorre na interface mercurio-vidro. A combinación destes dous tipos de forzas coa tensión superficial é a responsable dos fenómenos de capilaridade. #html.frame(image(\"/dicionario/figuras/angulo_de_contacto.svg\"))",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$theta_c$"
           }
         }
       }
@@ -2912,13 +2912,10 @@
       "forzas de adhesión,",
       "menisco",
       "capilaridade",
-      "forzas de cohesión,",
-      "tensión",
-      "forzas",
-      "A, "
+      "forzas de cohesión"
     ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_ecuacions": true,
+    "ten_figuras": true
   },
   {
     "termo": "ángulo de conxunción",
@@ -2927,7 +2924,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de conxunción",
-            "definicion": "Ángulo de contacto.ángulo de rozamento cinético Ángulo de rozamento dinámico.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2935,8 +2932,6 @@
       }
     ],
     "relacionadas": [
-      "Ángulo de rozamento dinámico",
-      "Ángulo",
       "Ángulo de contacto"
     ],
     "ten_ecuacions": false,
@@ -2949,7 +2944,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de desviación nun prisma",
-            "definicion": "Ángulo formado polas direccións de propagación dos raios incidentes e emerxentes nun prisma óptico. O seu valor depende do ángulo de incidencia, do ángulo de refrinxencia e do índice de refracción do prisma. V. refracción.ángulo de fase En astronomía, ángulo formado polas direccións planeta-Terra e planeta-Sol, expresado en graos.",
+            "definicion": "Ángulo formado polas direccións de propagación dos raios incidentes e emerxentes nun prisma óptico. O seu valor depende do ángulo de incidencia, do ángulo de refrinxencia e do índice de refracción do prisma.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2960,13 +2955,29 @@
       "ángulo de incidencia",
       "índice de refracción",
       "prisma óptico",
-      "prisma",
       "ángulo de refrinxencia",
-      "índice",
-      "ángulo"
+      "refracción"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
+  },
+  {
+    "termo" : "ángulo de fase",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "ángulo de fase",
+            "definicion" : "En astronomía, ángulo formado polas direccións planeta-Terra e planeta-Sol, expresado en grados.",
+            "simbolo" : "",
+            "sinonimos": []
+          }
+        }
+      }
+    ],
+    "relacionadas" : [],
+    "ten_ecuacions" : false,
+    "ten_figuras" : false
   },
   {
     "termo": "ángulo de incidencia",
@@ -2975,7 +2986,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de incidencia",
-            "definicion": "Ángulo formado polo raio incidente e a normal á superficie de separación de dous medios materiais no punto de incidencia. V. reflexión; refracción dunha onda.",
+            "definicion": "Ángulo formado polo raio incidente e a normal á superficie de separación de dous medios materiais no punto de incidencia.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2984,7 +2995,8 @@
     ],
     "relacionadas": [
       "raio incidente",
-      "raio"
+      "reflexión",
+      "refracción dunha onda"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2996,7 +3008,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de polarización",
-            "definicion": "Ángulo de incidencia necesario para que o raio reflectido por unha superficie de separación entre dous medios estea totalmente polarizado. V. polarización; Brewster, lei de.",
+            "definicion": "Ángulo de incidencia necesario para que o raio reflectido por unha superficie de separación entre dous medios estea totalmente polarizado.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3004,9 +3016,10 @@
       }
     ],
     "relacionadas": [
-      "raio",
-      "Ángulo de incidencia",
-      "raio reflectido"
+      "ángulo de incidencia",
+      "raio reflectido",
+      "polarización",
+      "Brewster, lei de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3038,7 +3051,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de refracción",
-            "definicion": "Ángulo formado polo raio refractado e a normal á superficie de separación de dous medios no punto de incidencia. Na refracción, o ángulo de refracción e o de incidencia están relacionados segundo a lei de Snell. V. refracción.",
+            "definicion": "Ángulo formado polo raio refractado e a normal á superficie de separación de dous medios no punto de incidencia. Na refracción, o ángulo de refracción e o de incidencia están relacionados segundo a lei de Snell.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3046,7 +3059,8 @@
       }
     ],
     "relacionadas": [
-      "Snell"
+      "Snell, lei de",
+      "refracción"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3058,7 +3072,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de refrinxencia dun prisma",
-            "definicion": "Ángulo que forman entre si dúas caras dun prisma óptico. V. refracción.",
+            "definicion": "Ángulo que forman entre si dúas caras dun prisma óptico.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3066,11 +3080,29 @@
       }
     ],
     "relacionadas": [
-      "prisma",
+      "refracción",
       "prisma óptico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
+  },
+  {
+    "termo" : "ángulo de rozamento cinético",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "ángulo de rozamento cinético",
+            "definicion" : "",
+            "simbolo" : "",
+            "sinonimos": ["ángulo de rozamento dinámico"]
+          }
+        }
+      }
+    ],
+    "relacionadas" : [],
+    "ten_ecuacions" : false,
+    "ten_figuras" : false
   },
   {
     "termo": "ángulo de rozamento dinámico",
@@ -3079,18 +3111,17 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de rozamento dinámico",
-            "definicion": "Sb. d. Aquel que marca o inicio do movemento dun corpo sobre un plano inclinado. A súa tanxente coincide co coeficiente de rozamento dinámico e numericamente sempre é inferior ao ángulo de rozamento estático.",
+            "definicion": "Aquel que marca o inicio do movemento dun corpo sobre un plano inclinado. A súa tanxente coincide co coeficiente de rozamento dinámico e numericamente sempre é inferior ao ángulo de rozamento estático.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$phi.alt_d$"
           }
         }
       }
     ],
     "relacionadas": [
-      "coeficiente",
       "coeficiente de rozamento dinámico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -3100,19 +3131,18 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de rozamento estático",
-            "definicion": "Sb. s. O máximo que pode acadar un plano inclinado antes de que o corpo que sostén se poña en movemento; por iso tamén se coñece como ángulo límite de equilibrio. A tanxente deste ángulo coincide co coeficiente de rozamento estático.",
+            "definicion": "O máximo que pode acadar un plano inclinado antes de que o corpo que sostén se poña en movemento; por iso tamén se coñece como ángulo límite de equilibrio. A tanxente deste ángulo coincide co coeficiente de rozamento estático.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$phi.alt_s$"
           }
         }
       }
     ],
     "relacionadas": [
       "coeficiente de rozamento estático",
-      "coeficiente",
       "ángulo límite de equilibrio"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -3122,7 +3152,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de torsión",
-            "definicion": "Aquel que mide a deformación que se produce cando un par de forzas actúa sobre un corpo e o retorce. Así, nun cilindro de lonxitude L e radio R fixo nun extremo, o ángulo de torsión producido por un par de forzas, de momento M respecto ao eixe de xiro central, vén dado pola expresiónonde G é o módulo de esvaramento.",
+            "definicion": "Aquel que mide a deformación que se produce cando un par de forzas actúa sobre un corpo e o retorce. Así, nun cilindro de lonxitude $L$ e radio $R$ fixo nun extremo, o ángulo de torsión producido por un par de forzas, de momento $M$ respecto ao eixe de xiro central, vén dado pola expresión $ alpha = 1/G M (2L)/(pi R^4) $ onde $G$ é o módulo de esvaramento.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3130,12 +3160,10 @@
       }
     ],
     "relacionadas": [
-      "par",
       "módulo de esvaramento",
-      "par de forzas",
-      "módulo"
+      "par de forzas"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -3145,9 +3173,9 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de transmisión",
-            "definicion": "Sb. . En cinemática de mecanismos, ángulo que forma o elo de saída e o acoplador. Constitúe unha medida da calidade da transmisión da forza e a velocidade na xunta cinemática.",
+            "definicion": "En cinemática de mecanismos, ángulo que forma o elo de saída e o acoplador. Constitúe unha medida da calidade da transmisión da forza e a velocidade na xunta cinemática.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$mu$"
           }
         }
       }
@@ -3155,10 +3183,9 @@
     "relacionadas": [
       "elo",
       "acoplador",
-      "xunta",
       "xunta cinemática"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -3186,7 +3213,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo horario",
-            "definicion": "En astronomía, ángulo medido sobre o plano do Ecuador, partindo dende o sur do observador ou observadora e virando no sentido sur-oeste-norte-leste-sur, ou sexa, no sentido de xiro aparente da propia esfera celeste. Exprésase en graos e, máis frecuentemente, en unidades de tempo, de tal xeito que cada 15º equivalen a 1 hora. V. coordenadas ecuatoriais horarias.",
+            "definicion": "En astronomía, ángulo medido sobre o plano do Ecuador, partindo dende o sur do observador ou observadora e virando no sentido sur-oeste-norte-leste-sur, ou sexa, no sentido de xiro aparente da propia esfera celeste. Exprésase en graos e, máis frecuentemente, en unidades de tempo, de tal xeito que cada 15º equivalen a 1 hora.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3195,7 +3222,7 @@
     ],
     "relacionadas": [
       "esfera celeste",
-      "esfera"
+      "coordenadas ecuatoriais horarias"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3207,7 +3234,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo límite",
-            "definicion": "Ángulo de incidencia con que debe chegar un raio luminoso á superficie de separación de dous medios para que o ángulo de refracción sexa igual a 90º. Para ángulos de incidencia maiores ten lugar a reflexión total. O valor deste ángulo L, vén dado pola lei de Snell, segundo.",
+            "definicion": "Ángulo de incidencia con que debe chegar un raio luminoso á superficie de separación de dous medios para que o ángulo de refracción sexa igual a 90º. Para ángulos de incidencia maiores ten lugar a reflexión total. O valor deste ángulo $L$, vén dado pola lei de Snell, segundo $ (sin(hat(L)))/(sin(90º)) = (n_2)/(n_1) => sin(hat(L)) = (n_2)/(n_1) = n_(21). $",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3215,14 +3242,13 @@
       }
     ],
     "relacionadas": [
-      "Snell",
-      "Ángulo",
+      "Snell, lei de",
       "reflexión total",
       "refracción",
-      "Ángulo de incidencia",
+      "ángulo de incidencia",
       "reflexión"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -3232,7 +3258,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo límite de equilibrio",
-            "definicion": "Ángulo de rozamento estático.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3240,8 +3266,7 @@
       }
     ],
     "relacionadas": [
-      "Ángulo de rozamento estático",
-      "Ángulo"
+      "ángulo de rozamento estático"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3253,9 +3278,9 @@
         "lingua": {
           "gl": {
             "termo": "ángulo sólido",
-            "definicion": "Sb.. Superficie que determina nunha esfera de radio unidade un cono co vértice no centro desa esfera. A unidade de ángulo sólido no SI é o estereorradián. .0figura0.",
+            "definicion": "Superficie que determina nunha esfera de radio unidade un cono co vértice no centro desa esfera. A unidade de ángulo sólido no SI é o estereorradián. #html.frame(image(\"/dicionario/figuras/angulo_solido.svg\"))",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$Omega$"
           }
         }
       }
@@ -3263,8 +3288,8 @@
     "relacionadas": [
       "estereorradián"
     ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_ecuacions": true,
+    "ten_figuras": true
   },
   {
     "termo": "ángulo visual",
@@ -3281,7 +3306,6 @@
       }
     ],
     "relacionadas": [
-      "obxectivo",
       "obxectivo fotográfico"
     ],
     "ten_ecuacions": false,
@@ -3294,14 +3318,14 @@
         "lingua": {
           "gl": {
             "termo": "anharmonicidade",
-            "definicion": "V. oscilador anharmónico.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["oscilador anharmónico"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -3332,7 +3356,7 @@
         "lingua": {
           "gl": {
             "termo": "aniquilación de pares",
-            "definicion": "Reacción entre unha partícula e a súa antipartícula, na que desaparecen as dúas para dar lugar á formación de fotóns e/ou outras partículas fundamentais. Así, o choque entre un protón e un antiprotón produce a aniquilación do par, dando lugar a diferentes partículas, maioritariamente pións. V. mecánica cuántica; Einstein, ecuación de; baleiro cuántico.",
+            "definicion": "Reacción entre unha partícula e a súa antipartícula, na que desaparecen as dúas para dar lugar á formación de fotóns e/ou outras partículas fundamentais. Así, o choque entre un protón e un antiprotón produce a aniquilación do par, dando lugar a diferentes partículas, maioritariamente pións.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3341,7 +3365,10 @@
     ],
     "relacionadas": [
       "antipartícula",
-      "pións"
+      "pión",
+      "mecánica cuántica",
+      "Einstein, ecuación de",
+      "baleiro cuántico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3391,7 +3418,7 @@
         "lingua": {
           "gl": {
             "termo": "ano anomalístico",
-            "definicion": "Intervalo de tempo que transcorre entre dous pasos consecutivos da Terra polo seu perihelio. Equivale, en promedio a 365,259 63 días ou sexa 365 d 06 h 13 min 52 s.",
+            "definicion": "Intervalo de tempo que transcorre entre dous pasos consecutivos da Terra polo seu perihelio. Equivale, en promedio a 365.25963 días ou sexa 365 d 06 h 13 min 52 s.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3411,7 +3438,7 @@
         "lingua": {
           "gl": {
             "termo": "ano dracónico",
-            "definicion": "Ano eclíptico.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3419,7 +3446,6 @@
       }
     ],
     "relacionadas": [
-      "Ano",
       "Ano eclíptico"
     ],
     "ten_ecuacions": false,
@@ -3441,7 +3467,8 @@
     ],
     "relacionadas": [
       "ano dracónico",
-      "nodo"
+      "nodo",
+      "Saros, ciclo de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3453,7 +3480,7 @@
         "lingua": {
           "gl": {
             "termo": "ano gregoriano",
-            "definicion": "Unidade de tempo, base do calendario gregoriano, introducido polo papa Gregorio XIII, no 1582, e pouco a pouco establecido como base do calendario eclesiástico dos cristianos, e do calendario civil, actualmente vixente nas relacións internacionais. Ao haber anos comúns, de 365 días, e anos bisestos, cada catro anos exceptuando os divisibles por 100 e non por 400 (o 1900 non foi bisesto e o 2000 si), a duración media dun ano gregoriano é de 365, 242 50 días, o que representa uns 27 segundos máis que o ano trópico real.",
+            "definicion": "Unidade de tempo, base do calendario gregoriano, introducido polo papa Gregorio XIII, no 1582, e pouco a pouco establecido como base do calendario eclesiástico dos cristianos, e do calendario civil, actualmente vixente nas relacións internacionais. Ao haber anos comúns, de 365 días, e anos bisestos, cada catro anos exceptuando os divisibles por 100 e non por 400 (o 1900 non foi bisesto e o 2000 si), a duración media dun ano gregoriano é de 365.24250 días, o que representa uns 27 segundos máis que o ano trópico real.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3462,11 +3489,46 @@
     ],
     "relacionadas": [
       "calendario",
-      "ano",
       "ano trópico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
+  },
+  {
+    "termo" : "ano-luz",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "ano-luz",
+            "definicion" : "Unidade de distancia empregada en astronomía, equivalente á distancia percorrida pola luz no baleiro nun ano terrestre. Un ano-luz considérase igual a 9.46073047·10¹² km",
+            "simbolo" : "",
+            "sinonimos": []
+          }
+        }
+      }
+    ],
+    "relacionadas" : [],
+    "ten_ecuacions" : false,
+    "ten_figuras" : false
+  },
+  {
+    "termo" : "ano platónico",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "ano platónico",
+            "definicion" : "Intervalo de tempo en que a Terra completa unha oscilación no seu movemento de precesión e que dura uns 25700 anos",
+            "simbolo" : "",
+            "sinonimos": []
+          }
+        }
+      }
+    ],
+    "relacionadas" : ["precesión"],
+    "ten_ecuacions" : false,
+    "ten_figuras" : false
   },
   {
     "termo": "ano sidéreo",
@@ -3475,7 +3537,7 @@
         "lingua": {
           "gl": {
             "termo": "ano sidéreo",
-            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo círculo horario dunha mesma estrela. En promedio dura uns 365,256 36 días solares medios, equivalente a 365 d 6 h 9 min 10 s. V. tempo sidéreo.",
+            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo círculo horario dunha mesma estrela. En promedio dura uns 365.256 36 días solares medios, equivalente a 365 d 6 h 9 min 10 s.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3484,9 +3546,8 @@
     ],
     "relacionadas": [
       "círculo horario",
-      "días",
-      "círculo",
-      "días solares medios"
+      "días solares medios",
+      "tempo sidéreo"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3498,7 +3559,7 @@
         "lingua": {
           "gl": {
             "termo": "ano trópico",
-            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo punto vernal.  En promedio dura uns 365,242 19 días solares medios, equivalente a 365 d 5 h 48 min 45,6 s.",
+            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo punto vernal.  En promedio dura uns 365,242 19 días solares medios, equivalente a 365 d 5 h 48 min 45.6 s.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3507,8 +3568,6 @@
     ],
     "relacionadas": [
       "punto vernal",
-      "punto",
-      "días",
       "días solares medios"
     ],
     "ten_ecuacions": false,
@@ -3521,7 +3580,7 @@
         "lingua": {
           "gl": {
             "termo": "ano xuliano",
-            "definicion": "Unidade de tempo, base do calendario xuliano, introducido por Xulio César no ano 45 a.n.e. e seguido na Europa cristiana e as súas colonias ata a adopción do calendario gregoriano, a partir do 1582. Constaba de 365 días e, cada 4 anos intercalábase 1 día (ano bisesto), polo que a súa duración media é de 365,25 días, uns 11 minutos máis longo que a duración do ano trópico real.",
+            "definicion": "Unidade de tempo, base do calendario xuliano, introducido por Xulio César no ano 45 a.n.e. e seguido na Europa cristiana e as súas colonias ata a adopción do calendario gregoriano, a partir do 1582. Constaba de 365 días e, cada 4 anos intercalábase 1 día (ano bisesto), polo que a súa duración media é de 365.25 días, uns 11 minutos máis longo que a duración do ano trópico real.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3530,7 +3589,6 @@
     ],
     "relacionadas": [
       "calendario",
-      "ano",
       "ano trópico"
     ],
     "ten_ecuacions": false,
@@ -3543,7 +3601,7 @@
         "lingua": {
           "gl": {
             "termo": "ánodo",
-            "definicion": "Nunha célula electroquímica é o electrodo no que ten lugar a oxidación. Segundo este criterio, na pila galvánica é o polo negativo e na cela electrolítica o positivo. V. cátodo.",
+            "definicion": "Nunha célula electroquímica é o electrodo no que ten lugar a oxidación. Segundo este criterio, na pila galvánica é o polo negativo e na cela electrolítica o positivo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3562,55 +3620,14 @@
     ],
     "relacionadas": [
       "célula electroquímica",
-      "pila",
+      "pila galvánica",
       "tubo de baleiro",
       "electrodo",
-      "galvánica",
-      "cela",
+      "cela electrolítica",
       "cátodo",
-      "tubo",
+      "tubo de baleiro",
       "válvula",
-      "célula",
       "cela electrolítica"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "ano-luz",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "ano-luz",
-            "definicion": "Unidade de distancia empregada en astronomía, equivalente á distancia percorrida pola luz no baleiro durante un ano terrestre. Un ano-luz considérase igual a 9,460 730 47.1012 km.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "anomalía  verdadeira",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "anomalía  verdadeira",
-            "definicion": "Ángulo empregado para indicar a posición dun corpo celeste, como un planeta ou un satélite, que xira arredor doutro seguindo unha órbita elíptica. Para o caso dun planeta defínese como o ángulo, v, formado polo vector que vai dende o Sol ao perihelio do planeta e o que vai dende o Sol á posición ocupada polo planeta en cada intre. V. elementos dunha órbita.0figura0común.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "perihelio",
-      "órbita"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3643,7 +3660,7 @@
         "lingua": {
           "gl": {
             "termo": "anomalía excéntrica",
-            "definicion": "Considerando a órbita elíptica dun corpo celeste arredor doutro, como un planeta arredor do Sol, e imaxinando unha circunferencia concéntrica con esa órbita e de radio igual ao semieixe maior desa elipse, chámase anomalía excéntrica ao ángulo (E na figura) formado polo vector que vai dende o centro da órbita ao perihelio do planeta e o vector que vai dende ese centro a un punto da circunferencia, P\", obtido como punto de corte entre a circunferencia imaxinaria e unha recta perpendicular ao semieixe maior da órbita elíptica que pasa pola posición ocupada polo planeta, P', en cada intre.0figura0común.",
+            "definicion": "Considerando a órbita elíptica dun corpo celeste arredor doutro, como un planeta arredor do Sol, e imaxinando unha circunferencia concéntrica con esa órbita e de radio igual ao semieixe maior desa elipse, chámase anomalía excéntrica ao ángulo ($E$ na figura) formado polo vector que vai dende o centro da órbita ao perihelio do planeta e o vector que vai dende ese centro a un punto da circunferencia, $P''$, obtido como punto de corte entre a circunferencia imaxinaria e unha recta perpendicular ao semieixe maior da órbita elíptica que pasa pola posición ocupada polo planeta, $P'$, en cada intre. #html.frame(image(\"/dicionario/figuras/anomalia_verdad_e_excent.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3653,8 +3670,8 @@
     "relacionadas": [
       "perihelio"
     ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_ecuacions": true,
+    "ten_figuras": true
   },
   {
     "termo": "anomalía media",
@@ -3663,7 +3680,7 @@
         "lingua": {
           "gl": {
             "termo": "anomalía media",
-            "definicion": "Considerada a órbita elíptica dun planeta e a circunferencia imaxinada para definir a anomalía excéntrica, chámase anomalía media ao ángulo formado polo vector que vai dende o Sol ao perihelio dun planeta e o que vai dende o Sol á posición que en cada intre ocuparía un corpo ficticio que xírase con velocidade constante por esa circunferencia imaxinaria de tal forma que teña o mesmo tempo de revolución que o planeta real. V. anomalía excéntrica.",
+            "definicion": "Considerada a órbita elíptica dun planeta e a circunferencia imaxinada para definir a anomalía excéntrica, chámase anomalía media ao ángulo formado polo vector que vai dende o Sol ao perihelio dun planeta e o que vai dende o Sol á posición que en cada intre ocuparía un corpo ficticio que xírase con velocidade constante por esa circunferencia imaxinaria de tal forma que teña o mesmo tempo de revolución que o planeta real.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3672,11 +3689,32 @@
     ],
     "relacionadas": [
       "perihelio",
-      "excéntrica",
-      "anomalía"
+      "anomalía excéntrica"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
+  },
+  {
+    "termo": "anomalía  verdadeira",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "anomalía  verdadeira",
+            "definicion": "Ángulo empregado para indicar a posición dun corpo celeste, como un planeta ou un satélite, que xira arredor doutro seguindo unha órbita elíptica. Para o caso dun planeta defínese como o ángulo, $V$, formado polo vector que vai dende o Sol ao perihelio do planeta e o que vai dende o Sol á posición ocupada polo planeta en cada intre. #html.frame(image(\"/dicionario/figuras/anomalia_verdad_e_excent.svg\"))",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "perihelio",
+      "órbita elíptica",
+      "elementos dunha órbita"
+    ],
+    "ten_ecuacions": true,
+    "ten_figuras": true
   },
   {
     "termo": "anomalías da gravidade",
@@ -3685,7 +3723,7 @@
         "lingua": {
           "gl": {
             "termo": "anomalías da gravidade",
-            "definicion": "Diferencia entre o valor calculado da aceleración da gravidade para un lugar da superficie terrestre, empregando a Fórmula Internacional da gravidade (FIG) e a corrección para a altitude do lugar, respecto ao valor obtido experimentalmente nese mesmo lugar. A principal causa destas anomalías é a diferente composición do material que forma a codia terrestre baixo o lugar en cuestión e a inhomoxeneidade do material do manto. V. gravimetría; Bouguer, anomalías de.",
+            "definicion": "Diferencia entre o valor calculado da aceleración da gravidade para un lugar da superficie terrestre, empregando a Fórmula Internacional da gravidade (FIG) e a corrección para a altitude do lugar, respecto ao valor obtido experimentalmente nese mesmo lugar. A principal causa destas anomalías é a diferente composición do material que forma a codia terrestre baixo o lugar en cuestión e a inhomoxeneidade do material do manto.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3693,10 +3731,10 @@
       }
     ],
     "relacionadas": [
-      "aceleración",
-      "a *Fórmula Internacional da gravidade ",
-      "Fórmula",
-      "aceleración da gravidade"
+      "fórmula internacional da gravidade ",
+      "aceleración da gravidade",
+      "gravimetría",
+      "Bouguer, anomalías de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3708,14 +3746,14 @@
         "lingua": {
           "gl": {
             "termo": "antena",
-            "definicion": "Estructura deseñada para a recepción e envío de sinais electromagnéticos. A ganancia dunha antena é a relación entre a potencia requirida por una antena de referencia que non teña perdas de sinal e a potencia que necesita unha antena dada para producir na mesma dirección, e á mesma distancia, a mesma intensidade de campo; exprésase normalmente en decibelios. V. radiotransmisión.",
+            "definicion": "Estructura deseñada para a recepción e envío de sinais electromagnéticos. A ganancia dunha antena é a relación entre a potencia requirida por una antena de referencia que non teña perdas de sinal e a potencia que necesita unha antena dada para producir na mesma dirección, e á mesma distancia, a mesma intensidade de campo; exprésase normalmente en decibelios.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["radiotransmisión"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -3736,8 +3774,7 @@
     "relacionadas": [
       "eixe principal",
       "radioastronomía",
-      "detector",
-      "eixe"
+      "detector"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3757,13 +3794,11 @@
       }
     ],
     "relacionadas": [
-      "Kepler",
-      "Galileo",
-      "anteollo",
+      "Kepler, telescopio de",
+      "Galileo, telescopio de",
       "anteollo de teatro",
-      "Telescopio refractor",
-      "anteollo terrestre",
-      "Telescopio"
+      "telescopio refractor",
+      "anteollo terrestre"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3783,7 +3818,7 @@
       }
     ],
     "relacionadas": [
-      "Galileo"
+      "Galileo, anteollo de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3795,17 +3830,14 @@
         "lingua": {
           "gl": {
             "termo": "anteollo holandés",
-            "definicion": "Galileo, anteollo de.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["Galileo, anteollo de"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Galileo, anteollo de",
-      "Galileo"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -3816,7 +3848,7 @@
         "lingua": {
           "gl": {
             "termo": "anteollo terrestre",
-            "definicion": "Telescopio refractor formado por dúas lentes converxentes, unha como obxectivo, de converxencia pequena, e outra como ocular, de gran converxencia. Como este sistema daría unha imaxe invertida, para obter o anteollo terrestre, entre esas dúas lentes intercálase un par de inversión, formado por outras dúas lentes converxentes, colocadas de forma que distan entre si a suma das súas distancias focais. V. aumento visual; lentes; instrumentos ópticos.",
+            "definicion": "Telescopio refractor formado por dúas lentes converxentes, unha como obxectivo, de converxencia pequena, e outra como ocular, de gran converxencia. Como este sistema daría unha imaxe invertida, para obter o anteollo terrestre, entre esas dúas lentes intercálase un par de inversión, formado por outras dúas lentes converxentes, colocadas de forma que distan entre si a suma das súas distancias focais.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3825,10 +3857,10 @@
     ],
     "relacionadas": [
       "distancias focais",
-      "Telescopio refractor",
-      "distancias",
+      "telescopio refractor",
       "converxencia",
-      "Telescopio"
+      "aumento visual",
+      "lentes"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3840,7 +3872,7 @@
         "lingua": {
           "gl": {
             "termo": "anticiclón",
-            "definicion": "Centro de alta presión barométrica. Vai asociado a un tempo estable, sen nubes nin precipitacións, xa que impide que se acheguen a el masas de aire. As isóbaras dunha zona anticiclónica son curvas circulares ou ovaladas nas que a presión diminúe cara á periferia. V. Coriolis, aceleración de.",
+            "definicion": "Centro de alta presión barométrica. Vai asociado a un tempo estable, sen nubes nin precipitacións, xa que impide que se acheguen a el masas de aire. As isóbaras dunha zona anticiclónica son curvas circulares ou ovaladas nas que a presión diminúe cara á periferia.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3848,7 +3880,8 @@
       }
     ],
     "relacionadas": [
-      "isóbaras"
+      "isóbara",
+      "Coriolis, aceleración de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3860,16 +3893,14 @@
         "lingua": {
           "gl": {
             "termo": "antielectrón",
-            "definicion": "Positrón.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["positrón"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Positrón"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -3908,11 +3939,10 @@
       }
     ],
     "relacionadas": [
-      "momento",
-      "paramagnética",
-      "temperatura de Néel",
+      "paramagnético",
+      "Néel, temperatura de",
       "momento magnético",
-      "ferromagnéticas"
+      "ferromagnético"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3924,7 +3954,7 @@
         "lingua": {
           "gl": {
             "termo": "antimateria",
-            "definicion": "V. antipartículas.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3934,7 +3964,7 @@
         "lingua": {
           "gl": {
             "termo": "antimateria",
-            "definicion": "Estructura composta de átomos formados por antipartículas. V. materia.",
+            "definicion": "Estructura composta de átomos formados por antipartículas.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3942,7 +3972,9 @@
       }
     ],
     "relacionadas": [
-      "átomos"
+      "átomo",
+      "antipartícula",
+      "materia"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3954,18 +3986,17 @@
         "lingua": {
           "gl": {
             "termo": "antimonio",
-            "definicion": "Sb. Sb. Elemento químico de número atómico 51, coñecido dende a antigüidade, preséntase na natureza en forma de dous isótopos: Sb-121 (57,21%) e Sb-123 (42,79%), atopándose ata 35 isótopos artificiais máis. Ten dúas formas alotrópicas: a forma metálica, que é a máis normal e estable, e a gris amorfa. O antimonio metálico é branco prateado, quebradizo e mal conductor da electricidade. MA. 121,760 u; Pf. 630,5 ºC; Pe. 1 380 ºC;  6 691 kgm-3.",
+            "definicion": "Elemento químico de número atómico 51, coñecido dende a antigüidade, preséntase na natureza en forma de dous isótopos: Sb-121 (57,21%) e Sb-123 (42,79%), atopándose ata 35 isótopos artificiais máis. Ten dúas formas alotrópicas: a forma metálica, que é a máis normal e estable, e a gris amorfa. O antimonio metálico é branco prateado, quebradizo e mal conductor da electricidade. MA. 121.760 u; Pf. 630.5 ºC; Pe. 1380 ºC; $rho$ 6691 kg m⁻³.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[Sb]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
-      "isótopos",
-      "*número atómico",
-      "Elemento químico"
+      "isótopo",
+      "número atómico",
+      "elemento químico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3977,22 +4008,24 @@
         "lingua": {
           "gl": {
             "termo": "antineutrino",
-            "definicion": "Sb. . Antipartícula do neutrino. Segundo o chamado modelo estándar, a masa en repouso do neutrino sería cero e, como consecuencia de tal feito, o antineutrino diferénciase do neutrino en que teñen helicidade oposta, pois mentres o antineutrino presenta helicidade positiva o neutrino ten helicidade negativa. Segundo outros modelos ou teorías, o neutrino podería ter unha masa en repouso non nula e, neste caso, o neutrino e o antineutrino coincidirían, resultando que o neutrino sería a súa propia antipartícula. V. leptóns; fermións; Majorana, neutrino de; desintegración beta dobre.",
+            "definicion": "Antipartícula do neutrino. Segundo o chamado modelo estándar, a masa en repouso do neutrino sería cero e, como consecuencia de tal feito, o antineutrino diferénciase do neutrino en que teñen helicidade oposta, pois mentres o antineutrino presenta helicidade positiva o neutrino ten helicidade negativa. Segundo outros modelos ou teorías, o neutrino podería ter unha masa en repouso non nula e, neste caso, o neutrino e o antineutrino coincidirían, resultando que o neutrino sería a súa propia antipartícula.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$macron(nu)$"
           }
         }
       }
     ],
     "relacionadas": [
       "helicidade",
-      "Antipartícula",
+      "antipartícula",
       "modelo estándar",
       "masa en repouso",
-      "masa",
-      "modelo"
+      "leptón",
+      "fermión",
+      "Majorana, neutrino de",
+      "desintegración beta dobre"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -4002,17 +4035,19 @@
         "lingua": {
           "gl": {
             "termo": "antineutrón",
-            "definicion": "Sb. . Antipartícula do neutrón que se diferencia do mesmo por ter helicidade oposta. V. barións; fermións.",
+            "definicion": "Antipartícula do neutrón que se diferencia do mesmo por ter helicidade oposta.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$macron(n)^0$"
           }
         }
       }
     ],
     "relacionadas": [
-      "helicidade"
+      "helicidade",
+      "barión",
+      "fermión"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -4022,7 +4057,7 @@
         "lingua": {
           "gl": {
             "termo": "antipartícula",
-            "definicion": "Cada partícula leva asociada unha antipartícula, que ten a mesma masa e espín que a partícula, pero algunhas propiedades opostas como a carga eléctrica e/ou o momento magnético. Cada antipartícula represéntase co mesmo signo que o correspondente á partícula pero cunha barra enrriba. A primeira antipartícula observada foi o positrón ou antielectrón,, no 1933; o antiprotón e o antineutrón foron observados no 1955.",
+            "definicion": "Cada partícula leva asociada unha antipartícula, que ten a mesma masa e espín que a partícula, pero algunhas propiedades opostas como a carga eléctrica e/ou o momento magnético. Cada antipartícula represéntase co mesmo signo que o correspondente á partícula pero cunha barra enrriba. A primeira antipartícula observada foi o positrón ou antielectrón, $macron(e)^+$, en 1933; o antiprotón e o antineutrón foron observados no 1955.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4030,12 +4065,10 @@
       }
     ],
     "relacionadas": [
-      "carga",
       "carga eléctrica",
-      "momento",
       "momento magnético"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -4045,15 +4078,15 @@
         "lingua": {
           "gl": {
             "termo": "antiprotón",
-            "definicion": "Sb. . Antipartícula do protón. O antiprotón ten a mesma masa e espín que o protón e o mesmo valor de carga eléctrica pero de signo contrario. Unha colisión protón-protón pode producir un par protón-antiprotón sempre que a enerxía cinética do protón incidente (respecto ao outro, suposto en repouso) sexa igual ou maior que 5,64 GeV.",
+            "definicion": "Antipartícula do protón. O antiprotón ten a mesma masa e espín que o protón e o mesmo valor de carga eléctrica pero de signo contrario. Unha colisión protón-protón pode producir un par protón-antiprotón sempre que a enerxía cinética do protón incidente (respecto ao outro, suposto en repouso) sexa igual ou maior que 5.64 GeV.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$macron(p)^+$"
           }
         }
       }
     ],
     "relacionadas": [],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -4063,20 +4096,19 @@
         "lingua": {
           "gl": {
             "termo": "antiquark",
-            "definicion": "Sb. . Partículas de igual masa e espín que o quark correspondente, pero con carga eléctrica e carga cromática contrarias ás do mesmo. A combinación dun quark e o seu antiquark forman unha combinación estable sen carga cromática. V. cromodinámica cuántica.",
+            "definicion": "Partículas de igual masa e espín que o quark correspondente, pero con carga eléctrica e carga cromática contrarias ás do mesmo. A combinación dun quark e o seu antiquark forman unha combinación estable sen carga cromática.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$macron(q)_r$"
           }
         }
       }
     ],
     "relacionadas": [
-      "carga",
       "carga cromática",
-      "cromática",
-      "quark"
+      "quark",
+      "cromodinámica cuántica"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -4094,7 +4126,7 @@
       }
     ],
     "relacionadas": [
-      "espectroscopía"
+      "Raman, espectroscopía de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -4106,14 +4138,14 @@
         "lingua": {
           "gl": {
             "termo": "apantallamento",
-            "definicion": "V. efecto de apantallamento.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["efecto de apantallamento"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -4136,11 +4168,7 @@
       "obxectivo",
       "eixe principal",
       "poder separador",
-      "microscopio óptico",
-      "microscopio",
-      "eixe",
-      "índice",
-      "poder"
+      "microscopio óptico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -4162,9 +4190,7 @@
     "relacionadas": [
       "ascensión recta",
       "antiápex",
-      "bóveda celeste",
-      "bóveda",
-      "ascensión"
+      "bóveda celeste"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
