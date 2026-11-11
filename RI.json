@@ -5836,11 +5836,48 @@
     "relacionadas": [
       "ionosfera",
       "ionización",
-      "vento solar,",
+      "vento solar",
       "xeomagnetismo"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
+  },
+  {
+    "termo" : "autofunción",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "autofunción",
+            "definicion" : "Tamén chamada función propia, característica ou eigenfunción, en mecánica cuántica é cada unha das funcións que se obtén como solución da ecuación de Schrödinger independente do tempo, correspondendo unha función característica a cada valor propio de enerxía $E_j$ e para cada conxunto de valores dos números cuánticos implicados. Cada unha destas funcións determina a dependencia espacial dunha función de onda, $Psi$ no caso unidimensional, a través da ecuación $ Psi(x, t) = psi_j (x) e^(-i E_j t \\/ planck) $ onde $planck$ é a constante racionalizada de Plank e $i$ o factor dos números complexos. Á vista da ecuación xeral anterior, pódese considerar cada función característica como a amplitude da función de onda correspondente, dado que esta se divide en dous termos independentes: a función característica $psi_j (x)$, dependente da posición $x$, e o factor $e^(-i E_j t \\/ planck)$, dependente do tempo. Pódese demostrar que a ecuación é equivalente á típica ecuación de ondas $ Psi_j (x,t) = psi_j (x) sin(E_j t + theta). $",
+            "simbolo" : "$psi(x, y, z)$",
+            "sinonimos": []
+          }
+        }
+      },
+      {
+        "lingua": {
+          "gl": {
+            "termo": "autofunción",
+            "definicion" : "En xeral, calquera función que se corresponde cunha solución aceptábel dunha ecuación xeral, como a ecuación de Schrödinger, no sentido de satisfacer determinadas condicións como ser continua, finita, satisfacer condicións dos límites, entre outras",
+            "simbolo" : "",
+            "sinonimos": []
+          }
+        }
+      }
+    ],
+    "relacionadas" : [
+        "mecánica cuántica",
+        "Schrödinger, ecuación de",
+        "valor propio",
+        "número cuántico",
+        "función de onda",
+        "Planck, constante racionalizada de",
+        "número complexo",
+        "ecuación de ondas"
+    ],
+    "ten_ecuacions" : true,
+    "ten_figuras" : false
   },
   {
     "termo": "autoinducción",
@@ -5849,7 +5886,7 @@
         "lingua": {
           "gl": {
             "termo": "autoinducción",
-            "definicion": "Fenómeno que se produce cando, ao cambiar a intensidade da corrente eléctrica que circula por un circuíto, prodúcese un cambio no fluxo magnético que atravesa o devandito circuíto, aparecendo unha corrente inducida, que supón unha forza electromotriz (FEM) inducida no mesmo. O valor desta FEM deriva das leis de Henry-Faraday e Lenz, e vén dado porsendo L o chamado coeficiente de autoinducción, característico de cada circuíto, e I a intensidade da corrente que circula polo mesmo.",
+            "definicion": "Fenómeno que se produce cando, ao cambiar a intensidade da corrente eléctrica que circula por un circuíto, prodúcese un cambio no fluxo magnético que atravesa o devandito circuíto, aparecendo unha corrente inducida, que supón unha forza electromotriz (FEM) inducida no mesmo. O valor desta FEM deriva das leis de Henry-Faraday e Lenz, e vén dado por $ epsilon = -L (d I)/(d t), $ sendo $L$ o chamado coeficiente de autoinducción, característico de cada circuíto, e $I$ a intensidade da corrente que circula polo mesmo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -5859,7 +5896,7 @@
         "lingua": {
           "gl": {
             "termo": "autoinducción",
-            "definicion": "Nome simplificado do coeficiente de autoinducción. V. Henry-Faraday, lei de; Lenz, lei de.",
+            "definicion": "Nome simplificado do coeficiente de autoinducción.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -5867,20 +5904,16 @@
       }
     ],
     "relacionadas": [
-      "fluxo",
-      "forza",
-      "Henry",
-      "Lenz",
+      "Henry-Faraday, lei de",
+      "Lenz, lei de",
       "coeficiente",
-      "intensidade",
-      "corrente inducida, ",
-      "forza electromotriz (FEM)",
+      "corrente inducida",
+      "forza electromotriz",
       "fluxo magnético",
       "coeficiente de autoinducción",
-      "intensidade da corrente eléctrica",
-      "corrente"
+      "intensidade da corrente"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -5890,7 +5923,7 @@
         "lingua": {
           "gl": {
             "termo": "Avogadro, hipótese de",
-            "definicion": "Lei descuberta polo físico Lorenzo Romano Amadeo Carlo Avogadro di Quaregna (1776-1856) que establece que baixo as mesmas condicións de presión e temperatura, volumes iguais de diferentes gases ideais conteñen o mesmo número de partículas elementais. Enunciándoa doutro xeito podemos afirmar que o mesmo número de moléculas de gases diferentes, a igual presión e temperatura ocupan o mesmo volume. De xeito particular un mol de calquera gas ideal en condicións normais ocupan 22,4 litros. Este volume coñécese como volume molar.",
+            "definicion": "Lei descuberta polo físico Lorenzo Romano Amadeo Carlo Avogadro di Quaregna (1776-1856) que establece que baixo as mesmas condicións de presión e temperatura, volumes iguais de diferentes gases ideais conteñen o mesmo número de partículas elementais. Enunciándoa doutro xeito podemos afirmar que o mesmo número de moléculas de gases diferentes, a igual presión e temperatura ocupan o mesmo volume. De xeito particular un mol de calquera gas ideal en condicións normais ocupan 22.4 litros. Este volume coñécese como volume molar.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -5899,9 +5932,7 @@
     ],
     "relacionadas": [
       "gas ideal",
-      "condicións",
       "condicións normais",
-      "gas",
       "volume molar"
     ],
     "ten_ecuacions": false,
@@ -5914,14 +5945,14 @@
         "lingua": {
           "gl": {
             "termo": "Avogadro, número de",
-            "definicion": "Número de átomos existentes en 0,012 kg de 12C. En xeral, número de moléculas existentes nun mol dun composto ou de átomos nun mol dun elemento químico. O valor aproximado é de 6,022 045·1023 mol-1.",
+            "definicion": "Número de átomos existentes en 0.012 kg de 12C. En xeral, número de moléculas existentes nun mol dun composto ou de átomos nun mol dun elemento químico. O valor aproximado é de 6.022045·10²³ partículas por mol.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["mol"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -5932,7 +5963,7 @@
         "lingua": {
           "gl": {
             "termo": "axente do campo",
-            "definicion": "Carga eléctrica ou masa que, debido a súa presencia nunha rexión do espazo, define un determinado campo eléctrico ou magnético no primeiro caso, ou gravitatorio no segundo. V. campo.",
+            "definicion": "Carga eléctrica ou masa que, debido a súa presencia nunha rexión do espazo, define un determinado campo eléctrico ou magnético no primeiro caso, ou gravitatorio no segundo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -5961,7 +5992,7 @@
       }
     ],
     "relacionadas": [
-      "teoremas"
+      "teorema"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6009,16 +6040,14 @@
         "lingua": {
           "gl": {
             "termo": "azimut",
-            "definicion": "Acimut.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["acimut"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Acimut"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
