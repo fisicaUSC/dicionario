@@ -236,7 +236,7 @@
         "lingua": {
           "gl": {
             "termo": "absorbancia",
-            "definicion": "Parámetro que caracteriza a absorción de enerxía dunha determinada radiación ao atravesar un medio material transparente. Exprésase como o logaritmo decimal do inverso da transmitancia do devandito medio. Para o caso dunha disolución, a absorbancia depende directamente da molaridade da mesma, $M$, e da distancia percorrida ao seu través, $Delta x$, tal como indica a lei de Beer $ A = log phi_(e 0)/phi_e = epsilon dot M dot Delta x $ A constante de proporcionalidade nesta expresión, $epsilon$ , é o chamado coeficiente de extinción molar. Determinada a absorbancia da disolución por fotocolorimetría, e coñecido o espesor $Delta x$, así como o valor do coeficiente de extinción molar nesas condicións, pódese determinar a concentración desa disolución, resultando de gran utilidade na análise química. A absorbancia tamén recibe o nome de extinción.",
+            "definicion": "Parámetro que caracteriza a absorción de enerxía dunha determinada radiación ao atravesar un medio material transparente. Exprésase como o logaritmo decimal do inverso da transmitancia do devandito medio. Para o caso dunha disolución, a absorbancia depende directamente da molaridade da mesma, $M$, e da distancia percorrida ao seu través, $Delta x$, tal como indica a lei de Beer $ A = log phi_(e 0)/phi_e = epsilon dot M dot Delta x. $ A constante de proporcionalidade nesta expresión, $epsilon$ , é o chamado coeficiente de extinción molar. Determinada a absorbancia da disolución por fotocolorimetría, e coñecido o espesor $Delta x$, así como o valor do coeficiente de extinción molar nesas condicións, pódese determinar a concentración desa disolución, resultando de gran utilidade na análise química. A absorbancia tamén recibe o nome de extinción.",
             "sinonimos": ["extinción"],
             "simbolo": "$A$"
           }
@@ -1035,7 +1035,7 @@
         "lingua": {
           "gl": {
             "termo": "actinio",
-            "definicion": "Elemento químico de número atómico 89 descuberto no 1899, por A. Debierne. De aspecto metálico prateado, preséntase na natureza como dous isótopos radioactivos: o Ac-227, cunha vida media de 21,7 días, atópase acompañando ao uranio; o outro isótopo natural é o Ac-228, e hai 29 isótopos artificiais máis. A principal aplicación deste elemento é o seu emprego como fonte de partículas alfa. MA. 227.03 u; Pf. 1230 ºC; Peb. 2400 ºC;  10060 kg·m⁻³.",
+            "definicion": "Elemento químico de número atómico 89 descuberto no 1899, por A. Debierne. De aspecto metálico prateado, preséntase na natureza como dous isótopos radioactivos: o Ac-227, cunha vida media de 21.7 días, atópase acompañando ao uranio; o outro isótopo natural é o Ac-228, e hai 29 isótopos artificiais máis. A principal aplicación deste elemento é o seu emprego como fonte de partículas alfa. MA. 227.03 u; Pf. 1230 ºC; Peb. 2400 ºC;  10060 kg·m⁻³.",
             "sinonimos": [],
             "simbolo": "$#[Ac]$"
           }
@@ -1314,7 +1314,7 @@
         "lingua": {
           "gl": {
             "termo": "aerodinámica",
-            "definicion": "Parte da mecánica que estudia o movemento dos gases e dos corpos dentro deles, particularmente no aire. Base da industria aeronáutica, esencialmente trata de determinar a resistencia que opón o aire a ser atravesado por sólidos de diferentes formas. A ecuación fundamental da aerodinámica é o resultado da experimentación en túneles de vento e establece que esa resistencia responde á ecuación $ R = 1/2 C_d A rho v^2. $Onde $C d$ é o chamado coeficiente aerodinámico ou de arrastre, un factor que depende da forma do corpo e do número de Reynolds e que soe tomar valores entre 0.3 e 0.5. $A$ representa a área da sección transversal que o corpo ofrece ao aire, $rho$ a densidade do aire e $v$ dá conta da velocidade do corpo.",
+            "definicion": "Parte da mecánica que estudia o movemento dos gases e dos corpos dentro deles, particularmente no aire. Base da industria aeronáutica, esencialmente trata de determinar a resistencia que opón o aire a ser atravesado por sólidos de diferentes formas. A ecuación fundamental da aerodinámica é o resultado da experimentación en túneles de vento e establece que esa resistencia responde á ecuación $ R = 1/2 C_d A rho v^2. $Onde $C_d$ é o chamado coeficiente aerodinámico ou de arrastre, un factor que depende da forma do corpo e do número de Reynolds e que soe tomar valores entre 0.3 e 0.5. $A$ representa a área da sección transversal que o corpo ofrece ao aire, $rho$ a densidade do aire e $v$ dá conta da velocidade do corpo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2127,7 +2127,7 @@
         "lingua": {
           "gl": {
             "termo": "aluminio",
-            "definicion": "Elemento químico de número atómico13, descuberto no 1825, por H. C. Oersted. De aspecto metálico e cor branca prateada, é bo conductor da calor e da electricidade, sendo o metal máis abundante (8 %) na codia terrestre. O aluminio natural está constituído de forma exclusiva polo isótopo Al-27, pero hai 18 isótopos artificiais máis. Preséntase en multitude de compostos entre os que destacan os silicatos de aluminio complexos como as arxilas. A maioría do que se consume extráese da bauxita (Al2O3·xH2O). Debido á súa baixa densidade, as súas aliaxes teñen moitos usos industriais. MA. 26.981 5 u; Pf. 660 ºC; Peb. 2519 ºC; $rho$ 2700 kg·m⁻³.",
+            "definicion": "Elemento químico de número atómico13, descuberto no 1825, por H. C. Oersted. De aspecto metálico e cor branca prateada, é bo conductor da calor e da electricidade, sendo o metal máis abundante (8 %) na codia terrestre. O aluminio natural está constituído de forma exclusiva polo isótopo Al-27, pero hai 18 isótopos artificiais máis. Preséntase en multitude de compostos entre os que destacan os silicatos de aluminio complexos como as arxilas. A maioría do que se consume extráese da bauxita (Al₂O₃·xH₂O). Debido á súa baixa densidade, as súas aliaxes teñen moitos usos industriais. MA. 26.981 5 u; Pf. 660 ºC; Peb. 2519 ºC; $rho$ 2700 kg·m⁻³.",
             "sinonimos": [],
             "simbolo": "$#[Al]$"
           }
@@ -2273,7 +2273,7 @@
             "termo": "ampere",
             "definicion": "Unidade de intensidade de corrente eléctrica no SI, en lembranza do físico André-Marie Ampère (1775-1836). É a intensidade dunha corrente constante que, circulando por dous conductores paralelos e rectilíneos, de lonxitude infinita con sección circular desprezable e situados, no baleiro, a unha distancia dun metro un do outro,  produce entre eles unha forza, por cada metro de lonxitude, de 2·10⁻⁷ N.",
             "sinonimos": [],
-            "simbolo": "$A$"
+            "simbolo": "$#[A]$"
           }
         }
       }
@@ -2315,7 +2315,7 @@
         "lingua": {
           "gl": {
             "termo": "Ampère-Maxwell, lei de",
-            "definicion": "Expresión que relaciona a circulación do vector inducción magnética, $B$, ao longo dunha liña pechada, coa variación segundo o tempo do fluxo eléctrico, $Phi_E$, e coa corrente total, $I$, que atravesa calquera superficie limitada pola liña pechada ao longo da que se integra, segundo: $ integral.cont_C arrow(B) arrow(d l) = mu_0 epsilon_0 (d Phi_E)/(d t) + mu_0 I. $ O primeiro termo no segundo membro desta ecuación amplía a lei de Ampere, no senso de que un campo magnético se pode producir ademais de por unha corrente eléctrica, por un campo eléctrico variable ou calquera outro fenómeno que supoña un cambio no fluxo eléctrico que atravesa a superficie limitada por unha liña pechada. Constitúe a cuarta ecuación de Maxwell.",
+            "definicion": "Expresión que relaciona a circulación do vector inducción magnética, $B$, ao longo dunha liña pechada, coa variación segundo o tempo do fluxo eléctrico, $Phi_E$, e coa corrente total, $I$, que atravesa calquera superficie limitada pola liña pechada ao longo da que se integra, segundo: $ integral.cont_C arrow(B) dot arrow(d l) = mu_0 epsilon_0 (d Phi_E)/(d t) + mu_0 I. $ O primeiro termo no segundo membro desta ecuación amplía a lei de Ampere, no senso de que un campo magnético se pode producir ademais de por unha corrente eléctrica, por un campo eléctrico variable ou calquera outro fenómeno que supoña un cambio no fluxo eléctrico que atravesa a superficie limitada por unha liña pechada. Constitúe a cuarta ecuación de Maxwell.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2595,7 +2595,7 @@
         "lingua": {
           "gl": {
             "termo": "anana branca",
-            "definicion": "Estado da evolución dunha estrela con masa próxima á do Sol e ao que chega na súa vellez. Nese estado a estrela é moitísimo máis densa e de radio moito máis pequeno que o Sol A gravitación, forza que goberna todas as fases estelares, é freada, neste estado tan compactado da materia, pola chamada presión de Fermi, de natureza cuántica. As ananas brancas están formadas maioritariamente por núcleos de helio ou de elementos máis pesados e os electróns libres, correspondentes á estes átomos. Estes electróns, como todos os fermións, cumpren o principio de exclusión de Pauli, ofrecendo unha gran resistencia a ser compactados, o que orixina a presión de Fermi e fai que estes aparezan completamente dexenerados. Para estrelas cunha masa superior a uns 1,4 veces a masa do Sol (masa de Chandrasekhar), a presión de Fermi resulta insuficiente para deter o colapso gravitatorio e a estrela evoluciona a unha estrela de neutróns, ou ata convertirse nun buraco negro.",
+            "definicion": "Estado da evolución dunha estrela con masa próxima á do Sol e ao que chega na súa vellez. Nese estado a estrela é moitísimo máis densa e de radio moito máis pequeno que o Sol A gravitación, forza que goberna todas as fases estelares, é freada, neste estado tan compactado da materia, pola chamada presión de Fermi, de natureza cuántica. As ananas brancas están formadas maioritariamente por núcleos de helio ou de elementos máis pesados e os electróns libres, correspondentes á estes átomos. Estes electróns, como todos os fermións, cumpren o principio de exclusión de Pauli, ofrecendo unha gran resistencia a ser compactados, o que orixina a presión de Fermi e fai que estes aparezan completamente dexenerados. Para estrelas cunha masa superior a uns 1.4 veces a masa do Sol (masa de Chandrasekhar), a presión de Fermi resulta insuficiente para deter o colapso gravitatorio e a estrela evoluciona a unha estrela de neutróns, ou ata convertirse nun buraco negro.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2626,7 +2626,7 @@
         "lingua": {
           "gl": {
             "termo": "anana marrón",
-            "definicion": "Astro de tan pouca masa (sempre inferior á 0,3 veces a masa do Sol), que non chegan a producirse os procesos evolutivos típicos das estrelas que chegan á Secuencia Principal. A contracción gravitatoria, que levaría a un aumento de temperatura suficiente como para producir emisión de luz visible, non ten lugar pois é contrarrestada axiña pola dexeneración do material do astro. Así pois, os núcleos destas estrelas están parcialmente dexenerados, de igual forma que o dos planetas xigantes como Xúpiter e Saturno, compostos fundamentalmente de hidróxeno metálico.",
+            "definicion": "Astro de tan pouca masa (sempre inferior á 0.3 veces a masa do Sol), que non chegan a producirse os procesos evolutivos típicos das estrelas que chegan á Secuencia Principal. A contracción gravitatoria, que levaría a un aumento de temperatura suficiente como para producir emisión de luz visible, non ten lugar pois é contrarrestada axiña pola dexeneración do material do astro. Así pois, os núcleos destas estrelas están parcialmente dexenerados, de igual forma que o dos planetas xigantes como Xúpiter e Saturno, compostos fundamentalmente de hidróxeno metálico.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2735,7 +2735,7 @@
         "lingua": {
           "gl": {
             "termo": "Andrews, isotermas de",
-            "definicion": "Diagrama P-V froito das experiencias por T. Andrews en 1869 con dióxido de carbono. Nelas comprimiu este gas nun tubo a diferentes presións e volumes en cada momento. Descubriu que a temperaturas inferiores aos 31.1ºC obtiña curvas con tres tramos moi diferenciados (ver curva *a* na figura, correspondente a 25ºC). Ao comprimir un determinado volume de gas chegaba ao punto A (vapor saturado), a partir do cal detectaba un paso á fase líquida a unha presión constante, chamada presión de vapor (tramo recto AB na figura). A partir de B (líquido saturado) todo o $#[CO]_2$ está líquido e un aumento de presión non produce cambios significativos no volume. Andrews comprobou que este patrón repetíase a medida que elevaba a temperatura da experiencia coa única diferencia de que o tramo recto facíase cada vez máis pequeno, ata converterse nun punto, chamado punto crítico (PC na figura) cando a temperatura se situaba sobre os 31.1ºC. Neste punto ten lugar a transición entre fases sen que varía o volume delas ou se libere calor algunha. Por encima de 31.1ºC non se pode conseguir $#[CO]_2$ líquido a partir do gas por simple compresión isoterma. #html.frame(image(\"/figuras/andrews_isotermas_de.svg\"))",
+            "definicion": "Diagrama P-V froito das experiencias por T. Andrews en 1869 con dióxido de carbono. Nelas comprimiu este gas nun tubo a diferentes presións e volumes en cada momento. Descubriu que a temperaturas inferiores aos 31.1ºC obtiña curvas con tres tramos moi diferenciados (ver curva *a* na figura, correspondente a 25ºC). Ao comprimir un determinado volume de gas chegaba ao punto A (vapor saturado), a partir do cal detectaba un paso á fase líquida a unha presión constante, chamada presión de vapor (tramo recto AB na figura). A partir de B (líquido saturado) todo o CO₂ está líquido e un aumento de presión non produce cambios significativos no volume. Andrews comprobou que este patrón repetíase a medida que elevaba a temperatura da experiencia coa única diferencia de que o tramo recto facíase cada vez máis pequeno, ata converterse nun punto, chamado punto crítico (PC na figura) cando a temperatura se situaba sobre os 31.1ºC. Neste punto ten lugar a transición entre fases sen que varía o volume delas ou se libere calor algunha. Por encima de 31.1ºC non se pode conseguir CO₂ líquido a partir do gas por simple compresión isoterma. #html.frame(image(\"/figuras/andrews_isotermas_de.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2843,7 +2843,7 @@
         "lingua": {
           "gl": {
             "termo": "angstrom",
-            "definicion": "Unidade de lonxitude equivalente a 10⁻¹⁰ m (= 0,1 nm), empregada fundamentalmente en física atómica e molecular.",
+            "definicion": "Unidade de lonxitude equivalente a 10⁻¹⁰ m (= 0.1 nm), empregada fundamentalmente en física atómica e molecular.",
             "sinonimos": [],
             "simbolo": "$angstrom$"
           }
@@ -4010,7 +4010,7 @@
             "termo": "antineutrino",
             "definicion": "Antipartícula do neutrino. Segundo o chamado modelo estándar, a masa en repouso do neutrino sería cero e, como consecuencia de tal feito, o antineutrino diferénciase do neutrino en que teñen helicidade oposta, pois mentres o antineutrino presenta helicidade positiva o neutrino ten helicidade negativa. Segundo outros modelos ou teorías, o neutrino podería ter unha masa en repouso non nula e, neste caso, o neutrino e o antineutrino coincidirían, resultando que o neutrino sería a súa propia antipartícula.",
             "sinonimos": [],
-            "simbolo": "$macron(nu)$"
+            "simbolo": "$dash(nu)$"
           }
         }
       }
@@ -4037,7 +4037,7 @@
             "termo": "antineutrón",
             "definicion": "Antipartícula do neutrón que se diferencia do mesmo por ter helicidade oposta.",
             "sinonimos": [],
-            "simbolo": "$macron(n)^0$"
+            "simbolo": "$dash(n)^0$"
           }
         }
       }
@@ -4057,7 +4057,7 @@
         "lingua": {
           "gl": {
             "termo": "antipartícula",
-            "definicion": "Cada partícula leva asociada unha antipartícula, que ten a mesma masa e espín que a partícula, pero algunhas propiedades opostas como a carga eléctrica e/ou o momento magnético. Cada antipartícula represéntase co mesmo signo que o correspondente á partícula pero cunha barra enrriba. A primeira antipartícula observada foi o positrón ou antielectrón, $macron(e)^+$, en 1933; o antiprotón e o antineutrón foron observados no 1955.",
+            "definicion": "Cada partícula leva asociada unha antipartícula, que ten a mesma masa e espín que a partícula, pero algunhas propiedades opostas como a carga eléctrica e/ou o momento magnético. Cada antipartícula represéntase co mesmo signo que o correspondente á partícula pero cunha barra enrriba. A primeira antipartícula observada foi o positrón ou antielectrón, $dash(e)^+$, en 1933; o antiprotón e o antineutrón foron observados no 1955.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4080,7 +4080,7 @@
             "termo": "antiprotón",
             "definicion": "Antipartícula do protón. O antiprotón ten a mesma masa e espín que o protón e o mesmo valor de carga eléctrica pero de signo contrario. Unha colisión protón-protón pode producir un par protón-antiprotón sempre que a enerxía cinética do protón incidente (respecto ao outro, suposto en repouso) sexa igual ou maior que 5.64 GeV.",
             "sinonimos": [],
-            "simbolo": "$macron(p)^+$"
+            "simbolo": "$dash(p)^+$"
           }
         }
       }
@@ -4098,7 +4098,7 @@
             "termo": "antiquark",
             "definicion": "Partículas de igual masa e espín que o quark correspondente, pero con carga eléctrica e carga cromática contrarias ás do mesmo. A combinación dun quark e o seu antiquark forman unha combinación estable sen carga cromática.",
             "sinonimos": [],
-            "simbolo": "$macron(q)_r$"
+            "simbolo": "$dash(q)_r$"
           }
         }
       }
@@ -4509,7 +4509,7 @@
         "lingua": {
           "gl": {
             "termo": "argón",
-            "definicion": "Elemento químico de número atómico 18, descuberto no 1894, por W. Ramsay e J. W. Strutt (Lord Rayleygh), preséntase na natureza en forma de tres isótopos: Ar-36 (0.336 %), Ar-38 (0.063 %) e Ar-40 (99.600 %). Coñécense 21 isótopos artificiais. Incoloro, inodoro e insípido resulta ser o gas inerte máis abundante (1,3 % en peso da atmosfera terrestre) e usado de entre os Gases Nobres. MA. 39.948 u; Pf. -189.3 ºC; Peb. -185.9 ºC.",
+            "definicion": "Elemento químico de número atómico 18, descuberto no 1894, por W. Ramsay e J. W. Strutt (Lord Rayleygh), preséntase na natureza en forma de tres isótopos: Ar-36 (0.336 %), Ar-38 (0.063 %) e Ar-40 (99.600 %). Coñécense 21 isótopos artificiais. Incoloro, inodoro e insípido resulta ser o gas inerte máis abundante (1.3 % en peso da atmosfera terrestre) e usado de entre os Gases Nobres. MA. 39.948 u; Pf. -189.3 ºC; Peb. -185.9 ºC.",
             "sinonimos": [],
             "simbolo": "$#[Ar]$"
           }
@@ -5623,7 +5623,7 @@
         "lingua": {
           "gl": {
             "termo": "auga pesada",
-            "definicion": "Óxido de deuterio, de fórmula D2O ou 2H2O. Sendo o deuterio un isótopo do hidróxeno, quimicamente a auga pesada compórtase como a auga normal, diferenciándose nalgunhas propiedades físicas. Na Terra, constitúe un 0.015% da auga natural e pode separarse da mesma por electrolise (descompoñéndose só a auga normal e non a pesada) ou por destilación, pois a auga pesada ferve a 101.4º C. A auga pesada emprégase como moderador en reactores nucleares e como marcador isotópico para o estudio de reaccións químicas.",
+            "definicion": "Óxido de deuterio, de fórmula D₂O ou ₂H₂O. Sendo o deuterio un isótopo do hidróxeno, quimicamente a auga pesada compórtase como a auga normal, diferenciándose nalgunhas propiedades físicas. Na Terra, constitúe un 0.015% da auga natural e pode separarse da mesma por electrolise (descompoñéndose só a auga normal e non a pesada) ou por destilación, pois a auga pesada ferve a 101.4º C. A auga pesada emprégase como moderador en reactores nucleares e como marcador isotópico para o estudio de reaccións químicas.",
             "sinonimos": [],
             "simbolo": ""
           }
