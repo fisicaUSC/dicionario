@@ -55,7 +55,7 @@
         "lingua": {
           "gl": {
             "termo": "Abbe, número de",
-            "definicion": "Número que caracteriza o comportamento dispersivo dun material en función dos índices de refracción do mesmo para as lonxitudes de onda correspondentes ás liñas espectrais *d* (587,6 nm); *F* (486,1 nm, e *C* (656,3 nm). Vén dado pola ecuación $ nu_d = (n_d - 1)/(n_F - n_C). $",
+            "definicion": "Número que caracteriza o comportamento dispersivo dun material en función dos índices de refracción do mesmo para as lonxitudes de onda correspondentes ás liñas espectrais *d* (587.6 nm); *F* (486.1 nm, e *C* (656.3 nm). Vén dado pola ecuación $ nu_d = (n_d - 1)/(n_F - n_C). $",
             "sinonimos": [],
             "simbolo": "$nu_d$"
           }
@@ -567,7 +567,7 @@
         "lingua": {
           "gl": {
             "termo": "aceleración da gravidade",
-            "definicion": "Nun sentido máis restrinxido, valor aproximado á aceleración con que caerían todos os corpos materiais no baleiro, para alturas próximas á superficie terrestre ou de calquera outro astro, debido á acción da gravidade. Na Terra, o seu valor varía coa latitude do lugar considerado, $lambda$, debido á rotación do planeta e a que este non é perfectamente esférico. Para o seu cálculo pódese empregar a ecuación $g_0 = 9.80622 - 0.025930 cos(2 lambda) + 0.000028 cos(4 lambda)$ m · s⁻²; valor correxible segundo a altitude do lugar, $h$ (en m), mediante a ecuación $g =g_0 - 3.086·10^(-6)h$, obténdose para un lugar situado a 150 m sobre o nivel do mar e 43º de latitude, o valor de 9,804 391 m · s⁻². De todas formas, nas condicións habituais a aceleración con que cada corpo cae nun punto próximo á superficie terrestre non é o resultado exclusivo da gravidade, resultando decisiva a acción das forzas de rozamento co aire e, en moita menor medida, o empuxe do mesmo.",
+            "definicion": "Nun sentido máis restrinxido, valor aproximado á aceleración con que caerían todos os corpos materiais no baleiro, para alturas próximas á superficie terrestre ou de calquera outro astro, debido á acción da gravidade. Na Terra, o seu valor varía coa latitude do lugar considerado, $lambda$, debido á rotación do planeta e a que este non é perfectamente esférico. Para o seu cálculo pódese empregar a ecuación $g_0 = 9.80622 - 0.025930 cos(2 lambda) + 0.000028 cos(4 lambda)$ m · s⁻²; valor correxible segundo a altitude do lugar, $h$ (en m), mediante a ecuación $g =g_0 - 3.086·10^(-6)h$, obténdose para un lugar situado a 150 m sobre o nivel do mar e 43º de latitude, o valor de 9.804391 m · s⁻². De todas formas, nas condicións habituais a aceleración con que cada corpo cae nun punto próximo á superficie terrestre non é o resultado exclusivo da gravidade, resultando decisiva a acción das forzas de rozamento co aire e, en moita menor medida, o empuxe do mesmo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1035,7 +1035,7 @@
         "lingua": {
           "gl": {
             "termo": "actinio",
-            "definicion": "Elemento químico de número atómico 89 descuberto no 1899, por A. Debierne. De aspecto metálico prateado, preséntase na natureza como dous isótopos radioactivos: o Ac-227, cunha vida media de 21,7 días, atópase acompañando ao uranio; o outro isótopo natural é o Ac-228, e hai 29 isótopos artificiais máis. A principal aplicación deste elemento é o seu emprego como fonte de partículas alfa. MA. 227,03 u; Pf. 1230 ºC; Peb. 2400 ºC;  10060 kg·m⁻³.",
+            "definicion": "Elemento químico de número atómico 89 descuberto no 1899, por A. Debierne. De aspecto metálico prateado, preséntase na natureza como dous isótopos radioactivos: o Ac-227, cunha vida media de 21,7 días, atópase acompañando ao uranio; o outro isótopo natural é o Ac-228, e hai 29 isótopos artificiais máis. A principal aplicación deste elemento é o seu emprego como fonte de partículas alfa. MA. 227.03 u; Pf. 1230 ºC; Peb. 2400 ºC;  10060 kg·m⁻³.",
             "sinonimos": [],
             "simbolo": "$#[Ac]$"
           }
@@ -1609,7 +1609,7 @@
         "lingua": {
           "gl": {
             "termo": "albedo",
-            "definicion": "Fracción da enerxía luminosa incidente que difunde por reflexión unha superficie determinada. O albedo da superficie terrestre oscila entre o 0,05, típico dos bosques escuros, o 0,30 da area seca, e o 0,75 da neve limpa e parte superior das nubes. A desforestación masiva e o incremento de construccións incrementa o albedo do noso planeta, podendo provocar alteracións no ciclo enerxético na Terra.",
+            "definicion": "Fracción da enerxía luminosa incidente que difunde por reflexión unha superficie determinada. O albedo da superficie terrestre oscila entre o 0.05, típico dos bosques escuros, o 0.30 da area seca, e o 0.75 da neve limpa e parte superior das nubes. A desforestación masiva e o incremento de construccións incrementa o albedo do noso planeta, podendo provocar alteracións no ciclo enerxético na Terra.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1982,7 +1982,7 @@
         "lingua": {
           "gl": {
             "termo": "altura dinámica",
-            "definicion": "Medida da enerxía cinética por unidade de peso que leva nun determinado instante un elemento de volume dun fluído en movemento. Toma o valor de $v^2\\/2g$ se se considera que a distribución de velocidades na conducción é uniforme. En caso contrario é preciso multiplicar a anterior expresión por un factor de corrección que soe tomar un valor entre 1,02 e 1,15 para  fluxos turbulentos e 2 para fluxos laminares.",
+            "definicion": "Medida da enerxía cinética por unidade de peso que leva nun determinado instante un elemento de volume dun fluído en movemento. Toma o valor de $v^2\\/2g$ se se considera que a distribución de velocidades na conducción é uniforme. En caso contrario é preciso multiplicar a anterior expresión por un factor de corrección que soe tomar un valor entre 1.02 e 1.15 para  fluxos turbulentos e 2 para fluxos laminares.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2127,7 +2127,7 @@
         "lingua": {
           "gl": {
             "termo": "aluminio",
-            "definicion": "Elemento químico de número atómico13, descuberto no 1825, por H. C. Oersted. De aspecto metálico e cor branca prateada, é bo conductor da calor e da electricidade, sendo o metal máis abundante (8 %) na codia terrestre. O aluminio natural está constituído de forma exclusiva polo isótopo Al-27, pero hai 18 isótopos artificiais máis. Preséntase en multitude de compostos entre os que destacan os silicatos de aluminio complexos como as arxilas. A maioría do que se consume extráese da bauxita (Al2O3·xH2O). Debido á súa baixa densidade, as súas aliaxes teñen moitos usos industriais. MA. 26,981 5 u; Pf. 660 ºC; Peb. 2519 ºC; $rho$ 2700 kg·m⁻³.",
+            "definicion": "Elemento químico de número atómico13, descuberto no 1825, por H. C. Oersted. De aspecto metálico e cor branca prateada, é bo conductor da calor e da electricidade, sendo o metal máis abundante (8 %) na codia terrestre. O aluminio natural está constituído de forma exclusiva polo isótopo Al-27, pero hai 18 isótopos artificiais máis. Preséntase en multitude de compostos entre os que destacan os silicatos de aluminio complexos como as arxilas. A maioría do que se consume extráese da bauxita (Al2O3·xH2O). Debido á súa baixa densidade, as súas aliaxes teñen moitos usos industriais. MA. 26.981 5 u; Pf. 660 ºC; Peb. 2519 ºC; $rho$ 2700 kg·m⁻³.",
             "sinonimos": [],
             "simbolo": "$#[Al]$"
           }
@@ -2167,7 +2167,7 @@
         "lingua": {
           "gl": {
             "termo": "americio",
-            "definicion": "Elemento químico de número atómico 95, descuberto (Am-241) no 1944, por G. T. Seaborg, R. A. James, L. O. Morgan e A. Ghiorso. Todos os seus 19 isótopos que se coñecen son radioactivos, sendo o máis estable o Am-243 unha vida media de 7360 anos. MA. 243,06 u; Pf. 1 176 ºC; $rho$ 13670 kg·m⁻³.",
+            "definicion": "Elemento químico de número atómico 95, descuberto (Am-241) no 1944, por G. T. Seaborg, R. A. James, L. O. Morgan e A. Ghiorso. Todos os seus 19 isótopos que se coñecen son radioactivos, sendo o máis estable o Am-243 unha vida media de 7360 anos. MA. 243.06 u; Pf. 1176 ºC; $rho$ 13670 kg·m⁻³.",
             "sinonimos": [],
             "simbolo": "$#[Am]$"
           }
@@ -3458,7 +3458,7 @@
         "lingua": {
           "gl": {
             "termo": "ano eclíptico",
-            "definicion": "Tamén chamado ano dracónico, é o intervalo de tempo transcorrido entre dous pasos consecutivos do centro do Sol ao través dun mesmo nodo da órbita lunar. É igual, en promedio, a 346,620 05 días. V. Saros, ciclo de.",
+            "definicion": "Tamén chamado ano dracónico, é o intervalo de tempo transcorrido entre dous pasos consecutivos do centro do Sol ao través dun mesmo nodo da órbita lunar. É igual, en promedio, a 346.62005 días.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3537,7 +3537,7 @@
         "lingua": {
           "gl": {
             "termo": "ano sidéreo",
-            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo círculo horario dunha mesma estrela. En promedio dura uns 365.256 36 días solares medios, equivalente a 365 d 6 h 9 min 10 s.",
+            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo círculo horario dunha mesma estrela. En promedio dura uns 365.25636 días solares medios, equivalente a 365 d 6 h 9 min 10 s.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3559,7 +3559,7 @@
         "lingua": {
           "gl": {
             "termo": "ano trópico",
-            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo punto vernal.  En promedio dura uns 365,242 19 días solares medios, equivalente a 365 d 5 h 48 min 45.6 s.",
+            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo punto vernal.  En promedio dura uns 365.24219 días solares medios, equivalente a 365 d 5 h 48 min 45.6 s.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3986,7 +3986,7 @@
         "lingua": {
           "gl": {
             "termo": "antimonio",
-            "definicion": "Elemento químico de número atómico 51, coñecido dende a antigüidade, preséntase na natureza en forma de dous isótopos: Sb-121 (57,21%) e Sb-123 (42,79%), atopándose ata 35 isótopos artificiais máis. Ten dúas formas alotrópicas: a forma metálica, que é a máis normal e estable, e a gris amorfa. O antimonio metálico é branco prateado, quebradizo e mal conductor da electricidade. MA. 121.760 u; Pf. 630.5 ºC; Pe. 1380 ºC; $rho$ 6691 kg m⁻³.",
+            "definicion": "Elemento químico de número atómico 51, coñecido dende a antigüidade, preséntase na natureza en forma de dous isótopos: Sb-121 (57.21%) e Sb-123 (42.79%), atopándose ata 35 isótopos artificiais máis. Ten dúas formas alotrópicas: a forma metálica, que é a máis normal e estable, e a gris amorfa. O antimonio metálico é branco prateado, quebradizo e mal conductor da electricidade. MA. 121.760 u; Pf. 630.5 ºC; Pe. 1380 ºC; $rho$ 6691 kg m⁻³.",
             "sinonimos": [],
             "simbolo": "$#[Sb]$"
           }
@@ -4202,7 +4202,7 @@
         "lingua": {
           "gl": {
             "termo": "aphelio",
-            "definicion": "En astronomía, posición máis afastada do Sol na órbita elíptica dun planeta ou cometa. A Terra pasa polo seu aphelio entre os días 2 e 7 de xullo de cada ano, acadando un valor aproximado de 1.016 697 UA. Ao outro extremo do semieixe maior da órbita elíptica atópase o perihelio.",
+            "definicion": "En astronomía, posición máis afastada do Sol na órbita elíptica dun planeta ou cometa. A Terra pasa polo seu aphelio entre os días 2 e 7 de xullo de cada ano, acadando un valor aproximado de 1.016697 UA. Ao outro extremo do semieixe maior da órbita elíptica atópase o perihelio.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4316,7 +4316,7 @@
         "lingua": {
           "gl": {
             "termo": "apoxeo",
-            "definicion": "Posición que ocupa a Lúa, ou un satélite artificial que vira arredor da Terra, cando a súa distancia á Terra é máxima para unha órbita dada. O maior apoxeo da Lúa, no século XX deuse o 2 de marzo do 1984 é foi de 406 712 km. Ao outro extremo do semieixe maior da elipse atópase o períxeo.",
+            "definicion": "Posición que ocupa a Lúa, ou un satélite artificial que vira arredor da Terra, cando a súa distancia á Terra é máxima para unha órbita dada. O maior apoxeo da Lúa, no século XX deuse o 2 de marzo do 1984 é foi de 406712 km. Ao outro extremo do semieixe maior da elipse atópase o períxeo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4509,7 +4509,7 @@
         "lingua": {
           "gl": {
             "termo": "argón",
-            "definicion": "Elemento químico de número atómico 18, descuberto no 1894, por W. Ramsay e J. W. Strutt (Lord Rayleygh), preséntase na natureza en forma de tres isótopos: Ar-36 (0,336 %), Ar-38 (0,063 %) e Ar-40 (99,600 %). Coñécense 21 isótopos artificiais. Incoloro, inodoro e insípido resulta ser o gas inerte máis abundante (1,3 % en peso da atmosfera terrestre) e usado de entre os Gases Nobres. MA. 39,948 u; Pf. -189,3 ºC; Peb. -185,9 ºC.",
+            "definicion": "Elemento químico de número atómico 18, descuberto no 1894, por W. Ramsay e J. W. Strutt (Lord Rayleygh), preséntase na natureza en forma de tres isótopos: Ar-36 (0.336 %), Ar-38 (0.063 %) e Ar-40 (99.600 %). Coñécense 21 isótopos artificiais. Incoloro, inodoro e insípido resulta ser o gas inerte máis abundante (1,3 % en peso da atmosfera terrestre) e usado de entre os Gases Nobres. MA. 39.948 u; Pf. -189.3 ºC; Peb. -185.9 ºC.",
             "sinonimos": [],
             "simbolo": "$#[Ar]$"
           }
@@ -4828,7 +4828,7 @@
         "lingua": {
           "gl": {
             "termo": "arsénico",
-            "definicion": "Elemento químico de número atómico 33, descuberto no 1250, por Alberto Magno. Aparece na natureza en dúas formas: amarelo e gris. Esta última forma é a máis abundante, presentándose como un sólido semimetálico, cristalino e crebadizo. Coñécense 29 isótopos artificiais. O arsénico e os seus compostos son tóxicos. Entre outras aplicacións destaca o seu uso na fabricación de semiconductores, foguetes e insecticidas. MA. 79,921 6 u; O arsénico-gris ten un Pe. 817 ºC  e sublima a 614 ºC; $rho$ 1970 kgm⁻³ (amarelo) e $rho$ 5730 kg·m⁻³ (gris)",
+            "definicion": "Elemento químico de número atómico 33, descuberto no 1250, por Alberto Magno. Aparece na natureza en dúas formas: amarelo e gris. Esta última forma é a máis abundante, presentándose como un sólido semimetálico, cristalino e crebadizo. Coñécense 29 isótopos artificiais. O arsénico e os seus compostos son tóxicos. Entre outras aplicacións destaca o seu uso na fabricación de semiconductores, foguetes e insecticidas. MA. 79.9216 u; O arsénico-gris ten un Pe. 817 ºC  e sublima a 614 ºC; $rho$ 1970 kgm⁻³ (amarelo) e $rho$ 5730 kg·m⁻³ (gris)",
             "sinonimos": [],
             "simbolo": "$#[As]$"
           }
@@ -5381,7 +5381,7 @@
         "lingua": {
           "gl": {
             "termo": "atmosfera técnica",
-            "definicion": "Unidade de presión correspondente á exercida por unha forza de 1 kp (quilopondio) actuando sobre unha superficie de 1 cm².  Equivale a 0.980 66·105 Pa, resultando algo inferior á atmosfera física, máis empregada en física.",
+            "definicion": "Unidade de presión correspondente á exercida por unha forza de 1 kp (quilopondio) actuando sobre unha superficie de 1 cm².  Equivale a 0.98066·105 Pa, resultando algo inferior á atmosfera física, máis empregada en física.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -5623,7 +5623,7 @@
         "lingua": {
           "gl": {
             "termo": "auga pesada",
-            "definicion": "Óxido de deuterio, de fórmula D2O ou 2H2O. Sendo o deuterio un isótopo do hidróxeno, quimicamente a auga pesada compórtase como a auga normal, diferenciándose nalgunhas propiedades físicas. Na Terra, constitúe un 0,015% da auga natural e pode separarse da mesma por electrolise (descompoñéndose só a auga normal e non a pesada) ou por destilación, pois a auga pesada ferve a 101.4º C. A auga pesada emprégase como moderador en reactores nucleares e como marcador isotópico para o estudio de reaccións químicas.",
+            "definicion": "Óxido de deuterio, de fórmula D2O ou 2H2O. Sendo o deuterio un isótopo do hidróxeno, quimicamente a auga pesada compórtase como a auga normal, diferenciándose nalgunhas propiedades físicas. Na Terra, constitúe un 0.015% da auga natural e pode separarse da mesma por electrolise (descompoñéndose só a auga normal e non a pesada) ou por destilación, pois a auga pesada ferve a 101.4º C. A auga pesada emprégase como moderador en reactores nucleares e como marcador isotópico para o estudio de reaccións químicas.",
             "sinonimos": [],
             "simbolo": ""
           }
