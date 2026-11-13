@@ -30,7 +30,7 @@
 // estilo correspondente dependendo de se xeramos un PDF ou unha páxina HTML
 #let estilo_documento(doc) = context {
     if      target() == "paged"  { show: estilo_pdf;  doc }
-    else if target() == "bundle" { show: estilo_html; doc }
+    else if target() == "html" { show: estilo_html; doc }
 }
 
 #let termo(
@@ -53,7 +53,7 @@
             }
         }
     // Caso de xerar o borrador en formato HTML
-    } else if target() == "bundle" {
+    } else if target() == "html" { // HTML porque isto está dentro de dicionario.html
         html.div(
             class: "acepcions",
             {

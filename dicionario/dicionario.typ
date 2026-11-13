@@ -6,7 +6,9 @@
             show: estilo_documento
             include("/xerados/typst/contidos.typ")
         }
-    // No caso de compilar o borrador en HTML
+    // No caso de compilar o borrador en formato BUNDLE.
+    // Ollo, un ficheiro individual pode ser HTML, PAGED, etc. no estilo dos
+    // ficheiros hai que usar 'target() == html'
     } else if target() == "bundle" {
         document(
             "/dicionario.html",
