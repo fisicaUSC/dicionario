@@ -80,3 +80,23 @@
         )
     }
 }
+
+#let letra(letra) = context {
+    if target() == "paged" {
+        block(
+            inset  : 1em,
+            outset : (left: 1em),
+            width  : 100%,
+            stroke : 2pt + luma(60%),
+            radius : 5pt,
+            heading(text(size: 2em, fill: luma(60%), letra))
+        )
+    } else if target() == "html" {
+        html.div(
+            class: "nova-letra",
+            {
+                strong(letra)
+            }
+        )
+    }
+}
