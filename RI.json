@@ -95,7 +95,7 @@
         "lingua": {
           "gl": {
             "termo": "aberración",
-            "definicion": "En astronomía, fenómeno, debido aos diferentes movementos da Terra e á finitude da velocidade da luz, polo que a luz, procedente dun astro, parece vir dun punto lixeiramente desprazado do que sería a verdadeira posición do astro. #html.frame(image(\"/figuras/aberracion_luz.svg\"))",
+            "definicion": "En astronomía, fenómeno, debido aos diferentes movementos da Terra e á finitude da velocidade da luz, polo que a luz, procedente dun astro, parece vir dun punto lixeiramente desprazado do que sería a verdadeira posición do astro. #figure(image(\"/figuras/aberracion_luz.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -739,7 +739,7 @@
         "lingua": {
           "gl": {
             "termo": "acelerómetro",
-            "definicion": "Aparello que permite medir a aceleración dun móbil. Un exemplo sinxelo represéntase na figura adxunta (ver figura). O movemento acelerado cara a dereita do móbil vai provocar un desprazamento do péndulo cara a esquerda. Resolvendo o diagrama de forzas do sistema conclúese que o módulo da aceleración do móbil vén dado pola expresión $a = g tan(theta)$ Polo tanto a observación directa do ángulo de desviación da vertical $theta$ que experimenta o péndulo permite avaliar rapidamente a aceleración do carriño. Un dos acelerómetros máis sensibles que existen na natureza constitúeno os canais semicirculares do oído interno que nos informan dos cambios de velocidade que experimentamos. Son numerosos os estudios sobre a resposta do corpo humano ao someterse a aceleracións elevadas; neste sentido é moi común cuantificar a aceleración en forma de unidades $g$ dado que o ambiente habitual do ser humano é o de $1g$ ($approx 9.80$ ms⁻²). #html.frame(image(\"/figuras/acelerometro.svg\"))",
+            "definicion": "Aparello que permite medir a aceleración dun móbil. Un exemplo sinxelo represéntase na figura adxunta (ver figura). O movemento acelerado cara a dereita do móbil vai provocar un desprazamento do péndulo cara a esquerda. Resolvendo o diagrama de forzas do sistema conclúese que o módulo da aceleración do móbil vén dado pola expresión $a = g tan(theta)$ Polo tanto a observación directa do ángulo de desviación da vertical $theta$ que experimenta o péndulo permite avaliar rapidamente a aceleración do carriño. Un dos acelerómetros máis sensibles que existen na natureza constitúeno os canais semicirculares do oído interno que nos informan dos cambios de velocidade que experimentamos. Son numerosos os estudios sobre a resposta do corpo humano ao someterse a aceleracións elevadas; neste sentido é moi común cuantificar a aceleración en forma de unidades $g$ dado que o ambiente habitual do ser humano é o de $1g$ ($approx 9.80$ ms⁻²). #figure(image(\"/figuras/acelerometro.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2735,7 +2735,7 @@
         "lingua": {
           "gl": {
             "termo": "Andrews, isotermas de",
-            "definicion": "Diagrama P-V froito das experiencias por T. Andrews en 1869 con dióxido de carbono. Nelas comprimiu este gas nun tubo a diferentes presións e volumes en cada momento. Descubriu que a temperaturas inferiores aos 31.1ºC obtiña curvas con tres tramos moi diferenciados (ver curva *a* na figura, correspondente a 25ºC). Ao comprimir un determinado volume de gas chegaba ao punto A (vapor saturado), a partir do cal detectaba un paso á fase líquida a unha presión constante, chamada presión de vapor (tramo recto AB na figura). A partir de B (líquido saturado) todo o CO₂ está líquido e un aumento de presión non produce cambios significativos no volume. Andrews comprobou que este patrón repetíase a medida que elevaba a temperatura da experiencia coa única diferencia de que o tramo recto facíase cada vez máis pequeno, ata converterse nun punto, chamado punto crítico (PC na figura) cando a temperatura se situaba sobre os 31.1ºC. Neste punto ten lugar a transición entre fases sen que varía o volume delas ou se libere calor algunha. Por encima de 31.1ºC non se pode conseguir CO₂ líquido a partir do gas por simple compresión isoterma. #html.frame(image(\"/figuras/andrews_isotermas_de.svg\"))",
+            "definicion": "Diagrama P-V froito das experiencias por T. Andrews en 1869 con dióxido de carbono. Nelas comprimiu este gas nun tubo a diferentes presións e volumes en cada momento. Descubriu que a temperaturas inferiores aos 31.1ºC obtiña curvas con tres tramos moi diferenciados (ver curva *a* na figura, correspondente a 25ºC). Ao comprimir un determinado volume de gas chegaba ao punto A (vapor saturado), a partir do cal detectaba un paso á fase líquida a unha presión constante, chamada presión de vapor (tramo recto AB na figura). A partir de B (líquido saturado) todo o CO₂ está líquido e un aumento de presión non produce cambios significativos no volume. Andrews comprobou que este patrón repetíase a medida que elevaba a temperatura da experiencia coa única diferencia de que o tramo recto facíase cada vez máis pequeno, ata converterse nun punto, chamado punto crítico (PC na figura) cando a temperatura se situaba sobre os 31.1ºC. Neste punto ten lugar a transición entre fases sen que varía o volume delas ou se libere calor algunha. Por encima de 31.1ºC non se pode conseguir CO₂ líquido a partir do gas por simple compresión isoterma. #figure(image(\"/figuras/andrews_isotermas_de.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2900,7 +2900,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de contacto",
-            "definicion": "Sb. c. Na superficie libre dun líquido, ángulo formado pola tanxente ao menisco coa parede do recipiente. É característico de cada parella sólido-líquido e o seu valor dá unha idea da relación que existe nese medio entre as forzas de cohesión, $C$, que se establecen entre as moléculas do líquido e as forzas de adhesión, $A$, entre estas e as moléculas do recipiente. Se $A > > C$, $theta_c$ é case cero; se $A=C$, $theta_c$ vale 90º. En ambos casos o menisco formado é cóncavo e dise que o líquido \"molla\" as paredes. Un exemplo constitúeo a interface auga-vidro. Sen embargo se $C > A$, $theta_c > 90º$, o menisco é convexo e dise que o líquido \"non molla\" as paredes, como ocorre na interface mercurio-vidro. A combinación destes dous tipos de forzas coa tensión superficial é a responsable dos fenómenos de capilaridade. #html.frame(image(\"/figuras/angulo_de_contacto.svg\"))",
+            "definicion": "Sb. c. Na superficie libre dun líquido, ángulo formado pola tanxente ao menisco coa parede do recipiente. É característico de cada parella sólido-líquido e o seu valor dá unha idea da relación que existe nese medio entre as forzas de cohesión, $C$, que se establecen entre as moléculas do líquido e as forzas de adhesión, $A$, entre estas e as moléculas do recipiente. Se $A > > C$, $theta_c$ é case cero; se $A=C$, $theta_c$ vale 90º. En ambos casos o menisco formado é cóncavo e dise que o líquido \"molla\" as paredes. Un exemplo constitúeo a interface auga-vidro. Sen embargo se $C > A$, $theta_c > 90º$, o menisco é convexo e dise que o líquido \"non molla\" as paredes, como ocorre na interface mercurio-vidro. A combinación destes dous tipos de forzas coa tensión superficial é a responsable dos fenómenos de capilaridade. #figure(image(\"/figuras/angulo_de_contacto.svg\"))",
             "sinonimos": [],
             "simbolo": "$theta_c$"
           }
@@ -3278,7 +3278,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo sólido",
-            "definicion": "Superficie que determina nunha esfera de radio unidade un cono co vértice no centro desa esfera. A unidade de ángulo sólido no SI é o estereorradián. #html.frame(image(\"/figuras/angulo_solido.svg\"))",
+            "definicion": "Superficie que determina nunha esfera de radio unidade un cono co vértice no centro desa esfera. A unidade de ángulo sólido no SI é o estereorradián. #figure(image(\"/figuras/angulo_solido.svg\"))",
             "sinonimos": [],
             "simbolo": "$Omega$"
           }
@@ -3660,7 +3660,7 @@
         "lingua": {
           "gl": {
             "termo": "anomalía excéntrica",
-            "definicion": "Considerando a órbita elíptica dun corpo celeste arredor doutro, como un planeta arredor do Sol, e imaxinando unha circunferencia concéntrica con esa órbita e de radio igual ao semieixe maior desa elipse, chámase anomalía excéntrica ao ángulo ($E$ na figura) formado polo vector que vai dende o centro da órbita ao perihelio do planeta e o vector que vai dende ese centro a un punto da circunferencia, $P''$, obtido como punto de corte entre a circunferencia imaxinaria e unha recta perpendicular ao semieixe maior da órbita elíptica que pasa pola posición ocupada polo planeta, $P'$, en cada intre. #html.frame(image(\"/figuras/anomalia_verdad_e_excent.svg\"))",
+            "definicion": "Considerando a órbita elíptica dun corpo celeste arredor doutro, como un planeta arredor do Sol, e imaxinando unha circunferencia concéntrica con esa órbita e de radio igual ao semieixe maior desa elipse, chámase anomalía excéntrica ao ángulo ($E$ na figura) formado polo vector que vai dende o centro da órbita ao perihelio do planeta e o vector que vai dende ese centro a un punto da circunferencia, $P''$, obtido como punto de corte entre a circunferencia imaxinaria e unha recta perpendicular ao semieixe maior da órbita elíptica que pasa pola posición ocupada polo planeta, $P'$, en cada intre. #figure(image(\"/figuras/anomalia_verdad_e_excent.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3701,7 +3701,7 @@
         "lingua": {
           "gl": {
             "termo": "anomalía  verdadeira",
-            "definicion": "Ángulo empregado para indicar a posición dun corpo celeste, como un planeta ou un satélite, que xira arredor doutro seguindo unha órbita elíptica. Para o caso dun planeta defínese como o ángulo, $V$, formado polo vector que vai dende o Sol ao perihelio do planeta e o que vai dende o Sol á posición ocupada polo planeta en cada intre. #html.frame(image(\"/figuras/anomalia_verdad_e_excent.svg\"))",
+            "definicion": "Ángulo empregado para indicar a posición dun corpo celeste, como un planeta ou un satélite, que xira arredor doutro seguindo unha órbita elíptica. Para o caso dun planeta defínese como o ángulo, $V$, formado polo vector que vai dende o Sol ao perihelio do planeta e o que vai dende o Sol á posición ocupada polo planeta en cada intre. #figure(image(\"/figuras/anomalia_verdad_e_excent.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4439,7 +4439,7 @@
         "lingua": {
           "gl": {
             "termo": "arco iris",
-            "definicion": "Tamén chamado arco da vella, é un efecto óptico producido ao pasar a luz solar (moito máis raramente a reflectida pola Lúa) por unha zona de choiva. As gotas da choiva actúan como un prisma óptico, dispersando os raios da luz solar incidente nas diferentes cores do espectro visible no interior da gota; atravesada a gota, a maioría dos raios son refractados pero, para determinados ángulos de incidencia, son reflectidos e, tras unha nova refracción (ao saír da gota) fórmase o arco iris. #html.frame(image(\"/figuras/arco_iris.svg\"))",
+            "definicion": "Tamén chamado arco da vella, é un efecto óptico producido ao pasar a luz solar (moito máis raramente a reflectida pola Lúa) por unha zona de choiva. As gotas da choiva actúan como un prisma óptico, dispersando os raios da luz solar incidente nas diferentes cores do espectro visible no interior da gota; atravesada a gota, a maioría dos raios son refractados pero, para determinados ángulos de incidencia, son reflectidos e, tras unha nova refracción (ao saír da gota) fórmase o arco iris. #figure(image(\"/figuras/arco_iris.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4597,7 +4597,7 @@
         "lingua": {
           "gl": {
             "termo": "Arquímedes, parafuso de",
-            "definicion": "Máquina simple inventada por Arquímedes, co fin de elevar augas de rego. Consiste nun parafuso sen fin de gran paso, axustado dentro dun tubo que se introduce inclinado dentro do medio do cal se desexa extraer auga. #html.frame(image(\"/figuras/arquimedes_parafuso_de.svg\"))",
+            "definicion": "Máquina simple inventada por Arquímedes, co fin de elevar augas de rego. Consiste nun parafuso sen fin de gran paso, axustado dentro dun tubo que se introduce inclinado dentro do medio do cal se desexa extraer auga. #figure(image(\"/figuras/arquimedes_parafuso_de.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4942,7 +4942,7 @@
         "lingua": {
           "gl": {
             "termo": "asociación en paralelo",
-            "definicion": "Forma de conectar dispositivos como resistencias e condensadores de xeito que a tensión entre os seus extremos é a mesma para todos eles. #html.frame(image(\"/figuras/asociacion_en_paralelo.svg\"))",
+            "definicion": "Forma de conectar dispositivos como resistencias e condensadores de xeito que a tensión entre os seus extremos é a mesma para todos eles. #figure(image(\"/figuras/asociacion_en_paralelo.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4964,7 +4964,7 @@
         "lingua": {
           "gl": {
             "termo": "asociación en serie",
-            "definicion": "Forma de conectar dispositivos como resistencias e condensadores de xeito que a tensión entre os extremos da asociación é a suma das tensións en cada un dos dispositivos conectados. #html.frame(image(\"/figuras/asociacion_en_serie.svg\"))",
+            "definicion": "Forma de conectar dispositivos como resistencias e condensadores de xeito que a tensión entre os extremos da asociación é a suma das tensións en cada un dos dispositivos conectados. #figure(image(\"/figuras/asociacion_en_serie.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4986,7 +4986,7 @@
         "lingua": {
           "gl": {
             "termo": "aspectos",
-            "definicion": "En astronomía, diferentes posicións planetarias e da Lúa, correspondentes á elongacións particulares. As principais son as conxuncións (inferior e superior) para os planetas inferiores, e a conxunción, oposición e cuadratura, para os planetas superiores e a Lúa. #html.frame(image(\"/figuras/aspectos.svg\"))",
+            "definicion": "En astronomía, diferentes posicións planetarias e da Lúa, correspondentes á elongacións particulares. As principais son as conxuncións (inferior e superior) para os planetas inferiores, e a conxunción, oposición e cuadratura, para os planetas superiores e a Lúa. #figure(image(\"/figuras/aspectos.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -5078,7 +5078,7 @@
         "lingua": {
           "gl": {
             "termo": "astigmatismo",
-            "definicion": "Aberración dunha lente pola que cando os raios contidos nun mesmo plano están enfocados, outros raios, contidos noutro plano, quedan desenfocados. Conforme a figura, considerando un cono ou pincel de raios próximos arredor do raio principal e co vértice nun punto do obxecto, dous diámetros dunha circunferencia que corte a ese cono antes da lente aparecerán, despois do seu paso pola lente, separados unha determinada distancia, chamada tamén astigmatismo. Esas imaxes rectilíneas dos diámetros, perpendiculares entre si, reciben o nome de focais de Sturm. Tamén o ollo humano pode presentar astigmatismo, o que ocorre cando a córnea presenta diferentes curvaturas segundo unha u outra dirección. #html.frame(image(\"/figuras/astigmatismo.svg\"))",
+            "definicion": "Aberración dunha lente pola que cando os raios contidos nun mesmo plano están enfocados, outros raios, contidos noutro plano, quedan desenfocados. Conforme a figura, considerando un cono ou pincel de raios próximos arredor do raio principal e co vértice nun punto do obxecto, dous diámetros dunha circunferencia que corte a ese cono antes da lente aparecerán, despois do seu paso pola lente, separados unha determinada distancia, chamada tamén astigmatismo. Esas imaxes rectilíneas dos diámetros, perpendiculares entre si, reciben o nome de focais de Sturm. Tamén o ollo humano pode presentar astigmatismo, o que ocorre cando a córnea presenta diferentes curvaturas segundo unha u outra dirección. #figure(image(\"/figuras/astigmatismo.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -5262,7 +5262,7 @@
         "lingua": {
           "gl": {
             "termo": "atenuación",
-            "definicion": "Forma de amortecemento dunha onda debida, non a unha perda de enerxía senón a un efecto xeométrico. Aínda supoñendo que a enerxía transmitida pola onda cada segundo (ou sexa, a potencia),  permanecera constante durante a súa propagación, sen perderse nada, ao afastarse do foco emisor a mesma potencia debe repartirse nunha maior superficie e iso significa unha diminución da intensidade da onda, observándose que diminúe co cadrado da distancia ao foco. A atenuación é un fenómeno inevitable e xeneralizado a todas as ondas agás as ondas planas. #html.frame(image(\"/figuras/atenuacion.svg\"))",
+            "definicion": "Forma de amortecemento dunha onda debida, non a unha perda de enerxía senón a un efecto xeométrico. Aínda supoñendo que a enerxía transmitida pola onda cada segundo (ou sexa, a potencia),  permanecera constante durante a súa propagación, sen perderse nada, ao afastarse do foco emisor a mesma potencia debe repartirse nunha maior superficie e iso significa unha diminución da intensidade da onda, observándose que diminúe co cadrado da distancia ao foco. A atenuación é un fenómeno inevitable e xeneralizado a todas as ondas agás as ondas planas. #figure(image(\"/figuras/atenuacion.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -5561,7 +5561,7 @@
         "lingua": {
           "gl": {
             "termo": "Atwood, máquina de",
-            "definicion": "Dispositivo mecánico proxectado polo físico inglés George Atwood (1746-1807) que sirve para demostrar a lei de caída dos corpos. Consiste nunha corda inextensible de masa desprezable que une dous corpos de masas $m$ e $m'$, a través dunha polea fixa tamén de masa moi pequena. Aplicando as leis básicas da dinámica, cando a masa dos corpos é moi parecida, é posible demostrar que a aceleración que adquiren os corpos vén dada pola expresión $ a = (m - m')/(m + m') g, $ que ao ser moi pequena permite unha observación e toma de datos experimental bastante exacta e polo tanto unha medida indirecta da aceleración da gravidade $g$ mediante a ecuación anterior. Orixinalmente Atwood usou un cilindro en vez dunha polea e pódese considerar o seu experimento a primeira confirmación experimental da segunda lei de Newton. #html.frame(image(\"/figuras/atwood_maquina_de.svg\"))",
+            "definicion": "Dispositivo mecánico proxectado polo físico inglés George Atwood (1746-1807) que sirve para demostrar a lei de caída dos corpos. Consiste nunha corda inextensible de masa desprezable que une dous corpos de masas $m$ e $m'$, a través dunha polea fixa tamén de masa moi pequena. Aplicando as leis básicas da dinámica, cando a masa dos corpos é moi parecida, é posible demostrar que a aceleración que adquiren os corpos vén dada pola expresión $ a = (m - m')/(m + m') g, $ que ao ser moi pequena permite unha observación e toma de datos experimental bastante exacta e polo tanto unha medida indirecta da aceleración da gravidade $g$ mediante a ecuación anterior. Orixinalmente Atwood usou un cilindro en vez dunha polea e pódese considerar o seu experimento a primeira confirmación experimental da segunda lei de Newton. #figure(image(\"/figuras/atwood_maquina_de.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -5648,7 +5648,7 @@
         "lingua": {
           "gl": {
             "termo": "aumento angular",
-            "definicion": "Nun sistema óptico, cociente entre o ángulo que forman dous raios (ou as súas prolongacións), que concorren nun punto imaxe e o ángulo que forman os raios emerxentes do correspondente punto obxecto. Por iso, pódese expresar como a relación entre os ángulos que, co eixe principal, forma un raio que pasa polo punto imaxe e punto obxecto. #html.frame(image(\"/figuras/aumento_lateral.svg\"))",
+            "definicion": "Nun sistema óptico, cociente entre o ángulo que forman dous raios (ou as súas prolongacións), que concorren nun punto imaxe e o ángulo que forman os raios emerxentes do correspondente punto obxecto. Por iso, pódese expresar como a relación entre os ángulos que, co eixe principal, forma un raio que pasa polo punto imaxe e punto obxecto. #figure(image(\"/figuras/aumento_lateral.svg\"))",
             "sinonimos": [],
             "simbolo": "$gamma$"
           }
