@@ -96,7 +96,7 @@
         html.div(
             class: "nova-letra",
             {
-                strong(letra)
+                heading(depth: 1, strong(letra))
             }
         )
     }
