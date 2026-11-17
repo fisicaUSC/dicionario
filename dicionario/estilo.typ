@@ -4,6 +4,8 @@
     set par(justify: true, first-line-indent: 0pt)
     set text(size: 11pt, lang: "gl", font: "Common Serif")
     show math.equation: set text(font: "Libertinus Math")
+    show image: rect.with(inset: 1pt, radius: 2pt, stroke: 0.5pt + luma(60%))
+    set image(width: 100%)
     set columns(gutter: 1cm)
     show: columns
     doc
