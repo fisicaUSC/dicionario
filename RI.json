@@ -6066,7 +6066,7 @@
       }
     ],
     "relacionadas": [
-      "píxeles"
+      "píxel"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6086,9 +6086,8 @@
       }
     ],
     "relacionadas": [
-      "balanza simple",
-      "balanzas electrónicas",
-      " balanzas analíticas "
+      "balanza de torsión",
+      "balanza hidrostática"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6100,7 +6099,7 @@
         "lingua": {
           "gl": {
             "termo": "balanza de torsión",
-            "definicion": "Cavendish, balanza de.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6108,8 +6107,7 @@
       }
     ],
     "relacionadas": [
-      "Cavendish, balanza de",
-      "Cavendish"
+      "Cavendish, balanza de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6121,7 +6119,7 @@
         "lingua": {
           "gl": {
             "termo": "balanza hidrostática",
-            "definicion": "Variación da balanza simple que ten os brazos largos e os pratiños moi distanciados da base que se emprega para comprobar o principio de Arquímedes. Sóese proceder do seguinte xeito. Primeiro mídese o peso do corpo fóra do fluído. A continuación suspéndese o corpo dun prato mediante un fío e introdúcese no fluído. Para equilibrar de novo a balanza é preciso sacar peso do prato de referencia . Esta perda de peso representa o do fluído desaloxado. Este método permite a determinación da densidade dun corpo.",
+            "definicion": "Variación da balanza simple que ten os brazos largos e os pratiños moi distanciados da base que se emprega para comprobar o principio de Arquímedes. Sóese proceder do seguinte xeito: primeiro mídese o peso do corpo fóra do fluído; a continuación suspéndese o corpo dun prato mediante un fío e introdúcese no fluído. Para equilibrar de novo a balanza é preciso sacar peso do prato de referencia . Esta perda de peso representa o do fluído desaloxado. Este método permite a determinación da densidade dun corpo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6129,31 +6127,8 @@
       }
     ],
     "relacionadas": [
-      "balanza"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "baleiro cuántico",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "baleiro cuántico",
-            "definicion": "Entidade definida pola existencia de campos libres non nulos que presentan fluctuacións aleatorias segundo o principio de incertidume de Heisenberg. A diferencia do teórico baleiro clásico, caracterizado pola nada, no baleiro cuántico considérase a constante formación e aniquilación de pares de partícula-antipartícula, seguindo a indeterminación de variables conxugadas como enerxía e tempo, segundo establece o principio de Heisenberg. V. enerxía escura.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "campos libres",
-      "campos",
-      "Heisenberg",
-      "antipartícula",
-      "baleiro"
+      "balanza",
+      "Arquímedes, principio de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6165,7 +6140,7 @@
         "lingua": {
           "gl": {
             "termo": "baleiro",
-            "definicion": "Na física clásica, dise do espazo que non contén aire nin outra materia perceptible por ningún medio físico nin quimico. Ante o caso ideal, na realidade atópanse diferentes graos de baleiro, alcanzables con diferentes sistemas (V. bomba de baleiro). Cada baleiro vén caracterizado pola presión alcanzable no mesmo, empregándose na súa medida o torr. Téñense acadado, ata o momento, presións menores dos 10-14 torr. V. baleiro cuántico.",
+            "definicion": "Na física clásica, dise do espazo que non contén aire nin outra materia perceptible por ningún medio físico nin quimico. Ante o caso ideal, na realidade atópanse diferentes graos de baleiro, alcanzables con diferentes sistemas. Cada baleiro vén caracterizado pola presión alcanzable no mesmo, empregándose na súa medida o torr. Téñense acadado, ata o momento, presións menores dos 10⁻¹⁴ torr.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6175,8 +6150,33 @@
     "relacionadas": [
       "torr",
       "presión",
-      "física",
-      "física clásica"
+      "física clásica",
+      "bomba de baleiro",
+      "baleiro cuántico"
+    ],
+    "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
+    "termo": "baleiro cuántico",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "baleiro cuántico",
+            "definicion": "Entidade definida pola existencia de campos libres non nulos que presentan fluctuacións aleatorias segundo o principio de Heisenberg. A diferencia do teórico baleiro clásico, caracterizado pola nada, no baleiro cuántico considérase a constante formación e aniquilación de pares de partícula-antipartícula, seguindo a indeterminación de variables conxugadas como enerxía e tempo, segundo establece o principio de Heisenberg.",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "campo libre",
+      "Heisenberg, principio de",
+      "antipartícula",
+      "baleiro",
+      "enerxía escura"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6195,10 +6195,7 @@
         }
       }
     ],
-    "relacionadas": [
-      "balística interior,",
-      "balística exterior"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6209,7 +6206,7 @@
         "lingua": {
           "gl": {
             "termo": "Balmer, serie de",
-            "definicion": "Conxunto de liñas espectrais que aparecen no visible e que, para o caso do hidróxeno, é debido ao salto dun electrón dende o nivel n1=2 a outro superior, n2=3, 4, 5,.... (espectro de absorción) ou no sentido inverso (espectro de emisión). Debe o nome ao físico Johann J. Balmer (1825-1898) quen descubriu a fórmula empírica que permitía calcular a lonxitude de onda, , correspondente a cada unha das primeiras liñas que aparecían no espectro visible do hidróxeno. A ecuación empírica posteriormente se convertiría nunha máis xeral, da formasendo R a chamada constante de Rydberg e n1 e n2 os números enteiros que indican o nivel de enerxía inicial e final. Tal descubrimento supuxo un gran pulo á investigación sobre a natureza dos espectros atómicos e sobre a propia natureza do átomo, sendo explicado polo modelo atómico de Bohr, previo ao nacemento da mecánica cuántica moderna. V. serie espectral; número cuántico.",
+            "definicion": "Conxunto de liñas espectrais que aparecen no visible e que, para o caso do hidróxeno, é debido ao salto dun electrón dende o nivel $n_1=2$ a outro superior, $n_2=3, 4, 5, dots$ (espectro de absorción) ou no sentido inverso (espectro de emisión). Debe o nome ao físico Johann J. Balmer (1825-1898) quen descubriu a fórmula empírica que permitía calcular a lonxitude de onda, $lambda$, correspondente a cada unha das primeiras liñas que aparecían no espectro visible do hidróxeno. A ecuación empírica posteriormente se convertiría nunha máis xeral, da forma $ 1/lambda = R (1/(n^2_1) - 1/(n^2_2)) $, sendo $R$ a chamada constante de Rydberg e $n_1$ e $n_2$ os números enteiros que indican o nivel de enerxía inicial e final. Tal descubrimento supuxo un gran pulo á investigación sobre a natureza dos espectros atómicos e sobre a propia natureza do átomo, sendo explicado polo modelo atómico de Bohr, previo ao nacemento da mecánica cuántica moderna.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6218,16 +6215,15 @@
     ],
     "relacionadas": [
       "espectro",
-      "mecánica",
       "mecánica cuántica",
-      "lonxitude",
-      "liñas",
-      "liñas espectrais",
-      "lonxitude de onda, ",
-      "Rydberg",
-      "Bohr"
+      "liña espectral",
+      "lonxitude de onda",
+      "Rydberg, constante de",
+      "Bohr, modelo atómico de",
+      "serie espectral",
+      "número cuántico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -6237,14 +6233,14 @@
         "lingua": {
           "gl": {
             "termo": "banda de conducción",
-            "definicion": "V. teoría de bandas.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["teoría de bandas"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6255,14 +6251,14 @@
         "lingua": {
           "gl": {
             "termo": "banda de enerxía",
-            "definicion": "V. teoría de bandas.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["teoría de bandas"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6273,14 +6269,14 @@
         "lingua": {
           "gl": {
             "termo": "banda de valencia",
-            "definicion": "V. teoría de bandas.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["teoría de bandas"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6291,14 +6287,14 @@
         "lingua": {
           "gl": {
             "termo": "banda prohibida",
-            "definicion": "V. teoría de bandas.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["teoría de bandas"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6309,7 +6305,7 @@
         "lingua": {
           "gl": {
             "termo": "Banki, paradoxo de",
-            "definicion": "Fenómeno que acontece cando se insufla aire a presión sobre un tubo de goma polo que circula un fluído e que atravesa un recinto pechado. En principio, o aumento de presión externa sobre o tubo faría reducir a sección deste. Sen embargo obsérvase o contrario: o tubo aumenta de diámetro debido a que ese aumento de presión externa fai diminuír a velocidade do fluído no interior do tubo. Pola ecuación de continuidade, isto implica un aumento na sección interna para manter a caudal constante. Reducindo a presión externa dase o efecto contrario.",
+            "definicion": "Fenómeno que acontece cando se insufla aire a presión sobre un tubo de goma polo que circula un fluído e que atravesa un recinto pechado. En principio, o aumento de presión externa sobre o tubo faría reducir a súa sección. Sen embargo obsérvase o contrario: o tubo aumenta de diámetro debido a que ese aumento de presión externa fai diminuír a velocidade do fluído no interior do tubo. Pola ecuación de continuidade, isto implica un aumento na sección interna para manter a caudal constante. Reducindo a presión externa dase o efecto contrario.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6318,7 +6314,6 @@
     ],
     "relacionadas": [
       "caudal",
-      "ecuación",
       "ecuación de continuidade"
     ],
     "ten_ecuacions": false,
@@ -6331,18 +6326,17 @@
         "lingua": {
           "gl": {
             "termo": "bar",
-            "definicion": "Sb. bar. Unidade de presión admitida no SI, aínda que a unidade recomendada é o pascal. 1 bar equivale a 105 Pa. En meteoroloxía é moi empregado un submúltiplo, o milibar (mbar).",
+            "definicion": "Unidade de presión admitida no SI, aínda que a unidade recomendada é o pascal. 1 bar equivale a 10⁵ Pa. En meteoroloxía é moi empregado un submúltiplo, o milibar (mbar).",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$b a r$"
           }
         }
       }
     ],
     "relacionadas": [
-      ". bar",
       "pascal"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -6352,27 +6346,35 @@
         "lingua": {
           "gl": {
             "termo": "baria",
-            "definicion": "Sb. b. Unidade de presión no sistema c.g.s. 1 b = 0,1 Pa.",
+            "definicion": "Unidade de presión no sistema c.g.s. 1 b = 0.1 Pa.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$b$"
           }
         }
       }
     ],
-    "relacionadas": [
-      "1 b = 0,1 Pa"
-    ],
-    "ten_ecuacions": false,
+    "relacionadas": [],
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
-    "termo": "baricentro 1",
+    "termo": "baricentro",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "baricentro 1",
-            "definicion": "En xeometría, punto de intersección das medianas dun triángulo. 2 En física, centro de masas dun corpo.",
+            "termo": "baricentro",
+            "definicion": "En xeometría, punto de intersección das medianas dun triángulo.",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      },
+      {
+        "lingua": {
+          "gl": {
+            "termo": "baricentro",
+            "definicion": "En física, centro de masas dun corpo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6380,8 +6382,7 @@
       }
     ],
     "relacionadas": [
-      "centro de masas",
-      "centro"
+      "centro de masas"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6393,21 +6394,19 @@
         "lingua": {
           "gl": {
             "termo": "bario",
-            "definicion": "Sb Ba. Elemento químico de número atómico 56, descuberto no 1774, por C. W. Scheele. Preséntase na natureza en forma de sete isótopos: Ba-138 (71,66 %), Ba-137 (11,32 %), Ba-136 (7,81 %), Ba-135 (6,59 %), Ba-134 (2,42 %), Ba-130 (0,10 %), e Ba-132 (0,10 %), e coñécense outros 33 isótopos artificiais. É un elemento brando e en estado puro ten unha cor branca prateada. M.A.137,34 u; Pf. 725 C; Peb. 1870 ºC;  3500 kgm-3.",
+            "definicion": "Elemento químico de número atómico 56, descuberto no 1774, por C. W. Scheele. Preséntase na natureza en forma de sete isótopos: Ba-138 (71.66 %), Ba-137 (11.32 %), Ba-136 (7.81 %), Ba-135 (6.59 %), Ba-134 (2.42 %), Ba-130 (0.10 %), e Ba-132 (0.10 %), e coñécense outros 33 isótopos artificiais. É un elemento brando e en estado puro ten unha cor branca prateada. M.A.137.34 u; Pf. 725 C; Peb. 1870 ºC; $rho$ 3500 kgm⁻³.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[ba]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
       "número atómico",
-      "Elemento químico",
-      "Elemento",
-      "isótopos"
+      "elemento químico",
+      "isótopo"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -6417,7 +6416,7 @@
         "lingua": {
           "gl": {
             "termo": "barión",
-            "definicion": "Partícula subatómica caracterizada por ter unha masa en repouso igual ou maior que a dun nucleón, e que responde á interacción nuclear forte. Son barións os nucleóns (protóns e neutróns) e todos os hiperóns. Os barións son todos fermións. V. número bariónico; estrañeza.",
+            "definicion": "Partícula subatómica caracterizada por ter unha masa en repouso igual ou maior que a dun nucleón, e que responde á interacción nuclear forte. Son barións os nucleóns (protóns e neutróns) e todos os hiperóns. Os barións son todos fermións.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6425,14 +6424,12 @@
       }
     ],
     "relacionadas": [
-      "nucleón",
-      "interacción",
       "interacción nuclear forte",
-      "fermións",
+      "fermión",
       "masa en repouso",
-      "nucleóns",
-      "hiperóns",
-      "masa"
+      "hiperón",
+      "número bariónico",
+      "estrañeza"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6471,9 +6468,7 @@
     ],
     "relacionadas": [
       "sistema óptico",
-      "distancia focal",
-      "sistema",
-      "distancia"
+      "distancia focal"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6485,18 +6480,17 @@
         "lingua": {
           "gl": {
             "termo": "barn",
-            "definicion": "Sb. b. Unidade de superficie admitida no SI para o emprego en física nuclear. É utilizada para medir a sección eficaz atómica e equivale a 10-28m2.",
+            "definicion": "Unidade de superficie admitida no SI para o emprego en física nuclear. É utilizada para medir a sección eficaz atómica e equivale a 10⁻²⁸m².",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$b$"
           }
         }
       }
     ],
     "relacionadas": [
-      "sección",
       "sección eficaz"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -6518,13 +6512,13 @@
     "ten_figuras": false
   },
   {
-    "termo": "barómetro aneroide",
+    "termo": "barómetro",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "barómetro aneroide",
-            "definicion": "Barómetro metálico.",
+            "termo": "barómetro",
+            "definicion": "Instrumento que se emprega para medir a presión atmosférica. Normalmente exprésana en función dunha altura barométrica. Existen dous grandes tipos, os de mercurio e os metálicos, segundo sexa a superficie libre dunha columna de mercurio ou o extremo dunha agulla metálica, respectivamente, o que marque o valor de presión atmosférica.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6532,8 +6526,30 @@
       }
     ],
     "relacionadas": [
-      "Barómetro",
-      "Barómetro metálico"
+      "presión atmosférica",
+      "altura barométrica",
+      "barómetro de mercurio",
+      "barómetro metálico"
+    ],
+    "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
+    "termo": "barómetro aneroide",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "barómetro aneroide",
+            "definicion": "",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "barómetro metálico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6545,14 +6561,14 @@
         "lingua": {
           "gl": {
             "termo": "barómetro de cubeta",
-            "definicion": "V. barómetro de mercurio",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["barómetro de mercurio"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6571,14 +6587,13 @@
       }
     ],
     "relacionadas": [
-      "presión",
-      "Barómetro",
-      "Torricelli",
-      "presión atmosférica ",
-      "sifón",
-      "Regnault",
-      "Fortín",
-      "cubeta"
+      "barómetro de cubeta",
+      "barómetro de sifón",
+      "barómetro de cubeta",
+      "Torricelli, experimento de",
+      "presión atmosférica",
+      "Regnault, barómetro de",
+      "Fortin, barómetro de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6590,14 +6605,14 @@
         "lingua": {
           "gl": {
             "termo": "barómetro de sifón",
-            "definicion": "V. barómetro de mercurio",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["barómetro de mercurio"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6608,42 +6623,14 @@
         "lingua": {
           "gl": {
             "termo": "barómetro holostérico",
-            "definicion": "Barómetro metálico.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["barómetro metálico"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Barómetro",
-      "Barómetro metálico"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "barómetro",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "barómetro",
-            "definicion": "Instrumento que se emprega para medir a presión atmosférica. Normalmente exprésana en función dunha altura barométrica. Existen dous grandes tipos, os de mercurio e os metálicos, segundo sexa a superficie libre dunha columna de mercurio ou o extremo dunha agulla metálica, respectivamente, o que marque o valor de presión atmosférica.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "presión atmosférica",
-      "altura",
-      "presión",
-      "mercurio",
-      "metálicos",
-      "altura barométrica"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6662,19 +6649,17 @@
       }
     ],
     "relacionadas": [
-      "holostéricos",
+      "barómetro holostérico",
       "presión atmosférica",
-      "presión",
-      "Barómetro",
-      "Vidie",
-      "barómetros aneroides",
-      "Bourdon"
+      "Vidie, barómetro de",
+      "barómetro aneroide",
+      "Bourdon, barómetro de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
   {
-    "termo": "barosanemo",
+    "termo": "barosánemo",
     "acepcions": [
       {
         "lingua": {
@@ -6698,7 +6683,7 @@
         "lingua": {
           "gl": {
             "termo": "baroscopio",
-            "definicion": "Aparello ideado por Otto von Guericke (1602-1686) para demostrar a validez do principio de Arquímedes nos gases. Consta dunha balanza de dous brazos; nun deles colga unha gran esfera metálica oca e no outro unha pequena bóla maciza de chumbo, manténdose o sistema en equilibrio. Ao introducir a balanza nunha cámara neumática, e facer o baleiro no interior da mesma, deixa de actuar o empuxe do aire sobre as dúas esferas, inclinándose a balanza cara a abaixo no lado da esfera oca, pois esta experimenta un maior empuxe mergullada no aire; balanza hidrostática.",
+            "definicion": "Aparello ideado por Otto von Guericke (1602-1686) para demostrar a validez do principio de Arquímedes nos gases. Consta dunha balanza de dous brazos; nun deles colga unha gran esfera metálica oca e no outro unha pequena bóla maciza de chumbo, manténdose o sistema en equilibrio. Ao introducir a balanza nunha cámara neumática, e facer o baleiro no interior da mesma, deixa de actuar o empuxe do aire sobre as dúas esferas, inclinándose a balanza cara a abaixo no lado da esfera oca, pois esta experimenta un maior empuxe mergullada no ar.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6707,7 +6692,8 @@
     ],
     "relacionadas": [
       "empuxe",
-      "Arquímedes"
+      "Arquímedes, principio de",
+      "balanza hidrostática"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6737,7 +6723,7 @@
         "lingua": {
           "gl": {
             "termo": "barreira de potencial",
-            "definicion": "En mecánica cuántica, nome dun sistema definido por unha función potencial con forma de barreira. Matematicamente, e considerando o caso unidimensional para simplificar, tal función pódese definir comoV(x) = V0 cando 0 &lt; x &lt; a, e V(x) = 0 cando x &lt; 0 ou x &gt; a. Mentres que na mecánica clásica, ao atoparse unha partícula cunha enerxía menor que a altura desa barreira non podería atravesala, na mecánica cuántica existe certa probabilidade de que a partícula atravese a barreira, é o chamado efecto túnel.V. pozo de potencial cadrado. 0figura0.",
+            "definicion": "En mecánica cuántica, nome dun sistema definido por unha función potencial con forma de barreira. Matematicamente, e considerando o caso unidimensional para simplificar, tal función pódese definir como $V(x) = V_0$ cando $0<x<a$, e $V(x) = 0$ cando $x<0$ ou $x>a$. Mentres que na mecánica clásica, ao atoparse unha partícula cunha enerxía menor que a altura desa barreira non podería atravesala, na mecánica cuántica existe certa probabilidade de que a partícula atravese a barreira, é o chamado efecto túnel. #html.frame(image(\"/figuras/barreira_de_potencial.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6747,17 +6733,11 @@
     "relacionadas": [
       "mecánica clásica",
       "potencial",
-      "x &lt; 0",
-      "mecánica",
       "mecánica cuántica",
-      "0 &lt; x &lt; a",
-      "efecto",
       "efecto túnel",
-      "V(x) = 0",
-      "x &gt; a",
-      "V(x) = V"
+      "pozo de potencial cadrado"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -6775,7 +6755,6 @@
       }
     ],
     "relacionadas": [
-      "transistor",
       "colector",
       "emisor",
       "transistor bipolar"
@@ -6790,7 +6769,7 @@
         "lingua": {
           "gl": {
             "termo": "BASIC",
-            "definicion": "Acrónimo de Beginners’ All-purpose Symbolic Instruction Code. Linguaxe de programación de ordenadores.",
+            "definicion": "Acrónimo de _Beginners’ All-purpose Symbolic Instruction Code_. Linguaxe de programación de ordenadores.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6798,9 +6777,7 @@
       }
     ],
     "relacionadas": [
-      "Linguaxe",
-      "Linguaxe de programación",
-      "Beginners’ All-purpose Symbolic Instruction Code"
+      "Linguaxe de programación"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6820,8 +6797,7 @@
       }
     ],
     "relacionadas": [
-      "Máquina hidráulica",
-      "Máquina"
+      "máquina hidráulica"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -6833,16 +6809,14 @@
         "lingua": {
           "gl": {
             "termo": "batementos",
-            "definicion": "Pulsacións.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["pulsacións"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Pulsacións"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6871,7 +6845,7 @@
         "lingua": {
           "gl": {
             "termo": "batería",
-            "definicion": "Conxunto de dous ou mais acumuladores.  Empregase con frecuencia para referirse a un único elemento.",
+            "definicion": "Conxunto de dous ou mais acumuladores. Emprégase con frecuencia para referirse a un único elemento.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -6881,24 +6855,6 @@
     "relacionadas": [
       "acumuladores"
     ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "batería eléctrica",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "batería eléctrica",
-            "definicion": "V. batería",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6936,9 +6892,7 @@
         }
       }
     ],
-    "relacionadas": [
-      "bps"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6949,18 +6903,17 @@
         "lingua": {
           "gl": {
             "termo": "Baumé, grao",
-            "definicion": "Sb.ºBe. Unidade empregada na medida da densidade dunha disolución. A escala Baumé toma como puntos fixos a densidade da auga pura e a dunha disolución acuosa de cloruro sódico do 10%. Para líquidos máis densos que a auga asígnaselle o valor de 0 ºBe á auga e 10 ºBe á disolución do sal. A 15,6 ºC a relación entre os graos Baumé e a densidade deste tipo de líquidos vén dada pola expresiónPara líquidos menos densos que a auga, os puntos de referencia están invertidos respecto aos anteriores e a expresión válida neste caso, tamén a 15,6ºC é.",
+            "definicion": "Unidade empregada na medida da densidade dunha disolución. A escala Baumé toma como puntos fixos a densidade da auga pura e a dunha disolución acuosa de cloruro sódico do 10%. Para líquidos máis densos que a auga asígnaselle o valor de 0 $º B e$ á auga e 10 $º B e$ á disolución do sal. A 15.6 ºC a relación entre os graos Baumé e a densidade deste tipo de líquidos vén dada pola expresión $ º B e = 145 - 145/rho. $ Para líquidos menos densos que a auga, os puntos de referencia están invertidos respecto aos anteriores e a expresión válida neste caso, tamén a 15.6ºC é $ º B e = 140/rho - 130. $",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$º B e$"
           }
         }
       }
     ],
     "relacionadas": [
-      "densidade",
-      ".ºBe"
+      "densidade"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -6970,14 +6923,14 @@
         "lingua": {
           "gl": {
             "termo": "Bayer, catálogo de",
-            "definicion": "V. Uranometria.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["uranometría"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -6988,14 +6941,14 @@
         "lingua": {
           "gl": {
             "termo": "BCS, teoría",
-            "definicion": "V. superconductividade.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["superconductividade"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7006,7 +6959,7 @@
         "lingua": {
           "gl": {
             "termo": "Beattie-Bridgman, ecuación de",
-            "definicion": "Ecuación empírica que relaciona as variables de estado presión, volume molar e temperatura para gases reais. Ten a seguinte formaonde A, B, a, b, e c son parámetros que se deben determinar experimentalmente para cada tipo de gas.",
+            "definicion": "Ecuación empírica que relaciona as variables de estado presión, volume molar e temperatura para gases reais. Ten a seguinte forma: $ P dash(V)^2 = R T(1- c/(dash(V) T^3)) dot [dash(V) + B(1-b/dash(V)) - A(1-a/V)] $ onde $A$, $B$, $a$, $b$, e $c$ son parámetros que se deben determinar experimentalmente para cada tipo de gas.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7014,11 +6967,9 @@
       }
     ],
     "relacionadas": [
-      "volume",
-      "volume molar",
-      "A, B, a, b"
+      "volume molar"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7028,7 +6979,7 @@
         "lingua": {
           "gl": {
             "termo": "Beaufort, escala de",
-            "definicion": "Escala empregada para coñecer de forma aproximada a velocidade do vento. É debida ao mariño Francis Beaufort (1774-1857) que a presentou por primeira vez en 1808. Existen dúas escalas, unha empregada no mar e nas costas e outra en terra. A máis empregada é a primeira, que clasifica os ventos en 12 categorías ou forzas dende calma total (forza 0) a furacán (forza 12) pasando sucesivamente por distintas gradacións de brisa, vento e tempestade. De forma bastante aproximada pódese dicir que a velocidade do vento dentro de cada categoría é 10 kmh-1 superior á anterior.",
+            "definicion": "Escala empregada para coñecer de forma aproximada a velocidade do vento. É debida ao mariño Francis Beaufort (1774-1857) que a presentou por primeira vez en 1808. Existen dúas escalas, unha empregada no mar e nas costas e outra en terra. A máis empregada é a primeira, que clasifica os ventos en 12 categorías ou forzas dende calma total (forza 0) a furacán (forza 12) pasando sucesivamente por distintas gradacións de brisa, vento e tempestade. De forma bastante aproximada pódese dicir que a velocidade do vento dentro de cada categoría é 10 km/h superior á anterior.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7046,19 +6997,20 @@
         "lingua": {
           "gl": {
             "termo": "becquerel",
-            "definicion": "Sb. Bq. Tamén chamado becquerelio, é a unidade de actividade dun radionucleido empregada no SI, en lembranza do físico Henri Becquerel (1852-1908) que descubríu a radioactividade. Corresponde á actividade dunha fonte radioactiva na que se produce unha transformación ou unha transición nuclear por segundo. V. desintegración radioactiva; curie.",
+            "definicion": "Tamén chamado _becquerelio_, é a unidade de actividade dun radionucleido empregada no SI, en lembranza do físico Henri Becquerel (1852-1908) que descubríu a radioactividade. Corresponde á actividade dunha fonte radioactiva na que se produce unha transformación ou unha transición nuclear por segundo.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$B q$"
           }
         }
       }
     ],
     "relacionadas": [
-      "radionucleido",
-      "becquerelio",
-      "actividade"
+      "radionúclido",
+      "actividade",
+      "desintegración radioactiva",
+      "curie"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7068,7 +7020,7 @@
         "lingua": {
           "gl": {
             "termo": "Beer, lei de",
-            "definicion": "Lei que establece unha relación entre a diminución da intensidade enerxética (ou máis frecuentemente a iluminación enerxética) dun feixe de luz que atravesa unha disolución coa concentración da mesma e a coa distancia percorrida pola luz nese medio. Sendo a iluminación enerxética inicial ea que posúe despois de percorrer unha distancia, ao través da disolución de coeficiente de extinción molare molaridade M, a lei de Beer exprésase segundo a ecuación: A lei de Beer é unha derivación da lei de Lambert e, ao incluír como variable a molaridade da disolución absorbente permite coñecer, mediante medidas de absorbancia (logaritmo do cociente), a concentración dunha determinada mostra, resultando de gran utilidade na análise química. O valor do coeficiente de extinción molar depende da substancia disolta e da frecuencia da radiación empregada. V. fotocolorimetría; absorción.",
+            "definicion": "Lei que establece unha relación entre a diminución da intensidade enerxética (ou máis frecuentemente a iluminación enerxética) dun feixe de luz que atravesa unha disolución coa concentración da mesma e a coa distancia percorrida pola luz nese medio. Sendo a $phi_(e 0)$ iluminación enerxética inicial e $phi_e$ a que posúe despois de percorrer unha distancia $delta x$, ao través da disolución de coeficiente de extinción molar $epsilon$ e molaridade $M$, a lei de Beer exprésase segundo a ecuación: $ phi_e = phi_(e 0) dot e^(epsilon M delta x) $ A lei de Beer é unha derivación da lei de Lambert e, ao incluír como variable a molaridade da disolución absorbente permite coñecer, mediante medidas de absorbancia (logaritmo do cociente $phi_e\\/phi_(e 0)$), a concentración dunha determinada mostra, resultando de gran utilidade na análise química. O valor do coeficiente de extinción molar depende da substancia disolta e da frecuencia da radiación empregada.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7076,17 +7028,16 @@
       }
     ],
     "relacionadas": [
-      "iluminación enerxética",
       "molaridade",
-      "Lambert",
-      "coeficiente",
+      "Lambert, lei de",
       "absorbancia",
-      "intensidade",
+      "absorbción",
+      "fotocolorimetría",
       "coeficiente de extinción molar",
-      "iluminación",
+      "iluminación enerxética",
       "intensidade enerxética"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7096,9 +7047,9 @@
         "lingua": {
           "gl": {
             "termo": "bel",
-            "definicion": "Sb. B. 1. Unidade de sensación sonora ou nivel de intensidade sonora percibido polo oído, en lembranza do físico Alexander Graham Bell (1847-1922). Defínese 1 bel como a sensación experimentada cando o son que serve de estímulo e cunha frecuencia determinada, ten unha intensidade 10 veces maior que a do límite de audición correspondente. Máis empregado resulta o decibel ou decibelio. V. fonio; sonio.",
+            "definicion": "Unidade de sensación sonora ou nivel de intensidade sonora percibido polo oído, en lembranza do físico Alexander Graham Bell (1847-1922). Defínese 1 bel como a sensación experimentada cando o son que serve de estímulo e cunha frecuencia determinada, ten unha intensidade 10 veces maior que a do límite de audición correspondente. Máis empregado resulta o decibel ou decibelio.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$B$"
           }
         }
       },
@@ -7106,7 +7057,7 @@
         "lingua": {
           "gl": {
             "termo": "bel",
-            "definicion": "En xeral, unidade que expresa o logaritmo decimal da intensidade relativa dun sinal acústico ou dun sinal eléctrico, segundo.",
+            "definicion": "En xeral, unidade que expresa o logaritmo decimal da intensidade relativa dun sinal acústico ou dun sinal eléctrico, segundo $ beta = log(I\\/I_0) $",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7114,17 +7065,15 @@
       }
     ],
     "relacionadas": [
-      "decibel",
-      "sensación",
-      "límite",
-      "intensidade",
+      "fonio",
+      "sonio",
       "intensidade relativa",
       "límite de audición",
       "decibelio",
-      "sensación sonora ",
-      "nivel de intensidade sonora "
+      "sensación sonora",
+      "intensidade sonora"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7134,16 +7083,14 @@
         "lingua": {
           "gl": {
             "termo": "belio",
-            "definicion": "bel.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["bel"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "bel"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
