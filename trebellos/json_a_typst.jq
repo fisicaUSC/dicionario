@@ -28,11 +28,16 @@ def termo_individual:
         .acepcions.[] |
         "        (
             definicion : [\(.lingua.gl.definicion)],
-            simbolo    : \(if .lingua.gl.simbolo != "" then "[\(.lingua.gl.simbolo)]" else "none" end),
+            simbolo    : \(if .lingua.gl.simbolo != "" then "[\(.lingua.gl.simbolo)]" else "none" end)
         ),"
     )",
-"    ),
-)\n"
+"    ),",
+    if .relacionadas != [] then
+        "    relacionadas: (",
+        "        [\(.relacionadas[])],",
+        "    )"
+    else "    relacionadas: none" end,
+")\n"
 ;
 
 # Para as novas letras, devolvemos texto en formato typst tal como:

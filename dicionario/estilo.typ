@@ -37,7 +37,8 @@
 
 #let termo(
     denominacion: none,
-    acepcions: none
+    acepcions: none,
+    relacionadas: none
 ) = context {
     // Caso de xerar un PDF
     if target() == "paged" {
@@ -54,6 +55,9 @@
                 if s != none {[Símbolo: #s. ]}
                 d
             }
+        }
+        if relacionadas != none {
+            [#linebreak()*Véxase*: _#relacionadas.join("; ")_.]
         }
     // Caso de xerar o borrador en formato HTML
     } else if target() == "html" { // HTML porque isto está dentro de dicionario.html
@@ -77,6 +81,12 @@
                             if s != none {[Símbolo: #s.]}
                             d
                         }
+                    )
+                }
+                if relacionadas != none {
+                    html.div(
+                        class: "relacionadas",
+                        [#linebreak()Véxase: _#relacionadas.join("; ")_.]
                     )
                 }
             }
