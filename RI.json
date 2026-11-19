@@ -7101,8 +7101,8 @@
         "lingua": {
           "gl": {
             "termo": "Bell, desigualdade de",
-            "definicion": "Relación estatística formulada por John Bell, partindo do argumento de Einstein-Podolsky-Rosen e a teoría de conxuntos, aplicable a certas propiedades das partículas subatómicas que poden tomar dous únicos valores (como o espín, positivo ou negativo, ou a polarización ou non segundo unha determinada dirección). Dado que esta desigualdade é teoricamente demostrable partindo de teorías realistas locais, e que a súa violación está predita pola mecánica cuántica, a busca do cumprimento ou non de tal desigualdade, en diferentes experimentos con partículas, é un obxectivo de interese na confirmación da mecánica cuántica. Tamén é coñecido como teorema de Bell. V. variables ocultas; realismo; separabilidade; determinismo; Schrödinger, gato de.",
-            "sinonimos": [],
+            "definicion": "Relación estatística formulada por John Bell, partindo do argumento de Einstein-Podolsky-Rosen e a teoría de conxuntos, aplicable a certas propiedades das partículas subatómicas que poden tomar dous únicos valores (como o espín, positivo ou negativo, ou a polarización ou non segundo unha determinada dirección). Dado que esta desigualdade é teoricamente demostrable partindo de teorías realistas locais, e que a súa violación está predita pola mecánica cuántica, a busca do cumprimento ou non de tal desigualdade, en diferentes experimentos con partículas, é un obxectivo de interese na confirmación da mecánica cuántica. Tamén é coñecido como teorema de Bell.",
+            "sinonimos": ["Bell, teorema de"],
             "simbolo": ""
           }
         }
@@ -7111,12 +7111,14 @@
     "relacionadas": [
       "espín",
       "teorías realistas locais",
-      "Einstein",
-      "mecánica",
-      "argumento de Einstein-Podolsky-Rosen",
+      "EPR, argumento",
       "mecánica cuántica",
-      "teorías",
-      "teorema de Bell"
+      "teorema de Bell",
+      "variábeis ocultas",
+      "realismo",
+      "separabilidade",
+      "determinismo",
+      "Schrödinger, gato de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -7128,17 +7130,18 @@
         "lingua": {
           "gl": {
             "termo": "bemol",
-            "definicion": "Sb. b. Nota coa tonalidade un semiton máis baixo que o seu son natural. V. sostido.",
+            "definicion": "Nota coa tonalidade un semitón máis baixo que o seu son natural.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$b$"
           }
         }
       }
     ],
     "relacionadas": [
-      "semiton"
+      "semitón",
+      "sostido"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7166,7 +7169,7 @@
         "lingua": {
           "gl": {
             "termo": "Bennett, ecuación de",
-            "definicion": "En astronomía, fórmula que permite correxir, de forma aproximada, a altura observada dun astro sobre o horizonte e aproximarse á altura verdadeira que ten nese intre. A diferencia entre as dúas alturas débese á refracción que sofre a luz procedente do astro ao atravesar a atmosfera terrestre. Sendo P e T a presión e temperatura (en mbar e ºC respectivamente) e h a altura observada para un determinado astro, a súa altura verdadeira, hv, virá dada por:",
+            "definicion": "En astronomía, fórmula que permite correxir, de forma aproximada, a altura observada dun astro sobre o horizonte e aproximarse á altura verdadeira que ten nese intre. A diferencia entre as dúas alturas débese á refracción que sofre a luz procedente do astro ao atravesar a atmosfera terrestre. Sendo $P$ e $T$ a presión e temperatura (en mbar e ºC respectivamente) e $h$ a altura observada para un determinado astro, a súa altura verdadeira, $h_v$, virá dada por: $ h_v = h - (60'') / tan(h + 7.31/(h+4.4)) (0.283·P)/(273 + T) $",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7176,7 +7179,7 @@
     "relacionadas": [
       "refracción"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7186,21 +7189,19 @@
         "lingua": {
           "gl": {
             "termo": "berilio",
-            "definicion": "Sb. Be. Elemento químico de número atómico 4, descuberto no 1798, por L. N. Vauquelin. O berilio natural está constituído de forma exclusiva polo isótopo Be-9, pero coñécense 9 isótopos artificiais máis. É un metal de cor branca aceirada e crebadizo a temperatura ambiente. Moitos usos industriais do berilio derivan de ser este un metal lixeiro, cun alto punto de fusión e de presentar boas propiedades mecánicas, sendo un bo conductor da electricidade. MA. 9,012 1 u; Pf. 1287 ºC; Peb. 2469 ºC;  1848 kgm-3.",
+            "definicion": "Elemento químico de número atómico 4, descuberto no 1798, por L. N. Vauquelin. O berilio natural está constituído de forma exclusiva polo isótopo Be-9, pero coñécense 9 isótopos artificiais máis. É un metal de cor branca aceirada e crebadizo a temperatura ambiente. Moitos usos industriais do berilio derivan de ser este un metal lixeiro, cun alto punto de fusión e de presentar boas propiedades mecánicas, sendo un bo conductor da electricidade. MA. 9.012 1 u; Pf. 1287 ºC; Peb. 2469 ºC; $rho$ 1848 kg m⁻³.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[Be]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
       "isótopo",
       "número atómico",
-      "Elemento",
-      "Elemento químico"
+      "elemento químico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7210,23 +7211,20 @@
         "lingua": {
           "gl": {
             "termo": "berkelio",
-            "definicion": "Sb. Bk. Elemento químico de número atómico 97, descuberto no 1949, por S. G. Thompson, A. Ghiorso, e G. T. Seaborg. Todos os seus 20 isótopos son radioactivos, sendo o Bk-247 o de máis vida media: 1380 anos. MA. 247 u.",
+            "definicion": "Elemento químico de número atómico 97, descuberto no 1949, por S. G. Thompson, A. Ghiorso, e G. T. Seaborg. Todos os seus 20 isótopos son radioactivos, sendo o Bk-247 o de máis vida media: 1380 anos. MA. 247 u.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[Bk]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
       "número atómico",
-      "vida",
-      "vida media:",
-      "Elemento",
-      "isótopos",
-      "Elemento químico"
+      "vida media",
+      "isótopo",
+      "elemento químico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7236,14 +7234,14 @@
         "lingua": {
           "gl": {
             "termo": "Bernouilli, ecuación de",
-            "definicion": "V. Bernouilli, teorema de.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["Bernouilli, teorema de"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7254,14 +7252,14 @@
         "lingua": {
           "gl": {
             "termo": "Bernouilli, efecto de",
-            "definicion": "V. efecto Venturi.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["Venturi, efecto"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7272,7 +7270,7 @@
         "lingua": {
           "gl": {
             "termo": "Bernouilli, teorema de",
-            "definicion": "Unha das bases teóricas máis importantes da hidrodinámica. Foi enunciado polo matemático Daniel Bernouilli (1700-1782) en 1738 e di que nun fluído incompresible e non viscoso en movemento, con réxime estacionario baixo a acción da gravidade, a suma das enerxías de presión, potencial e cinética é constante para os diversos puntos dunha liña de corrente. Matematicamente pódese resumir o anterior na ecuaciónque representa as citadas enerxías por unidade de volume. Se dividimos cada termo da ecuación de Bernouilli por g obtense queexpresión que se pode interpretar en función das distintas alturas respecto a un plano de referencia para o tubo de corrente. O primeiro termo coñecese como altura de presión, o segundo como altura potencial, a suma dos dous como altura estática e o terceiro como altura dinámica.",
+            "definicion": "Unha das bases teóricas máis importantes da hidrodinámica. Foi enunciado polo matemático Daniel Bernouilli (1700-1782) en 1738 e di que nun fluído incompresible e non viscoso en movemento, con réxime estacionario baixo a acción da gravidade, a suma das enerxías de presión, potencial e cinética é constante para os diversos puntos dunha liña de corrente. Matematicamente pódese resumir o anterior na ecuación $ P + rho g h + (rho v^2)/2 = #[cte] $ que representa as citadas enerxías por unidade de volume. Se dividimos cada termo da ecuación de Bernouilli por $r g$ obtense que $ P/(rho g) + h + v^2/(2 g) = #[cte] $ expresión que se pode interpretar en función das distintas alturas respecto a un plano de referencia para o tubo de corrente. O primeiro termo coñecese como altura de presión, o segundo como altura potencial, a suma dos dous como altura estática e o terceiro como altura dinámica.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7280,20 +7278,16 @@
       }
     ],
     "relacionadas": [
-      "altura",
       "réxime estacionario",
       "altura estática",
       "liña de corrente",
-      "liña",
-      "réxime",
       "altura de presión",
       "altura dinámica",
       "tubo de corrente",
-      "tubo",
       "hidrodinámica",
       "altura potencial"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7303,7 +7297,7 @@
         "lingua": {
           "gl": {
             "termo": "Bernoulli, leis de",
-            "definicion": "En acústica, conxunto de leis, enunciadas polo médico e matemático Johann Bernoulli (1667-1748), referidas ao son obtido nun tubo sonoro. Estas leis establecen que: a frecuencia do son fundamental obtido nun tubo é directamente proporcional á velocidade de propagación do son no gas do seu interior (1ª lei) e inversamente proporcional á lonxitude do tubo (2ª lei); en tubos idénticos e co mesmo gas, pero un aberto e outro pechado, óbtense no aberto un son de frecuencia dobre que no pechado, ou sexa, unha octava máis aguda (3ª lei); nun tubo aberto pódense obter o son fundamental e toda a serie de harmónicos correspondentes, mentres que nun tubo pechado só se pode obter o son fundamental e os harmónicos de frecuencia impar da fundamental (4ª lei). V. Kundt, tubo de.",
+            "definicion": "En acústica, conxunto de leis, enunciadas polo médico e matemático Johann Bernoulli (1667-1748), referidas ao son obtido nun tubo sonoro. Estas leis establecen que: a frecuencia do son fundamental obtido nun tubo é directamente proporcional á velocidade de propagación do son no gas do seu interior (1ª lei) e inversamente proporcional á lonxitude do tubo (2ª lei); en tubos idénticos e co mesmo gas, pero un aberto e outro pechado, óbtense no aberto un son de frecuencia dobre que no pechado, ou sexa, unha octava máis aguda (3ª lei); nun tubo aberto pódense obter o son fundamental e toda a serie de harmónicos correspondentes, mentres que nun tubo pechado só se pode obter o son fundamental e os harmónicos de frecuencia impar da fundamental (4ª lei).",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7312,11 +7306,12 @@
     ],
     "relacionadas": [
       "harmónicos",
-      "son",
       "octava",
       "tubo sonoro",
       "son fundamental",
-      "tubo"
+      "tubo",
+      "acústica",
+      "Kundt, tubo de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -7346,7 +7341,7 @@
         "lingua": {
           "gl": {
             "termo": "Berthelot, ecuación de estado de",
-            "definicion": "Expresión alxébrica formulada por P.E.M. Berthelot (1827-1907) que relaciona a presión, o volume e a temperatura dun gas real do seguinte xeito  onde a e b son parámetros propios de cada gas. Non é moi usada por ser menos exacta que a ecuación de estado de Van der Waals cando as presións son altas.",
+            "definicion": "Expresión alxébrica formulada por P.E.M. Berthelot (1827-1907) que relaciona a presión, o volume e a temperatura dun gas real do seguinte xeito $ (P + a/(T dash(V)^2))(dash(V) - b) = R T $ onde $a$ e $b$ son parámetros propios de cada gas. Non é moi usada por ser menos exacta que a ecuación de estado de Van der Waals cando as presións son altas.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7354,9 +7349,9 @@
       }
     ],
     "relacionadas": [
-      "Van"
+      "Van der Waals, ecuación de estado de"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7374,12 +7369,10 @@
       }
     ],
     "relacionadas": [
-      "campo",
-      "electróns",
+      "electrón",
       "electroimán",
-      "beta",
+      "entreferro",
       "campo eléctrico",
-      "inducción",
       "inducción electromagnética"
     ],
     "ten_ecuacions": false,
@@ -7392,17 +7385,14 @@
         "lingua": {
           "gl": {
             "termo": "Bethe, ciclo de",
-            "definicion": "Ciclo CNO.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["ciclo nuclear do carbono"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Ciclo",
-      "Ciclo CNO"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7413,14 +7403,14 @@
         "lingua": {
           "gl": {
             "termo": "biela",
-            "definicion": "Barra que nas máquinas serve para transformar un movemento de vaivén noutro de rotación ou viceversa. V. acoplador.",
+            "definicion": "Barra que nas máquinas serve para transformar un movemento de vaivén noutro de rotación ou viceversa.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["acoplador"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7439,9 +7429,7 @@
       }
     ],
     "relacionadas": [
-      "Gran Explosión",
-      "bang",
-      "Gran"
+      "Gran Explosión"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -7453,17 +7441,14 @@
         "lingua": {
           "gl": {
             "termo": "Big Crunch",
-            "definicion": "Colapso Final.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["Colapso Final"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Colapso",
-      "Colapso Final"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7474,14 +7459,14 @@
         "lingua": {
           "gl": {
             "termo": "binarias espectroscópicas",
-            "definicion": "V. sistemas múltiples.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["sistemas múltiples"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7492,14 +7477,14 @@
         "lingua": {
           "gl": {
             "termo": "binarias físicas",
-            "definicion": "V. sistemas múltiples.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["sistemas múltiples"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7510,14 +7495,14 @@
         "lingua": {
           "gl": {
             "termo": "binarias fotométricas",
-            "definicion": "V. sistemas múltiples.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["sistemas múltiples"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7528,7 +7513,7 @@
         "lingua": {
           "gl": {
             "termo": "binarias visuais",
-            "definicion": "Par de estrelas que, vistas dende a Terra, vense moi próximas na esfera celeste pero que non gardan relación algunha entre si, podendo estar moi afastadas unha da outra. V. sistemas múltiple.",
+            "definicion": "Par de estrelas que, vistas dende a Terra, vense moi próximas na esfera celeste pero que non gardan relación algunha entre si, podendo estar moi afastadas unha da outra.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7537,7 +7522,7 @@
     ],
     "relacionadas": [
       "esfera celeste",
-      "esfera"
+      "sistemas múltiples"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -7549,7 +7534,7 @@
         "lingua": {
           "gl": {
             "termo": "Binet, fórmula de",
-            "definicion": "Fórmula que proporciona o valor da forza central que provoca o movemento dun corpo e que permite deducir a ecuación da súa traxectoria, especialmente cando dita forza é función única e exclusivamente da distancia do corpo á orixe do campo.",
+            "definicion": "Fórmula que proporciona o valor da forza central que provoca o movemento dun corpo e que permite deducir a ecuación da súa traxectoria, especialmente cando dita forza é función única e exclusivamente da distancia do corpo á orixe do campo. $ F (r, phi) = - (M c^2)/r^2 [(d^2 (1\\/r))/(d phi^2) + 1/r] $",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7557,7 +7542,7 @@
       }
     ],
     "relacionadas": [],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7567,7 +7552,7 @@
         "lingua": {
           "gl": {
             "termo": "Bingham, fluído de",
-            "definicion": "Fluído non newtoniano independente do tempo, que precisa dun gran esforzo cortante para que empece a fluír e no que a viscosidade non varía practicamente nada co gradiente de velocidade unha vez que empeza a fluír. Substancias que se comportan deste xeito son a pasta de dentes, a maionesa ou a pintura. V. fluídos.",
+            "definicion": "Fluído non newtoniano independente do tempo, que precisa dun gran esforzo cortante para que empece a fluír e no que a viscosidade non varía practicamente nada co gradiente de velocidade unha vez que empeza a fluír. Substancias que se comportan deste xeito son a pasta de dentes, a maionesa ou a pintura.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7577,9 +7562,8 @@
     "relacionadas": [
       "esforzo cortante",
       "viscosidade",
-      "Fluído non newtoniano",
-      "esforzo",
-      "Fluído"
+      "fluído non newtoniano",
+      "fluídos"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -7591,7 +7575,7 @@
         "lingua": {
           "gl": {
             "termo": "Bingham, picnómetro de",
-            "definicion": "Recipiente de capacidade coñecida exactamente empregado para medir densidades de líquidos. Para elo é preciso medir a masa do líquido cun erro de 0,1 mg.",
+            "definicion": "Recipiente de capacidade coñecida exactamente empregado para medir densidades de líquidos. Para elo é preciso medir a masa do líquido cun erro de 0.1 mg.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7599,7 +7583,7 @@
       }
     ],
     "relacionadas": [],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7609,14 +7593,18 @@
         "lingua": {
           "gl": {
             "termo": "binoculares",
-            "definicion": "Aparello óptico que permite a visión cos dous ollos. V. prismáticos; telescopio; microscopio.",
+            "definicion": "Aparello óptico que permite a visión cos dous ollos.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": [
+        "prismáticos",
+        "telescopio",
+        "microscopio"
+    ],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7627,21 +7615,20 @@
         "lingua": {
           "gl": {
             "termo": "binormal",
-            "definicion": "Sb. . Vector unitario resultado de multiplicar vectorialmente os vectores unitarios na dirección da aceleración normal e da aceleración tanxencial, tal que . Como consecuencia, o binormal é un vector perpendicular ao plano osculador.V. Frenet-Sarrus, triedro de.",
+            "definicion": "Vector unitario resultado de multiplicar vectorialmente os vectores unitarios na dirección da aceleración normal e da aceleración tanxencial, tal que $arrow(b) = arrow(n) times arrow(T)$. Como consecuencia, o binormal é un vector perpendicular ao plano osculador.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$arrow(b)$"
           }
         }
       }
     ],
     "relacionadas": [
-      "aceleración",
       "aceleración normal",
       "aceleración tanxencial",
-      "plano osculador.",
-      "plano"
+      "plano osculador",
+      "Frenet-Sarrus, triedro de"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7677,7 +7664,8 @@
       }
     ],
     "relacionadas": [
-      "Luminiscencia"
+      "luminiscencia",
+      "quimioluminiscencia"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -7689,7 +7677,7 @@
         "lingua": {
           "gl": {
             "termo": "BIOS",
-            "definicion": "Acrónimo de Basic Input-Output System (Sistema básico de entrada-saída). Conxunto de programas dun ordenador que traballan en contacto co hardware do sistema. Nun PC está almacenado en memoria flash, memoria ROM, ou nunha mestura  de ambas.",
+            "definicion": "Acrónimo de _Basic Input-Output System_ (Sistema básico de entrada-saída). Conxunto de programas dun ordenador que traballan en contacto co hardware do sistema. Nun PC está almacenado en memoria flash, memoria ROM, ou nunha mestura de ambas.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7697,9 +7685,6 @@
       }
     ],
     "relacionadas": [
-      "memoria",
-      "Basic Input-Output System ",
-      "hardware",
       "memoria ROM",
       "memoria flash,"
     ],
@@ -7721,9 +7706,7 @@
       }
     ],
     "relacionadas": [
-      "1 biot ",
-      "10 A",
-      "intensidade",
+      "c.g.s.",
       "intensidade de corrente"
     ],
     "ten_ecuacions": false,
@@ -7736,7 +7719,7 @@
         "lingua": {
           "gl": {
             "termo": "Biot, lei de",
-            "definicion": "Lei que leva o nome do físico Jean Baptiste Biot (1774-1862) e que establece que o poder rotatorio dun corpo sólido, , é directamente proporcional ao espesor da substancia atravesada pola luz polarizada, e, e á súa densidade, , segundo a ecuación =. A constante de proporcionalidade, [], é o chamado poder rotatorio específico, característico de cada substancia.V. polarización da luz; polarización rotatoria.",
+            "definicion": "Lei que leva o nome do físico Jean Baptiste Biot (1774-1862) e que establece que o poder rotatorio dun corpo sólido, $alpha$, é directamente proporcional ao espesor da substancia atravesada pola luz polarizada, $e$, e á súa densidade, $rho$, segundo a ecuación $alpha = [alpha] dot e dot rho$. A constante de proporcionalidade, $[alpha]$, é o chamado poder rotatorio específico, característico de cada substancia.V. polarización da luz; polarización rotatoria.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7744,12 +7727,11 @@
       }
     ],
     "relacionadas": [
-      " poder rotatorio ",
-      "específico",
-      "poder",
-      "poder rotatorio"
+      "poder rotatorio",
+      "polarización da luz",
+      "polarización rotatoria"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7759,7 +7741,7 @@
         "lingua": {
           "gl": {
             "termo": "Biot-Savart, lei de",
-            "definicion": "Relaciona a inducción magnética nun punto coa corrente que a produce. Na súa forma diferencialOnderepresenta a inducción magnética no punto, i a intensidade de corrente que circula polo conductor,un diferencial de lonxitude no sentido da corrente, r a distancia do punto ao elemento diferencial ea permeabilidade. 0figura0.",
+            "definicion": "Relaciona a inducción magnética nun punto coa corrente que a produce. Na súa forma diferencial $ d arrow(b) = (mu_0)/(4 pi) (i arrow(d l) times arrow(r)) / r^3, $ onde $d arrow(B)$ representa a inducción magnética no punto, $i$ a intensidade de corrente que circula polo conductor, $arrow(d l)$ un diferencial de lonxitude no sentido da corrente, $r$ a distancia do punto ao elemento diferencial e $mu_0$ a permeabilidade. #html.frame(image(\"/figuras/biot-savart_lei_de.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7768,14 +7750,11 @@
     ],
     "relacionadas": [
       "inducción magnética",
-      "intensidade",
       "intensidade de corrente",
-      "inducción",
-      "permeabilidade",
       "permeabilidade"
     ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_ecuacions": true,
+    "ten_figuras": true
   },
   {
     "termo": "Birkhoff, teorema de",
@@ -7784,14 +7763,14 @@
         "lingua": {
           "gl": {
             "termo": "Birkhoff, teorema de",
-            "definicion": "V. Gauss, teorema de.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["Gauss, teorema de"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7802,7 +7781,7 @@
         "lingua": {
           "gl": {
             "termo": "birrefrinxencia",
-            "definicion": "Propiedade dos medios anisótropos, con cristais que non pertencen ao sistema regular, pola cal un raio de luz que atravesa o cristal sofre un desdobramento en dous raios, un chamado ordinario e outro extraordinario, debido á refracción. O raio ordinario propágase, segundo indican as leis da refracción, en función do indice de refracción do cristal respecto ao primeiro medio, sendo este último independente do ángulo de incidencia (sen i/sen r=n=cte). Sen embargo, a velocidade de propagación do raio extraordinario depende da dirección de propagación, ou o que é o mesmo, o índice de refracción para este segundo raio depende do ángulo de incidencia (sen i/sen r =nr=f(i)), producíndose o desdobramento agás na dirección do eixe óptico do cristal. O espato de Islandia é un exemplo típico de cristal birrefrinxente. Tanto o raio ordinario como o extraordinario están polarizados linealmente e os seus respectivos planos de vibración son perpendiculares.",
+            "definicion": "Propiedade dos medios anisótropos, con cristais que non pertencen ao sistema regular, pola cal un raio de luz que atravesa o cristal sofre un desdobramento en dous raios, un chamado ordinario e outro extraordinario, debido á refracción. O raio ordinario propágase, segundo indican as leis da refracción, en función do indice de refracción do cristal respecto ao primeiro medio, sendo este último independente do ángulo de incidencia ($sin(i)\\/sin(r)=n=#[cte]$). Porén, a velocidade de propagación do raio extraordinario depende da dirección de propagación, ou o que é o mesmo, o índice de refracción para este segundo raio depende do ángulo de incidencia ($sin(i)\\/sin(r) =n_r=f(i)$), producíndose o desdobramento agás na dirección do eixe óptico do cristal. O espato de Islandia é un exemplo típico de cristal birrefrinxente. Tanto o raio ordinario como o extraordinario están polarizados linealmente e os seus respectivos planos de vibración son perpendiculares.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7810,24 +7789,15 @@
       }
     ],
     "relacionadas": [
-      "=f(i",
       "sistema regular",
-      "sistema",
-      "sen i/sen r =n",
-      "ordinario ",
-      "extraordinario",
-      "anisótropos",
-      "indice",
-      "espato",
+      "anisótropo",
       "refracción",
       "indice de refracción",
-      "eixe",
-      "polarizados",
-      "sen i/sen r=n=cte",
-      "espato de Islandia",
+      "polarización",
+      "Islandia, espato de",
       "eixe óptico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7837,14 +7807,14 @@
         "lingua": {
           "gl": {
             "termo": "birrefrinxencia eléctrica",
-            "definicion": "V. Kerr, efecto.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["Kerr, efecto"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7855,22 +7825,20 @@
         "lingua": {
           "gl": {
             "termo": "bismuto",
-            "definicion": "Sb. Bi. Elemento químico de número atómico 53, coñecido dende a Idade Media. O bismuto natural está constituído de forma exclusiva polo isótopo Bi-209, pero coñécense 31 isótopos artificiais máis. É un metal branco crebadizo e fortemente diamagnético. Os seus sales teñen diversas aplicacións en medicina. MA. 208,980 37 u; Pf. 271,4 ºC; Peb. 1564 ºC;  9747 kgm-3.",
+            "definicion": "Elemento químico de número atómico 53, coñecido dende a Idade Media. O bismuto natural está constituído de forma exclusiva polo isótopo Bi-209, pero coñécense 31 isótopos artificiais máis. É un metal branco crebadizo e fortemente diamagnético. Os seus sales teñen diversas aplicacións en medicina. MA. 208.980 37 u; Pf. 271.4 ºC; Peb. 1564 ºC; $rho$ 9747 kgm-3.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[Bi]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
       "isótopo",
       "número atómico",
       "diamagnético",
-      "Elemento",
-      "Elemento químico"
+      "elemento químico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7880,7 +7848,7 @@
         "lingua": {
           "gl": {
             "termo": "bit",
-            "definicion": "Abreviatura de Binary Digit. 1. Un dos díxitos utilizados no sistema de base dous, isto é 0 ou 1.",
+            "definicion": "Abreviatura de _Binary Digit_. Un dos díxitos utilizados no sistema de base dous, isto é 0 ou 1.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7897,9 +7865,7 @@
         }
       }
     ],
-    "relacionadas": [
-      "Binary Digit"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7910,7 +7876,7 @@
         "lingua": {
           "gl": {
             "termo": "Blasius, ecuación de",
-            "definicion": "Expresión empírica que proporciona o valor do factor de fricción de Fanning en conduccións lisas: Onde Re é o número de Reynolds.",
+            "definicion": "Expresión empírica que proporciona o valor do factor de fricción de Fanning en conduccións lisas: $ f_#[Fanning] = 0.079/ (root(4, #[$R e$])) $ Onde $R e$ é o número de Reynolds.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7918,10 +7884,10 @@
       }
     ],
     "relacionadas": [
-      "Fanning",
-      "Reynolds"
+      "Fanning, factor de",
+      "Reynolds, número de"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
