@@ -17,9 +17,18 @@ def simplifica_letra:
 #         (
 #             definicion : [...],
 #             simbolo    : none,
+#             sinonimos  : (
+#                 "...",
+#                 "...",
+#             ),
 #         ),
 #     ),
+#     relacionadas : (
+#         "...",
+#         "...",
+#     )
 # )
+# Si, son plenamente consciente de que é ilexible :(
 def termo_individual:
 "#termo(
     denominacion: \"\(.termo)\",
@@ -28,17 +37,23 @@ def termo_individual:
         .acepcions.[] |
         "        (
             definicion : [\(.lingua.gl.definicion)],
-            simbolo    : \(if .lingua.gl.simbolo != "" then "[\(.lingua.gl.simbolo)]" else "none" end)
-        ),"
+            simbolo    : \(if .lingua.gl.simbolo != "" then "[\(.lingua.gl.simbolo)]," else "none," end)",
+            if .lingua.gl.sinonimos != [] then
+                "            sinonimos  : (",
+                "                \"\(.lingua.gl.sinonimos[])\",",
+                "            )",
+                "        ),"
+            else "            sinonimos  : none","        )," end
     )",
-"    ),",
+    "    ),",
     if .relacionadas != [] then
         "    relacionadas: (",
-        "        [\(.relacionadas[])],",
+        "        \"\(.relacionadas[])\",",
         "    )"
     else "    relacionadas: none" end,
 ")\n"
 ;
+
 
 # Para as novas letras, devolvemos texto en formato typst tal como:
 # #letra("B")
