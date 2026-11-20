@@ -6723,7 +6723,7 @@
         "lingua": {
           "gl": {
             "termo": "barreira de potencial",
-            "definicion": "En mecánica cuántica, nome dun sistema definido por unha función potencial con forma de barreira. Matematicamente, e considerando o caso unidimensional para simplificar, tal función pódese definir como $V(x) = V_0$ cando $0<x<a$, e $V(x) = 0$ cando $x<0$ ou $x>a$. Mentres que na mecánica clásica, ao atoparse unha partícula cunha enerxía menor que a altura desa barreira non podería atravesala, na mecánica cuántica existe certa probabilidade de que a partícula atravese a barreira, é o chamado efecto túnel. #html.frame(image(\"/figuras/barreira_de_potencial.svg\"))",
+            "definicion": "En mecánica cuántica, nome dun sistema definido por unha función potencial con forma de barreira. Matematicamente, e considerando o caso unidimensional para simplificar, tal función pódese definir como $V(x) = V_0$ cando $0<x<a$, e $V(x) = 0$ cando $x<0$ ou $x>a$. Mentres que na mecánica clásica, ao atoparse unha partícula cunha enerxía menor que a altura desa barreira non podería atravesala, na mecánica cuántica existe certa probabilidade de que a partícula atravese a barreira, é o chamado efecto túnel. #figure(image(\"/figuras/barreira_de_potencial.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7741,7 +7741,7 @@
         "lingua": {
           "gl": {
             "termo": "Biot-Savart, lei de",
-            "definicion": "Relaciona a inducción magnética nun punto coa corrente que a produce. Na súa forma diferencial $ d arrow(b) = (mu_0)/(4 pi) (i arrow(d l) times arrow(r)) / r^3, $ onde $d arrow(B)$ representa a inducción magnética no punto, $i$ a intensidade de corrente que circula polo conductor, $arrow(d l)$ un diferencial de lonxitude no sentido da corrente, $r$ a distancia do punto ao elemento diferencial e $mu_0$ a permeabilidade. #html.frame(image(\"/figuras/biot-savart_lei_de.svg\"))",
+            "definicion": "Relaciona a inducción magnética nun punto coa corrente que a produce. Na súa forma diferencial $ d arrow(b) = (mu_0)/(4 pi) (i arrow(d l) times arrow(r)) / r^3, $ onde $d arrow(B)$ representa a inducción magnética no punto, $i$ a intensidade de corrente que circula polo conductor, $arrow(d l)$ un diferencial de lonxitude no sentido da corrente, $r$ a distancia do punto ao elemento diferencial e $mu_0$ a permeabilidade. #figure(image(\"/figuras/biot-savart_lei_de.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7897,14 +7897,14 @@
         "lingua": {
           "gl": {
             "termo": "Bluetooth",
-            "definicion": "En informática, estándar de comunicacións inalámbricas. Permite conexións sen cables entre ordenadores persoais, impresoras, teléfonos móbiles, cámaras dixitais, etc. O rango de acción e de 10 metros e soporta unha velocidade de transmisión de 1 Mbps. V. IEEE.",
+            "definicion": "En informática, estándar de comunicacións inalámbricas. Permite conexións sen cables entre ordenadores persoais, impresoras, teléfonos móbiles, cámaras dixitais, etc. O rango de acción e de 10 metros e soporta unha velocidade de transmisión de 1 Mbps.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["IEEE"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7933,7 +7933,7 @@
         "lingua": {
           "gl": {
             "termo": "bobina de inducción",
-            "definicion": "Dispositivo, antecesor do transformador, desenvolvido nos anos 1820s para producir correntes alternas de tensións elevadas e baixa intensidade a partir de correntes continuas de baixa tensión e elevada intensidade. Consta de dúas bobinas, unha delas, que constitúe o chamado circuíto secundario, con moitas más espiras que a outra, a que forma o primario. A rápida apertura e peche do circuíto primario induce no secundario unha corrente alterna de moi alta tensión e baixa intensidade. V. Rühmkorff, carrete de.",
+            "definicion": "Dispositivo, antecesor do transformador, desenvolvido nos anos 1820s para producir correntes alternas de tensións elevadas e baixa intensidade a partir de correntes continuas de baixa tensión e elevada intensidade. Consta de dúas bobinas, unha delas, que constitúe o chamado circuíto secundario, con moitas más espiras que a outra, a que forma o primario. A rápida apertura e peche do circuíto primario induce no secundario unha corrente alterna de moi alta tensión e baixa intensidade.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7942,8 +7942,8 @@
     ],
     "relacionadas": [
       "transformador",
-      "correntes",
-      "correntes alternas"
+      "corrente alterna",
+      "Rühmkorff, carrete de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -7955,7 +7955,7 @@
         "lingua": {
           "gl": {
             "termo": "Bode, lei de",
-            "definicion": "Lei que, ata o s. XIX, pretendía recoller unha certa regularidade na distancia dos planetas ao Sol, establecendo que esta, expresada en unidades astronómicas, viña dada pola expresión (n+4)/10, sendo n un número enteiro da sucesión 0, 3, 6, 12, 24, 48,....Certamente, as distancias medias dos planetas coñecidos dende a antigüidade, correspóndense coas calculadas por esa expresión para os números n (0, 3, 6, 12, 48, 96) e a de Urano, descuberto no 1781, viña dada pola expresión, para n=192. Pero os descubrimentos de Neptuno e Plutón, que para nada se correspondían con esta expresión, e o feito de que non haxa un planeta para o valor de n=24, restou credibilidade a esta lei que leva o nome en lembranza do astrónomo Johann Bode (1747-1826).",
+            "definicion": "Lei que, ata o s. XIX, pretendía recoller unha certa regularidade na distancia dos planetas ao Sol, establecendo que esta, expresada en unidades astronómicas, viña dada pola expresión $(n+4)/10$, sendo $n$ un número enteiro da sucesión 0, 3, 6, 12, 24, 48... Certamente, as distancias medias dos planetas coñecidos dende a antigüidade, correspóndense coas calculadas por esa expresión para os números $n$ (0, 3, 6, 12, 48, 96) e a de Urano, descuberto no 1781, viña dada pola expresión, para $n=192$. Mais os descubrimentos de Neptuno e Plutón, que para nada se correspondían con esta expresión, e o feito de que non haxa un planeta para o valor de $n=24$, restou credibilidade a esta lei que leva o nome en lembranza do astrónomo Johann Bode (1747-1826).",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -7963,11 +7963,9 @@
       }
     ],
     "relacionadas": [
-      "unidades",
-      "(n+4)/10",
-      "unidades astronómicas"
+      "unidade astronómica"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -7977,22 +7975,20 @@
         "lingua": {
           "gl": {
             "termo": "Bohr, magnetón de",
-            "definicion": "S. MB. Unidade empregada para expresar o momento magnético de partículas subatómicas, átomos, ións ou moléculas. Equivale a 9,274 015·10-24 Am2, definida  en función de constantes físicas fundamentais, como a masa e a carga do electrón (m e e-) e a constante de Planck h, segundo.Representa a proxección do momento magnético de espín do electrón dun átomo sobre a dirección dun campo magnético externo.",
+            "definicion": "Unidade empregada para expresar o momento magnético de partículas subatómicas, átomos, ións ou moléculas. Equivale a 9.274 015·10⁻²⁴ Am², definida  en función de constantes físicas fundamentais, como a masa e a carga do electrón ($m$ e $e^-$) e a constante de Planck $h$, segundo $ 1 #[MB] = (e h)/(4 pi m). $ Representa a proxección do momento magnético de espín do electrón dun átomo sobre a dirección dun campo magnético externo.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[MB]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "campo",
       "campo magnético",
-      "momento",
       "momento magnético de espín",
-      "Planck",
+      "Planck, constante de",
       "momento magnético"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8002,7 +7998,7 @@
         "lingua": {
           "gl": {
             "termo": "Bohr, modelo atómico de",
-            "definicion": "Modelo de átomo, proposto por Niels Bohr (1885-1962), semellante ao modelo atómico de Rutherford, pero cunha diferencia fundamental: os electróns só poden xirar arredor do núcleo en determinadas órbitas circulares estables, correspondentes a certos niveis de enerxía cuantizada que, para o caso do átomo de hidróxeno, viría dada pola ecuaciónna que RH é a constante de Rydberg, e n un número enteiro, chamado número cuántico principal. Para n=1 óbtense o chamado estado fundamental e para n&gt;1 os diferentes estados excitados, de maior enerxía canto maior sexa n, sendo o estado de máxima enerxía (E=0 J) o correspondente a n= . Mentres o electrón se atope nunha desas órbitas non radia nen absorbe enerxía, e o paso do electrón a outro estado supón unha absorción ou emisión de enerxía radiante de frecuencia f, dada pola ecuación: E= h·f, sendo h a chamada constante de Planck. Esta ecuación explicaba, de forma aproximada, a natureza das liñas espectrais características de cada átomo e o modelo atómico de Bohr, ao incluir a idea de cuantización da enerxía, constituía a antesala do que logo sería a mecánica cuántica moderna V. modelos atómicos; espectro; física cuántica.",
+            "definicion": "Modelo de átomo, proposto por Niels Bohr (1885-1962), semellante ao modelo atómico de Rutherford, pero cunha diferencia fundamental: os electróns só poden xirar arredor do núcleo en determinadas órbitas circulares estables, correspondentes a certos niveis de enerxía cuantizada que, para o caso do átomo de hidróxeno, viría dada pola ecuación $ E_n = -R_H 1/(n^2) $ na que $R_H$ é a constante de Rydberg, e $n$ un número enteiro, chamado número cuántico principal. Para $n=1$ óbtense o chamado estado fundamental e para $n>1$ os diferentes estados excitados, de maior enerxía canto maior sexa $n$, sendo o estado de máxima enerxía ($E=0 J$) o correspondente a $n=oo$. Mentres o electrón se atope nunha desas órbitas non radia nen absorbe enerxía, e o paso do electrón a outro estado supón unha absorción ou emisión de enerxía radiante de frecuencia $f$, dada pola ecuación: $Delta E = E_(n_2) - E_(n_1) = h dot f$, sendo $h$ a chamada constante de Planck. Esta ecuación explicaba, de forma aproximada, a natureza das liñas espectrais características de cada átomo e o modelo atómico de Bohr, ao incluir a idea de cuantización da enerxía, constituía a antesala do que logo sería a mecánica cuántica moderna.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8010,25 +8006,20 @@
       }
     ],
     "relacionadas": [
-      "mecánica",
-      "Planck",
+      "Planck, constante de",
       "liñas espectrais",
-      "liñas",
-      "número",
       "número cuántico principal",
-      "E= h·f",
-      "n=1",
-      "Rutherford",
-      "E=0 J",
-      "estados excitados",
-      "enerxía",
+      "Rutherford, modelo atómico de",
+      "estado excitado",
+      "enerxía radiante",
       "mecánica cuántica",
-      "Rydberg",
-      "estados",
+      "Rydberg, constante de",
       "estado fundamental",
-      "estado"
+      "modelos atómicos",
+      "espectro",
+      "física cuántica"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8038,24 +8029,20 @@
         "lingua": {
           "gl": {
             "termo": "bohrio",
-            "definicion": "Sb. Bh. Elemento químico de número atómico 107, tamén coñecido polo nome sistemático de unnilseptio; descuberto no 1981 por P. Ambruster e os seus colaboradores da Sociedade para a Investigación de Ións Pesados de Darmstadt (GSI) en Alemaña. Dos 8 isótopos coñecidos, o Bh-264 é o máis estable, cunha vida media de 0,44 s. MA. 264 u.",
+            "definicion": "Elemento químico de número atómico 107, tamén coñecido polo nome sistemático de unnilseptio; descuberto no 1981 por P. Ambruster e os seus colaboradores da Sociedade para a Investigación de Ións Pesados de Darmstadt (GSI) en Alemaña. Dos 8 isótopos coñecidos, o Bh-264 é o máis estable, cunha vida media de 0.44 s. MA. 264 u.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[Bh]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
       "número atómico",
-      "vida",
       "vida media",
-      "isótopos",
-      "Elemento",
-      "unnilseptio",
-      "Elemento químico"
+      "isótopo",
+      "elemento químico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8065,7 +8052,7 @@
         "lingua": {
           "gl": {
             "termo": "bólido",
-            "definicion": "En astronomía, meteoro moi brillante. V. meteorito; estrela fugaz.",
+            "definicion": "En astronomía, meteoro moi brillante.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8073,7 +8060,9 @@
       }
     ],
     "relacionadas": [
-      "meteoro"
+      "meteoro",
+      "meteorito",
+      "estrela fugaz"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8085,14 +8074,14 @@
         "lingua": {
           "gl": {
             "termo": "bolómetro",
-            "definicion": "Aparello empregado para medir cantidades moi pequenas de radiación electromagnética. V. termopila.",
+            "definicion": "Aparello empregado para medir cantidades moi pequenas de radiación electromagnética.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["termopila"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -8103,22 +8092,22 @@
         "lingua": {
           "gl": {
             "termo": "Boltzmann, constante de",
-            "definicion": "Sb. k. Constante universal que representa o cociente entre a constante universal dos gases R e o número de Avogadro NA. Pódese entender polo tanto como a constante dos gases perfectos referida a unha molécula. Toma o valor de 1,380 658·10-23 JK-1, no SI de unidades, e recibe o nome do físico L. Boltzmann (1844-1906). Resulta de especial aplicación na teoría cinética dos gases e, en xeral, nas diferentes distribucións estatísticas que estudian sistemas formados por grandes cantidades de partículas (Boltzmann, Bose, Fermi...). V. estatística cuántica.",
+            "definicion": "Constante universal que representa o cociente entre a constante universal dos gases $R$ e o número de Avogadro $N_A$. Pódese entender polo tanto como a constante dos gases perfectos referida a unha molécula. Toma o valor de 1.380658·10⁻²³ JK⁻¹, no SI de unidades, e recibe o nome do físico L. Boltzmann (1844-1906). Resulta de especial aplicación na teoría cinética dos gases e, en xeral, nas diferentes distribucións estatísticas que estudian sistemas formados por grandes cantidades de partículas (Boltzmann, Bose, Fermi...).",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$k$"
           }
         }
       }
     ],
     "relacionadas": [
-      "Fermi",
-      "teoría",
-      "Boltzmann",
-      "Bose",
-      "Avogadro",
-      "teoría cinética"
+      "Boltzmann, distribución de",
+      "Fermi, distribución de",
+      "Bose, distribución de",
+      "Avogadro, número de",
+      "teoría cinética",
+      "estatística cuántica"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8128,7 +8117,7 @@
         "lingua": {
           "gl": {
             "termo": "Boltzmann, distribución de",
-            "definicion": "Lei de reparto dun gran número de partículas, constituintes dun sistema e en equilibrio termodinámico, segundo os diferentes niveis enerxéticos dispoñibles. Foi  desenvolvida por Ludwig Boltzmann (1844-1906). Esta distribución vén descrita por unha función N(v), onde N(v)dv indica a probabilidade de que unha partícula (molécula ou átomo) teña unha velocidade no intervalo v e v+dv. Desta función pódense calcular cantidades como a velocidade promedio e outras relacionadas; e desas cantidades explicar e calcular propiedades observables como a presión, temperatura, enerxía térmica, etc. Unha aplicación inmediata desta distribución é o caso da teoría cinética dos gases. Segundo esta distribución, o número de moléculas de gas cunha enerxía E, N(E), vén dado pola ecuaciónsendo k, a chamada constante de Boltzmann e T a temperatura á que se atopa o gas (en graos Kelvin). Nesta distribución, a enerxía promedio por partícula dun gas ideal, considerando só o movemento de translación, é proporcional á temperatura do gas, segundo a ecuaciónA distribución de Boltzmann non é válida para o caso de partículas cuánticas, sendo necesario definir outras funcións de distribución, como a de Bose ou a de Fermi. V. termodinámica; mecánica estatística.",
+            "definicion": "Lei de reparto dun gran número de partículas, constituintes dun sistema e en equilibrio termodinámico, segundo os diferentes niveis enerxéticos dispoñibles. Foi  desenvolvida por Ludwig Boltzmann (1844-1906). Esta distribución vén descrita por unha función $N(v)$, onde $N(v)d v$ indica a probabilidade de que unha partícula (molécula ou átomo) teña unha velocidade no intervalo $v$ e $v+d v$. Desta función pódense calcular cantidades como a velocidade promedio e outras relacionadas; e desas cantidades explicar e calcular propiedades observables como a presión, temperatura, enerxía térmica, etc. Unha aplicación inmediata desta distribución é o caso da teoría cinética dos gases. Segundo esta distribución, o número de moléculas de gas cunha enerxía $E$, $N(E)$, vén dado pola ecuación $ N(E) = A e^(-E\\/(k T)) $ sendo $k$, a chamada constante de Boltzmann e $T$ a temperatura á que se atopa o gas (en graos Kelvin). Nesta distribución, a enerxía promedio por partícula dun gas ideal, considerando só o movemento de translación, é proporcional á temperatura do gas, segundo a ecuación $ dash(E) = (3\\/2)k T $ A distribución de Boltzmann non é válida para o caso de partículas cuánticas, sendo necesario definir outras funcións de distribución, como a de Bose ou a de Fermi.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8136,17 +8125,14 @@
       }
     ],
     "relacionadas": [
-      "Fermi",
-      "teoría",
-      "Boltzmann",
-      "N(v)dv",
-      "Bose",
-      "N(v),",
-      "v+dv",
-      "N(E),",
-      "teoría cinética"
+      "Fermi, distribución de",
+      "Bose, distribución de",
+      "Boltzmann, constante de",
+      "teoría cinética",
+      "termodinámica",
+      "mecánica estatística"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8156,7 +8142,7 @@
         "lingua": {
           "gl": {
             "termo": "bomba atómica",
-            "definicion": "Artefacto bélico de gran poder explosivo debido á súpeta liberación de enerxía procedente da escisión de núcleos atómicos pesados, como o 235U ou o 239Pu, nunha reacción en cadea. A fisión nuclear comeza cando un destes núcleos absorbe un neutrón e a reacción en cadea vólvese explosiva cando a cantidade de material fisionable supera un determinada valor, chamado masa crítica. Na explosión dunha bomba atómica prodúcese primeiro un forte pulso de enerxía electromagnética, seguido de fortes emisións de radiación nuclear (partículas , ,  e n0), radiación térmica e unha forte onda de choque. A primeira explosión dunha bomba atómica, experimental, tivo lugar en Alamogordo (Novo México) o 16 de xullo do 1945, pero as primeiras bombas atómicas operacionais foron lanzadas en Hiroshima e Nagasaki (Xapón), o 6 e 9 de agosto do 1945, respectivamente. Só a lanzada en Hiroshima, cunha enerxía superior aos 13 kt (1 kt equivale a 1000 t de TNT), supuxo a morte inmediata dunhas 75 000 persoas e máis de 100 000 feridas. V. enerxía nuclear; reaccións nucleares; radioactividade.",
+            "definicion": "Artefacto bélico de gran poder explosivo debido á súpeta liberación de enerxía procedente da escisión de núcleos atómicos pesados, como o ²³⁵U ou o ²³⁹Pu, nunha reacción en cadea. A fisión nuclear comeza cando un destes núcleos absorbe un neutrón e a reacción en cadea vólvese explosiva cando a cantidade de material fisionable supera un determinada valor, chamado masa crítica. Na explosión dunha bomba atómica prodúcese primeiro un forte pulso de enerxía electromagnética, seguido de fortes emisións de radiación nuclear (partículas $alpha$, $beta$, $gamma$ e $n_0$), radiación térmica e unha forte onda de choque. A primeira explosión dunha bomba atómica, experimental, tivo lugar en Alamogordo (Novo México) o 16 de xullo do 1945, pero as primeiras bombas atómicas operacionais foron lanzadas sobre poboación civil en Hiroshima e Nagasaki (Xapón), o 6 e 9 de agosto do 1945, respectivamente. Só a lanzada en Hiroshima, cunha enerxía superior aos 13 kt (1 kt equivale a 1000 t de TNT), supuxo a morte inmediata dunhas 75000 persoas e máis de 100000 feridas.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8164,20 +8150,16 @@
       }
     ],
     "relacionadas": [
-      " e n",
       "TNT",
-      "núcleos atómicos",
-      "onda",
+      "núcleo atómico",
       "fisión nuclear",
-      "núcleos",
-      "fisión",
       "masa crítica",
-      "masa",
       "onda de choque",
       "reacción en cadea",
-      "reacción"
+      "enerxía nuclear",
+      "radioactividade"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8187,7 +8169,7 @@
         "lingua": {
           "gl": {
             "termo": "bomba calorimétrica",
-            "definicion": "Calorímetro empregado para medir calores de reacción a volume constante, en particular calores de combustión (V. entalpía normal de combustión e entalpía de reacción). Consiste nun recipiente de aceiro hermeticamente pechado onde ten lugar a reacción. A combustión provócase mediante uns cables de ignición. Rodeando este recipiente disponse un baño termostatizado de auga. A variación de temperatura que experimenta este, permite o cálculo da calor de combustión. 0figura0.",
+            "definicion": "Calorímetro empregado para medir calores de reacción a volume constante, en particular calores de combustión. Consiste nun recipiente de aceiro hermeticamente pechado onde ten lugar a reacción. A combustión provócase mediante uns cables de ignición. Rodeando este recipiente disponse un baño termostatizado de auga. A variación de temperatura que experimenta este, permite o cálculo da calor de combustión. #figure(image(\"/figuras/bomba_calorimetrica.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8195,10 +8177,12 @@
       }
     ],
     "relacionadas": [
-      "Calorímetro"
+      "calorímetro",
+      "entalpía de reacción",
+      "entalpía normal de combustión"
     ],
     "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_figuras": true
   },
   {
     "termo": "bomba centrífuga",
@@ -8216,8 +8200,7 @@
     ],
     "relacionadas": [
       "turbinas",
-      "bomba hidráulica",
-      "bomba"
+      "bomba hidráulica"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8229,17 +8212,14 @@
         "lingua": {
           "gl": {
             "termo": "bomba de baleiro",
-            "definicion": "Bomba neumática.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["bomba pneumática"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Bomba",
-      "Bomba neumática."
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -8250,7 +8230,7 @@
         "lingua": {
           "gl": {
             "termo": "bomba de calor",
-            "definicion": "Dispositivo deseñado para transferir calor dende unha fonte fría a outra quente mediante a realización dun traballo. O seu funcionamento é similar ao dunha máquina frigorífica. Basicamente consiste nun proceso cíclico que consta dunha primeira etapa na que se comprime adiabaticamente un líquido. O aumento de temperatura que experimenta é aproveitado, na seguinte etapa, para ceder esa calor adicional ao recinto que se desexa quentar. Finalmente reiníciase o ciclo evaporando de novo o líquido de traballo. O seu rendemento vén dado polo chamado coeficiente de ampliación calorífica ’, de valor sempre superior á unidade e que representa o cociente entre a calor cedida ao foco quente Q1 e o traballo realizado polo compresor W, é dicir:onde representa a eficiencia dunha máquina frigorífica que funciona entre as mesmas temperaturas. Unha bomba de calor pode actuar tanto de calefactora no inverno como refrixeradora no verán. Para elo non hai máis que intercambiar a situación do evaporador e do condensador. Así, no inverno, o condensador permanece no interior do recinto quentándoo; no verán o seu sitio ocúpao o evaporador para refrixeralo.",
+            "definicion": "Dispositivo deseñado para transferir calor dende unha fonte fría a outra quente mediante a realización dun traballo. O seu funcionamento é similar ao dunha máquina frigorífica. Basicamente consiste nun proceso cíclico que consta dunha primeira etapa na que se comprime adiabaticamente un líquido. O aumento de temperatura que experimenta é aproveitado, na seguinte etapa, para ceder esa calor adicional ao recinto que se desexa quentar. Finalmente reiníciase o ciclo evaporando de novo o líquido de traballo. O seu rendemento vén dado polo chamado coeficiente de ampliación calorífica $eta'$, de valor sempre superior á unidade e que representa o cociente entre a calor cedida ao foco quente $Q_1$ e o traballo realizado polo compresor $W$, é dicir: $ eta' = (Q_1)/abs(W) = (Q_1)/(Q_1 + Q_2) = (T_1)/(T_1 + T_2) = eta + 1 $ onde $eta$ representa a eficiencia dunha máquina frigorífica que funciona entre as mesmas temperaturas. Unha bomba de calor pode actuar tanto de calefactora no inverno como refrixeradora no verán. Para elo non hai máis que intercambiar a situación do evaporador e do condensador. Así, no inverno, o condensador permanece no interior do recinto quentándoo; no verán o seu sitio ocúpao o evaporador para refrixeralo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8259,11 +8239,10 @@
     ],
     "relacionadas": [
       "máquina frigorífica",
-      "máquina",
       "eficiencia",
-      "coeficiente de ampliación calorífica "
+      "coeficiente de ampliación calorífica"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8273,7 +8252,7 @@
         "lingua": {
           "gl": {
             "termo": "bomba de difusión",
-            "definicion": "Tipo de bomba de baleiro que reduce a presión dun recinto empregando un chorro de vapor de mercurio ou de aceite que arrastra por difusión as moléculas dese medio. O vapor condensa na bomba e comeza de novo o ciclo. Acada valores moi baixos de presión pero partindo dun baixo baleiro previo logrado por unha bomba neumática.",
+            "definicion": "Tipo de bomba pneumática que reduce a presión dun recinto empregando un chorro de vapor de mercurio ou de aceite que arrastra por difusión as moléculas dese medio. O vapor condensa na bomba e comeza de novo o ciclo. Acada valores moi baixos de presión pero partindo dun baixo baleiro previo logrado por unha bomba neumática.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8281,9 +8260,8 @@
       }
     ],
     "relacionadas": [
-      "bomba neumática.",
-      "bomba de baleiro",
-      "bomba"
+      "bomba pneumática",
+      "bomba de baleiro"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8295,20 +8273,16 @@
         "lingua": {
           "gl": {
             "termo": "bomba de émbolo",
-            "definicion": "Dispositivo destinado a aspirar un líquido, xeralmente auga, variando o volume dunha cámara no interior da cal se despraza un pistón. Poden ser de tres tipos. As aspirantes elevan o fluído pola depresión que causa a subida dun pistón e expúlsano por gravidade. O límite de alturas que se pode acadar vén dado pola presión atmosférica do lugar ao nivel do mar non é posible elevar auga a máis de 10m de altura. As impelentes aspiran o líquido e expúlsano por compresión. A altura que se pode acadar neste caso depende da forza que se faga sobre o embolo e do diámetro do mesmo. As aspirantes-impelentes constan de dous tubos, un de aspiración e outro de impulsión e funcionan como unha combinación das dúas anteriores. 0figura0.",
+            "definicion": "Dispositivo destinado a aspirar un líquido, xeralmente auga, variando o volume dunha cámara no interior da cal se despraza un pistón. Poden ser de tres tipos. As _aspirantes_ elevan o fluído pola depresión que causa a subida dun pistón e expúlsano por gravidade. O límite de alturas que se pode acadar vén dado pola presión atmosférica do lugar ao nivel do mar non é posible elevar auga a máis de 10m de altura. As _impelentes_ aspiran o líquido e expúlsano por compresión. A altura que se pode acadar neste caso depende da forza que se faga sobre o embolo e do diámetro do mesmo. As _aspirantes-impelentes_ constan de dous tubos, un de aspiración e outro de impulsión e funcionan como unha combinación das dúas anteriores. #figure(image(\"/figuras/bombas_de_embolo.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "impelentes",
-      "aspirantes",
-      "aspirantes-impelentes"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_figuras": true
   },
   {
     "termo": "bomba de hidróxeno",
@@ -8317,7 +8291,7 @@
         "lingua": {
           "gl": {
             "termo": "bomba de hidróxeno",
-            "definicion": "Artefacto bélico de gran poder explosivo debido á súpeta liberación de enerxía procedente da fusión de núcleos atómicos lixeiros, como o deuterio (2H), tritio (3H) e 6Li. A potencia liberada é varias veces superior á da bomba atómica anteriormente desenvolvida. Para iniciar a fusión nuclear é preciso acadar previamente unha temperatura de millóns de graos, o que se consegue coa explosión previa dunha bomba atómica, de aí o outro nome co que se coñece, bomba termonuclear. O esquema básico sería, pois: unha bomba atómica, con material fisionable (235U ou 239Pu), arredor da cal vai o depósito co material fusionable e, por último, unha envoltura exterior. A primeira explosión termonuclear experimental foi realizada por Estados Unidos o 31 de outubro do 1952 no atol Enewetak, no océano Pacífico; dende entón varios Estados tiveron acceso á bomba, coa conseguinte ameaza que isto supón para o planeta, e a realización de numerosas probas nucleares, que levan ao espallamento de diversos isótopos contaminantes pola atmosfera. V. Lawson, criterio de; radioactividade.",
+            "definicion": "Artefacto bélico de gran poder explosivo debido á súpeta liberación de enerxía procedente da fusión de núcleos atómicos lixeiros, como o deuterio (²H), tritio (³H) e ⁶Li. A potencia liberada é varias veces superior á da bomba atómica anteriormente desenvolvida. Para iniciar a fusión nuclear é preciso acadar previamente unha temperatura de millóns de graos, o que se consegue coa explosión previa dunha bomba atómica, de aí o outro nome co que se coñece, bomba termonuclear. O esquema básico sería, pois: unha bomba atómica, con material fisionable (²³⁵U ou ²³⁹Pu), arredor da cal vai o depósito co material fusionable e, por último, unha envoltura exterior. A primeira explosión termonuclear experimental foi realizada por Estados Unidos o 31 de outubro do 1952 no atol Enewetak, no océano Pacífico; dende entón varios Estados tiveron acceso á bomba, coa conseguinte ameaza que isto supón para o planeta, e a realización de numerosas probas nucleares, que levan ao espallamento de diversos isótopos contaminantes pola atmosfera.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8327,13 +8301,12 @@
     "relacionadas": [
       "tritio",
       "deuterio",
-      "bomba",
       "probas nucleares",
-      "fusión",
       "bomba atómica",
       "fusión nuclear",
       "bomba termonuclear",
-      "probas"
+      "Lawson, criterio de",
+      "radioactividade"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8345,7 +8318,7 @@
         "lingua": {
           "gl": {
             "termo": "bomba de neutróns",
-            "definicion": "Variante da bomba de hidróxeno que carece da envoltura que rodea ao material fusionable. O papel desa envoltura nas bombas de hidróxeno é absorber os neutróns rápidos producidos na fusión e fisión nuclear que ocorren no seu interior, conseguindo maximizar os efectos térmicos e mecánicos (ondas de choque). Ao carecer desa envoltura e explosionarse a unha certa altura, gran parte da enerxía liberada chega en forma de neutróns rápidos que destrúen os tecidos dos seres vivos, minimizando os outros efectos e, polo tanto, os danos en edificios e demais construccións. V. fusión nuclear; radioactividade.",
+            "definicion": "Variante da bomba de hidróxeno que carece da envoltura que rodea ao material fusionábel. O papel desa envoltura nas bombas de hidróxeno é absorber os neutróns rápidos producidos na fusión e fisión nuclear que ocorren no seu interior, conseguindo maximizar os efectos térmicos e mecánicos (ondas de choque). Ao carecer desa envoltura e explosionarse a unha certa altura, gran parte da enerxía liberada chega en forma de neutróns rápidos que destrúen os tecidos dos seres vivos, minimizando os outros efectos e, polo tanto, os danos en edificios e demais construccións.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8354,9 +8327,9 @@
     ],
     "relacionadas": [
       "fisión nuclear",
-      "fisión",
-      "bomba de hidróxeno",
-      "bomba"
+      "fusión nuclear",
+      "radioactividade",
+      "bomba de hidróxeno"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8376,30 +8349,9 @@
       }
     ],
     "relacionadas": [
-      "bombas peristálticas",
-      "bombas de émbolo",
-      "bombas"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "bomba neumática",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "bomba neumática",
-            "definicion": "Tipo de bomba empregada para extraer gas dun recinto reducindo así a presión no interior do mesmo ata chegar a un alto baleiro. Compre destacar a bomba neumática de pistón, a bomba neumática rotatoria e a bomba de difusión. A de pistón consegue reducir a presión p dun recinto de volume V mediante o movemento de vaivén dun émbolo dentro dun cilindro de volume v. Un axeitado sistema de válvulas permite a extracción do aire contido no recinto ata acadar despois de n emboladas un valor de presión pn que responde á ecuación:.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "baleiro",
-      "bomba"
+      "bomba centrífuga",
+      "bomba peristáltica",
+      "bomba de émbolo"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8420,10 +8372,32 @@
     ],
     "relacionadas": [
       "bomba hidráulica",
-      "caudal",
-      "bomba"
+      "caudal"
     ],
     "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
+    "termo": "bomba pneumática",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "bomba pneumática",
+            "definicion": "Tipo de bomba empregada para extraer gas dun recinto reducindo así a presión no interior do mesmo ata chegar a un alto baleiro. Compre destacar a bomba neumática de pistón, a bomba neumática rotatoria e a bomba de difusión. A de pistón consegue reducir a presión $p$ dun recinto de volume $V$ mediante o movemento de vaivén dun émbolo dentro dun cilindro de volume $v$. Un axeitado sistema de válvulas permite a extracción do aire contido no recinto ata acadar despois de $n$ emboladas un valor de presión $p_n$ que responde á ecuación: $ p_n = p (V/(V+v))^n. $",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "baleiro",
+      "bomba",
+      "bomba rotatoria",
+      "bomba de difusión"
+    ],
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8433,7 +8407,7 @@
         "lingua": {
           "gl": {
             "termo": "bomba rotatoria",
-            "definicion": "Tipo de bomba de baleiro. Unha das máis coñecidas é a bomba de Gaede que consiste nun recipiente cilíndrico oco que consta de dous orificios, dentro do cal, e excentricamente, xira outro cunhas paletas que están en contacto constante coas paredes do primeiro. Ao xirar o cilindro interior fórmanse zonas de distinta presión que provocan a succión do gas do interior do recinto por medio dun dos orificios e a expulsión á atmosfera polo outro.",
+            "definicion": "Tipo de bomba pneumática. Unha das máis coñecidas é a bomba de Gaede que consiste nun recipiente cilíndrico oco que consta de dous orificios, dentro do cal, e excentricamente, xira outro cunhas paletas que están en contacto constante coas paredes do primeiro. Ao xirar o cilindro interior fórmanse zonas de distinta presión que provocan a succión do gas do interior do recinto por medio dun dos orificios e a expulsión á atmosfera polo outro.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8441,7 +8415,6 @@
       }
     ],
     "relacionadas": [
-      "bomba de Gaede",
       "bomba"
     ],
     "ten_ecuacions": false,
@@ -8454,8 +8427,8 @@
         "lingua": {
           "gl": {
             "termo": "bomba termonuclear",
-            "definicion": "V. bomba de hidróxeno.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["bomba de hidróxeno"],
             "simbolo": ""
           }
         }
@@ -8472,8 +8445,8 @@
         "lingua": {
           "gl": {
             "termo": "bomba volumétrica",
-            "definicion": "V. bomba hidráulica.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["bomba hidráulica"],
             "simbolo": ""
           }
         }
@@ -8498,7 +8471,7 @@
       }
     ],
     "relacionadas": [
-      "Álxebra"
+      "álxebra"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8522,38 +8495,13 @@
     "ten_figuras": false
   },
   {
-    "termo": "Born-Landé, ecuación de",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "Born-Landé, ecuación de",
-            "definicion": "Expresión que permite determinar de xeito teórico a enerxía de rede dun sólido cristalino de tipo iónico. É froito das investigacións de Born e Landé baseándose nas interaccións de tipo coulombiano entre os ións do cristal e as repulsións de Pauli entre as nubes electrónicas que se solapan na estructura cristalinaonde M é a constante de Madelung, a permitividade eléctrica no baleiro, e a carga eléctrica do electrón e NA o número de Avogadro. Q representa o número de cargas positivas ou negativas dos ións que forman parte do cristal, n unha constante propia de cada cristal e R0 a distancia de equilibrio entre os ións do mesmo. No SI mídese en Jmol-1.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "enerxía",
-      "Madelung",
-      "enerxía de rede ",
-      "Avogadro",
-      "permitividade",
-      "Pauli"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
     "termo": "Born, postulado de",
     "acepcions": [
       {
         "lingua": {
           "gl": {
             "termo": "Born, postulado de",
-            "definicion": "Postulado da mecánica cuántica, proposto por Max Born (1882-1970) tempo despois de que Schrödinger desenvolvera a súa xeralización do postulado de De Broglie sobre a dualidade onda-partícula. Establece que se nun intre t se realiza unha medida para localizar a partícula asociada cunha función de onda, a probabilidade P(x,t)dx de atopar a partícula nunha coordenada comprendida entre x e x+dx vén dada por.",
+            "definicion": "Postulado da mecánica cuántica, proposto por Max Born (1882-1970) tempo despois de que Schrödinger desenvolvera a súa xeralización do postulado de De Broglie sobre a dualidade onda-partícula. Establece que se nun intre $t$ se realiza unha medida para localizar a partícula asociada cunha función de onda $Psi^*(x, t)$, a probabilidade $P(x,t)d x$ de atopar a partícula nunha coordenada comprendida entre $x$ e $x+d x$ vén dada por $Psi^*(x, t) Psi(x, t) d x$.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8561,10 +8509,34 @@
       }
     ],
     "relacionadas": [
-      "mecánica",
-      "dualidade"
+      "mecánica cuántica",
+      "dualidade onda-partícula"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
+    "ten_figuras": false
+  },
+  {
+    "termo": "Born-Landé, ecuación de",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "Born-Landé, ecuación de",
+            "definicion": "Expresión que permite determinar de xeito teórico a enerxía de rede dun sólido cristalino de tipo iónico. É froito das investigacións de Born e Landé baseándose nas interaccións de tipo coulombiano entre os ións do cristal e as repulsións de Pauli entre as nubes electrónicas que se solapan na estructura cristalina $ E_#[rede] = (-N_A M Q_+ Q_- e^2)/(4 pi epsilon_0 R_0) (1-1/n) $ onde $M$ é a constante de Madelung, $epsilon_0$ a permitividade eléctrica no baleiro, $e$ a carga eléctrica do electrón e $N_A$ o número de Avogadro. $Q$ representa o número de cargas positivas ou negativas dos ións que forman parte do cristal, $n$ unha constante propia de cada cristal e $R_0$ a distancia de equilibrio entre os ións do mesmo. No SI mídese en J mol⁻¹.",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "Madelung, constante de",
+      "enerxía de rede",
+      "Avogadro, número de",
+      "permitividade",
+      "Pauli, principio de exclusión de"
+    ],
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8582,8 +8554,8 @@
       }
     ],
     "relacionadas": [
-      "núcleos",
-      "mecánica"
+      "núcleo atómico",
+      "mecánica cuántica"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8595,21 +8567,19 @@
         "lingua": {
           "gl": {
             "termo": "boro",
-            "definicion": "Sb. B. Elemento químico de número atómico 5, descuberto no 1808, por J. L. Gay-Lussac e L. J. Thenard e de forma independente por H. Davy. Preséntase na natureza en forma de dous isótopos: B-10 (19,9 %) e B-11 (80,1 %). Coñécense 11 isótopos artificiais. En estado cristalino ten un aspecto negro lustroso e é semiconductor. MA.10,81 u; Pf. 2075 ºC; Peb. 4 000 ºC;  2340 kgm-3 (cristalino);  2370 kgm-3 (amorfa).",
+            "definicion": "Elemento químico de número atómico 5, descuberto no 1808, por J. L. Gay-Lussac e L. J. Thenard e de forma independente por H. Davy. Preséntase na natureza en forma de dous isótopos: B-10 (19.9 %) e B-11 (80.1 %). Coñécense 11 isótopos artificiais. En estado cristalino ten un aspecto negro lustroso e é semiconductor. MA. 10.81 u; Pf. 2075 ºC; Peb. 4000 ºC; $rho$ 2340 kg m⁻³ (cristalino); $rho$ 2370 kg m⁻³ (amorfa).",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[B]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
       "número atómico",
-      "Elemento químico",
-      "Elemento",
-      "isótopos"
+      "elemento químico",
+      "isótopo"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8619,7 +8589,7 @@
         "lingua": {
           "gl": {
             "termo": "borrasca",
-            "definicion": "Centro de baixa presión barométrica. Vai asociado a tempo inestable con nubes e precipitacións. Nelas o aire circula no sentido antihorario no hemisferio norte e horario no hemisferio sur. Nela pódense localizar unha fronte cálida e unha fronte fría ou, ás veces, unha fronte ocluída. V. ciclón tropical; vento xeostrófico.",
+            "definicion": "Centro de baixa presión barométrica. Vai asociado a tempo inestable con nubes e precipitacións. Nelas o aire circula no sentido antihorario no hemisferio norte e horario no hemisferio sur. Nela pódense localizar unha fronte cálida e unha fronte fría ou, ás veces, unha fronte ocluída.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8630,7 +8600,8 @@
       "fronte fría",
       "fronte ocluída",
       "fronte cálida ",
-      "fronte"
+      "ciclón tropical",
+      "vento xeostrófico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8642,7 +8613,7 @@
         "lingua": {
           "gl": {
             "termo": "Bose, distribución de",
-            "definicion": "Lei de reparto de partículas, desenvolvido polo físico Satyendra Bose (1894-1974), aplicable a sistemas formados por gran número de partículas de especiais características, as chamadas bosóns. A distribución de Bose específica o número probable de bosóns, N(E), que, nun sistema en equilibrio a temperatura T, se atoparán cunha enerxía E, e vén dada pola función  Resultando unha distribución diferente da clásica de Boltzmann, aplicable ao caso de grandes cantidades de átomos ou de moléculas. V. estatística cuántica.",
+            "definicion": "Lei de reparto de partículas, desenvolvido polo físico Satyendra Bose (1894-1974), aplicable a sistemas formados por gran número de partículas de especiais características, as chamadas bosóns. A distribución de Bose específica o número probable de bosóns, $N(E)$, que, nun sistema en equilibrio a temperatura $T$, se atoparán cunha enerxía $E$, e vén dada pola función $ N(E) = 1/(A e^(E\\/(k T) -1)) $ Resultando unha distribución diferente da clásica de Boltzmann, aplicable ao caso de grandes cantidades de átomos ou de moléculas.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8650,11 +8621,11 @@
       }
     ],
     "relacionadas": [
-      "Boltzmann",
-      "bosóns",
-      "N(E),"
+      "Boltzmann, estatística de",
+      "bosón",
+      "estatística cuántica"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
