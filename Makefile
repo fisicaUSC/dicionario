@@ -4,8 +4,8 @@ SHELL := bash
 .PRECIOUS: dicionario/xerados/html/dicionario.html
 
 # Xera os contidos do dicionario en formato Typst, a partir do JSON
-contidos: dicionario/xerados/contidos.typ
-dicionario/xerados/contidos.typ: RI.json
+contidos: dicionario/xerados/typst/contidos.typ
+dicionario/xerados/typst/contidos.typ: RI.json
 	$(shell mkdir -p dicionario/xerados/typst)
 	jaq -r -f trebellos/json_a_typst.jq $^ > dicionario/xerados/typst/contidos.typ
 
