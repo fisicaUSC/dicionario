@@ -15125,78 +15125,6 @@
     "ten_figuras": false
   },
   {
-    "termo": "1ª",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "1ª",
-            "definicion": "banda",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "2ª",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "2ª",
-            "definicion": "banda",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "3ª banda",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "3ª banda",
-            "definicion": "Multiplicador",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "4ª banda",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "4ª banda",
-            "definicion": "Tolerancia",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
     "termo": "coeficiente absorbente específico",
     "acepcions": [
       {
@@ -33694,53 +33622,6 @@
     "relacionadas": [
       "Vida",
       "Vida media"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "spin isotópico",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "spin isotópico",
-            "definicion": "Isospín.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "Isospín"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "spin",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "spin",
-            "definicion": "Sb. s. Característica cuántica, intrínseca das partículas subatómicas, asociada coa idea de momento angular de rotación. Mídese por medio dun número enteiro ou semienteiro, sendo a unidade o cuanto de momento angular. As partículas que posúen un spin semienteiro son os fermións, partículas constituíntes da materia como os electróns, protóns ou neutróns, de spin 1/2 ou -1/2 desa unidade, mentres que as que posúen un número enteiro desa unidade son os bosóns. O spin está relacionado coa simetría de rotación, de forma que canto maior é o spin dunha partícula, menor é a fracción de volta que se debe xirar esa partícula para que presente o aspecto inicial: nun bosón de spin 1 debe xirarse 360º e nun bosón de spin 2 consíguese ao xiralo 180º, mentres que nun fermión de spin ½ deberase xirar 720º para volver ao estado inicial. V. Pauli, principio de exclusión de; Fermi-Dirac, estatística de; Bose-Einstein, estatística de; número cuántico de spin.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "momento",
-      "electróns",
-      "bosóns",
-      "cuanto",
-      "neutróns",
-      "fermións",
-      "protóns",
-      "partículas"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -79362,47 +79243,6 @@
     "ten_figuras": false
   },
   {
-    "termo": "masa (MeV/c",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "masa (MeV/c",
-            "definicion": "2 )",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "A cada quark se lle asigna outra propiedade chamada",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "A cada quark se lle asigna outra propiedade chamada",
-            "definicion": "carga cromática ou carga de cor, podendo clasificarse cada sabor de quark en tres cores (nada que ver coa sensación de cor da nosa escala): azul, verde e vermello. Tendo en conta sabor e cor habería entón 18 tipos de quarks. Número ao que hai que engadir os correspondentes antiquarks. Respecto a un quark, o seu antiquark ten igual masa e carga eléctrica, pero de sentido contrario e, ademais, unha carga cromática complementaria da do quark: antiazul ou antiverde ou antivermello. En calquera caso, tres quarks combinados para formar un barión ou dous para dar un mesón cumpren sempre que a carga cromática resultante é o branco (p.e., azul e antiazul nun mesón, ou azul, verde e vermello nun barión dan branco). A interacción nuclear forte é o resultado da interacción entre quarks, segundo a cromodinámica cuántica.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "interacción nuclear forte",
-      "carga cromática",
-      "interacción",
-      "carga de cor"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
     "termo": "quasar",
     "acepcions": [
       {
@@ -89340,6 +89180,53 @@
       }
     ],
     "relacionadas": [],
+    "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
+    "termo": "spin",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "spin",
+            "definicion": "Sb. s. Característica cuántica, intrínseca das partículas subatómicas, asociada coa idea de momento angular de rotación. Mídese por medio dun número enteiro ou semienteiro, sendo a unidade o cuanto de momento angular. As partículas que posúen un spin semienteiro son os fermións, partículas constituíntes da materia como os electróns, protóns ou neutróns, de spin 1/2 ou -1/2 desa unidade, mentres que as que posúen un número enteiro desa unidade son os bosóns. O spin está relacionado coa simetría de rotación, de forma que canto maior é o spin dunha partícula, menor é a fracción de volta que se debe xirar esa partícula para que presente o aspecto inicial: nun bosón de spin 1 debe xirarse 360º e nun bosón de spin 2 consíguese ao xiralo 180º, mentres que nun fermión de spin ½ deberase xirar 720º para volver ao estado inicial. V. Pauli, principio de exclusión de; Fermi-Dirac, estatística de; Bose-Einstein, estatística de; número cuántico de spin.",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "momento",
+      "electróns",
+      "bosóns",
+      "cuanto",
+      "neutróns",
+      "fermións",
+      "protóns",
+      "partículas"
+    ],
+    "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
+    "termo": "spin isotópico",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "spin isotópico",
+            "definicion": "Isospín.",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "Isospín"
+    ],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
