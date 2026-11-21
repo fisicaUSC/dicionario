@@ -1,3 +1,5 @@
+# Véxse o manual de JQ: https://jqlang.org/manual/
+
 # Pasa letras en maiúscula a minúscula, e quita acentos
 def simplifica_letra:
     .
@@ -9,7 +11,59 @@ def simplifica_letra:
     | gsub("[úù]"; "u")
 ;
 
-# Pasamoslle un obxecto a esta función e devólvenos texto en formato typst
+# Para unha ACEPCION concreta, devolvenos o símbolo, ou 'none' se non hai
+# Por exemplo: ["alpha"]
+def simbolo:
+    if .lingua.gl.simbolo != "" then "[\(.lingua.gl.simbolo)]" else "none" end
+;
+
+# Para unha ACEPCION concreta, devolvenos unha lista de sinónimos, ou
+# 'none' se non hai.
+# Por exemplo: ("sinonimo_1", "sinónimo_2")
+def sinonimos:
+    if .lingua.gl.sinonimos != [] then
+        # Colle unha lista de sinónimos, engade a cada elemento comiñas usando
+        # 'map(...)', e logo xunta todos os elementos con join(", ")
+        "(\( .lingua.gl.sinonimos | map(. | @json) | join(", ") ),)"
+    else "none" end
+;
+
+# Para un TERMO concreto, xera a info das distintas acepcions.
+# Por exemplo:
+#
+# (                                  | Xera tochos de texto coma este,
+#     definicion : [...],            | un por cada acepción
+#     simbolo    : none,             |
+#     sinonimos  : ( "...", "..." )  |
+# ),                                 |
+# (
+#     definicion : [...],
+#     simbolo    : none,
+#     sinonimos  : ( "...", "..." )
+# ),
+def info_acepcions:
+    .acepcions
+    | map(
+        "
+        (
+            definicion : [\(.lingua.gl.definicion)],
+            simbolo    : \(simbolo),
+            sinonimos  : \(sinonimos)
+        ),"
+    )
+    | join("")
+;
+
+# Para un TERMO concreto, xera un array cas distintas palabras relacionadas,
+# ou 'none' se non hai ningunha
+# Por exemplo: ("relacionada_1", "relacionada_2")
+def relacionadas:
+    if .relacionadas != [] then
+        "(" + ( .relacionadas | map(. | @json) | join(", ") ) + ",)"
+    else "none" end
+;
+
+# Pasamoslle un TERMO a esta función e devólvenos texto en formato typst
 # ca información do termo, símbolos, etc. Tal como:
 # #termo(
 #     denominacion: "D’Alembert, ecuación de",
@@ -17,48 +71,25 @@ def simplifica_letra:
 #         (
 #             definicion : [...],
 #             simbolo    : none,
-#             sinonimos  : (
-#                 "...",
-#                 "...",
-#             ),
+#             sinonimos  : ("...")
 #         ),
 #     ),
-#     relacionadas : (
-#         "...",
-#         "...",
-#     )
+#     relacionadas : ("...", "...")
 # )
-# Si, son plenamente consciente de que é ilexible :(
+# Véxase as funcións auxiliares anteriores
 def termo_individual:
 "#termo(
     denominacion: \"\(.termo)\",
-    acepcions: (",
-    "\(
-        .acepcions.[] |
-        "        (
-            definicion : [\(.lingua.gl.definicion)],
-            simbolo    : \(if .lingua.gl.simbolo != "" then "[\(.lingua.gl.simbolo)]," else "none," end)",
-            if .lingua.gl.sinonimos != [] then
-                "            sinonimos  : (",
-                "                \"\(.lingua.gl.sinonimos[])\",",
-                "            )",
-                "        ),"
-            else "            sinonimos  : none","        )," end
-    )",
-    "    ),",
-    if .relacionadas != [] then
-        "    relacionadas: (",
-        "        \"\(.relacionadas[])\",",
-        "    )"
-    else "    relacionadas: none" end,
-")\n"
+    acepcions: (\(info_acepcions)\n    ),
+    relacionadas: \(relacionadas),
+)\n"
 ;
 
 
 # Para as novas letras, devolvemos texto en formato typst tal como:
 # #letra("B")
 def titulo_nova_letra:
-"#letra(\"\(.termo[0:1] | simplifica_letra | ascii_upcase)\")\n"
+    "#letra(\"\(.termo[0:1] | simplifica_letra | ascii_upcase)\")\n"
 ;
 
 # Función complicadilla. O que facemos é coller o array orixinal, e _reducilo_
