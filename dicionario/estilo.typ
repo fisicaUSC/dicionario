@@ -1,5 +1,5 @@
 #let _termos_cache = state("termos_cache", none)
-#let crear_encabezado() = context {
+#let crear_cabeceira() = context {
     // Se a caché está baleira, engadímoslle os termos
     if _termos_cache.get() == none {
         let termos = query(heading.where(level: 2))
@@ -27,11 +27,12 @@
 }
 
 
+// Función que aplica o estilo ao documento PDF
 #let estilo_pdf(doc) = {
     set page(
         margin: (outside: 2cm, inside: 1cm, top: 1.5cm, bottom: 1.5cm),
         binding: left,
-        header: crear_encabezado(),
+        header: crear_cabeceira(),
     )
     set par(justify: true, first-line-indent: 0pt)
     set text(size: 11pt, lang: "gl", font: "Common Serif")
