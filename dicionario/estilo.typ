@@ -17,10 +17,10 @@
         else  {
             // Páxinas pares (esquerda)
             if calc.even(num) {
-                align(left, box[#move(dx: -1em, smallcaps(termos_aqui.first().body))])
+                align(left, box[#move(dx: -2em, smallcaps[*#termos_aqui.first().body*])])
             // Páxinas impares (dereita)
             } else if calc.odd(num) {
-                align(right, box[#move(dx: 1em, smallcaps(termos_aqui.last().body))])
+                align(right, box[#move(dx: 2em, smallcaps[*#termos_aqui.last().body*])])
             }
         }
     }
