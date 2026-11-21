@@ -844,7 +844,7 @@
         "lingua": {
           "gl": {
             "termo": "acoplamento",
-            "definicion": "Interacción entre dous sistemas ou partes dun mesmo sistema que leva a que determinadas magnitudes físicas, características dos mesmos, adopten determinados valores. Na teoría cuántica resultan de gran importancia os acoplamentos en átomos con varios electróns opticamente activos. Nunha primeira aproximación, a enerxía dos diferentes niveis enerxéticos, nun átomo, vén determinada polos números cuánticos n e l, aparecendo niveis dexenerados, segundo os valores dosoutros números cuánticos ($m_l$ e $m_s$). Ao considerar interaccións máis débiles, como a interacción residual de Coulomb ou a interacción espín-órbita, que afectan aos electróns en niveis excitados, aparecen acoplamentos entre os momentos angulares de rotación ($S$) e de translación ($L$), condicionándose os valores destas magnitudes para o conxunto, e dando lugar a desdoblamentos enerxéticos característicos nestes sistemas. Son exemplos de acoplamentos a este nivel: o acomplamento de Russell-Saunders, o acoplamento JJ e o acoplamento espín-órbita.",
+            "definicion": "Interacción entre dous sistemas ou partes dun mesmo sistema que leva a que determinadas magnitudes físicas, características dos mesmos, adopten determinados valores. Na teoría cuántica resultan de gran importancia os acoplamentos en átomos con varios electróns opticamente activos. Nunha primeira aproximación, a enerxía dos diferentes niveis enerxéticos, nun átomo, vén determinada polos números cuánticos n e l, aparecendo niveis dexenerados, segundo os valores dosoutros números cuánticos ($m_l$ e $m_s$). Ao considerar interaccións máis débiles, como a interacción residual de Coulomb ou a interacción spin-órbita, que afectan aos electróns en niveis excitados, aparecen acoplamentos entre os momentos angulares de rotación ($S$) e de translación ($L$), condicionándose os valores destas magnitudes para o conxunto, e dando lugar a desdoblamentos enerxéticos característicos nestes sistemas. Son exemplos de acoplamentos a este nivel: o acomplamento de Russell-Saunders, o acoplamento JJ e o acoplamento spin-órbita.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -859,22 +859,22 @@
       "electróns opticamente activos",
       "Coulomb, interacción residual de",
       "momento angulare",
-      "interacción espín-órbita",
+      "interacción spin-órbita",
       "Russell-Saunders, acomplamento de",
-      "acoplamento espín-órbita",
+      "acoplamento spin-órbita",
       "física cuántica"
     ],
     "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
-    "termo": "acoplamento espín-órbita",
+    "termo": "acoplamento spin-órbita",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "acoplamento espín-órbita",
-            "definicion": "Interacción entre o momento angular de rotación intrínseco (espín), $arrow(S)$, e o momento angular orbital (translación), $arrow(L)$, dunha única partícula como, p.e., un electrón ou un nucleón. Tal interacción motiva a tendencia á manter constante o módulo deses dous vectores, mentres precesan arredor do vector momento angular total, $arrow(J)$, resultado de sumar os dous momentos angulares iniciais.",
+            "termo": "acoplamento spin-órbita",
+            "definicion": "Interacción entre o momento angular de rotación intrínseco (spin), $arrow(S)$, e o momento angular orbital (translación), $arrow(L)$, dunha única partícula como, p.e., un electrón ou un nucleón. Tal interacción motiva a tendencia á manter constante o módulo deses dous vectores, mentres precesan arredor do vector momento angular total, $arrow(J)$, resultado de sumar os dous momentos angulares iniciais.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -882,13 +882,13 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "nucleón",
       "momento angular de rotación",
       "electrón",
       "momento angular orbital",
       "precesión",
-      "interacción espín-órbita"
+      "interacción spin-órbita"
     ],
     "ten_ecuacions": true,
     "ten_figuras": false
@@ -900,7 +900,7 @@
         "lingua": {
           "gl": {
             "termo": "acoplamento JJ",
-            "definicion": "Tipo de acoplamento que aparece en sistemas de moitos fermións (electróns nun átomo ou nucleóns nun núcleo atómico) cando as interaccións espín-órbita son moito máis importantes que a interacción residual de Coulomb. Isto ocorre nos átomos con número atómico (Z) grande.",
+            "definicion": "Tipo de acoplamento que aparece en sistemas de moitos fermións (electróns nun átomo ou nucleóns nun núcleo atómico) cando as interaccións spin-órbita son moito máis importantes que a interacción residual de Coulomb. Isto ocorre nos átomos con número atómico (Z) grande.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -911,7 +911,7 @@
       "acoplamento",
       "número atómico",
       "fermión",
-      "interaccións espín-órbita",
+      "interaccións spin-órbita",
       "Coulomb, interacción residual de"
     ],
     "ten_ecuacions": false,
@@ -4057,7 +4057,7 @@
         "lingua": {
           "gl": {
             "termo": "antipartícula",
-            "definicion": "Cada partícula leva asociada unha antipartícula, que ten a mesma masa e espín que a partícula, pero algunhas propiedades opostas como a carga eléctrica e/ou o momento magnético. Cada antipartícula represéntase co mesmo signo que o correspondente á partícula pero cunha barra enrriba. A primeira antipartícula observada foi o positrón ou antielectrón, $dash(e)^+$, en 1933; o antiprotón e o antineutrón foron observados no 1955.",
+            "definicion": "Cada partícula leva asociada unha antipartícula, que ten a mesma masa e spin que a partícula, pero algunhas propiedades opostas como a carga eléctrica e/ou o momento magnético. Cada antipartícula represéntase co mesmo signo que o correspondente á partícula pero cunha barra enrriba. A primeira antipartícula observada foi o positrón ou antielectrón, $dash(e)^+$, en 1933; o antiprotón e o antineutrón foron observados no 1955.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4078,7 +4078,7 @@
         "lingua": {
           "gl": {
             "termo": "antiprotón",
-            "definicion": "Antipartícula do protón. O antiprotón ten a mesma masa e espín que o protón e o mesmo valor de carga eléctrica pero de signo contrario. Unha colisión protón-protón pode producir un par protón-antiprotón sempre que a enerxía cinética do protón incidente (respecto ao outro, suposto en repouso) sexa igual ou maior que 5.64 GeV.",
+            "definicion": "Antipartícula do protón. O antiprotón ten a mesma masa e spin que o protón e o mesmo valor de carga eléctrica pero de signo contrario. Unha colisión protón-protón pode producir un par protón-antiprotón sempre que a enerxía cinética do protón incidente (respecto ao outro, suposto en repouso) sexa igual ou maior que 5.64 GeV.",
             "sinonimos": [],
             "simbolo": "$dash(p)^+$"
           }
@@ -4096,7 +4096,7 @@
         "lingua": {
           "gl": {
             "termo": "antiquark",
-            "definicion": "Partículas de igual masa e espín que o quark correspondente, pero con carga eléctrica e carga cromática contrarias ás do mesmo. A combinación dun quark e o seu antiquark forman unha combinación estable sen carga cromática.",
+            "definicion": "Partículas de igual masa e spin que o quark correspondente, pero con carga eléctrica e carga cromática contrarias ás do mesmo. A combinación dun quark e o seu antiquark forman unha combinación estable sen carga cromática.",
             "sinonimos": [],
             "simbolo": "$dash(q)_r$"
           }
@@ -7101,7 +7101,7 @@
         "lingua": {
           "gl": {
             "termo": "Bell, desigualdade de",
-            "definicion": "Relación estatística formulada por John Bell, partindo do argumento de Einstein-Podolsky-Rosen e a teoría de conxuntos, aplicable a certas propiedades das partículas subatómicas que poden tomar dous únicos valores (como o espín, positivo ou negativo, ou a polarización ou non segundo unha determinada dirección). Dado que esta desigualdade é teoricamente demostrable partindo de teorías realistas locais, e que a súa violación está predita pola mecánica cuántica, a busca do cumprimento ou non de tal desigualdade, en diferentes experimentos con partículas, é un obxectivo de interese na confirmación da mecánica cuántica. Tamén é coñecido como teorema de Bell.",
+            "definicion": "Relación estatística formulada por John Bell, partindo do argumento de Einstein-Podolsky-Rosen e a teoría de conxuntos, aplicable a certas propiedades das partículas subatómicas que poden tomar dous únicos valores (como o spin, positivo ou negativo, ou a polarización ou non segundo unha determinada dirección). Dado que esta desigualdade é teoricamente demostrable partindo de teorías realistas locais, e que a súa violación está predita pola mecánica cuántica, a busca do cumprimento ou non de tal desigualdade, en diferentes experimentos con partículas, é un obxectivo de interese na confirmación da mecánica cuántica. Tamén é coñecido como teorema de Bell.",
             "sinonimos": ["Bell, teorema de"],
             "simbolo": ""
           }
@@ -7109,7 +7109,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "teorías realistas locais",
       "EPR, argumento",
       "mecánica cuántica",
@@ -7975,7 +7975,7 @@
         "lingua": {
           "gl": {
             "termo": "Bohr, magnetón de",
-            "definicion": "Unidade empregada para expresar o momento magnético de partículas subatómicas, átomos, ións ou moléculas. Equivale a 9.274 015·10⁻²⁴ Am², definida  en función de constantes físicas fundamentais, como a masa e a carga do electrón ($m$ e $e^-$) e a constante de Planck $h$, segundo $ 1 #[MB] = (e h)/(4 pi m). $ Representa a proxección do momento magnético de espín do electrón dun átomo sobre a dirección dun campo magnético externo.",
+            "definicion": "Unidade empregada para expresar o momento magnético de partículas subatómicas, átomos, ións ou moléculas. Equivale a 9.274 015·10⁻²⁴ Am², definida  en función de constantes físicas fundamentais, como a masa e a carga do electrón ($m$ e $e^-$) e a constante de Planck $h$, segundo $ 1 #[MB] = (e h)/(4 pi m). $ Representa a proxección do momento magnético de spin do electrón dun átomo sobre a dirección dun campo magnético externo.",
             "sinonimos": [],
             "simbolo": "$#[MB]$"
           }
@@ -7984,7 +7984,7 @@
     ],
     "relacionadas": [
       "campo magnético",
-      "momento magnético de espín",
+      "momento magnético de spin",
       "Planck, constante de",
       "momento magnético"
     ],
@@ -8635,7 +8635,7 @@
         "lingua": {
           "gl": {
             "termo": "Bose-Einstein, condensación de",
-            "definicion": "Comportamento cuántico dalgúns gases ideais que permite explicar determinadas propiedades dos mesmos. Para explicar o comportamento dun gas ideal clásico emprégase a distribución de Boltzmann, obténdose unha enerxía promedio por partícula proporcional á temperatura, segundo a ecuación. Aplicando a distribución de Bose ao mesmo gas, óbtense unha enerxía promedio por partícula algo menor:, sendo B un factor que representa a desviación do gas respecto da lei clásica. Este factor, B, depende de varios parámetros, resultando maior canto menor sexan a masa atómica e a temperatura, o que resulta particularmente apreciable para o caso do helio a temperaturas próximas ao seu punto normal de condensación (4,2 K). Máis sorprendente resulta o comportamento do helio-4 líquido preto desa temperatura. Aínda que de forma aproximada, pois agora a maior densidade nesta fase distorsiona as consideracións realizadas no estudio dun gas ideal, esta desviación cuántica explica a chamada superfluidez que o helio líquido adquire por debaixo dos 2,18 K, dado que os estados de menor enerxía na distribución de Bose están relativamente máis cheos que os correspondentes nun fluído clásico.",
+            "definicion": "Comportamento cuántico dalgúns gases ideais que permite explicar determinadas propiedades dos mesmos. Para explicar o comportamento dun gas ideal clásico emprégase a distribución de Boltzmann, obténdose unha enerxía promedio por partícula proporcional á temperatura, segundo a ecuación $dash(E) = (3\\/2)k T$. Aplicando a distribución de Bose ao mesmo gas, óbtense unha enerxía promedio por partícula algo menor: $dash(E) = (3\\/2)k T (1-B)$, sendo $B$ un factor que representa a desviación do gas respecto da lei clásica. Este factor, $B$, depende de varios parámetros, resultando maior canto menor sexan a masa atómica e a temperatura, o que resulta particularmente apreciable para o caso do helio a temperaturas próximas ao seu punto normal de condensación (4.2 K). Máis sorprendente resulta o comportamento do helio-4 líquido preto desa temperatura. Aínda que de forma aproximada, pois agora a maior densidade nesta fase distorsiona as consideracións realizadas no estudio dun gas ideal, esta desviación cuántica explica a chamada superfluidez que o helio líquido adquire por debaixo dos 2.18 K, dado que os estados de menor enerxía na distribución de Bose están relativamente máis cheos que os correspondentes nun fluído clásico.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8643,15 +8643,13 @@
       }
     ],
     "relacionadas": [
-      "gases",
-      "Boltzmann",
-      "Bose",
+      "Boltzmann, distribución de",
+      "Bose, distribución de",
       "helio",
-      "gases ideais",
-      "4,2 K",
+      "gas ideal",
       "superfluidez"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8661,7 +8659,7 @@
         "lingua": {
           "gl": {
             "termo": "Bose-Einstein, estatística de",
-            "definicion": "Modelo estatístico ideado por Satyendra Bose para explicar a radiación do corpo negro, considerándoa formada por unha nube de fotóns. O seu desenvolvemento levaría á distribución de Bose, aplicable a todos os bosóns. Posteriormente Einstein demostraría que tales reglas estatísticas son tamén aplicables a moléculas dun gas como o 4He.",
+            "definicion": "Modelo estatístico ideado por Satyendra Bose para explicar a radiación do corpo negro, considerándoa formada por unha nube de fotóns. O seu desenvolvemento levaría á distribución de Bose, aplicable a todos os bosóns. Posteriormente Einstein demostraría que tales reglas estatísticas son tamén aplicables a moléculas dun gas como o ⁴He.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8669,39 +8667,10 @@
       }
     ],
     "relacionadas": [
-      "Bose",
-      "bosóns",
-      "corpo",
+      "Bose, distribución de",
+      "bosón",
       "corpo negro",
-      "fotóns"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "bosón gauge",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "bosón gauge",
-            "definicion": "Bosón vectorial de espin unidade e que actúa como intermediario nas interaccións fundamentais entre partículas, rexidas por teorías gauge. O fotón, os bosóns W, e os gluóns son bosóns gauge. V. teoría cuántica de campos; teoría gauge; partícula mensaxeira.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "Bosón",
-      "fotón",
-      "interaccións",
-      "gluóns",
-      "interaccións fundamentais",
-      "bosóns W",
-      "bosóns",
-      "teorías",
-      "teorías gauge"
+      "fotón"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8713,7 +8682,7 @@
         "lingua": {
           "gl": {
             "termo": "bosón",
-            "definicion": "Termo referido ás partículas subatómicas ou a estados ligados de partículas elementais (como p.e. certos núcleos atómicos ou átomos) que seguen a estatística de Bose-Einstein, polo que presentan un espín que é un número enteiro de veces a constante de Planck,. Non cumpren o principio de exclusión de Pauli e veñen descritas, na mecánica cuántica por funcións propias simétricas. Todas as partículas mensaxeiras ou transmisoras das interaccións fundamentais, como fotóns, gluóns, bosóns W e Z, e gravitóns, son bosóns. V. teoría cuántica de campos; estatística cuántica.",
+            "definicion": "Termo referido ás partículas subatómicas ou a estados ligados de partículas elementais (como p.e. certos núcleos atómicos ou átomos) que seguen a estatística de Bose-Einstein, polo que presentan un spín que é un número enteiro de veces a constante de Planck,. Non cumpren o principio de exclusión de Pauli e veñen descritas, na mecánica cuántica por funcións propias simétricas. Todas as partículas mensaxeiras ou transmisoras das interaccións fundamentais, como fotóns, gluóns, bosóns W e Z, e gravitóns, son bosóns.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8721,27 +8690,50 @@
       }
     ],
     "relacionadas": [
-      "mecánica",
-      "Planck",
-      "interaccións fundamentais, ",
-      "partículas",
-      "átomos",
-      "núcleos atómicos",
-      "núcleos",
-      " Planck,",
-      "partículas mensaxeiras",
-      "gluóns",
-      "gravitóns",
+      "Planck, constante de",
+      "Bose-Einstein, estatística de",
+      "Pauli, principio de exclusión de",
+      "bosón W",
+      "bosón Z",
+      "spín",
+      "fotón",
+      "función propia",
+      "gluón",
+      "gravitón",
+      "interaccións fundamentais",
       "mecánica cuántica",
-      "funcións",
-      "Pauli",
-      "fotóns",
-      "espín",
-      "interaccións",
-      "Bose",
-      "bosóns W",
-      "bosóns",
-      "funcións propias"
+      "núcleo atómico",
+      "partículas mensaxeiras",
+      "átomo",
+      "teoría cuántica de campos",
+      "estatística cuántica"
+    ],
+    "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
+    "termo": "bosón gauge",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "bosón gauge",
+            "definicion": "Bosón de spin unidade e que actúa como intermediario nas interaccións fundamentais entre partículas, rexidas por teorías gauge. O fotón, os bosóns W, e os gluóns son bosóns gauge.",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "bosón",
+      "fotón",
+      "gluón",
+      "interaccións fundamentais",
+      "bosón W",
+      "teoría gauge",
+      "teoría cuántica de campos",
+      "partícula mensaxeira"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8753,7 +8745,7 @@
         "lingua": {
           "gl": {
             "termo": "bosón W",
-            "definicion": "Termo co que se denominan dous dos tres tipos de bosóns que actúan como intermediarios na interacción nuclear débil: un con carga positiva, o W+, e outro con carga negativa, o W-, tamén chamados wino. O terceiro bosón implicado nesta interacción é neutro, o chamado bosón Z ou zino. Ao igual que o fotón, bosón intermediario no electromagnetismo, os dous bosóns W e o bosón Z teñen espín 1, pero a diferencia do fotón, estes bosóns teñen masa en repouso non nula, sobre unhas 80 veces a masa do protón os W e unhas 90 veces o bosón Z, razón pola que a interacción nuclear débil é de tan curto alcance.",
+            "definicion": "Termo co que se denominan dous dos tres tipos de bosóns que actúan como intermediarios na interacción nuclear débil: un con carga positiva, o $W^+$, e outro con carga negativa, o $W^-$, tamén chamados wino. O terceiro bosón implicado nesta interacción é neutro, o chamado bosón Z ou zino. Ao igual que o fotón, bosón intermediario no electromagnetismo, os dous bosóns W e o bosón Z teñen spin 1, pero a diferencia do fotón, estes bosóns teñen masa en repouso non nula, sobre unhas 80 veces a masa do protón os W e unhas 90 veces o bosón Z, razón pola que a interacción nuclear débil é de tan curto alcance.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8761,19 +8753,15 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "fotón",
-      "interacción",
       "masa en repouso",
-      "bosóns",
-      "wino",
+      "bosón",
       "bosón Z",
-      "zino",
-      "masa",
       "electromagnetismo",
       "interacción nuclear débil"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8783,14 +8771,14 @@
         "lingua": {
           "gl": {
             "termo": "bosón Z",
-            "definicion": "V. bosón W.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["bosón W"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -8809,8 +8797,7 @@
       }
     ],
     "relacionadas": [
-      "anomalías da gravidade",
-      "anomalías"
+      "anomalías da gravidade"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8830,8 +8817,7 @@
       }
     ],
     "relacionadas": [
-      "barómetro metálico",
-      "barómetro"
+      "barómetro metálico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -8843,7 +8829,7 @@
         "lingua": {
           "gl": {
             "termo": "Boure, fórmula de",
-            "definicion": "Expresión matemática que dá conta da variación temporal que experimentan os vectores unitarios dun sistema de referencia en movemento de rotación. Esta variación é igual ao producto vectorial da velocidade angular do sistema de referencia, , polo vector unitario,, .",
+            "definicion": "Expresión matemática que dá conta da variación temporal que experimentan os vectores unitarios dun sistema de referencia en movemento de rotación. Esta variación é igual ao producto vectorial da velocidade angular do sistema de referencia, $omega$, polo vector unitario $arrow(e)_r$, $ (d e_r)/(d t) = arrow(omega) times arrow(e_r). $",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8861,49 +8847,8 @@
         "lingua": {
           "gl": {
             "termo": "bóveda celeste",
-            "definicion": "Esfera celeste.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "Esfera",
-      "Esfera celeste"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "Boyle, temperatura de",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "Boyle, temperatura de",
-            "definicion": "Aquela na que, para un determinado gas, se anula o primeiro coeficiente do virial B nas ecuacións de estado de tipo Polo tanto na temperatura de Boyle o comportamento dun gas real aseméllase ao dun gas ideal.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "coeficiente"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "Boyle-Mariotte, lei de",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "Boyle-Mariotte, lei de",
-            "definicion": "Realmente trátase dunha lei enunciada de forma independente por R. Boyle (1627-1691) e E. Mariotte (1620-1684), que di que a temperatura constante, o volume que ocupa unha masa de gas ideal é inversamente proporcional á presión que exerce o gas sobre as paredes do recipiente que o contén, o que equivale a dicir que, nesas condicións, o producto da presión polo volume é unha constante .",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["esfera celeste"],
             "simbolo": ""
           }
         }
@@ -8914,13 +8859,13 @@
     "ten_figuras": false
   },
   {
-    "termo": "Brackett, serie de",
+    "termo": "Boyle, temperatura de",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "Brackett, serie de",
-            "definicion": "Conxunto de liñas espectrais que aparecen na zona do infravermello, e que no caso do hidróxeno é debido ao salto dun electrón dende o nivel n1=4  a outro superior, n2 =5,6,7.... (espectro de absorción), ou no sentido inverso (espectro de emisión). Como as series espectrais anteriormente descubertas, esta serie respondía á xeneralización da fórmula empírica atopada por Balmer, e sería explicada polo modelo atómico de Bohr. V. Balmer, serie de.",
+            "termo": "Boyle, temperatura de",
+            "definicion": "Aquela na que, para un determinado gas, se anula o primeiro coeficiente do virial B nas ecuacións de estado de tipo $ P dash(V) = R T (1 + B/dash(V) + C/dash(V)^2 + dots). $ Polo tanto na temperatura de Boyle o comportamento dun gas real aseméllase ao dun gas ideal.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8928,16 +8873,46 @@
       }
     ],
     "relacionadas": [
-      "espectro",
-      "series espectrais",
-      "liñas espectrais",
-      "liñas",
-      "series",
-      "infravermello",
-      "Bohr"
+      "coeficiente do virial"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
+  },
+  {
+    "termo": "Boyle-Mariotte, lei de",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "Boyle-Mariotte, lei de",
+            "definicion": "Realmente trátase dunha lei enunciada de forma independente por R. Boyle (1627-1691) e E. Mariotte (1620-1684), que di que a temperatura constante, o volume que ocupa unha masa de gas ideal é inversamente proporcional á presión que exerce o gas sobre as paredes do recipiente que o contén, o que equivale a dicir que, nesas condicións, o producto da presión polo volume é unha constante $P V = #[cte]$ .",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [],
+    "ten_ecuacions": true,
+    "ten_figuras": false
+  },
+  {
+    "termo" : "bps",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "bps",
+            "definicion" : "Acrónimo de _bits per second_ (bits por segundo). En informática, unidade de veolcidade de transferencia de información",
+            "simbolo" : "",
+            "sinonimos": []
+          }
+        }
+      }
+    ],
+    "relacionadas" : ["bit"],
+    "ten_ecuacions" : false,
+    "ten_figuras" : false
   },
   {
     "termo": "Brachyt, telescopio de",
@@ -8954,10 +8929,34 @@
       }
     ],
     "relacionadas": [
-      "Telescopio reflector",
-      "Telescopio"
+      "telescopio reflector"
     ],
     "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
+    "termo": "Brackett, serie de",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "Brackett, serie de",
+            "definicion": "Conxunto de liñas espectrais que aparecen na zona do infravermello, e que no caso do hidróxeno é debido ao salto dun electrón dende o nivel $n_1=4$  a outro superior, $n_2 =5,6,7...$. (espectro de absorción), ou no sentido inverso (espectro de emisión). Como as series espectrais anteriormente descubertas, esta serie respondía á xeneralización da fórmula empírica atopada por Balmer, e sería explicada polo modelo atómico de Bohr.",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "espectro",
+      "serie espectral",
+      "liñas espectrais",
+      "infravermello",
+      "Bohr, modelo atómico de",
+      "Balmer, serie de"
+    ],
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8967,7 +8966,7 @@
         "lingua": {
           "gl": {
             "termo": "Bragg, ecuación de",
-            "definicion": "Ecuación establecida por H. Bragg (1862-1942) e o seu fillo W. Bragg (1890-1971), ao estudiar a dispersión de raios X en cristais, que permite coñecer os ángulos de incidencia,  , para os que se obteñen máximos de intensidade das ondas dispersadas por un cristal, debido á interferencia constructiva. A expresión indica quesendo  a lonxitude de onda dos raios X incidentes, d a distancia entre planos paralelos consecutivos da estructura do cristal e n un número enteiro, limitado polo valor máximo de sen&lt;1. V. raios X; dispersión das ondas; cristais.",
+            "definicion": "Ecuación establecida por H. Bragg (1862-1942) e o seu fillo W. Bragg (1890-1971), ao estudiar a dispersión de raios X en cristais, que permite coñecer os ángulos de incidencia, $theta$, para os que se obteñen máximos de intensidade das ondas dispersadas por un cristal, debido á interferencia constructiva. A expresión indica que $ sin(theta) = (n lambda)/(2 d) $ sendo $lambda$ a lonxitude de onda dos raios X incidentes, $d$ a distancia entre planos paralelos consecutivos da estructura do cristal e $n$ un número enteiro, limitado polo valor máximo de $sin(theta) < 1$.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -8975,15 +8974,14 @@
       }
     ],
     "relacionadas": [
-      "ángulos de incidencia",
-      "sen",
+      "ángulo de incidencia",
       "interferencia",
-      "intensidade",
-      "ángulos",
       "intensidade das ondas",
-      "&lt;1."
+      "raios X",
+      "dispersión das ondas",
+      "cristal"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -8993,7 +8991,7 @@
         "lingua": {
           "gl": {
             "termo": "Bragg-Pierce, lei de",
-            "definicion": "Lei que establece que o coeficiente de absorción dos raios X por un elemento químico, , depende da súa densidade, , e número atómico, Z, así como da lonxitude de onda dos raios X incidentes, ,segundo a ecuación: =KZ33. Esta relación indica que os elementos máis pesados absorben máis os raios X, propiedade que se aproveita en radioloxía para a observación do corpo humano. V. raios X; coeficiente absorbente específico.",
+            "definicion": "Lei que establece que o coeficiente de absorción, $mu$, dos raios X por un elemento químico, depende da súa densidade, $rho$, e número atómico, $Z$, así como da lonxitude de onda dos raios X incidentes, $lambda$, segundo a ecuación: $mu = K rho Z^3 lambda^3$. Esta relación indica que os elementos máis pesados absorben máis os raios X, propiedade que se aproveita en radioloxía para a observación do corpo humano.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -9001,14 +8999,11 @@
       }
     ],
     "relacionadas": [
-      "número",
       "coeficiente de absorción",
-      "coeficiente",
-      "raios",
       "número atómico",
       "raios X"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -9018,14 +9013,14 @@
         "lingua": {
           "gl": {
             "termo": "Brahe, sistema de",
-            "definicion": "V. modelos heliocéntricos.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["modelos heliocéntricos"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -9045,7 +9040,7 @@
     ],
     "relacionadas": [
       "corda",
-      "teoría"
+      "teoría de supercordas"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -9057,17 +9052,14 @@
         "lingua": {
           "gl": {
             "termo": "branco cromático",
-            "definicion": "Punto branco.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["punto branco"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Punto",
-      "Punto branco"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -9086,12 +9078,7 @@
       }
     ],
     "relacionadas": [
-      "centrada nos extremos ",
-      "primitiva",
-      "cela unidade",
-      "centrada no corpo",
-      "cela",
-      "centrada nas caras "
+      "cela unidade"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -9103,14 +9090,14 @@
         "lingua": {
           "gl": {
             "termo": "brazo de panca",
-            "definicion": "Distancia perpendicular entre a liña de acción dunha forza e o eixe sobre o cal xira o corpo sobre o que actúa. V. momento dunha forza.",
+            "definicion": "Distancia perpendicular entre a liña de acción dunha forza e o eixe sobre o cal xira o corpo sobre o que actúa.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["momento dunha forza"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -9121,8 +9108,8 @@
         "lingua": {
           "gl": {
             "termo": "brétema",
-            "definicion": "V. néboa.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["néboa"],
             "simbolo": ""
           }
         }
@@ -9139,7 +9126,7 @@
         "lingua": {
           "gl": {
             "termo": "Brewster, lei de",
-            "definicion": "Lei que establece que un raio de luz se polariza totalmente por reflexión cando a tanxente do ángulo de incidencia é igual ao índice de refracción relativo entre os dous medios. V. polarización da luz; ángulo de polarización.",
+            "definicion": "Lei que establece que un raio de luz se polariza totalmente por reflexión cando a tanxente do ángulo de incidencia é igual ao índice de refracción relativo entre os dous medios.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -9150,8 +9137,8 @@
       "ángulo de incidencia",
       "índice de refracción",
       "reflexión",
-      "índice",
-      "ángulo"
+      "polarización da luz",
+      "ángulo de polarización"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -9183,7 +9170,7 @@
         "lingua": {
           "gl": {
             "termo": "brillo",
-            "definicion": "Característica da radiación emitida por unha superficie luminosa nunha dirección determinada. Defínese como o fluxo luminoso que pasa ao través dunha superficie unitaria perpendicular á dirección dada e contigua á superficie irradiante e comprendido no interior dun ángulo sólido de 1 estereorradián. V. magnitude aparente dun astro; luminancia; luminosidade.",
+            "definicion": "Característica da radiación emitida por unha superficie luminosa nunha dirección determinada. Defínese como o fluxo luminoso que pasa ao través dunha superficie unitaria perpendicular á dirección dada e contigua á superficie irradiante e comprendido no interior dun ángulo sólido de 1 estereorradián.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -9191,10 +9178,11 @@
       }
     ],
     "relacionadas": [
-      "ángulo",
-      "fluxo",
       "fluxo luminoso",
-      "ángulo sólido"
+      "ángulo sólido",
+      "magnitude aparente dun astro",
+      "luminancia",
+      "luminosidade"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -9206,16 +9194,14 @@
         "lingua": {
           "gl": {
             "termo": "brillo fotométrico",
-            "definicion": "Luminancia.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["luminancia"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Luminancia"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -9244,7 +9230,7 @@
         "lingua": {
           "gl": {
             "termo": "Briot, ecuación de",
-            "definicion": "Ecuación, obtida experimentalmente por Charles Briot (1817-1882), que relaciona o índice de refracción, n, dun medio transparente dispersivo coa lonxitude de onda,, da luz monocromática empregada, segundo:sendo a, b, c e d constantes características de cada medio que se deben determinar previamente con catro medicións de n e . A teoría electromagnética de Maxwell explica teoricamente o porqué desta relación. V. Cauchy, ecuación de; Sellmeier, ecuación de.",
+            "definicion": "Ecuación, obtida experimentalmente por Charles Briot (1817-1882), que relaciona o índice de refracción, $n$, dun medio transparente dispersivo coa lonxitude de onda, $lambda$, da luz monocromática empregada, segundo: $ n^2 = a + b/lambda^2 + c/lambda^4 + d lambda^2 $ sendo $a$, $b$, $c$ e $d$ constantes características de cada medio que se deben determinar previamente con catro medicións de $n$ e $lambda$. A teoría electromagnética de Maxwell explica teoricamente o porqué desta relación.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -9253,13 +9239,12 @@
     ],
     "relacionadas": [
       "índice de refracción",
-      "Maxwell",
+      "Maxwell, teoría electromagnética de",
       "lonxitude de onda",
-      "dispersivo",
-      "lonxitude",
-      "índice"
+      "dispersión",
+      "Cauchy, ecuación de"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -9269,8 +9254,8 @@
         "lingua": {
           "gl": {
             "termo": "Broglie, onde de",
-            "definicion": "V. De Broglie, onda de.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["De Broglie, onda de"],
             "simbolo": ""
           }
         }
@@ -9287,21 +9272,19 @@
         "lingua": {
           "gl": {
             "termo": "bromo",
-            "definicion": "Sb. Br. Elemento químico de número atómico 35, descuberto no 1826, por A. J.Balard. Preséntase na natureza en forma de dous isótopos: Br-79 (78,918  %) e Br-81 (80,916 %), sendo coñecidos outros 26 isótopos artificiais. A fonte máis importante de bromo é a auga do mar. MA.79,904 u; Pf. -7,2 ºC; Peb. 58,78 ºC; 3120 kgm-3 (líquido a 20 ºC).",
+            "definicion": "Elemento químico de número atómico 35, descuberto no 1826, por A. J.Balard. Preséntase na natureza en forma de dous isótopos: Br-79 (78.918  %) e Br-81 (80.916 %), sendo coñecidos outros 26 isótopos artificiais. A fonte máis importante de bromo é a auga do mar. MA. 79.904 u; Pf. -7.2 ºC; Peb. 58.78 ºC; $rho$ 3120 kg m⁻³ (líquido a 20 ºC).",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[Br]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
       "número atómico",
-      "Elemento químico",
-      "Elemento",
-      "isótopos"
+      "elemento químico",
+      "isótopo"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -9318,9 +9301,7 @@
         }
       }
     ],
-    "relacionadas": [
-      "hidroscópicos"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -9331,17 +9312,14 @@
         "lingua": {
           "gl": {
             "termo": "BTU",
-            "definicion": "Acrónimo de British Thermal Unit (Unidade térmica británica). Unidade de calor empregada aínda nalgúns países anglófonos ou con influencia da antiga Commonwealth. 1 BTU equivale, aproximadamente, a 252 calorías ou 1 055 J. V. Apéndice Final A.",
+            "definicion": "Acrónimo de _British Thermal Unit_ (Unidade térmica británica). Unidade de calor empregada aínda nalgúns países anglófonos ou con influencia da antiga Commonwealth. 1 BTU equivale, aproximadamente, a 252 calorías ou 1055 J.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "British Thermal Unit",
-      "nidade térmica británica)"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -9352,7 +9330,7 @@
         "lingua": {
           "gl": {
             "termo": "buraco negro",
-            "definicion": "Obxecto que se atopa no espazo, caracterizado por unha masa tan grande e unhas dimensións tales que a súa velocidade de escape iguala á velocidade das OEM no baleiro ( 300 000 km/s) e, conseguintemente, nin a luz pode escapar da atracción gravitatoria de tal obxecto. Esta condición alcánzase cando o corpo ten un radio igual ao chamado radio de Schwarzschild. Os buracos negros pódense formar cando unha estrela moi masiva, con masa superior ao límite de Chandrasekhar, e ao final da súa etapa na Secuencia Principal, se atopa co núcleo de ferro incombustible rodeado de capas de combustible nuclear. Entón a súa parte interna pode sufrir un colapso gravitatorio tan forte que ningunha forza é capaz de detelo, dando lugar ao buraco negro. Dado o inmenso campo gravitatorio xerado, as propiedades do espacio-tempo nas proximidades da superficie de Schwarzschild resultan moi peculiares e o tempo ralentízase. A descripción destes obxectos corresponde á relatividade xeral.Tamén se ten postulado a posible existencia de buracos negros moito máis pequenos, que non proceden do colapso de antigas estrelas, senón que se formaron pouco despois do propio Big Bang. Sexa cal sexa a súa orixe, os buracos negros ata agora descritos, con simetría esférica e coa masa como único parámetro característico, reciben o nome de buracos negros de Schwarzschild, pero outros son posibles, segundo os modelos matemáticos traballados na relatividade, entre eles os de Kerr, presentan rotación, os de Reissner-NordstrØm presentan carga eléctrica pero sen rotación, mentres que os de Kerr-Newmann presentan carga eléctrica e rotación. V. estrela; gravitación; Hawking, mecanismo de.",
+            "definicion": "Obxecto que se atopa no espazo, caracterizado por unha masa tan grande e unhas dimensións tales que a súa velocidade de escape iguala á velocidade das OEM no baleiro (300000 km/s) e, conseguintemente, nin a luz pode escapar da atracción gravitatoria de tal obxecto. Esta condición alcánzase cando o corpo ten un radio igual ao chamado radio de Schwarzschild. Os buracos negros pódense formar cando unha estrela moi masiva, con masa superior ao límite de Chandrasekhar, e ao final da súa etapa na Secuencia Principal, se atopa co núcleo de ferro incombustible rodeado de capas de combustible nuclear. Entón a súa parte interna pode sufrir un colapso gravitatorio tan forte que ningunha forza é capaz de detelo, dando lugar ao buraco negro. Dado o inmenso campo gravitatorio xerado, as propiedades do espacio-tempo nas proximidades da superficie de Schwarzschild resultan moi peculiares e o tempo ralentízase. A descripción destes obxectos corresponde á relatividade xeral.Tamén se ten postulado a posible existencia de buracos negros moito máis pequenos, que non proceden do colapso de antigas estrelas, senón que se formaron pouco despois do propio Big Bang. Sexa cal sexa a súa orixe, os buracos negros ata agora descritos, con simetría esférica e coa masa como único parámetro característico, reciben o nome de buracos negros de Schwarzschild, pero outros son posibles, segundo os modelos matemáticos traballados na relatividade, entre eles os de Kerr, presentan rotación, os de Reissner-Nordstrøm presentan carga eléctrica pero sen rotación, mentres que os de Kerr-Newmann presentan carga eléctrica e rotación.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -9360,18 +9338,17 @@
       }
     ],
     "relacionadas": [
-      "buracos negros de Schwarzschild",
-      "Secuencia",
+      "Schwarzschild, buracos negros de",
       "Secuencia Principal",
-      "relatividade",
       "relatividade xeral",
       "OEM",
-      "Big",
       "velocidade de escape",
-      "Schwarzschild",
-      "Chandrasekhar",
-      "velocidade",
-      "Big Bang"
+      "Schwarzschild, radio de",
+      "Chandrasekhar, límite de",
+      "Big Bang",
+      "estrela",
+      "gravitación",
+      "Hawking, mecanismo de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -9391,8 +9368,6 @@
       }
     ],
     "relacionadas": [
-      "gota",
-      "corrente",
       "corrente en chorro",
       "gota fría"
     ],
@@ -9414,7 +9389,7 @@
       }
     ],
     "relacionadas": [
-      "periféricos",
+      "periférico",
       "CPU"
     ],
     "ten_ecuacions": false,
@@ -9435,10 +9410,8 @@
       }
     ],
     "relacionadas": [
-      "movemento",
       "precesión",
-      "Sólido ríxido",
-      "Sólido",
+      "sólido ríxido",
       "movemento xiroscópico"
     ],
     "ten_ecuacions": false,
@@ -9451,7 +9424,7 @@
         "lingua": {
           "gl": {
             "termo": "Buys-Ballot, lei de",
-            "definicion": "Lei formulada por C.H. Buys Ballot (1817-1890) que di que se un observador se coloca de costas ao vento, a presión atmosférica será maior á súa dereita que á súa esquerda no hemisferio norte e menor no hemisferio sur. Deste xeito deduciu a dirección de  xiro dos ciclóns e anticiclóns nos dous hemisferios. Os resultados pódense entender como unha consecuencia da aceleración de Coriolis debida á rotación terrestre. Un refrán, válido no hemisferio norte e sempre que o conductor se atope á esquerda do vehículo, resume este feito: se o vento dá ao conductor no seu camiño, que espere choiva no seu destiño.",
+            "definicion": "Lei formulada por C.H. Buys Ballot (1817-1890) que di que se un observador se coloca de costas ao vento, a presión atmosférica será maior á súa dereita que á súa esquerda no hemisferio norte e menor no hemisferio sur. Deste xeito deduciu a dirección de  xiro dos ciclóns e anticiclóns nos dous hemisferios. Os resultados pódense entender como unha consecuencia da aceleración de Coriolis debida á rotación terrestre. Un refrán, válido no hemisferio norte e sempre que o conductor se atope á esquerda do vehículo, resume este feito: _se o vento dá ao conductor no seu camiño, que espere choiva no seu destiño_.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -9459,8 +9432,7 @@
       }
     ],
     "relacionadas": [
-      "Coriolis",
-      "se o vento dá ao conductor no seu camiño, que espere choiva no seu destiño"
+      "Coriolis, aceleración de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -9480,7 +9452,7 @@
       }
     ],
     "relacionadas": [
-      "bits"
+      "bit"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -31519,7 +31491,7 @@
         "lingua": {
           "gl": {
             "termo": "EPR, argumento",
-            "definicion": "Argumento presentado no 1935 por Albert Einstein, xunto con dous dos seus discípulos, Boris Podolsky e Nathan Rosen, en forma de experimento imaxinario. Tal argumento era unha resposta á coñecida como interpretación de Copenhagen que consolidaría unha visión da teoría cuántica basicamente indeterminista. Segundo tal interpretación, no mundo subatómico ao efectuar unha medida, o observador está modificando o propio sistema en estudio, atopándose límites á precisión da medida simultánea de dúas magnitudes relacionadas dun mesmo sistema (chamadas magnitudes conxugadas). O argumento EPR pretendía desbotar tal afirmación: por exemplo, tomadas dúas partículas (como dous fotóns ou dous protóns) dun mesmo sistema, unha vez separadas a suficiente distancia como para que non podan intercambiar información entre elas (pois calquera información debe viaxar cunha velocidade inferior á da luz no baleiro), poderíamos medir unha das propiedades dunha desas partículas e coñecer a outra propiedade (máis alá do permitido polo principio de indeterminación de Heisenberg) efectuando medidas sobre a segunda partícula, que non se vería afectada polas medicións sobre a primeira. O argumento EPR supón tres premisas básicas: realismo,inducción e separabilidade. Escollendo propiedades que só poden adoptar dous únicos valores (espín positivo ou negativo, polarización ou non segundo unha determinada dirección...), John Bell estableceu a coñecida como desigualdade de Bell, relación matemática que podería poñerse a proba con partículas reais, téndose efectuados varios experimentos ao respecto. Hai que engadir que Einstein non consideraba a teoría cuántica como incorrecta senón como incompleta, defendendo a existencia de variables ocultas no sistema, non coñecidas aínda polos físicos, e de aí a súa aceptación provisional da mecánica cuántica. V. Schrödinger, gato de.",
+            "definicion": "Argumento presentado no 1935 por Albert Einstein, xunto con dous dos seus discípulos, Boris Podolsky e Nathan Rosen, en forma de experimento imaxinario. Tal argumento era unha resposta á coñecida como interpretación de Copenhagen que consolidaría unha visión da teoría cuántica basicamente indeterminista. Segundo tal interpretación, no mundo subatómico ao efectuar unha medida, o observador está modificando o propio sistema en estudio, atopándose límites á precisión da medida simultánea de dúas magnitudes relacionadas dun mesmo sistema (chamadas magnitudes conxugadas). O argumento EPR pretendía desbotar tal afirmación: por exemplo, tomadas dúas partículas (como dous fotóns ou dous protóns) dun mesmo sistema, unha vez separadas a suficiente distancia como para que non podan intercambiar información entre elas (pois calquera información debe viaxar cunha velocidade inferior á da luz no baleiro), poderíamos medir unha das propiedades dunha desas partículas e coñecer a outra propiedade (máis alá do permitido polo principio de indeterminación de Heisenberg) efectuando medidas sobre a segunda partícula, que non se vería afectada polas medicións sobre a primeira. O argumento EPR supón tres premisas básicas: realismo,inducción e separabilidade. Escollendo propiedades que só poden adoptar dous únicos valores (spin positivo ou negativo, polarización ou non segundo unha determinada dirección...), John Bell estableceu a coñecida como desigualdade de Bell, relación matemática que podería poñerse a proba con partículas reais, téndose efectuados varios experimentos ao respecto. Hai que engadir que Einstein non consideraba a teoría cuántica como incorrecta senón como incompleta, defendendo a existencia de variables ocultas no sistema, non coñecidas aínda polos físicos, e de aí a súa aceptación provisional da mecánica cuántica. V. Schrödinger, gato de.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -31527,7 +31499,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "Bell",
       "teoría",
       "conxugadas",
@@ -33727,12 +33699,12 @@
     "ten_figuras": false
   },
   {
-    "termo": "espín isotópico",
+    "termo": "spin isotópico",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "espín isotópico",
+            "termo": "spin isotópico",
             "definicion": "Isospín.",
             "sinonimos": [],
             "simbolo": ""
@@ -33747,13 +33719,13 @@
     "ten_figuras": false
   },
   {
-    "termo": "espín",
+    "termo": "spin",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "espín",
-            "definicion": "Sb. s. Característica cuántica, intrínseca das partículas subatómicas, asociada coa idea de momento angular de rotación. Mídese por medio dun número enteiro ou semienteiro, sendo a unidade o cuanto de momento angular. As partículas que posúen un espín semienteiro son os fermións, partículas constituíntes da materia como os electróns, protóns ou neutróns, de espín 1/2 ou -1/2 desa unidade, mentres que as que posúen un número enteiro desa unidade son os bosóns. O espín está relacionado coa simetría de rotación, de forma que canto maior é o espín dunha partícula, menor é a fracción de volta que se debe xirar esa partícula para que presente o aspecto inicial: nun bosón de espín 1 debe xirarse 360º e nun bosón de espín 2 consíguese ao xiralo 180º, mentres que nun fermión de espín ½ deberase xirar 720º para volver ao estado inicial. V. Pauli, principio de exclusión de; Fermi-Dirac, estatística de; Bose-Einstein, estatística de; número cuántico de espín.",
+            "termo": "spin",
+            "definicion": "Sb. s. Característica cuántica, intrínseca das partículas subatómicas, asociada coa idea de momento angular de rotación. Mídese por medio dun número enteiro ou semienteiro, sendo a unidade o cuanto de momento angular. As partículas que posúen un spin semienteiro son os fermións, partículas constituíntes da materia como os electróns, protóns ou neutróns, de spin 1/2 ou -1/2 desa unidade, mentres que as que posúen un número enteiro desa unidade son os bosóns. O spin está relacionado coa simetría de rotación, de forma que canto maior é o spin dunha partícula, menor é a fracción de volta que se debe xirar esa partícula para que presente o aspecto inicial: nun bosón de spin 1 debe xirarse 360º e nun bosón de spin 2 consíguese ao xiralo 180º, mentres que nun fermión de spin ½ deberase xirar 720º para volver ao estado inicial. V. Pauli, principio de exclusión de; Fermi-Dirac, estatística de; Bose-Einstein, estatística de; número cuántico de spin.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -34232,7 +34204,7 @@
         "lingua": {
           "gl": {
             "termo": "estatística cuántica",
-            "definicion": "En mecánica cuántica, modelo que describe estatisticamente un sistema de partículas que non responde ao modelo estatístico da mecánica clásica, como o modelo de Boltzmann, ou que mellora a descripción do mesmo. Os dous modelos fundamentais son: a estatística de Femi-Dirac, que se aplica aos fermións, partículas con espín semienteiro que seguen o principio de exlcusión de Pauli, isto é, que só pode haber unha partícula en cada estado cuántico, e a estatística de Bose-Einstein, que se aplica aos bosóns que, con espín enteiro, se caracterizan polo feito de que calquera número deles pode ocupar un mesmo estado cuántico.",
+            "definicion": "En mecánica cuántica, modelo que describe estatisticamente un sistema de partículas que non responde ao modelo estatístico da mecánica clásica, como o modelo de Boltzmann, ou que mellora a descripción do mesmo. Os dous modelos fundamentais son: a estatística de Femi-Dirac, que se aplica aos fermións, partículas con spin semienteiro que seguen o principio de exlcusión de Pauli, isto é, que só pode haber unha partícula en cada estado cuántico, e a estatística de Bose-Einstein, que se aplica aos bosóns que, con spin enteiro, se caracterizan polo feito de que calquera número deles pode ocupar un mesmo estado cuántico.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -34240,7 +34212,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "Boltzmann",
       "mecánica clásica",
       "Bose",
@@ -35077,7 +35049,7 @@
         "lingua": {
           "gl": {
             "termo": "eta",
-            "definicion": "Sb. . Mesón cunha masa aproximada duns 549 MeV, sen carga eléctrica e de espín nulo, que presenta unha vida media curta, duns 2,5·10-19s. V. Apéndice Final F.",
+            "definicion": "Sb. . Mesón cunha masa aproximada duns 549 MeV, sen carga eléctrica e de spin nulo, que presenta unha vida media curta, duns 2,5·10-19s. V. Apéndice Final F.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -35086,7 +35058,7 @@
     ],
     "relacionadas": [
       "Mesón",
-      "espín"
+      "spin"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -36852,7 +36824,7 @@
         "lingua": {
           "gl": {
             "termo": "Fermi-Dirac, estatística de",
-            "definicion": "Estatística cuántica que describe o comportamento das partículas que seguen o principio de exclusión de Pauli, os fermións. Leva o nome de Enrico Fermi (1901-1954) quen contribuíu ao estudio da distribución característica destas partículas de espín semienteiro e o de Paul A. Dirac (1902-1984) quen desenvolveu a versión relativista da ecuación de onda de Schrödinger para os electróns e outros fermións. V. Fermi, distribución de.",
+            "definicion": "Estatística cuántica que describe o comportamento das partículas que seguen o principio de exclusión de Pauli, os fermións. Leva o nome de Enrico Fermi (1901-1954) quen contribuíu ao estudio da distribución característica destas partículas de spin semienteiro e o de Paul A. Dirac (1902-1984) quen desenvolveu a versión relativista da ecuación de onda de Schrödinger para os electróns e outros fermións. V. Fermi, distribución de.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -36922,7 +36894,7 @@
         "lingua": {
           "gl": {
             "termo": "fermión",
-            "definicion": "Partícula subatómica que segue a estatística de Fermi-Dirac, sendo o máis característico das mesmas que presentan un espín semienteiro (1/2 ou 3/2), cumpren o principio de exclusión de Pauli e son descritas por funcións propias antisimétricas. As partículas fundamentais que se estudian como constituíntes da materia (electróns, protóns ou neutróns) son fermións, ao contrario dos bosóns, como os que actúan como intermediarios das interaccións fundamentais. Tamén son fermións algunhas moléculas gasosas, como o 3He.",
+            "definicion": "Partícula subatómica que segue a estatística de Fermi-Dirac, sendo o máis característico das mesmas que presentan un spin semienteiro (1/2 ou 3/2), cumpren o principio de exclusión de Pauli e son descritas por funcións propias antisimétricas. As partículas fundamentais que se estudian como constituíntes da materia (electróns, protóns ou neutróns) son fermións, ao contrario dos bosóns, como os que actúan como intermediarios das interaccións fundamentais. Tamén son fermións algunhas moléculas gasosas, como o 3He.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -37119,7 +37091,7 @@
         "lingua": {
           "gl": {
             "termo": "ferromagnetismo",
-            "definicion": "Tipo de magnetismo asociado a certos elementos, nos que os seus átomos presentan momento magnético permanente, como poden ser ferro, níquel ou cobalto, así como os seus compostos e aliaxes. O máis característico destes materiais é que presentan un magnetismo permanente nun amplo rango de temperaturas. Este comportamento é debido a que algúns dos electróns de átomos veciños interaccionan aliñando paralelamente os seus espíns, o que trae consigo que se formen unhas rexións microscópicas coñecidas como dominios magnéticos que presentan un forte momento magnético resultante. Se se aplica ao material un campo magnético externo, os dominios que teñen a súa mesma orientación medran a costa dos que non a teñen, aumentando a magnetización do material, que se converte no que é coñecido como un imán. Cando desaparece o campo externo, a magnetización do material non desaparece completamente (V. histérese). O ferromagnetismo depende da temperatura e para cada material hai unha temperatura, chamada temperatura de Curie, por riba da cal a substancia se converte en paramagnética debido a que a axitación térmica impide a formación de dominios.",
+            "definicion": "Tipo de magnetismo asociado a certos elementos, nos que os seus átomos presentan momento magnético permanente, como poden ser ferro, níquel ou cobalto, así como os seus compostos e aliaxes. O máis característico destes materiais é que presentan un magnetismo permanente nun amplo rango de temperaturas. Este comportamento é debido a que algúns dos electróns de átomos veciños interaccionan aliñando paralelamente os seus spins, o que trae consigo que se formen unhas rexións microscópicas coñecidas como dominios magnéticos que presentan un forte momento magnético resultante. Se se aplica ao material un campo magnético externo, os dominios que teñen a súa mesma orientación medran a costa dos que non a teñen, aumentando a magnetización do material, que se converte no que é coñecido como un imán. Cando desaparece o campo externo, a magnetización do material non desaparece completamente (V. histérese). O ferromagnetismo depende da temperatura e para cada material hai unha temperatura, chamada temperatura de Curie, por riba da cal a substancia se converte en paramagnética debido a que a axitación térmica impide a formación de dominios.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -37128,7 +37100,7 @@
     ],
     "relacionadas": [
       "magnetismo",
-      "espíns",
+      "spins",
       "Curie",
       "momento",
       "temperatura de Curie,",
@@ -40562,7 +40534,7 @@
         "lingua": {
           "gl": {
             "termo": "fotino",
-            "definicion": "En supersimetría, hipotético fermión asociado ao fotón. Como spartícula do fotón (de espín 1) presenta un espin 1/2.",
+            "definicion": "En supersimetría, hipotético fermión asociado ao fotón. Como spartícula do fotón (de spin 1) presenta un espin 1/2.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -40570,7 +40542,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "fotón",
       "spartícula",
       "supersimetría",
@@ -44449,7 +44421,7 @@
         "lingua": {
           "gl": {
             "termo": "gravitón",
-            "definicion": "Hipotética partícula que, segundo a teoría cuántica de campos, intercambian dúas masas na súa interacción gravitatoria. Como todas as partículas intermediarias é un bosón, e tería masa en repouso nula, sendo o seu espín igual a",
+            "definicion": "Hipotética partícula que, segundo a teoría cuántica de campos, intercambian dúas masas na súa interacción gravitatoria. Como todas as partículas intermediarias é un bosón, e tería masa en repouso nula, sendo o seu spin igual a",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -44467,7 +44439,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "interacción",
       "teoría",
       "masa en",
@@ -45257,7 +45229,7 @@
         "lingua": {
           "gl": {
             "termo": "helicidade",
-            "definicion": "Propiedade dalgunhas partículas subatómicas que se define como positiva cando o seu momento lineal e o de espín teñen o mesmo sentido e, como negativa, cando presentan sentido contrario. Unha característica das partículas con espín s=1/2 (fermións) e masa en repouso nula, sería que a súa helicidade e a da súa correspondente antipartícula sempre serían opostas; fálase de que o neutrino podería presentar unha helicidade negativa e o antineutrino, unha helicidade positiva.",
+            "definicion": "Propiedade dalgunhas partículas subatómicas que se define como positiva cando o seu momento lineal e o de spin teñen o mesmo sentido e, como negativa, cando presentan sentido contrario. Unha característica das partículas con spin s=1/2 (fermións) e masa en repouso nula, sería que a súa helicidade e a da súa correspondente antipartícula sempre serían opostas; fálase de que o neutrino podería presentar unha helicidade negativa e o antineutrino, unha helicidade positiva.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -45265,7 +45237,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "1/2 ",
       "momento",
       "antineutrino",
@@ -45947,7 +45919,7 @@
         "lingua": {
           "gl": {
             "termo": "Higgs, bosón de",
-            "definicion": "Bosón con espín cero e masa en repouso non nula, que podería existir segundo certas teorías gauge, particularmente na teoría electrodébil. A súa existencia foi predita por P. Higgs (1929-) pero aínda non foi atopado experimentalmente.",
+            "definicion": "Bosón con spin cero e masa en repouso non nula, que podería existir segundo certas teorías gauge, particularmente na teoría electrodébil. A súa existencia foi predita por P. Higgs (1929-) pero aínda non foi atopado experimentalmente.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -45956,7 +45928,7 @@
     ],
     "relacionadas": [
       "Bosón",
-      "espín",
+      "spin",
       "teoría",
       "masa en repouso",
       "teoría electrodébil",
@@ -49546,13 +49518,13 @@
     "ten_figuras": false
   },
   {
-    "termo": "interacción espín-órbita",
+    "termo": "interacción spin-órbita",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "interacción espín-órbita",
-            "definicion": "Interacción magnética que acopla o momento angular de espín de cada electrón opticamente activo co seu propio momento angular orbital. V. acoplamento; física cuántica.",
+            "termo": "interacción spin-órbita",
+            "definicion": "Interacción magnética que acopla o momento angular de spin de cada electrón opticamente activo co seu propio momento angular orbital. V. acoplamento; física cuántica.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -49560,7 +49532,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "momento",
       "momento angular de",
       "momento angular orbital",
@@ -50422,13 +50394,13 @@
     "ten_figuras": false
   },
   {
-    "termo": "isoespín",
+    "termo": "isospin",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "isoespín",
-            "definicion": "Magnitude vectorial cuantizada atribuíble a cada un dos multipletes de partículas subatómicas da familia dos hadróns. O concepto foi introducido por Heisenberg quen, baseándose no gran parecido entre o protón e o neutrón, propuxo consideralos como dous estados dunha única partícula (nucleón) que difiren só na súa carga eléctrica. Mediante un determinado formalismo, semellante ao tratamento do espín, aínda que non garda relación co mesmo, chegouse á introducción deste novo concepto chamado isoespín ou espín isotópico.",
+            "termo": "isospin",
+            "definicion": "Magnitude vectorial cuantizada atribuíble a cada un dos multipletes de partículas subatómicas da familia dos hadróns. O concepto foi introducido por Heisenberg quen, baseándose no gran parecido entre o protón e o neutrón, propuxo consideralos como dous estados dunha única partícula (nucleón) que difiren só na súa carga eléctrica. Mediante un determinado formalismo, semellante ao tratamento do spin, aínda que non garda relación co mesmo, chegouse á introducción deste novo concepto chamado isospin ou spin isotópico.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -50437,7 +50409,7 @@
       {
         "lingua": {
           "gl": {
-            "termo": "isoespín",
+            "termo": "isospin",
             "definicion": "Número cuántico asignable á magnitude vectorial definida na anterior acepción.",
             "sinonimos": [],
             "simbolo": ""
@@ -50446,8 +50418,8 @@
       }
     ],
     "relacionadas": [
-      "espín",
-      "espín isotópico",
+      "spin",
+      "spin isotópico",
       "Número cuántico ",
       "Número",
       "protón",
@@ -51220,7 +51192,7 @@
         "lingua": {
           "gl": {
             "termo": "kaón",
-            "definicion": "Termo que se refire a un conxunto de mesóns. O K+ é o K-, con carga eléctrica de igual valor que a do protón pero positiva o primeiro e negativa o segundo, teñen unha masa en repouso duns 493,7 MeV, e unha vida media duns 1,2·10-8 s; o K0 carece de carga eléctrica, ten unha masa duns 497,7 MeV e a súa vida media é duns 0,9·10-10s. Os tres tipos de mesóns K teñen espín nulo. V. Apéndice Final E.",
+            "definicion": "Termo que se refire a un conxunto de mesóns. O K+ é o K-, con carga eléctrica de igual valor que a do protón pero positiva o primeiro e negativa o segundo, teñen unha masa en repouso duns 493,7 MeV, e unha vida media duns 1,2·10-8 s; o K0 carece de carga eléctrica, ten unha masa duns 497,7 MeV e a súa vida media é duns 0,9·10-10s. Os tres tipos de mesóns K teñen spin nulo. V. Apéndice Final E.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -51889,7 +51861,7 @@
         "lingua": {
           "gl": {
             "termo": "Kramers, dexeneración de",
-            "definicion": "En mecánica cuántica, dexeneración que presentan os sistemas cun número impar de partículas de espín ½ (p.e. un átomo cun número impar de electróns) e que desaparece en presencia dun campo magnético externo. É consecuencia da invarianza T, e foi descuberta por H.A. Kramers (1894-1952).",
+            "definicion": "En mecánica cuántica, dexeneración que presentan os sistemas cun número impar de partículas de spin ½ (p.e. un átomo cun número impar de electróns) e que desaparece en presencia dun campo magnético externo. É consecuencia da invarianza T, e foi descuberta por H.A. Kramers (1894-1952).",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -51897,7 +51869,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "campo magnético",
       "campo",
       "dexeneración",
@@ -52173,7 +52145,7 @@
         "lingua": {
           "gl": {
             "termo": "lambda",
-            "definicion": "Sb.. Barión cunha masa duns 1 116 MeV e sen carga eléctrica, cun espín ½ e estrañeza –1. Ten unha vida media duns 2,5·10-10s. V. Apéndice Final E.",
+            "definicion": "Sb.. Barión cunha masa duns 1 116 MeV e sen carga eléctrica, cun spin ½ e estrañeza –1. Ten unha vida media duns 2,5·10-10s. V. Apéndice Final E.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -52181,7 +52153,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "estrañeza",
       "Barión"
     ],
@@ -53037,7 +53009,7 @@
         "lingua": {
           "gl": {
             "termo": "lei de conservación",
-            "definicion": "Termo referido a calquera lei científica que establece a conservación ou invarianza dunha determinada magnitude en determinadas situacións. As leis de conservación da enerxía e da masa, por separado, resultan fundamentais en todos os campos da ciencia (e a súa combinación na física de partículas e na relatividade xeral). En mecánica clásica hai tres leis de conservación básicas: a da enerxía mecánica, a do momento lineal e a do momento angular; a máis importante do electromagnetismo é a da conservación da carga eléctrica; as conservacións do número leptónico, número bariónico, estrañeza, ou isoespín, paridade, entre outras, resultan de aplicación na mecánica cuántica. As leis de conservación gardan unha estreita relación coas simetrías: conservación do momento lineal coa translación espacial, momento cinético coa rotación, enerxía coa translación temporal, etc.",
+            "definicion": "Termo referido a calquera lei científica que establece a conservación ou invarianza dunha determinada magnitude en determinadas situacións. As leis de conservación da enerxía e da masa, por separado, resultan fundamentais en todos os campos da ciencia (e a súa combinación na física de partículas e na relatividade xeral). En mecánica clásica hai tres leis de conservación básicas: a da enerxía mecánica, a do momento lineal e a do momento angular; a máis importante do electromagnetismo é a da conservación da carga eléctrica; as conservacións do número leptónico, número bariónico, estrañeza, ou isospin, paridade, entre outras, resultan de aplicación na mecánica cuántica. As leis de conservación gardan unha estreita relación coas simetrías: conservación do momento lineal coa translación espacial, momento cinético coa rotación, enerxía coa translación temporal, etc.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -53045,7 +53017,7 @@
       }
     ],
     "relacionadas": [
-      "isoespín",
+      "isospin",
       "paridade",
       "enerxía mecánica",
       "mecánica",
@@ -53689,7 +53661,7 @@
         "lingua": {
           "gl": {
             "termo": "leptón",
-            "definicion": "Termo referido ás partículas elementais sen estructura que son fermións que non responden á interacción nuclear forte, de espín ½ . Son leptóns o electrón, os diferentes neutrinos, muóns e partículas tau, e as súas correspondentes antipartículas. A cada tipo de leptón atribúese un determinado número leptónico. V. Apéndice Final E.",
+            "definicion": "Termo referido ás partículas elementais sen estructura que son fermións que non responden á interacción nuclear forte, de spin ½ . Son leptóns o electrón, os diferentes neutrinos, muóns e partículas tau, e as súas correspondentes antipartículas. A cada tipo de leptón atribúese un determinado número leptónico. V. Apéndice Final E.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -53697,7 +53669,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "número",
       "número leptónico",
       "interacción",
@@ -59938,7 +59910,7 @@
         "lingua": {
           "gl": {
             "termo": "mesón",
-            "definicion": "Termo referido a unha familia de partículas subatómicas que teñen en común ser bosóns de espín igual a cero. Son mesóns, entre outros, os pións, os kaóns e a particula eta, e as súas respectivas antipartículas.",
+            "definicion": "Termo referido a unha familia de partículas subatómicas que teñen en común ser bosóns de spin igual a cero. Son mesóns, entre outros, os pións, os kaóns e a particula eta, e as súas respectivas antipartículas.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -59946,7 +59918,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "kaóns",
       "particula eta",
       "particula",
@@ -62416,7 +62388,7 @@
         "lingua": {
           "gl": {
             "termo": "momento angular de spin",
-            "definicion": "Sb. Momento angular empregado para describir o movemento de rotación dunha partícula sobre si mesma. É un termo moi empregado na mecánica cuántica para facer referencia ao que equivalería a un xiro dos electróns sobre si mesmos, nun determinado átomo, reservándose o símbolo en minúscula para cada electrón individual e a maiúscula para a suma de todos eles. Resulta peculiar que o momento angular de espín dun electrón só presente dúas proxeccións posibles sobre a dirección dun campo magnético exterior B, de valor igual ao que resulta de dividir a constante racionalizada de Planck por dous, unha positiva e outra negativa, segundo; dicíndose que esta proxección está cuantizada. En xeral, constitúe unha clase de momento angular intrínseco da partícula en cuestión e o seu módulo vén dado pola expresiónonde s é o número cuántico de spin. Para o caso dun electrón s = 1/2. Sumado ao momento angular orbital constitúe o momento angular total da partícula. V acoplamento.",
+            "definicion": "Sb. Momento angular empregado para describir o movemento de rotación dunha partícula sobre si mesma. É un termo moi empregado na mecánica cuántica para facer referencia ao que equivalería a un xiro dos electróns sobre si mesmos, nun determinado átomo, reservándose o símbolo en minúscula para cada electrón individual e a maiúscula para a suma de todos eles. Resulta peculiar que o momento angular de spin dun electrón só presente dúas proxeccións posibles sobre a dirección dun campo magnético exterior B, de valor igual ao que resulta de dividir a constante racionalizada de Planck por dous, unha positiva e outra negativa, segundo; dicíndose que esta proxección está cuantizada. En xeral, constitúe unha clase de momento angular intrínseco da partícula en cuestión e o seu módulo vén dado pola expresiónonde s é o número cuántico de spin. Para o caso dun electrón s = 1/2. Sumado ao momento angular orbital constitúe o momento angular total da partícula. V acoplamento.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -62745,13 +62717,13 @@
     "ten_figuras": false
   },
   {
-    "termo": "momento magnético de espín dunha partícula",
+    "termo": "momento magnético de spin dunha partícula",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "momento magnético de espín dunha partícula",
-            "definicion": "Momento magnético dunha partícula asociado á rotación da mesma. No caso do electrón nun átomo relaciónase co momento angular de espín do mesmo mediante a expresiónsendo ges a chamada razón xiromagnética dos momentos de espín, dada polo cociente –e/m, onde e é a carga do electrón (en valor absoluto) e m a súa masa. A proxección deste momento magnético de espín dun electrón sobre a dirección dun campo magnético externo define o chamado magnetón de Bohr. E a suma vectorial dos momentos magnéticos de espín de todos os electróns dun átomo resulta o momento magnético de espín do átomo.",
+            "termo": "momento magnético de spin dunha partícula",
+            "definicion": "Momento magnético dunha partícula asociado á rotación da mesma. No caso do electrón nun átomo relaciónase co momento angular de spin do mesmo mediante a expresiónsendo ges a chamada razón xiromagnética dos momentos de spin, dada polo cociente –e/m, onde e é a carga do electrón (en valor absoluto) e m a súa masa. A proxección deste momento magnético de spin dun electrón sobre a dirección dun campo magnético externo define o chamado magnetón de Bohr. E a suma vectorial dos momentos magnéticos de spin de todos os electróns dun átomo resulta o momento magnético de spin do átomo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -62761,11 +62733,11 @@
     "relacionadas": [
       "Momento",
       "momento",
-      "momento angular de espín",
+      "momento angular de spin",
       "Momento magnético",
       "–e/m",
       "Bohr",
-      "razón xiromagnética dos momentos de espín"
+      "razón xiromagnética dos momentos de spin"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -64101,7 +64073,7 @@
         "lingua": {
           "gl": {
             "termo": "muón",
-            "definicion": "Sb.. Termo referido a dous tipos de partículas da familia dos leptóns: o muón negativo, e o muón positivo(ou antimuón) ambos de igual masa, sobre os 106 MeV, e espín ½. Son partículas non estables, cun tempo de vida media arredor dos 2,2·10-6 s, que foron observadas por primeira vez na radiación cósmica por C. Anderson. Asociados aos muóns atópanse o neutrino muónico, partícula sen carga eléctrica e o correspondente antineutrino muónico.",
+            "definicion": "Sb.. Termo referido a dous tipos de partículas da familia dos leptóns: o muón negativo, e o muón positivo(ou antimuón) ambos de igual masa, sobre os 106 MeV, e spin ½. Son partículas non estables, cun tempo de vida media arredor dos 2,2·10-6 s, que foron observadas por primeira vez na radiación cósmica por C. Anderson. Asociados aos muóns atópanse o neutrino muónico, partícula sen carga eléctrica e o correspondente antineutrino muónico.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -64109,7 +64081,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "vida media",
       "radiación cósmica",
       "vida",
@@ -64494,7 +64466,7 @@
         "lingua": {
           "gl": {
             "termo": "neutrino",
-            "definicion": "Sb.. Partícula subatómica estable da familia dos leptóns e sen carga eléctrica. Hai tres formas diferentes: o asociado ao electrón ou neutrino electrónico, o asociado á partícula tau ou neutrino tau e o neutrino muónico, existindo ademais as correspondentes antipartículas. Todos eles teñen espín ½ e, segundo os datos actuais, terían masa en repouso nula, aínda que segundo algunhas teorías de gran unificación, terían masa, con maior probabilidade os neutrinos tau. A existencia do neutrino foi predita teoricamente para explicar a enerxía perdida na desintegración beta e observado experimentalmente no 1956.",
+            "definicion": "Sb.. Partícula subatómica estable da familia dos leptóns e sen carga eléctrica. Hai tres formas diferentes: o asociado ao electrón ou neutrino electrónico, o asociado á partícula tau ou neutrino tau e o neutrino muónico, existindo ademais as correspondentes antipartículas. Todos eles teñen spin ½ e, segundo os datos actuais, terían masa en repouso nula, aínda que segundo algunhas teorías de gran unificación, terían masa, con maior probabilidade os neutrinos tau. A existencia do neutrino foi predita teoricamente para explicar a enerxía perdida na desintegración beta e observado experimentalmente no 1956.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -64502,7 +64474,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "desintegración",
       "masa en repouso",
       "teorías de gran unificación",
@@ -64526,7 +64498,7 @@
         "lingua": {
           "gl": {
             "termo": "neutrón",
-            "definicion": "Sb. nº. Partícula subatómica presente en case todos os núcleos atómicos. É un hadrón, formado por tres quarks do tipo (d,d,u) e compórtase como un fermión, de espín ½. A súa masa en repouso é duns 1,674 928·10-27 kg, algo maior que a do protón. Fóra do núcleo, o neutrón pode desintegrase dando como resultado un protón, un electrón e un antineutrino, sendo o seu tempo de vida media duns 1000 s. Foi descuberto por J. Chadwick (1891-1974) no 1932.",
+            "definicion": "Sb. nº. Partícula subatómica presente en case todos os núcleos atómicos. É un hadrón, formado por tres quarks do tipo (d,d,u) e compórtase como un fermión, de spin ½. A súa masa en repouso é duns 1,674 928·10-27 kg, algo maior que a do protón. Fóra do núcleo, o neutrón pode desintegrase dando como resultado un protón, un electrón e un antineutrino, sendo o seu tempo de vida media duns 1000 s. Foi descuberto por J. Chadwick (1891-1974) no 1932.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -64534,7 +64506,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "protón",
       "vida media",
       "fermión",
@@ -66010,13 +65982,13 @@
     "ten_figuras": false
   },
   {
-    "termo": "número cuántico de espín",
+    "termo": "número cuántico de spin",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "número cuántico de espín",
-            "definicion": "Sb. s. Número cuántico empregado no actual modelo atómico da mecánica cuántica asociado ao sentido de xiro dos electróns arredor do seu propio eixe, podendo tomar dous valores: +1/2 e –1/2. Tamén é chamado, con menor frecuencia, número cuántico de xiro. V. espín.",
+            "termo": "número cuántico de spin",
+            "definicion": "Sb. s. Número cuántico empregado no actual modelo atómico da mecánica cuántica asociado ao sentido de xiro dos electróns arredor do seu propio eixe, podendo tomar dous valores: +1/2 e –1/2. Tamén é chamado, con menor frecuencia, número cuántico de xiro. V. spin.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -66041,7 +66013,7 @@
         "lingua": {
           "gl": {
             "termo": "número cuántico de xiro",
-            "definicion": "Número cuántico de espín.",
+            "definicion": "Número cuántico de spin.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -66050,7 +66022,7 @@
     ],
     "relacionadas": [
       "Número",
-      "Número cuántico de espín"
+      "Número cuántico de spin"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -70593,7 +70565,7 @@
         "lingua": {
           "gl": {
             "termo": "partícula lambda",
-            "definicion": "Sb.. Hiperón de espín ½ e vida media duns 2,5·10-10 s. A súa masa en repouso é duns 1115,6 MeV. Está formada por tres quarks do tipo d,u,s, presentando estrañeza igual a –1, mentres que a súa antipartícula ten estrañeza +1. A partícula lambda pode desintegrarse dando un protón e un pión negativo ou dando un neutrón e un pión neutro.",
+            "definicion": "Sb.. Hiperón de spin ½ e vida media duns 2,5·10-10 s. A súa masa en repouso é duns 1115,6 MeV. Está formada por tres quarks do tipo d,u,s, presentando estrañeza igual a –1, mentres que a súa antipartícula ten estrañeza +1. A partícula lambda pode desintegrarse dando un protón e un pión negativo ou dando un neutrón e un pión neutro.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -70601,7 +70573,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "d,u,s",
       "protón",
       "vida media",
@@ -70686,7 +70658,7 @@
         "lingua": {
           "gl": {
             "termo": "partícula omega",
-            "definicion": "Sb.. Hiperón de espín ½ e vida media duns 1,3·10-10 s. A súa masa en repouso é duns 1673 MeV. Está formada por tres quarks estraño (s,s,s) tendo estrañeza igual a -3, e carga eléctrica igual á do electrón. A antipartícula omega ten estrañeza +3 e carga eléctrica +1 (carga elemental). A partícula omega pode desintegrarse dando unha partícula lambda e un kaón negativo ou dando unha partícula xi e un pión negativo.",
+            "definicion": "Sb.. Hiperón de spin ½ e vida media duns 1,3·10-10 s. A súa masa en repouso é duns 1673 MeV. Está formada por tres quarks estraño (s,s,s) tendo estrañeza igual a -3, e carga eléctrica igual á do electrón. A antipartícula omega ten estrañeza +3 e carga eléctrica +1 (carga elemental). A partícula omega pode desintegrarse dando unha partícula lambda e un kaón negativo ou dando unha partícula xi e un pión negativo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -70694,7 +70666,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "carga",
       "carga eléctrica",
       "vida media",
@@ -70746,7 +70718,7 @@
         "lingua": {
           "gl": {
             "termo": "partícula sigma",
-            "definicion": "Sb.. Nome co que se designan tres tipos dehiperóns de espín ½ e carga eléctrica respectiva +1, -1 ou 0 (en unidades da carga elemental). Cada unha destas partículas está formada por tres quarks: a sigma positiva (u,u,s), a negativa (d,d,s) e a neutra (d,u,s). Cada unha destas partículas ten, a súa vez, unha antipartícula con carga eléctrica e estrañeza oposta. V. Apéndice Final D.",
+            "definicion": "Sb.. Nome co que se designan tres tipos dehiperóns de spin ½ e carga eléctrica respectiva +1, -1 ou 0 (en unidades da carga elemental). Cada unha destas partículas está formada por tres quarks: a sigma positiva (u,u,s), a negativa (d,d,s) e a neutra (d,u,s). Cada unha destas partículas ten, a súa vez, unha antipartícula con carga eléctrica e estrañeza oposta. V. Apéndice Final D.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -70754,7 +70726,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "carga",
       "estrañeza",
       "carga elemental",
@@ -70790,7 +70762,7 @@
         "lingua": {
           "gl": {
             "termo": "partícula tau",
-            "definicion": "Sb. . Tamén chamada tauón, é un leptón de espín ½ e de vida media menor de 2,3·10-12 s. Ten igual carga que a do electrón (carga elemental) e a súa masa en repouso é duns 1784 MeV. Presenta unha antipartícula (ou partícula tau positiva) de iguais características, agás a carga eléctrica, que é de signo contrario, existindo tamén un neutrino tau. A partícula tau negativa desintégrase dando un electrón, un neutrino muónico e un antineutrino electrónico, ou dando un muón, un neutrino tau e un antineutrino muónico.",
+            "definicion": "Sb. . Tamén chamada tauón, é un leptón de spin ½ e de vida media menor de 2,3·10-12 s. Ten igual carga que a do electrón (carga elemental) e a súa masa en repouso é duns 1784 MeV. Presenta unha antipartícula (ou partícula tau positiva) de iguais características, agás a carga eléctrica, que é de signo contrario, existindo tamén un neutrino tau. A partícula tau negativa desintégrase dando un electrón, un neutrino muónico e un antineutrino electrónico, ou dando un muón, un neutrino tau e un antineutrino muónico.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -70798,7 +70770,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "carga",
       "partícula tau positiva",
       "leptón",
@@ -70840,7 +70812,7 @@
         "lingua": {
           "gl": {
             "termo": "partícula xi",
-            "definicion": "Sb.. Nome co que se designan dous hiperóns de espín ½, sendo unha neutra e a outra coa carga igual á do electrón (carga elemental). As súas vidas medias respectivas son de 2,0·10-10 e 1,2·10-10 s, podéndose desintegrar a primeira dando unha partícula lambda e un pión neutro, e a segunda dando unha partícula lambda e un pión negativo. As súas respectivas masas en repouso son 1315 e 1321 MeV.",
+            "definicion": "Sb.. Nome co que se designan dous hiperóns de spin ½, sendo unha neutra e a outra coa carga igual á do electrón (carga elemental). As súas vidas medias respectivas son de 2,0·10-10 e 1,2·10-10 s, podéndose desintegrar a primeira dando unha partícula lambda e un pión neutro, e a segunda dando unha partícula lambda e un pión negativo. As súas respectivas masas en repouso son 1315 e 1321 MeV.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -70848,7 +70820,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "carga",
       "pión",
       "partícula",
@@ -72597,7 +72569,7 @@
         "lingua": {
           "gl": {
             "termo": "pión",
-            "definicion": "Sb.. Nome co que se designan tres mesóns de espín cero, con masa en repouso respectivas de 140, 140 e 135 MeV, tendo os dous primeiros carga eléctrica +1 e –1 respectivamente e sendo o terceiro neutro. Son partículas inestables; a vida media dos pións con carga é duns 2,6·10-8 s e a do neutro de 8·10-17s.",
+            "definicion": "Sb.. Nome co que se designan tres mesóns de spin cero, con masa en repouso respectivas de 140, 140 e 135 MeV, tendo os dous primeiros carga eléctrica +1 e –1 respectivamente e sendo o terceiro neutro. Son partículas inestables; a vida media dos pións con carga é duns 2,6·10-8 s e a do neutro de 8·10-17s.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -72605,7 +72577,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "mesóns",
       "vida media",
       "masa en repouso",
@@ -78452,7 +78424,7 @@
         "lingua": {
           "gl": {
             "termo": "protón",
-            "definicion": "Sb. p+. Partícula subatómica presente en todos os núcleos atómicos, determinando o seu número nos mesmos o número atómico Z do elemento químico correspondente. É un hadrón, formado por tres quarks do tipo u,u,d e compórtase como un fermión, de espín ½. A súa masa en repouso é duns 940 MeV (equivalente a 1,672 614·10-27kg), unhas 1836 veces a masa do electrón. O protón é unha partícula estable aínda que, segundo algunhas teorías, podería desintegrarse cun tempo de vida media duns 1031 anos.",
+            "definicion": "Sb. p+. Partícula subatómica presente en todos os núcleos atómicos, determinando o seu número nos mesmos o número atómico Z do elemento químico correspondente. É un hadrón, formado por tres quarks do tipo u,u,d e compórtase como un fermión, de spin ½. A súa masa en repouso é duns 940 MeV (equivalente a 1,672 614·10-27kg), unhas 1836 veces a masa do electrón. O protón é unha partícula estable aínda que, segundo algunhas teorías, podería desintegrarse cun tempo de vida media duns 1031 anos.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -78461,7 +78433,7 @@
     ],
     "relacionadas": [
       "número",
-      "espín",
+      "spin",
       "número atómico Z",
       "vida media",
       "u,u,d",
@@ -81532,7 +81504,7 @@
         "lingua": {
           "gl": {
             "termo": "razón xiromagnética",
-            "definicion": "V. momento magnético orbital dunha partícula; momento magnético de espín dunha partícula.",
+            "definicion": "V. momento magnético orbital dunha partícula; momento magnético de spin dunha partícula.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -83976,7 +83948,7 @@
         "lingua": {
           "gl": {
             "termo": "resonancia",
-            "definicion": "En física de alta enerxía, partículas cun tempo de vida media tan corto, inferior aos 10-20 s, que non deixan ningunha pegada recoñecible nas cámaras de burbullas ou de chispas, pero que son recoñecibles polos seus productos de desintegración. Soen presentar espíns semienteiros moi altos (como 11/2 p.e.) e todas as resonancias coñecidas son hadróns, probablemente estados excitados doutros hadróns. Reciben tamén o nome de resonóns.",
+            "definicion": "En física de alta enerxía, partículas cun tempo de vida media tan corto, inferior aos 10-20 s, que non deixan ningunha pegada recoñecible nas cámaras de burbullas ou de chispas, pero que son recoñecibles polos seus productos de desintegración. Soen presentar spins semienteiros moi altos (como 11/2 p.e.) e todas as resonancias coñecidas son hadróns, probablemente estados excitados doutros hadróns. Reciben tamén o nome de resonóns.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -83996,7 +83968,7 @@
       "circuíto RLC",
       "fase",
       "física de alta enerxía",
-      "espíns",
+      "spins",
       "vida",
       "oscilador",
       "amplitude",
@@ -84015,12 +83987,12 @@
     "ten_figuras": false
   },
   {
-    "termo": "resonancia electrón-espín",
+    "termo": "resonancia electrón-spin",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "resonancia electrón-espín",
+            "termo": "resonancia electrón-spin",
             "definicion": "Resonancia paramagnética electrónica.",
             "sinonimos": [],
             "simbolo": ""
@@ -84042,7 +84014,7 @@
         "lingua": {
           "gl": {
             "termo": "resonancia magnética nuclear",
-            "definicion": "Abrev. RMN. Técnica de espectrometría, desenvolvida no 1946 por M. Purcell e F. Bloch, que aproveita o desdobramento en varios niveis enerxéticos que presentan os núcleos atómicos con espín non nulo I, cando se atopan inmersos nun campo magnético intenso como, p.e., núcleos de H-1, C-13, N-14 ou O-17. Colocando a mostra de estudio no interior dun electroimán aparecen varios niveis enerxéticos (concretamente 2·I+1 niveis), cunha diferencia de enerxía entre cada dous consecutivos proporcional á intensidade do campo externo H0 e ao momento magnético nuclear (constante para cada núcleo), enerxía que pode subministrarse en forma de fotóns coa frecuencia de transición correspondente; resumindo sería:Nesta situación, irradiando a mostra con ondas de radio cunha frecuencia igual á de transición produciríase, pois, a excitación do núcleo dende un nivel a outro superior, coa correspondente absorción de enerxía e a aparición dunha liña espectral de absorción. Na práctica, fíxanse H0 e a frecuencia das ondas de radio e, posteriormente, faise un varrido cun pequeno campo magnético que se suma ao anterior; p.e, para o caso de RMN de protón son valores típicos un campo de 14100 gauss e unha radiofrecuencia de 200 MHz ou superior. O efecto non aportaría maior información se non fose por que sobre cada tipo de núcleo atómico inflúe a presencia dos núcleos veciños, producindo variacións no campo magnético externo total para o que ocorre a resonancia, é dicir, a coincidencia entre a radiofrecuencia con que se irradia e a frecuencia de transición entre niveis. A espectrometría de RMN de protón (H-1) e de C-13 é moi empregada na análise química, particularmente na química orgánica e bioquímica para establecer as posibles estructuras moleculares de compostos en estudio; tamén resulta de gran aplicación, ao combinarse con técnicas de varrido específicas, en medicina como técnica de diagnóstico, pois aproveitando a presencia de diferentes núcleos atómicos con espín non nulo nas células dos seres vivos (como o P-31 ou o propio C-13), permite a visualización de tecidos e órganos internos, sendo unha técnica moito menos agresiva que as radiolóxicas tradicionais.",
+            "definicion": "Abrev. RMN. Técnica de espectrometría, desenvolvida no 1946 por M. Purcell e F. Bloch, que aproveita o desdobramento en varios niveis enerxéticos que presentan os núcleos atómicos con spin non nulo I, cando se atopan inmersos nun campo magnético intenso como, p.e., núcleos de H-1, C-13, N-14 ou O-17. Colocando a mostra de estudio no interior dun electroimán aparecen varios niveis enerxéticos (concretamente 2·I+1 niveis), cunha diferencia de enerxía entre cada dous consecutivos proporcional á intensidade do campo externo H0 e ao momento magnético nuclear (constante para cada núcleo), enerxía que pode subministrarse en forma de fotóns coa frecuencia de transición correspondente; resumindo sería:Nesta situación, irradiando a mostra con ondas de radio cunha frecuencia igual á de transición produciríase, pois, a excitación do núcleo dende un nivel a outro superior, coa correspondente absorción de enerxía e a aparición dunha liña espectral de absorción. Na práctica, fíxanse H0 e a frecuencia das ondas de radio e, posteriormente, faise un varrido cun pequeno campo magnético que se suma ao anterior; p.e, para o caso de RMN de protón son valores típicos un campo de 14100 gauss e unha radiofrecuencia de 200 MHz ou superior. O efecto non aportaría maior información se non fose por que sobre cada tipo de núcleo atómico inflúe a presencia dos núcleos veciños, producindo variacións no campo magnético externo total para o que ocorre a resonancia, é dicir, a coincidencia entre a radiofrecuencia con que se irradia e a frecuencia de transición entre niveis. A espectrometría de RMN de protón (H-1) e de C-13 é moi empregada na análise química, particularmente na química orgánica e bioquímica para establecer as posibles estructuras moleculares de compostos en estudio; tamén resulta de gran aplicación, ao combinarse con técnicas de varrido específicas, en medicina como técnica de diagnóstico, pois aproveitando a presencia de diferentes núcleos atómicos con spin non nulo nas células dos seres vivos (como o P-31 ou o propio C-13), permite a visualización de tecidos e órganos internos, sendo unha técnica moito menos agresiva que as radiolóxicas tradicionais.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -84063,7 +84035,7 @@
       "momento magnético",
       "fotóns",
       "2·I+1",
-      "espín",
+      "spin",
       "electroimán",
       "ondas",
       "intensidade do campo",
@@ -84079,7 +84051,7 @@
         "lingua": {
           "gl": {
             "termo": "resonancia paramagnética electrónica",
-            "definicion": "Abrev. RPE. Técnica que aproveita o desdobramento en dous niveis enerxéticos que presentan os electróns dun átomo ou molécula cando o material está no interior dun campo magnético intenso. O fenómeno é, en gran medida semellante ao da resonancia magnética nuclear (RMN), coa diferencia que esta ocorre cos núcleos atómicos e a RPE cos electróns da codia atómica, con espín +1/2 ou –1/2. Operando igual que na RMN, empréganse campos magnéticos ata de 5 teslas, caendo as frecuencias da radiación electromagnética subministrada para producir o tránsito (e correspondente absorción de enerxía) na rexión das microondas. Para a aplicación da RPE, a substancia a estudiar debe ter un ou máis espíns non apareados na súa estructura, resultando moi útil no estudio dos radicais libres en disolución e de ións paramagnéticos en cristais.",
+            "definicion": "Abrev. RPE. Técnica que aproveita o desdobramento en dous niveis enerxéticos que presentan os electróns dun átomo ou molécula cando o material está no interior dun campo magnético intenso. O fenómeno é, en gran medida semellante ao da resonancia magnética nuclear (RMN), coa diferencia que esta ocorre cos núcleos atómicos e a RPE cos electróns da codia atómica, con spin +1/2 ou –1/2. Operando igual que na RMN, empréganse campos magnéticos ata de 5 teslas, caendo as frecuencias da radiación electromagnética subministrada para producir o tránsito (e correspondente absorción de enerxía) na rexión das microondas. Para a aplicación da RPE, a substancia a estudiar debe ter un ou máis spins non apareados na súa estructura, resultando moi útil no estudio dos radicais libres en disolución e de ións paramagnéticos en cristais.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -84087,7 +84059,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "microondas",
       "paramagnéticos",
       "radiación electromagnética",
@@ -85415,7 +85387,7 @@
         "lingua": {
           "gl": {
             "termo": "Russell-Saunders, acoplamento de",
-            "definicion": "Tipo de acoplamento que aparece en sistemas formados por fermións (electróns nun átomo ou nucleóns no núcleo atómico) cando a interacción residual de Coulomb é máis importante que a interacción espín-órbita, cousa que ocorre en átomos lixeiros, de número atómico baixo. Debe o seu nome ao dos astrónomos H. Russell e F. Saunders, os primeiros que empregaron este acoplamento para o estudio de espectros atómicos procedentes de estrelas. Tamén se coñece co nome de acoplamento LS, polos vectores momento angular orbital e momento angular de espín que, unha vez considerada a interacción máis importante (a repulsión coulombiana), se acoplan dando lugar a unha nova aproximación no cálculo. V. acoplamento; física cuántica.",
+            "definicion": "Tipo de acoplamento que aparece en sistemas formados por fermións (electróns nun átomo ou nucleóns no núcleo atómico) cando a interacción residual de Coulomb é máis importante que a interacción spin-órbita, cousa que ocorre en átomos lixeiros, de número atómico baixo. Debe o seu nome ao dos astrónomos H. Russell e F. Saunders, os primeiros que empregaron este acoplamento para o estudio de espectros atómicos procedentes de estrelas. Tamén se coñece co nome de acoplamento LS, polos vectores momento angular orbital e momento angular de spin que, unha vez considerada a interacción máis importante (a repulsión coulombiana), se acoplan dando lugar a unha nova aproximación no cálculo. V. acoplamento; física cuántica.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -85429,11 +85401,11 @@
       "número",
       "interacción",
       "momento",
-      "interacción espín-órbita",
+      "interacción spin-órbita",
       "núcleo",
       "fermións",
       "espectros",
-      "momento angular de espín",
+      "momento angular de spin",
       "número atómico",
       "acoplamento LS",
       "orbital",
@@ -89308,7 +89280,7 @@
         "lingua": {
           "gl": {
             "termo": "spartícula",
-            "definicion": "En supersimetría, hipotética compañeira dunha partícula coa propiedade de que os espíns desas dúas partículas difiren en media unidade. En definitiva, a correspondente spartícula dun fermión é un bosón e viceversa; así, ao electrón, de espín ½, asociáselle o selectrón, de espín 0, igual que a cada quark o squark e a cada neutrino o sneutrino, etc. Algunhas spartículas son coñecidas con nome, sen empregar a anteposta letra s, como o fotino (ou spartícula do fotón), o gravitino do gravitón ou os gluinos, asociados aos gluóns.",
+            "definicion": "En supersimetría, hipotética compañeira dunha partícula coa propiedade de que os spins desas dúas partículas difiren en media unidade. En definitiva, a correspondente spartícula dun fermión é un bosón e viceversa; así, ao electrón, de spin ½, asociáselle o selectrón, de spin 0, igual que a cada quark o squark e a cada neutrino o sneutrino, etc. Algunhas spartículas son coñecidas con nome, sen empregar a anteposta letra s, como o fotino (ou spartícula do fotón), o gravitino do gravitón ou os gluinos, asociados aos gluóns.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -89317,7 +89289,7 @@
     ],
     "relacionadas": [
       "fotón",
-      "espíns",
+      "spins",
       "gluóns",
       "quark",
       "fotino",
@@ -89340,7 +89312,7 @@
         "lingua": {
           "gl": {
             "termo": "spin",
-            "definicion": "Espín.",
+            "definicion": "spin.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -89348,7 +89320,7 @@
       }
     ],
     "relacionadas": [
-      "Espín"
+      "spin"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -89360,7 +89332,7 @@
         "lingua": {
           "gl": {
             "termo": "spin isotópico",
-            "definicion": "V. isoespín.",
+            "definicion": "V. isospin.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -90191,7 +90163,7 @@
         "lingua": {
           "gl": {
             "termo": "supersimetría",
-            "definicion": "Estructura matemática que permite asociar a cada fermión (partícula subatómica de espín semienteiro) cun ou varios bosóns (partículas de espín enteiro) ou viceversa (V. spartícula). Así pois, o principal interese desta estructura é que unifica, nun mesmo marco teórico, o estudio de partículas que responden a diferentes estatísticas cuánticas. Constitúe unha simetría fundamental da materia que, introducida no modelo estándar da física de partículas, permite compatibilizar a gravitación coas outras tres interaccións fundamentais e cos valores observados das masas das partículas elementais coñecidas (V. supergravidade). A supersimetría é tamén un compoñente básico da moderna teoría de supercordas. En calquera caso, a supersimetría supón a introducción dun superespazo de ata 11 dimensións.",
+            "definicion": "Estructura matemática que permite asociar a cada fermión (partícula subatómica de spin semienteiro) cun ou varios bosóns (partículas de spin enteiro) ou viceversa (V. spartícula). Así pois, o principal interese desta estructura é que unifica, nun mesmo marco teórico, o estudio de partículas que responden a diferentes estatísticas cuánticas. Constitúe unha simetría fundamental da materia que, introducida no modelo estándar da física de partículas, permite compatibilizar a gravitación coas outras tres interaccións fundamentais e cos valores observados das masas das partículas elementais coñecidas (V. supergravidade). A supersimetría é tamén un compoñente básico da moderna teoría de supercordas. En calquera caso, a supersimetría supón a introducción dun superespazo de ata 11 dimensións.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -90199,7 +90171,7 @@
       }
     ],
     "relacionadas": [
-      "espín",
+      "spin",
       "interaccións",
       "simetría",
       "teoría",
