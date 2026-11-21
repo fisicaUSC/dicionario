@@ -23,7 +23,7 @@ pdf:
 
 # Devolve información variada dos termos
 contar:
-	jq -r -f trebellos/contar.jq RI.json
+	@jq -r -f trebellos/contar.jq RI.json
 
 # Valida o JSON usando o esquema
 validar:

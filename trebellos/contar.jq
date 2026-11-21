@@ -4,13 +4,22 @@ def conta_termos(_):
 ;
 
 def conta_acepcions(_):
-    # :NOTA: unha reducción sería máis eficiente ca crear arrays
     "Acepcións: \([.[].acepcions.[]] | length)"
+;
+
+def conta_ecuacions(_):
+    "Con ecuacións: \([.[] | select(.ten_ecuacions == true)] | length)"
+;
+
+def conta_figuras(_):
+    "Con figuras: \([.[] | select(.ten_figuras == true)] | length)"
 ;
 
 def contar(datos):
     conta_termos(datos),
-    conta_acepcions(datos)
+    conta_acepcions(datos),
+    conta_ecuacions(datos),
+    conta_figuras(datos)
 ;
 
 contar(.)
