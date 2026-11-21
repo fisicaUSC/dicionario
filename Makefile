@@ -7,7 +7,7 @@ SHELL := bash
 contidos: dicionario/xerados/contidos.typ
 dicionario/xerados/contidos.typ: RI.json
 	$(shell mkdir -p dicionario/xerados/typst)
-	jaq -r -f trebellos/json_a_typst.jq $^ > dicionario/xerados/typst/contidos.typ
+	jq -r -f trebellos/json_a_typst.jq $^ > dicionario/xerados/typst/contidos.typ
 
 # Xera continuamente un BORRADOR dos contidos en formato HTML, en 127.0.0.1:3000/dicionario.html
 # Compila dicionario.typ e xera directorio dicionario/xerados/html
@@ -23,7 +23,7 @@ pdf:
 
 # Devolve información variada dos termos
 contar:
-	jaq -r -f trebellos/contar.jq RI.json
+	jq -r -f trebellos/contar.jq RI.json
 
 # Valida o JSON usando o esquema
 validar:

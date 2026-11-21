@@ -36,6 +36,6 @@ o cal crea `dicionario/xerados/pdf/dicionario.pdf`. O formato e estilo son tempo
 
 ## Dependencias
 - Para todo, [[Make](https://www.gnu.org/software/make/)]
-- Para diversas operacións (`json -> typst`, contar termos, etc.), [[jaq](https://github.com/01mf02/jaq)], semellante a [[jq](https://jqlang.org/manual/)] (case todos os filtros de `jq` son válidos en `jaq`)
+- Para diversas operacións (`json -> typst`, contar termos, etc.), [[jq](https://jqlang.org/manual/)]
 - Para validar os contidos en formato JSON, Python, usando [[uv](https://docs.astral.sh/uv/)]
 - Para compilar o dicionario, [[typst](https://github.com/typst/typst)]
