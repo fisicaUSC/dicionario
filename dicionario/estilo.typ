@@ -1,6 +1,32 @@
-// Función que aplica o estilo ao documento PDF
+#let crear_encabezado() = context {
+
+    // Páxina actual
+    let num = counter(page).get().first()
+    // Array con todos os termos (h2)
+    let termos = query(heading.where(level: 2))
+        // filtramos as que están na páxina actual
+        .filter(h2 => here().page() == h2.location().page())
+
+    if termos.len() == 0 { return none }
+    else  {
+        // Páxinas pares (esquerda)
+        if calc.even(num) {
+            align(left, box[#move(dx: -1em, smallcaps(termos.first().body))])
+        // Páxinas impares (dereita)
+        } else if calc.odd(num) {
+            align(right, box[#move(dx: 1em, smallcaps(termos.last().body))])
+        }
+    }
+
+}
+
+
 #let estilo_pdf(doc) = {
-    set page(margin: (outside: 2cm, inside: 1cm, top: 1cm, bottom: 1cm), binding: left)
+    set page(
+        margin: (outside: 2cm, inside: 1cm, top: 1.5cm, bottom: 1.5cm),
+        binding: left,
+        header: crear_encabezado(),
+    )
     set par(justify: true, first-line-indent: 0pt)
     set text(size: 11pt, lang: "gl", font: "Common Serif")
     show math.equation: set text(font: "Libertinus Math")
