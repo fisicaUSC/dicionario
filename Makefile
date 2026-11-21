@@ -15,9 +15,10 @@ borrador:
 	typst watch --pdf-tagged=false --pretty --root=dicionario/ --features=html,bundle --format=bundle dicionario/dicionario.typ dicionario/xerados/html
 
 # Xera o dicionario en formato PDF en 'dicionario/xerados/pdf/'
-# Pode usarse 'make pdf metodo=watch' para aprobeitar a compilación continuada
+# Pode usarse 'make pdf METODO=watch' para aprobeitar a compilación continuada
 METODO := compile
-pdf:
+pdf: dicionario/xerados/pdf/dicionario.pdf
+dicionario/xerados/pdf/dicionario.pdf: RI.json dicionario/xerados/typst/contidos.typ dicionario/estilo.typ dicionario/dicionario.typ dicionario/fontes/*
 	$(shell mkdir -p dicionario/xerados/pdf)
 	typst $(METODO) --pdf-tagged=true --ignore-system-fonts --ignore-embedded-fonts --font-path=dicionario/fontes --root=dicionario/ --format=pdf --features=html,bundle dicionario/dicionario.typ dicionario/xerados/pdf/dicionario.pdf
 
