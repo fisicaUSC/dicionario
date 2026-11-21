@@ -1,4 +1,7 @@
+// Variable para gardar a lista de termos
 #let _termos_cache = state("termos_cache", none)
+// Función que crea as cabeceiras. Primeiro comproba a lista de termos e se
+// está baleira, énchea. Logo reúsase dita lista sen volver calculala.
 #let crear_cabeceira() = context {
     // Se a caché está baleira, engadímoslle os termos
     if _termos_cache.get() == none {
@@ -26,13 +29,20 @@
     }
 }
 
+// Función para crear os pes de páxina, cos números
+#let crear_pe() = context {
+    let num = counter(page).get().first()
+    if calc.even(num) { align(left, [*#num*]) }
+    else { align(right, [*#num*]) }
+}
 
 // Función que aplica o estilo ao documento PDF
 #let estilo_pdf(doc) = {
     set page(
-        margin: (outside: 2cm, inside: 1cm, top: 1.5cm, bottom: 1.5cm),
-        binding: left,
-        header: crear_cabeceira(),
+        margin  : (outside: 2cm, inside: 1cm, top: 1.5cm, bottom: 1.5cm),
+        binding : left,
+        header  : crear_cabeceira(),
+        footer  : crear_pe()
     )
     set par(justify: true, first-line-indent: 0pt)
     set text(size: 11pt, lang: "gl", font: "Common Serif")
