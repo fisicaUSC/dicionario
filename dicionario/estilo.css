@@ -25,3 +25,17 @@ math {
 div.nova-letra {
     background-color: #CCCCCC;
 }
+
+/* Palabras relacionadas que NON teñen termo correspondente */
+div.relacionadas span.dest-0 {
+    color: #AA0000;
+}
+/* Palabras relacionadas que SI teñen termo correspondente */
+div.relacionadas span.dest-1 * {
+    color: #0000AA;
+    text-decoration: none; /* quitar o subraiado */
+}
+/* Palabras relacionadas que teñen VARIOS termo correspondentes */
+div.relacionadas span.dest-2 {
+    color: #00AA00;
+}
