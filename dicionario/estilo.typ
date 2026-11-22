@@ -95,10 +95,10 @@
             {
                 if i > 1 { [ ] } // espazo para antes dos 2., 3., etc
                 if acepcions.len() > 1 { strong[#i. ] }
-                if s != none {[Símbolo: #s. ]}
                 if acepcion.sinonimos != none {
-                    [_#acepcion.sinonimos.join("; ")_]
+                    [Sinónimos: _#acepcion.sinonimos.join("; ")_. ]
                 }
+                if s != none {[Símbolo: #s. ]}
                 d
             }
         }
@@ -124,16 +124,16 @@
                         class: "acepcion",
                         {
                             if acepcions.len() > 1 { strong[#i.] }
+                            if acepcion.sinonimos != none {
+                                html.div(
+                                    class: "sinonimos",
+                                    [Sinónimos: _#acepcion.sinonimos.join("; ")_]
+                                )
+                            }
                             if s != none {[Símbolo: #s.]}
                             d
                         }
                     )
-                    if acepcion.sinonimos != none {
-                        html.div(
-                            class: "sinonimos",
-                            [_#acepcion.sinonimos.join("; ")_]
-                        )
-                    }
                 }
                 if relacionadas != none {
                     html.div(
