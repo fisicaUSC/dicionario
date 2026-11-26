@@ -107,8 +107,8 @@
 ) = context {
     // Caso de xerar un PDF
     if target() == "paged" {
-        // Movemos o termo un pouco á esquerda
         show heading.where(level: 2): set text(size: 11pt)
+        // O termo, movido un chisco á esquerda
         box[#move(dx: -1em, [#heading(depth: 2, denominacion)#label(denominacion)])]
         // iteramos polas distintas acepcións
         for (i, acepcion) in acepcions.enumerate(start: 1) {
@@ -116,20 +116,21 @@
             let s = acepcion.simbolo
             {
                 if i > 1 { [ ] } // espazo para antes dos 2., 3., etc
+                // O número da acepción
                 if acepcions.len() > 1 { strong[#i. ] }
-                if acepcion.sinonimos != none {
-                    [Sinónimos: _#acepcion.sinonimos.join("; ")_. ]
-                }
+                // Os sinónimos
+                if acepcion.sinonimos != none { [Sinónimos: _#acepcion.sinonimos.join("; ")_. ] }
+                // O símbolo
                 if s != none {[Símbolo: #s. ]}
+                // A definición
                 d
             }
         }
+        // As palabras relacionadas
         if relacionadas != none {
-            {
-                linebreak()
-                // mapeamos cada palabra a un ligazón ao termo correspondente, e unimos o array final con "; "
-                [*Véxase*: #relacionadas.map(r => link(label(r), r)).join("; ").]
-            }
+            linebreak()
+            // mapeamos cada palabra a un ligazón ao termo correspondente, e unimos o array final con "; "
+            [*Véxase*: #relacionadas.map(r => link(label(r), r)).join("; ").]
         }
     // Caso de xerar o borrador en formato HTML
     } else if target() == "html" { // HTML porque isto está dentro de dicionario.html
@@ -149,18 +150,23 @@
                     html.div(
                         class: "acepcion",
                         {
+                            // Números das acepcións
                             if acepcions.len() > 1 { strong[#i.] }
+                            // Sinónimos
                             if acepcion.sinonimos != none {
                                 html.div(
                                     class: "sinonimos",
                                     [Sinónimos: _#acepcion.sinonimos.join("; ")_]
                                 )
                             }
+                            // Símbolo
                             if s != none {[Símbolo: #s.]}
+                            // A definición
                             d
                         }
                     )
                 }
+                // As palabras relacionadas
                 if relacionadas != none {
                     html.div(
                         class: "relacionadas",
